@@ -8,7 +8,7 @@ YOLO11n 检测驾驶员用手机，两类固定为 0 `texting`、1 `calling`，�
 - **训练集**：`selftrain_multiview_targeted_round2_20261021/`（train 3449 / val 212）。
   - 在上一版 `selftrain_multiview_gemini_reviewed_20261010/`（train 2952 / val 200）基础上，
     加入针对性补充的困难背景、正面 AC6 texting 和侧面 AC8 calling。
-- **网站权重**：针对性补充训练第 51 轮，默认阈值 0.35（按 val 选定）。
+- **网站权重**：针对性补充训练第 52 轮（旧记录写作“第 51 轮”，见 AGENTS 第 17 节），默认阈值 0.35（按 val 选定）。
   - 文件：`runs/multiview_targeted_round2_20261021_yolo11n/weights/best.pt`
   - SHA-256 前缀 `eb63ae94`
   - 之前用的是官方起点 100 轮第 79 轮（`6607c22b`），文件仍保留。
@@ -20,7 +20,7 @@ YOLO11n 检测驾驶员用手机，两类固定为 0 `texting`、1 `calling`，�
 - **主要短板**：正面视角左手打字（AC6）漏检；手靠近脸的动作（AC12/14/15/16）造成背景误报。
 - **针对性补充训练（已完成，网站已切换）**：
   - 训练集 `selftrain_multiview_targeted_round2_20261021/`（train 3449 / val 212）。
-  - 权重 `runs/multiview_targeted_round2_20261021_yolo11n/weights/best.pt`（第 51 轮）。
+  - 权重 `runs/multiview_targeted_round2_20261021_yolo11n/weights/best.pt`（第 52 轮，旧记录称 e51）。
   - test：mAP50 0.937；texting 85/98、calling 85/94、背景误报 5/200。
   - 与 e79 的对比见 `experiments/official_targeted_round2_20261021/` 和 `evals/test_reviewed_eval_targeted_round2_20261021/`。
 
@@ -43,7 +43,7 @@ YOLO11n 检测驾驶员用手机，两类固定为 0 `texting`、1 `calling`，�
 ## 当前配置（唯一来源）
 
 `config/current.yaml` 记录当前训练集、网站权重及其 SHA-256、默认阈值、imgsz 与 NMS IoU。
-网站服务、`train_seed.py` 和 `check_validation.py` 的默认值都从这里读取。
+网站服务、`train_seed.py` 和 `check_validation.py` 的默认值都从这里读取（`train.py` 只认训练计划）。
 - 切换网站模型：改 `weights.path` 与 `weights.sha256`；阈值只能按 val 选定后改 `confidence`。改完重启服务并提交 git。
 - 哈希不一致时服务拒绝启动；`server.py --weights <路径>` 可临时覆盖，不做哈希比对。
 - 类别 id 顺序固定在 `core/labels.py` 的 `NAMES`，不在配置中。
@@ -62,6 +62,10 @@ YOLO11n 检测驾驶员用手机，两类固定为 0 `texting`、1 `calling`，�
 | `core/metrics.py` | 人工框评估的 IoU、逐图状态与汇总 |
 | `core/config.py` | 读取并校验 `config/current.yaml` |
 
+训练统一用 `train.py --plan`：超参只写在计划文件里，结果（`resolved_plan.json` 含 git 提交、`status.json`、`result.json`）
+写在计划旁边，最佳轮次按 Ultralytics 实际保存 best.pt 的规则（val mAP50-95 最大）记录。
+`train_seed.py` 只留作快速继续训练；`experiments/` 里各实验自带的 `run.py`/`train.py` 是历史记录，续训类实验仍需专门脚本。
+
 `continue_split.py`、`annotation_io.py` 仅为兼容 experiments 中历史脚本的旧导入，新代码直接从 `core` 导入。
 
 ## 常用命令
@@ -73,14 +77,20 @@ YOLO11n 检测驾驶员用手机，两类固定为 0 `texting`、1 `calling`，�
 ./.venv/bin/python yolo_phone/evaluate_reviewed_holdout.py --split test \
   --weights <标签>=<权重.pt> --confirmation '<审核完成说明>' --output yolo_phone/<新目录>
 
-# 3MDAD 审核导出为训练集
+# 3MDAD 审核目录首次导出为训练集（v1 用法）
 ./.venv/bin/python yolo_phone/export_multiview.py \
   --dataset yolo_phone/gemini38flash_3mdad_v1/review_dataset \
   --output yolo_phone/<新训练目录> --confirmation '<复核完成说明>'
 
-# 训练
-./.venv/bin/python yolo_phone/train_seed.py --data <data.yaml> --model <起点.pt> \
-  --name <新运行名> --epochs <轮数> --batch 16
+# 在已有训练集上合并一轮审核过的补充数据（第 2 轮起的用法）
+./.venv/bin/python yolo_phone/export_targeted_round.py \
+  --base yolo_phone/<基础训练集> --targeted yolo_phone/<补充审核目录> \
+  --round <轮次标签，如 targeted_round3> --confirmation '<用户原话>' --output yolo_phone/<新训练目录>
+
+# 训练：复制 experiments/plan_template.yaml 到 experiments/<新实验>/plan.yaml，改名称与参数
+./.venv/bin/python yolo_phone/train.py --plan yolo_phone/experiments/<新实验>/plan.yaml --dry-run
+nohup ./.venv/bin/python -u yolo_phone/train.py --plan yolo_phone/experiments/<新实验>/plan.yaml \
+  > yolo_phone/experiments/<新实验>/training.log 2>&1 &
 
 # 数据安全与配置单测（项目根目录运行）
 ./.venv/bin/python -m unittest discover -s yolo_phone -p 'test_*.py'

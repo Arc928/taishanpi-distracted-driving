@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Train a first YOLO11n seed model after labels have been reviewed."""
+"""Quick continue-training from the current config; new experiments should use train.py --plan."""
 from pathlib import Path
 import argparse
 from ultralytics import YOLO

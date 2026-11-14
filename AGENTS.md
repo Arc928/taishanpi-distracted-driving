@@ -140,11 +140,8 @@ p081 背景误报 1/62→4/62。它们与训练重叠，不能作为独立泛化
 ./.venv/bin/python yolo_phone/prepare_dataset.py --sample-every 8 --seed 42 \
   --val-subjects p016 p021 p026 --output yolo_phone/dataset_23train_3eval_1of8
 
-# 当前模型继续训练
-./.venv/bin/python yolo_phone/train_seed.py \
-  --data yolo_phone/selftrain_23train_round2/data.yaml \
-  --model yolo_phone/runs/selftrain_23train_round2_yolo11n/weights/best.pt \
-  --name <新运行名> --epochs 20 --batch 16
+# 训练（2026-11-14 起）：超参只写在 experiments/<实验>/plan.yaml，模板 experiments/plan_template.yaml
+./.venv/bin/python yolo_phone/train.py --plan yolo_phone/experiments/<实验>/plan.yaml --dry-run
 
 # 当前三司机独立评估；脚本默认就是新划分
 ./.venv/bin/python yolo_phone/check_validation.py \
@@ -437,3 +434,25 @@ experiments 中的 run/train 记录脚本。项目（不含 .venv）约 544M。
   - 全部脚本及 val_compare/threshold_select 均能导入，State Farm eval 快照通过；
   - 用重构后代码 `--labels-only` 重跑 test：审核决策 440 行、标注哈希、类别计数与 10-21 结果完全一致；
   - 用 core.metrics 从 10-21 逐图结果重算 e79、e27 的 @0.5 图像级汇总，与历史 summary.json 一致。
+
+2026-11-14 用户第三次说“接着做”，完成架构建议第 4 项：统一训练与导出入口。
+- 新增 `yolo_phone/train.py --plan <plan.yaml> [--dry-run]` 与模板 `experiments/plan_template.yaml`：
+  - 超参只写在计划的 `train:` 块，原样传给 Ultralytics；
+  - imgsz 取 config（640），data/project/name/imgsz/model/resume 不许写在 `train:` 里；
+  - 起点权重须与计划中的 SHA-256 一致，data.yaml 类别须与固定 id 一致，运行目录已存在则拒绝；
+  - 一个计划只对应一次训练，输出 `resolved_plan.json`（含 git 提交与是否有未提交改动）、`status.json`、`result.json`。
+  - 用模板（参数同第 2 轮）试跑：最终 19 个训练参数与 `official_targeted_round2_20261021/train.py` 逐项一致。
+- `export_targeted_round.py` 去掉写死的第 2 轮信息：`--base`、`--round` 改为必填，新增 `--test-manifest`，
+  类别与 data.yaml 改由 NAMES 生成。按第 2 轮原始输入重跑到临时目录，与现有
+  `selftrain_multiview_targeted_round2_20261021/` 的 manifest（3661 行）、标签、509 个审核 JSON、
+  图片链接、summary 与审核回执完全一致。`export_multiview.py` 是首轮的整目录导出，用途不同，保留。
+- `prepare_targeted_round.py` 的选样计划（POSITIVE_PLAN、挖掘权重）仍是第 2 轮专用，下一轮按需求再参数化。
+- 新增 `test_train_plan.py`，共 21 个单测通过。
+- **轮次标签更正**：网站权重 `eb63ae94…` 实为第 52 轮，不是第 51 轮。
+  - 证据：其 val 复算 mAP50 0.9133 / mAP50-95 0.5732（`val_compare/report.json`），
+    对应 `results.csv` 第 52 轮（0.9133 / 0.5738）；第 51 轮为 0.9275 / 0.5724。
+  - 原因：Ultralytics 8.4.172 保存 best.pt 只看 mAP50-95，第 52 轮最大；
+    旧 `run.py` 用 0.1×mAP50 + 0.9×mAP50-95 公式记录最佳轮次，算出第 51 轮。
+  - 权重文件及所有评估都基于实际文件，结论不变，只是标签差一轮。
+  - 第 15 节等历史记录中的“e51”保留原文，README 与 config 已注明。
+  - 其他 run 两种规则选出的轮次相同，混合 e27 一致。

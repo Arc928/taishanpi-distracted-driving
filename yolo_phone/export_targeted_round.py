@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Merge a reviewed targeted 3MDAD round into a copy of the current training set.
+"""Merge a reviewed targeted 3MDAD round into a copy of a base training set.
+
+Used for every "base dataset + reviewed supplement" round; --round labels the new rows.
+Round 2 was exported with --base selftrain_multiview_gemini_reviewed_20261010 --round targeted_round2.
 
 Decisions come from the reviewed boxes: any box -> positive; an empty source phone
 action -> excluded (phone not visible), never background; an empty hard negative ->
@@ -13,11 +16,10 @@ from datetime import datetime
 from pathlib import Path
 
 from core.io import csv_rows, digest, write_csv, write_json
-from core.labels import json_to_yolo
+from core.labels import NAMES, json_to_yolo
 from core.paths import BASE
 from core.splits import check_disjoint, check_snapshot
 
-DEFAULT_BASE = BASE/'selftrain_multiview_gemini_reviewed_20261010'
 TEST_MANIFEST = BASE/'gemini38flash_3mdad_v1/review_dataset/manifest.csv'
 
 
@@ -31,7 +33,9 @@ def decide(row, text, excluded):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--base',type=Path,default=DEFAULT_BASE)
+    parser.add_argument('--base',type=Path,required=True,help='Training set to extend (copied unchanged)')
+    parser.add_argument('--round',required=True,help='Round tag written to manifest round/origin, e.g. targeted_round3')
+    parser.add_argument('--test-manifest',type=Path,default=TEST_MANIFEST,help='3MDAD test rows for the leakage check')
     parser.add_argument('--targeted',type=Path,required=True)
     parser.add_argument('--confirmation',required=True,help='Human statement that the targeted review is complete')
     parser.add_argument('--output',type=Path,required=True)
@@ -72,7 +76,11 @@ def main():
             new.append({**r,'text':text,'decision':decision})
     if set(excluded)-{x['id'] for x in receipt}:
         raise ValueError('Exclusion ids are not in the targeted manifest')
-    test_rows = [r for r in csv_rows(TEST_MANIFEST) if r['split']=='test']
+    if not args.round.strip() or args.round=='base':
+        raise ValueError('--round must be a non-empty tag other than "base"')
+    test_rows = [r for r in csv_rows(args.test_manifest) if r['split']=='test']
+    if not test_rows:
+        raise ValueError('Test manifest has no test rows; leakage check would be empty')
     check_disjoint(base_rows+[{**r,'source':'3mdad'} for r in new]+test_rows)
     out.mkdir(parents=True)
     rows = []
@@ -91,13 +99,13 @@ def main():
         snapshot = out/'reviewed_json'/f'{r["id"]}.json'
         snapshot.parent.mkdir(exist_ok=True)
         shutil.copyfile(targeted/r['annotation_json'],snapshot)
-        classes = ','.join(sorted({{'0':'texting','1':'calling'}[line.split()[0]] for line in r['text'].splitlines()}))
+        classes = ','.join(sorted({NAMES[int(line.split()[0])] for line in r['text'].splitlines()}))
         rows.append({'id':r['id'],'source':'3mdad','subject':r['subject'],'view':r['view'],'split':r['split'],
                      'source_action':r['source_action'],'source_behavior':r['source_behavior'],'source_image':r['source_image'],
                      'image_sha256':r['image_sha256'],'image':image,'label':label,'label_sha256':digest(out/label),
                      'annotation_json':'','annotation_status':'human_reviewed',
-                     'origin':f'targeted_round2:{r["kind"]}:{r["decision"]}','original_label_source':'',
-                     'annotation_classes':classes,'review_batch':r['review_batch'],'sample_rank':'','round':'targeted_round2'})
+                     'origin':f'{args.round}:{r["kind"]}:{r["decision"]}','original_label_source':'',
+                     'annotation_classes':classes,'review_batch':r['review_batch'],'sample_rank':'','round':args.round})
     write_csv(out/'manifest.csv',rows)
     shutil.copyfile(base/'subject_splits.json',out/'subject_splits.json')
     counts = Counter((r['split'],r['round'],r['annotation_classes'] or 'background') for r in rows)
@@ -112,7 +120,8 @@ def main():
                'rule':'box->positive; empty source phone action->excluded; empty hard negative->background',
                'test_included':False,'leakage_checks':'subject and SHA-256 disjoint incl. 3MDAD test'})
     check_snapshot(BASE/'dataset_23train_3eval_1of8')
-    (out/'data.yaml').write_text(f'path: {out}\ntrain: images/train\nval: images/val\nnames:\n  0: texting\n  1: calling\n')
+    names = ''.join(f'  {k}: {v}\n' for k,v in NAMES.items())
+    (out/'data.yaml').write_text(f'path: {out}\ntrain: images/train\nval: images/val\nnames:\n{names}')
     print(json.dumps(json.loads((out/'summary.json').read_text()),ensure_ascii=False,indent=2))
 
 

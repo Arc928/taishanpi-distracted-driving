@@ -11,6 +11,6 @@ dataset: selftrain_multiview_targeted_round2_20261021/data.yaml
 weights:
   path: runs/multiview_targeted_round2_20261021_yolo11n/weights/best.pt
   sha256: eb63ae9452d98a3603dc96ed42f823e6a4389e143e78563381945e317a935eca
-  note: 针对性补充训练第 51 轮（2026-10-21），2026-10-22 起为网站模型
+  note: 针对性补充训练 best.pt，实为第 52 轮（旧记录称第 51 轮）；2026-10-22 起为网站模型
 
 confidence: 0.35      # 依据 val 选定，见 experiments/official_targeted_round2_20261021/threshold_select/
