@@ -40,6 +40,15 @@ YOLO11n 检测驾驶员用手机，两类固定为 0 `texting`、1 `calling`，�
 | `local_demo/` | 本机摄像头/图片/视频测试网页 |
 | `archive/` | 历史数据（含 State Farm 阶段 seed/selftrain/review/remaining/validation）、旧报告与清理记录 |
 
+## 当前配置（唯一来源）
+
+`config/current.yaml` 记录当前训练集、网站权重及其 SHA-256、默认阈值、imgsz 与 NMS IoU。
+网站服务、`train_seed.py` 和 `check_validation.py` 的默认值都从这里读取。
+- 切换网站模型：改 `weights.path` 与 `weights.sha256`；阈值只能按 val 选定后改 `confidence`。改完重启服务并提交 git。
+- 哈希不一致时服务拒绝启动；`server.py --weights <路径>` 可临时覆盖，不做哈希比对。
+- 类别 id 顺序固定在 `annotation_io.NAMES`，不在配置中。
+- 各轮专用脚本（`prepare_targeted_round.py`、`evaluate_reviewed_holdout.py` 等）的默认值是那一轮的历史记录，不跟随当前配置。
+
 ## 常用命令
 
 已有输出目录一律拒绝覆盖，重跑须换新名称。评估输出建议放在 `yolo_phone/evals/<新目录>`。
@@ -59,7 +68,7 @@ YOLO11n 检测驾驶员用手机，两类固定为 0 `texting`、1 `calling`，�
   --name <新运行名> --epochs <轮数> --batch 16
 
 # 数据安全单测（须在 yolo_phone/ 下运行）
-cd yolo_phone && ../.venv/bin/python -m unittest test_multiview_dataset; cd ..
+cd yolo_phone && ../.venv/bin/python -m unittest test_multiview_dataset test_current_config; cd ..
 
 # 本机测试网页
 ./.venv/bin/python yolo_phone/local_demo/start.py

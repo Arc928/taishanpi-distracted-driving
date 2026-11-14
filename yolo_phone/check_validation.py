@@ -15,9 +15,12 @@ from pathlib import Path
 from PIL import Image,ImageDraw
 from ultralytics import YOLO
 
+import current_config
+from annotation_io import NAMES as CLASS_NAMES
+
 BASE=Path(__file__).resolve().parent
 ROOT=BASE/'dataset_23train_3eval_1of8'
-NAMES=('texting','calling','background')
+NAMES=(*CLASS_NAMES.values(),'background')
 
 
 def csv_rows(path):
@@ -32,7 +35,7 @@ def val_snapshot(root=ROOT):
 
 def main():
     parser=argparse.ArgumentParser()
-    parser.add_argument('--weights',type=Path,default=BASE/'runs/selftrain_23train_round2_yolo11n/weights/best.pt')
+    parser.add_argument('--weights',type=Path,default=None,help='默认为 config/current.yaml 的当前权重')
     parser.add_argument('--output',type=Path,default=BASE/'validation_new')
     parser.add_argument('--conf',type=float,default=0.5)
     parser.add_argument('--dataset',type=Path,default=ROOT)
@@ -47,15 +50,16 @@ def main():
     rows=[r for r in csv_rows(root/'manifest.csv') if r['split']=='val']
     train_subjects={r['subject'] for r in csv_rows(root/'manifest.csv') if r['split']=='train'}
     assert not train_subjects & {r['subject'] for r in rows}
-    model=YOLO(str(args.weights.resolve()))
-    assert model.names=={0:'texting',1:'calling'}
+    weights=args.weights.resolve() if args.weights else current_config.weights_path(verify=True)
+    model=YOLO(str(weights))
+    assert model.names==CLASS_NAMES
     for sub in ('predictions','xlabel','review/sheets'):
         (out/sub).mkdir(parents=True)
     raw=[]
     report=[]
     for i,row in enumerate(rows,1):
         src=root/row['image']
-        result=model.predict(str(src),imgsz=640,conf=0.1,iou=0.5,device='mps',verbose=False)[0]
+        result=model.predict(str(src),imgsz=current_config.imgsz(),conf=0.1,iou=current_config.nms_iou(),device='mps',verbose=False)[0]
         height,width=result.orig_shape
         boxes=[{'class_id':int(c),'confidence':float(s),'xyxy':xy}
                for xy,s,c in zip(result.boxes.xyxy.cpu().tolist(),result.boxes.conf.cpu().tolist(),result.boxes.cls.cpu().tolist())]
@@ -174,7 +178,7 @@ def main():
     preview.save(out/'review/preview.jpg',quality=94)
     after=val_snapshot(root)
     assert before==after,'验证集被修改'
-    summary={'weights':str(args.weights.resolve()),'weights_sha256':hashlib.sha256(args.weights.read_bytes()).hexdigest(),
+    summary={'weights':str(weights),'weights_sha256':hashlib.sha256(weights.read_bytes()).hexdigest(),
              'dataset':str(root),
              'image_count':len(rows),'subjects':sorted({r['subject'] for r in report}),
              'confidence':args.conf,'status_counts':dict(Counter(r['status'] for r in report)),

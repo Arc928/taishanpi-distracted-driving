@@ -10,13 +10,13 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from continue_split import check_snapshot, csv_rows, digest, validate_label
+from annotation_io import NAMES
 from project_paths import artifact
 
 BASE = Path(__file__).resolve().parent
 POSITIVE = {5: 'texting', 6: 'texting', 7: 'calling', 8: 'calling'}
 BACKGROUND = {1, 2, 3, 10, 11, 12, 13, 14, 15, 16}
 EVAL_DRIVERS = {'p016', 'p021', 'p026'}
-NAMES = {0: 'texting', 1: 'calling'}
 
 
 def write_json(path, data):

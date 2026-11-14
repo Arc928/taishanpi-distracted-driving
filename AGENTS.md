@@ -406,3 +406,18 @@ test 回归 `test_reviewed_eval_targeted_round2_20261021/`（e79 对 e51）：
 - `archive/scripts/` 全部 16 个旧脚本及空目录 `archive/scratch/`。
 保留：顶层全部现行脚本（含 `check_validation.py`、`prepare_dataset.py`、`prepare_test_review.py`）、
 experiments 中的 run/train 记录脚本。项目（不含 .venv）约 544M。
+
+## 17. 2026-11-14 Git 基线与统一当前配置
+
+用户要求先做 Git 基线，再“接着做”统一配置。
+- 初始提交 `6213ffdf`（master）：跟踪代码、文档、人工审核 JSON、标签、manifest、回执与评估记录。
+  不跟踪权重、jpg（含原始数据软链接）、`.cache`、`source_inventory_3mdad.csv`、`mining_scores.jsonl`、
+  `training.log`、汇报导出物、`runtime.json`；规则在根 `.gitignore`。
+  原 `yolo_phone/.gitignore` 会忽略 `runs/`、`dataset_*/`、`archive/data/seed/`，已删除并合并。
+- 新增 `yolo_phone/config/current.yaml` 与 `current_config.py`，作为当前训练集、网站权重（含 SHA-256）、
+  阈值 0.35、imgsz 640、NMS IoU 0.5 的唯一来源。网站服务与页面滑块、`train_seed.py`、
+  `check_validation.py` 的默认值改读此文件；权重哈希不符时拒绝启动。`--conf` 默认 0.5 未改，以便和历史结果对照。
+- 类别统一引用 `annotation_io.NAMES`（`prepare_dataset`、`prepare_multiview`、`check_validation`、server）。
+- 各轮专用脚本的默认路径保持原样，属于历史复现记录。
+- 新增 `test_current_config.py`，共 16 个单测通过。网站冒烟验证通过：/health 返回 0.35 与 `eb63ae94…`，
+  /api/predict 正常，页面滑块显示 0.35。验证后停止服务，恢复为原先未运行的状态。

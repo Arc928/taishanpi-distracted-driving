@@ -17,6 +17,8 @@ import random
 import shutil
 from pathlib import Path
 
+from annotation_io import NAMES
+
 
 CLASS_MAP = {
     "c1": 0,  # texting with right hand
@@ -24,7 +26,6 @@ CLASS_MAP = {
     "c2": 1,  # talking on phone with right hand
     "c4": 1,  # talking on phone with left hand
 }
-NAMES = ["texting", "calling"]
 
 
 def link_or_copy(src: Path, dst: Path) -> None:
