@@ -44,7 +44,7 @@ YOLO11n 检测驾驶员用手机，两类固定为 0 `texting`、1 `calling`，�
 ./.venv/bin/python yolo_phone/relink_sources.py --source mdad --apply  # 执行，记录写入 archive/relink-*.json
 ```
 
-新目标有任何一个不存在就整体拒绝。`--internal-relative` 可把 `archive/data` 里 665 个指向项目内部的绝对链接改成相对链接（项目整体搬家前用）。
+新目标有任何一个不存在就整体拒绝。项目内部的链接已于 2026-11-14 全部改为相对链接（`--internal-relative`），项目文件夹整体移动不会失效。
 data.yaml 的 `path:` 保持绝对路径（Ultralytics 会把相对路径接到它自己的数据目录下），由单测检查它与所在目录一致。
 
 ## 目录

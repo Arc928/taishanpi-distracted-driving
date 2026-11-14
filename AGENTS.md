@@ -511,3 +511,7 @@ experiments 中的 run/train 记录脚本。项目（不含 .venv）约 544M。
 - data.yaml 的 `path:` 保持绝对：Ultralytics 8.4 把相对 path 接到自己的数据目录下。改为单测检查 path 与所在目录一致。
 - 新增 `test_sources.py`，`test_dataset_registry.py` 加 data.yaml 检查，共 32 个单测通过。
   按第 2 轮输入重跑导出，manifest 与 3661 个链接目标和现训练集一致。
+- 随后用户要求处理项目内绝对链接：已用 `relink_sources.py --internal-relative --apply` 将 `archive/data` 中 665 个
+  指向项目内部的绝对链接改为相对链接（其中 65 个是 git 跟踪的 JSON 链接），记录在 `archive/relink-20261114-163359.json`。
+  核验：全部 63907 个链接改写前后解析到同一文件、无失效；项目内已无绝对内部链接；32 个单测通过。
+  其余链接指向 `~/Downloads` 原始数据，仍为绝对路径，由 `config/sources.yaml` 与 `--source` 模式处理。
