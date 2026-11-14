@@ -21,9 +21,11 @@ class DatasetRegistryTests(unittest.TestCase):
     def test_every_dataset_directory_on_disk_is_registered(self):
         registered = {(BASE / e['path']).resolve() for e in registry.load().values()}
         candidates = {p.parent.resolve() for p in BASE.glob('*/manifest.csv')}
-        candidates |= {p.parent.resolve() for p in BASE.glob('*/*/manifest.csv') if 'archive' not in p.parts}
+        candidates |= {p.parent.resolve() for p in (BASE / 'data').rglob('manifest.csv')}
         candidates |= {p.resolve() for p in (BASE / 'archive' / 'data').iterdir() if p.is_dir()}
-        self.assertEqual(sorted(map(str, candidates - registered)), [])
+        # a manifest nested inside a registered dataset (e.g. its eval_statefarm copy) belongs to it
+        unregistered = [c for c in candidates if not ({c, *c.parents} & registered)]
+        self.assertEqual(sorted(map(str, unregistered)), [])
 
     def test_lineage_has_no_cycles(self):
         data = registry.load()

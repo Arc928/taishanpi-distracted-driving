@@ -11,8 +11,9 @@ from continue_split import csv_rows
 from evaluate_reviewed_holdout import detection_metrics, ground_truth, image_level, image_status, summarize, write_yolo
 from annotation_io import NAMES
 from prepare_multiview import BASE, write_json
+from core.registry import path as dataset  # noqa: E402  数据集目录按 config/datasets.yaml 定位
 
-DATA = BASE/'selftrain_multiview_targeted_round2_20261021'
+DATA = dataset('train_targeted_round2')
 RUN = BASE/'runs/multiview_targeted_round2_20261021_yolo11n/weights'
 WEIGHTS = {'e79':BASE/'runs/multiview_official_resume100_20261011_yolo11n/weights/best.pt',
            'e150_last':BASE/'runs/multiview_official_resume150_20261012_yolo11n/weights/last.pt',

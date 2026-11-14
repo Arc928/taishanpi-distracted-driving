@@ -2,7 +2,7 @@
 """Merge a reviewed targeted 3MDAD round into a copy of a base training set.
 
 Used for every "base dataset + reviewed supplement" round; --round labels the new rows.
-Round 2 was exported with --base selftrain_multiview_gemini_reviewed_20261010 --round targeted_round2.
+Round 2 was exported with --base data/selftrain_multiview_gemini_reviewed_20261010 --round targeted_round2.
 
 Decisions come from the reviewed boxes: any box -> positive; an empty source phone
 action -> excluded (phone not visible), never background; an empty hard negative ->

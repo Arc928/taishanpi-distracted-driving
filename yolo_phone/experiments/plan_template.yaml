@@ -4,7 +4,7 @@
 # 下面的 train 参数与 official_targeted_round2_20261021（官方起点、80 轮）一致。
 
 name: <新运行名，例如 multiview_round3_20261120_yolo11n>
-data: selftrain_multiview_targeted_round2_20261021/data.yaml
+data: data/selftrain_multiview_targeted_round2_20261021/data.yaml
 model: ../yolo11n.pt          # 官方起点；继续训练可改为 runs/<运行>/weights/best.pt
 model_sha256: 0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1
 notes: <这次实验要验证什么>

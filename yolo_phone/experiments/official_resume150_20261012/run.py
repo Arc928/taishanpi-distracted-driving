@@ -59,7 +59,7 @@ def worker(plan):
         assert digest(dataset/row['image'])==row['image_sha256']
         assert digest(dataset/row['label'])==row['label_sha256']
     check_disjoint(manifest)
-    check_snapshot(BASE/'dataset_23train_3eval_1of8')
+    check_snapshot(BASE/'data/dataset_23train_3eval_1of8')
     original = torch.load(checkpoint,map_location='cpu',weights_only=False)
 
     def verify_restore(trainer):
@@ -119,7 +119,7 @@ def worker(plan):
     model.add_callback('on_fit_epoch_end',progress)
     model.train(resume=True,save_dir=str(run),patience=0,device='mps')
     assert int(rows(run/'results.csv')[-1]['epoch'])==150,'Did not finish all requested epochs'
-    check_snapshot(BASE/'dataset_23train_3eval_1of8')
+    check_snapshot(BASE/'data/dataset_23train_3eval_1of8')
     for path,sha in plan['protected_weight_hashes'].items():
         assert digest(path)==sha
     for row in manifest:

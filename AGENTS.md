@@ -37,23 +37,28 @@ X-AnyLabeling 4.1.0 位于 `/Applications/X-AnyLabeling.app`。
   imgs/test/            # 无标签，本项目不用
 ```
 
-## 3. 当前目录（2026-11-02 整理后）
+## 3. 当前目录（2026-11-14 数据集移入 data/ 后）
 
 ```text
 yolo_phone/
-  selftrain_multiview_targeted_round2_20261021/ # 最新训练集 train 3449 / val 212
-  selftrain_multiview_gemini_reviewed_20261010/ # 上一版混合训练集，现行脚本仍引用
-  targeted_3mdad_round2_20261021/ # 针对性补充的审核目录
-  gemini38flash_3mdad_v1/         # 3MDAD 审核目录 review_dataset/（train/val/test）
-  multiview_statefarm_3mdad_v1/   # 3MDAD 选样、司机划分与审计
-  test_review_3mdad_20261021/     # 测试集审核前基线与 exclusions.csv
-  dataset_23train_3eval_1of8/     # State Farm 基础抽样集与 3 司机独立 eval
+  config/                         # current.yaml 当前配置；datasets.yaml 数据集登记表
+  core/                           # 公用逻辑包；顶层 *.py 为命令行入口
+  data/
+    selftrain_multiview_targeted_round2_20261021/ # 最新训练集 train 3449 / val 212
+    selftrain_multiview_gemini_reviewed_20261010/ # 上一版混合训练集，现行脚本仍引用
+    targeted_3mdad_round2_20261021/ # 针对性补充的审核目录
+    gemini38flash_3mdad_v1/         # 3MDAD 审核目录 review_dataset/（train/val/test）
+    multiview_statefarm_3mdad_v1/   # 3MDAD 选样、司机划分与审计
+    test_review_3mdad_20261021/     # 测试集审核前基线与 exclusions.csv
+    dataset_23train_3eval_1of8/     # State Farm 基础抽样集与 3 司机独立 eval
   evals/                          # 人工框测试评估 test_reviewed_eval_*、external_checks
-  experiments/                    # 各训练实验的计划、日志、val 对照与阈值选择
+  experiments/                    # 各训练实验的计划、日志、val 对照与阈值选择；plan_template.yaml
   runs/                           # 各次训练的 best/last、results.csv、args.yaml
   local_demo/                     # 本机摄像头、图片、视频测试网页
-  archive/                        # 历史数据、脚本、阶段文档、旧报告及清理记录
+  archive/                        # 历史数据、阶段文档、旧报告及清理记录
 ```
+
+本文其他各节提到的数据集目录名都不变，现位于 `data/` 下；记录中的旧绝对路径按 `archive/cleanup-2026-11-14-move.json` 映射。
 
 下文第 3–12 节的权重路径与指标为当时记录；最新权重见第 15 节。
 State Farm 阶段的 seed/selftrain/review/remaining/validation 目录已在 `archive/data/`。
@@ -474,3 +479,20 @@ experiments 中的 run/train 记录脚本。项目（不含 .venv）约 544M。
   - labels-only 重跑 test 的审核决策与 10-21 结果逐字节一致；
   - 训练计划试跑解析出同一 data.yaml。
 - 未做：把数据集目录实际移入 `data/`。登记表建好后，移动只需改 path 和 data.yaml，留待用户决定。
+
+2026-11-14 用户选择“移进 data/”：7 个现行数据集目录从 `yolo_phone/` 顶层移入 `yolo_phone/data/`，
+记录与移动前逐文件 SHA-256、链接目标见 `archive/cleanup-2026-11-14-move.json`。
+- 移动前确认：项目内没有软链接指向这些目录；它们内部的 23022 个链接都指向 `~/Downloads` 原始数据或
+  `archive/data`，移动后不受影响。没有运行中的训练或网站进程。
+- 修改：
+  - 3 个 data.yaml 的绝对 path；登记表 9 个 path；
+  - `threshold_select.py`、`val_compare.py` 改按登记表 id 定位；`official_resume150` 的 eval 快照路径；
+  - 训练计划模板，以及 `test_dataset_registry.py` 改为遍历 `data/` 下的嵌套 manifest。
+  - 原版在 `archive/config-originals/2026-11-14/`。
+- 未改：manifest、审核回执、评估 JSON、experiments plan.json、runs/*/args.yaml 中的绝对路径，
+  它们是历史记录，按移动记录定位。Ultralytics `.cache` 下次读取时自动重建。
+- 核验：
+  - 47468 个条目中只有 3 个 data.yaml 按计划改动，其余内容与链接目标不变，链接全部可解析；
+  - 26 个单测通过，State Farm eval 快照通过；
+  - labels-only 重跑 test 审核决策逐字节一致；按第 2 轮输入重跑导出，与现训练集一致；
+  - 当前权重在新路径 val 上 mAP50 0.9133 / mAP50-95 0.5732，与 10-21 结果一致。

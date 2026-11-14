@@ -1,0 +1,202 @@
+# 数据集登记表：脚本按 id 定位数据集，目录移动时只改这里的 path（相对 yolo_phone/）。
+# status：active 现行 / protected 不得修改（eval、基线）/ historical 已被取代但仍被引用 / archived 已归档。
+# manifest_sha256 由 test_dataset_registry.py 与磁盘核对；不一致说明数据被改动，须先查明原因。
+
+datasets:
+  statefarm_base_1of8:
+    path: dataset_23train_3eval_1of8
+    kind: base_sample+eval_holdout
+    status: protected
+    created: 2026-10-09
+    manifest_sha256: 8ef8ba76066c4ced6ba4df89a8d7f65d52999c6e88586770e4f6b6fccf145f57
+    note: State Farm 1/8 抽样：23 位 train 司机 + 3 位独立 eval 司机（p016/p021/p026）；正样本无框，不能直接训练。eval 文件受 eval_files_sha256.json 保护
+  mdad_selection_v1:
+    path: multiview_statefarm_3mdad_v1
+    kind: selection
+    status: historical
+    parents: [statefarm_sf_round2]
+    created: 2026-10-10
+    manifest_sha256: 3ac9a8957574b451959f3a5f138016f277e7d27175e298752c0c4c67955b57f8
+    note: 3MDAD 选样与 35/5/10 司机划分（subject_splits.json），以及沿用的 State Farm 1534 张；待审候选集
+  statefarm_eval_in_mdad_v1:
+    path: multiview_statefarm_3mdad_v1/eval_statefarm
+    kind: eval_holdout
+    status: protected
+    parents: [statefarm_base_1of8]
+    created: 2026-10-10
+    manifest_sha256: 82c53507ec5ccf000538ed9b90ad8eee02bc3f5142266f8dae063b2e2423a55d
+    note: State Farm 3 位 eval 司机 452 张在多视角数据集中的链接副本；仅用于原图像级评估，不是检测 mAP 真值
+  mdad_review_v1:
+    path: gemini38flash_3mdad_v1/review_dataset
+    kind: review
+    status: active
+    parents: [mdad_selection_v1]
+    created: 2026-10-10
+    manifest_sha256: 3ac9a8957574b451959f3a5f138016f277e7d27175e298752c0c4c67955b57f8
+    note: 3MDAD 审核目录（train/val/test JSON），Gemini/Grounding DINO 预填；test 于 2026-10-21 人工审核完成，是人工框测试集的真值来源
+  mdad_review_v1_snapshot_20261010:
+    path: gemini38flash_3mdad_v1/training_review_snapshot_20261010
+    kind: review_snapshot
+    status: historical
+    parents: [mdad_review_v1]
+    created: 2026-10-10
+    manifest_sha256: 3ac9a8957574b451959f3a5f138016f277e7d27175e298752c0c4c67955b57f8
+    note: 混合训练集导出时冻结的 train/val 审核决策快照
+  mdad_test_review_baseline:
+    path: test_review_3mdad_20261021
+    kind: review_baseline
+    status: protected
+    parents: [mdad_review_v1]
+    created: 2026-10-21
+    note: 3MDAD test 审核前 440 个 JSON 的基线哈希与 exclusions.csv；evaluate_reviewed_holdout 默认使用
+  train_mixed_v1:
+    path: selftrain_multiview_gemini_reviewed_20261010
+    kind: training_set
+    status: historical
+    parents: [statefarm_sf_round2, mdad_review_v1_snapshot_20261010]
+    created: 2026-10-10
+    manifest_sha256: 1ddcf1212612aaec99eaf90a5d90c632736de29f84443df23145abdb98c421e6
+    note: 混合训练集 v1：State Farm 1534 + 3MDAD 1418 / val 200（5 位 3MDAD 司机）
+  targeted_round2_review:
+    path: targeted_3mdad_round2_20261021
+    kind: review
+    status: historical
+    parents: [mdad_selection_v1, train_mixed_v1]
+    created: 2026-10-21
+    manifest_sha256: 28f90bfaf3b54166e4b8de26675efbec9698139b8643c6560901654bb6a12436
+    note: 针对性补充第 2 轮审核目录：正面 AC6、侧面 AC8 与 300 张困难背景
+  train_targeted_round2:
+    path: selftrain_multiview_targeted_round2_20261021
+    kind: training_set
+    status: active
+    parents: [train_mixed_v1, targeted_round2_review]
+    created: 2026-10-21
+    manifest_sha256: a7b824f27fde2e1b136cfe8cb9a1764eebc9564cd9a85d0462f297cf60f2cac7
+    note: 当前训练集：train 3449 / val 212；网站权重由它训练
+
+  # —— archive/data/ 下的 State Farm 阶段历史数据（细节见 archive/README.md 与 cleanup-*.json）
+  archived_dataset:
+    path: archive/data/dataset
+    kind: base_sample
+    status: archived
+    manifest_sha256: 03e4f6ac5002aadbb868c04a332619c92a3fbc1bcf55aaf4a66f3d265f097b07
+    note: 旧五司机划分的基础抽样集（已停用）
+  archived_remaining:
+    path: archive/data/remaining
+    kind: history
+    status: archived
+    note: State Farm 阶段历史数据
+  archived_remaining_23train_round2:
+    path: archive/data/remaining_23train_round2
+    kind: history
+    status: archived
+    note: State Farm 阶段历史数据
+  archived_remaining_23train_seed:
+    path: archive/data/remaining_23train_seed
+    kind: history
+    status: archived
+    note: State Farm 阶段历史数据
+  archived_remaining_23train_selftrained:
+    path: archive/data/remaining_23train_selftrained
+    kind: history
+    status: archived
+    note: State Farm 阶段历史数据
+  archived_remaining_reviewed:
+    path: archive/data/remaining_reviewed
+    kind: history
+    status: archived
+    note: State Farm 阶段历史数据
+  archived_remaining_selftrained:
+    path: archive/data/remaining_selftrained
+    kind: history
+    status: archived
+    note: State Farm 阶段历史数据
+  archived_review_23train_round1:
+    path: archive/data/review_23train_round1
+    kind: history
+    status: archived
+    manifest_sha256: 68a7f3d0dae253bd7ba7f5bdf0856a38da076415d930e1854a8dc45534d56986
+    note: State Farm 阶段历史数据
+  archived_round2_plan:
+    path: archive/data/round2_plan
+    kind: history
+    status: archived
+    note: State Farm 阶段历史数据
+  archived_round2_review:
+    path: archive/data/round2_review
+    kind: history
+    status: archived
+    manifest_sha256: cc0740c968a0f9e0739a557b46e7542c26974ea1314fcbf866fef807294b1157
+    note: State Farm 阶段历史数据
+  archived_seed:
+    path: archive/data/seed
+    kind: history
+    status: archived
+    manifest_sha256: 6a03e8552948d2aa8c66823eb24a8a8aa876e1b58ccb10b6e3958af2c2af516e
+    note: State Farm 阶段历史数据
+  archived_seed_23train_reviewed:
+    path: archive/data/seed_23train_reviewed
+    kind: training_set
+    status: archived
+    manifest_sha256: 51765a42bd6672a2e266332510fbadb2ed90fd9975a9820af1858b31832b1a51
+    note: 新划分 250 张人工种子
+  archived_seed_corrected:
+    path: archive/data/seed_corrected
+    kind: history
+    status: archived
+    manifest_sha256: 6a03e8552948d2aa8c66823eb24a8a8aa876e1b58ccb10b6e3958af2c2af516e
+    note: State Farm 阶段历史数据
+  archived_seed_reviewed:
+    path: archive/data/seed_reviewed
+    kind: history
+    status: archived
+    manifest_sha256: 6a03e8552948d2aa8c66823eb24a8a8aa876e1b58ccb10b6e3958af2c2af516e
+    note: State Farm 阶段历史数据
+  archived_selftrain_23train_reused:
+    path: archive/data/selftrain_23train_reused
+    kind: history
+    status: archived
+    manifest_sha256: 30c237d2015608e9852615cd63f4f3b9a12368e044d7b1eb7740f5c66f03d751
+    note: State Farm 阶段历史数据
+  archived_selftrain_23train_round1:
+    path: archive/data/selftrain_23train_round1
+    kind: training_set
+    status: archived
+    manifest_sha256: a13e7958291c8a451eeb522fb56c650d96d15ab1384942fe7b5511c7c09b0cc1
+    note: 新划分第一轮自训练集 1422 张
+  statefarm_sf_round2:
+    path: archive/data/selftrain_23train_round2
+    kind: training_set
+    status: archived
+    manifest_sha256: cb01b8d173e3c76384abb95754565329762c324ac28848d7d6f61df5653ddab6
+    note: State Farm 新划分第二轮自训练集 1534 张（texting 507 / calling 499 / 背景 528），混合训练集的 State Farm 部分
+  archived_selftrain_round1:
+    path: archive/data/selftrain_round1
+    kind: history
+    status: archived
+    note: State Farm 阶段历史数据
+  archived_selftrain_round2:
+    path: archive/data/selftrain_round2
+    kind: history
+    status: archived
+    note: State Farm 阶段历史数据
+  archived_validation_23train_round1:
+    path: archive/data/validation_23train_round1
+    kind: history
+    status: archived
+    note: State Farm 阶段历史数据
+  archived_validation_23train_round2:
+    path: archive/data/validation_23train_round2
+    kind: history
+    status: archived
+    note: State Farm 阶段历史数据
+  archived_validation_check:
+    path: archive/data/validation_check
+    kind: history
+    status: archived
+    note: State Farm 阶段历史数据
+  archived_validation_round2:
+    path: archive/data/validation_round2
+    kind: history
+    status: archived
+    note: State Farm 阶段历史数据

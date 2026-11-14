@@ -1,17 +1,18 @@
 # 数据集登记表：脚本按 id 定位数据集，目录移动时只改这里的 path（相对 yolo_phone/）。
+# 现行数据集在 data/（2026-11-14 移入），历史数据在 archive/data/。
 # status：active 现行 / protected 不得修改（eval、基线）/ historical 已被取代但仍被引用 / archived 已归档。
 # manifest_sha256 由 test_dataset_registry.py 与磁盘核对；不一致说明数据被改动，须先查明原因。
 
 datasets:
   statefarm_base_1of8:
-    path: dataset_23train_3eval_1of8
+    path: data/dataset_23train_3eval_1of8
     kind: base_sample+eval_holdout
     status: protected
     created: 2026-10-09
     manifest_sha256: 8ef8ba76066c4ced6ba4df89a8d7f65d52999c6e88586770e4f6b6fccf145f57
     note: State Farm 1/8 抽样：23 位 train 司机 + 3 位独立 eval 司机（p016/p021/p026）；正样本无框，不能直接训练。eval 文件受 eval_files_sha256.json 保护
   mdad_selection_v1:
-    path: multiview_statefarm_3mdad_v1
+    path: data/multiview_statefarm_3mdad_v1
     kind: selection
     status: historical
     parents: [statefarm_sf_round2]
@@ -19,7 +20,7 @@ datasets:
     manifest_sha256: 3ac9a8957574b451959f3a5f138016f277e7d27175e298752c0c4c67955b57f8
     note: 3MDAD 选样与 35/5/10 司机划分（subject_splits.json），以及沿用的 State Farm 1534 张；待审候选集
   statefarm_eval_in_mdad_v1:
-    path: multiview_statefarm_3mdad_v1/eval_statefarm
+    path: data/multiview_statefarm_3mdad_v1/eval_statefarm
     kind: eval_holdout
     status: protected
     parents: [statefarm_base_1of8]
@@ -27,7 +28,7 @@ datasets:
     manifest_sha256: 82c53507ec5ccf000538ed9b90ad8eee02bc3f5142266f8dae063b2e2423a55d
     note: State Farm 3 位 eval 司机 452 张在多视角数据集中的链接副本；仅用于原图像级评估，不是检测 mAP 真值
   mdad_review_v1:
-    path: gemini38flash_3mdad_v1/review_dataset
+    path: data/gemini38flash_3mdad_v1/review_dataset
     kind: review
     status: active
     parents: [mdad_selection_v1]
@@ -35,7 +36,7 @@ datasets:
     manifest_sha256: 3ac9a8957574b451959f3a5f138016f277e7d27175e298752c0c4c67955b57f8
     note: 3MDAD 审核目录（train/val/test JSON），Gemini/Grounding DINO 预填；test 于 2026-10-21 人工审核完成，是人工框测试集的真值来源
   mdad_review_v1_snapshot_20261010:
-    path: gemini38flash_3mdad_v1/training_review_snapshot_20261010
+    path: data/gemini38flash_3mdad_v1/training_review_snapshot_20261010
     kind: review_snapshot
     status: historical
     parents: [mdad_review_v1]
@@ -43,14 +44,14 @@ datasets:
     manifest_sha256: 3ac9a8957574b451959f3a5f138016f277e7d27175e298752c0c4c67955b57f8
     note: 混合训练集导出时冻结的 train/val 审核决策快照
   mdad_test_review_baseline:
-    path: test_review_3mdad_20261021
+    path: data/test_review_3mdad_20261021
     kind: review_baseline
     status: protected
     parents: [mdad_review_v1]
     created: 2026-10-21
     note: 3MDAD test 审核前 440 个 JSON 的基线哈希与 exclusions.csv；evaluate_reviewed_holdout 默认使用
   train_mixed_v1:
-    path: selftrain_multiview_gemini_reviewed_20261010
+    path: data/selftrain_multiview_gemini_reviewed_20261010
     kind: training_set
     status: historical
     parents: [statefarm_sf_round2, mdad_review_v1_snapshot_20261010]
@@ -58,7 +59,7 @@ datasets:
     manifest_sha256: 1ddcf1212612aaec99eaf90a5d90c632736de29f84443df23145abdb98c421e6
     note: 混合训练集 v1：State Farm 1534 + 3MDAD 1418 / val 200（5 位 3MDAD 司机）
   targeted_round2_review:
-    path: targeted_3mdad_round2_20261021
+    path: data/targeted_3mdad_round2_20261021
     kind: review
     status: historical
     parents: [mdad_selection_v1, train_mixed_v1]
@@ -66,7 +67,7 @@ datasets:
     manifest_sha256: 28f90bfaf3b54166e4b8de26675efbec9698139b8643c6560901654bb6a12436
     note: 针对性补充第 2 轮审核目录：正面 AC6、侧面 AC8 与 300 张困难背景
   train_targeted_round2:
-    path: selftrain_multiview_targeted_round2_20261021
+    path: data/selftrain_multiview_targeted_round2_20261021
     kind: training_set
     status: active
     parents: [train_mixed_v1, targeted_round2_review]

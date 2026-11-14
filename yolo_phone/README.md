@@ -35,17 +35,20 @@ YOLO11n 检测驾驶员用手机，两类固定为 0 `texting`、1 `calling`，�
 
 ## 目录
 
+现行数据集都在 `data/` 下（2026-11-14 移入），历史数据在 `archive/data/`；位置以 `config/datasets.yaml` 为准。
+
 | 目录 | 用途 |
 |---|---|
-| `selftrain_multiview_targeted_round2_20261021/` | 最新训练集：上一版 + 针对性补充（`targeted_3mdad_round2_20261021/` 审核后导出） |
-| `selftrain_multiview_gemini_reviewed_20261010/` | 上一版混合训练集（含导出确认记录，现行脚本仍引用） |
-| `gemini38flash_3mdad_v1/` | 3MDAD 审核目录 `review_dataset/`（train/val/test JSON）与训练时快照 |
-| `multiview_statefarm_3mdad_v1/` | 3MDAD 原始选样、司机划分与审计记录 |
-| `test_review_3mdad_20261021/` | 测试集审核前基线、`exclusions.csv` 与审核说明 |
+| `data/selftrain_multiview_targeted_round2_20261021/` | 最新训练集：上一版 + 针对性补充（`targeted_3mdad_round2_20261021/` 审核后导出） |
+| `data/selftrain_multiview_gemini_reviewed_20261010/` | 上一版混合训练集（含导出确认记录，现行脚本仍引用） |
+| `data/gemini38flash_3mdad_v1/` | 3MDAD 审核目录 `review_dataset/`（train/val/test JSON）与训练时快照 |
+| `data/multiview_statefarm_3mdad_v1/` | 3MDAD 原始选样、司机划分与审计记录 |
+| `data/test_review_3mdad_20261021/` | 测试集审核前基线、`exclusions.csv` 与审核说明 |
+| `data/targeted_3mdad_round2_20261021/` | 针对性补充第 2 轮审核目录 |
 | `evals/` | 人工框测试评估 `test_reviewed_eval_*/`，以及外部数据推理 `external_checks/`（不参与训练） |
 | `runs/` | 各次训练的 best/last、results.csv、args.yaml（中间检查点已清理） |
 | `experiments/` | 官方起点各实验的计划、日志与说明 |
-| `dataset_23train_3eval_1of8/` | State Farm 1/8 抽样基础集与 3 司机独立 eval 快照 |
+| `data/dataset_23train_3eval_1of8/` | State Farm 1/8 抽样基础集与 3 司机独立 eval 快照 |
 | `local_demo/` | 本机摄像头/图片/视频测试网页 |
 | `archive/` | 历史数据（含 State Farm 阶段 seed/selftrain/review/remaining/validation）、旧报告与清理记录 |
 

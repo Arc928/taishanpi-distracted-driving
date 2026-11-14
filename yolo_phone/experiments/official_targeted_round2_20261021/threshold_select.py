@@ -17,11 +17,12 @@ from continue_split import csv_rows, digest
 from evaluate_reviewed_holdout import ground_truth, image_level, image_status, load_reviewed, summarize
 from annotation_io import NAMES
 from prepare_multiview import BASE, write_json
+from core.registry import path as dataset  # noqa: E402  数据集目录按 config/datasets.yaml 定位
 
-DATA = BASE/'selftrain_multiview_targeted_round2_20261021'
+DATA = dataset('train_targeted_round2')
 WEIGHTS = BASE/'runs/multiview_targeted_round2_20261021_yolo11n/weights/best.pt'
 TEST_RUN = BASE/'evals/test_reviewed_eval_targeted_round2_20261021'
-TEST_REVIEW = BASE/'test_review_3mdad_20261021'
+TEST_REVIEW = dataset('mdad_test_review_baseline')
 GRID = [round(.2+.05*i,2) for i in range(9)]
 OUT = HERE/'threshold_select'
 
