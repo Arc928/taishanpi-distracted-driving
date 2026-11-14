@@ -10,8 +10,8 @@ from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
-from continue_split import csv_rows, digest
-from prepare_multiview import BASE, write_json
+from core.io import csv_rows, digest, write_json
+from core.paths import BASE
 
 REVIEW = BASE/'gemini38flash_3mdad_v1/review_dataset'
 

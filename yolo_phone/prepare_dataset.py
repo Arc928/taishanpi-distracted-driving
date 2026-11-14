@@ -17,7 +17,7 @@ import random
 import shutil
 from pathlib import Path
 
-from annotation_io import NAMES
+from core.labels import NAMES
 
 
 CLASS_MAP = {

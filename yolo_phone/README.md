@@ -46,8 +46,23 @@ YOLO11n 检测驾驶员用手机，两类固定为 0 `texting`、1 `calling`，�
 网站服务、`train_seed.py` 和 `check_validation.py` 的默认值都从这里读取。
 - 切换网站模型：改 `weights.path` 与 `weights.sha256`；阈值只能按 val 选定后改 `confidence`。改完重启服务并提交 git。
 - 哈希不一致时服务拒绝启动；`server.py --weights <路径>` 可临时覆盖，不做哈希比对。
-- 类别 id 顺序固定在 `annotation_io.NAMES`，不在配置中。
+- 类别 id 顺序固定在 `core/labels.py` 的 `NAMES`，不在配置中。
 - 各轮专用脚本（`prepare_targeted_round.py`、`evaluate_reviewed_holdout.py` 等）的默认值是那一轮的历史记录，不跟随当前配置。
+
+## 代码结构
+
+顶层 `*.py` 是命令行入口；可复用的逻辑放在 `core/`：
+
+| 模块 | 内容 |
+|---|---|
+| `core/paths.py` | 项目根 `BASE`、`artifact()` 定位活跃或归档数据 |
+| `core/io.py` | CSV/JSON 读写、SHA-256 |
+| `core/labels.py` | 固定类别 id、3MDAD 动作映射、X-AnyLabeling→YOLO 转换与标签校验 |
+| `core/splits.py` | 司机划分、选帧、跨划分泄漏检查、State Farm eval 快照 |
+| `core/metrics.py` | 人工框评估的 IoU、逐图状态与汇总 |
+| `core/config.py` | 读取并校验 `config/current.yaml` |
+
+`continue_split.py`、`annotation_io.py` 仅为兼容 experiments 中历史脚本的旧导入，新代码直接从 `core` 导入。
 
 ## 常用命令
 
@@ -67,8 +82,8 @@ YOLO11n 检测驾驶员用手机，两类固定为 0 `texting`、1 `calling`，�
 ./.venv/bin/python yolo_phone/train_seed.py --data <data.yaml> --model <起点.pt> \
   --name <新运行名> --epochs <轮数> --batch 16
 
-# 数据安全单测（须在 yolo_phone/ 下运行）
-cd yolo_phone && ../.venv/bin/python -m unittest test_multiview_dataset test_current_config; cd ..
+# 数据安全与配置单测（项目根目录运行）
+./.venv/bin/python -m unittest discover -s yolo_phone -p 'test_*.py'
 
 # 本机测试网页
 ./.venv/bin/python yolo_phone/local_demo/start.py

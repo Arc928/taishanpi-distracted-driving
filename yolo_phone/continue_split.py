@@ -2,57 +2,19 @@
 """Reuse reviewed labels and screen new proposals against an explicit driver split."""
 import argparse
 import csv
-import hashlib
 import json
-import math
 import random
 from collections import Counter
 from pathlib import Path
 
-from annotation_io import json_to_yolo
-from project_paths import artifact
+# csv_rows/digest/snapshot/check_snapshot/validate_label 已移入 core，此处导入以兼容旧引用
+from core.io import csv_rows, digest  # noqa: F401
+from core.labels import json_to_yolo, validate_label
+from core.paths import artifact
+from core.splits import check_snapshot, snapshot  # noqa: F401
 
 BASE = Path(__file__).resolve().parent
 DEFAULT_DATASET = BASE / 'dataset_23train_3eval_1of8'
-
-
-def csv_rows(path):
-    with path.open(encoding='utf-8-sig', newline='') as f:
-        return list(csv.DictReader(f))
-
-
-def digest(path):
-    return hashlib.sha256(path.read_bytes()).hexdigest()
-
-
-def snapshot(root):
-    return {str(p.relative_to(root)): digest(p)
-            for folder in ('images/val', 'labels/val')
-            for p in sorted((root / folder).glob('*'))}
-
-
-def check_snapshot(root):
-    expected = json.loads((root / 'eval_files_sha256.json').read_text())
-    if snapshot(root) != expected:
-        raise ValueError('新 eval 文件与快照不符')
-
-
-def validate_label(text, row):
-    lines = text.splitlines()
-    if not lines and row['class_name'] != 'background':
-        raise ValueError(f"正样本不能为空标签: {row['image']}")
-    for line in lines:
-        values = line.split()
-        if len(values) != 5 or values[0] not in ('0', '1'):
-            raise ValueError(f"非法标签: {row['image']}")
-        x, y, w, h = map(float, values[1:])
-        if not all(math.isfinite(v) for v in (x, y, w, h)):
-            raise ValueError('非有限坐标')
-        if not (0 <= x <= 1 and 0 <= y <= 1 and 0 < w <= 1 and 0 < h <= 1):
-            raise ValueError(f"坐标越界: {row['image']}")
-        if not (-1e-6 <= x-w/2 and x+w/2 <= 1+1e-6
-                and -1e-6 <= y-h/2 and y+h/2 <= 1+1e-6):
-            raise ValueError(f"框越界: {row['image']}")
 
 
 def materialize(root, out, records, seed_dir=None):

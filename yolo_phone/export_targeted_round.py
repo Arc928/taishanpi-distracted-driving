@@ -12,9 +12,10 @@ from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
-from annotation_io import json_to_yolo
-from continue_split import check_snapshot, csv_rows, digest
-from prepare_multiview import BASE, check_disjoint, write_csv, write_json
+from core.io import csv_rows, digest, write_csv, write_json
+from core.labels import json_to_yolo
+from core.paths import BASE
+from core.splits import check_disjoint, check_snapshot
 
 DEFAULT_BASE = BASE/'selftrain_multiview_gemini_reviewed_20261010'
 TEST_MANIFEST = BASE/'gemini38flash_3mdad_v1/review_dataset/manifest.csv'

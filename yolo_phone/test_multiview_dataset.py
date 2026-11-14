@@ -5,10 +5,10 @@ import unittest
 from collections import Counter
 from pathlib import Path
 
-from evaluate_reviewed_holdout import categorize, image_status
+from core.metrics import categorize, image_status
 from export_multiview import review_label
 from prepare_targeted_round import pick_negatives
-from prepare_multiview import check_disjoint, select_frames, split_subjects
+from core.splits import check_disjoint, select_frames, split_subjects
 
 
 class DatasetSafetyTests(unittest.TestCase):

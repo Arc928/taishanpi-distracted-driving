@@ -8,7 +8,8 @@ from pathlib import Path
 
 import yaml
 
-BASE = Path(__file__).resolve().parent
+from .paths import BASE
+
 CONFIG = BASE / 'config' / 'current.yaml'
 REQUIRED = ('imgsz', 'nms_iou', 'dataset', 'weights', 'confidence')
 

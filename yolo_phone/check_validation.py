@@ -15,22 +15,14 @@ from pathlib import Path
 from PIL import Image,ImageDraw
 from ultralytics import YOLO
 
-import current_config
-from annotation_io import NAMES as CLASS_NAMES
+from core import config as current_config
+from core.io import csv_rows
+from core.labels import NAMES as CLASS_NAMES
+from core.splits import snapshot as val_snapshot
 
 BASE=Path(__file__).resolve().parent
 ROOT=BASE/'dataset_23train_3eval_1of8'
 NAMES=(*CLASS_NAMES.values(),'background')
-
-
-def csv_rows(path):
-    with path.open(encoding='utf-8-sig') as f:
-        return list(csv.DictReader(f))
-
-
-def val_snapshot(root=ROOT):
-    return {str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest()
-            for folder in ('images/val','labels/val') for p in (root/folder).glob('*')}
 
 
 def main():

@@ -1,64 +1,16 @@
 #!/usr/bin/env python3
 """Build a review-gated State Farm + 3MDAD detection dataset, without training."""
 import argparse
-import csv
 import json
-import random
 import re
 import shutil
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from continue_split import check_snapshot, csv_rows, digest, validate_label
-from annotation_io import NAMES
-from project_paths import artifact
-
-BASE = Path(__file__).resolve().parent
-POSITIVE = {5: 'texting', 6: 'texting', 7: 'calling', 8: 'calling'}
-BACKGROUND = {1, 2, 3, 10, 11, 12, 13, 14, 15, 16}
-EVAL_DRIVERS = {'p016', 'p021', 'p026'}
-
-
-def write_json(path, data):
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
-
-
-def write_csv(path, rows):
-    with path.open('w', encoding='utf-8-sig', newline='') as stream:
-        writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
-        writer.writeheader()
-        writer.writerows(rows)
-
-
-def split_subjects(subjects, seed=42):
-    subjects = sorted(subjects, key=lambda x: int(x[1:]))
-    if len(subjects) != 50:
-        raise ValueError('Expected exactly 50 3MDAD subjects')
-    random.Random(seed).shuffle(subjects)
-    return {s: 'train' if n < 35 else 'val' if n < 40 else 'test'
-            for n, s in enumerate(subjects)}
-
-
-def select_frames(sequence, count):
-    """Use midpoint quantiles to spread samples over the action sequence."""
-    sequence = sorted(sequence, key=lambda r: int(r['frame']))
-    if len(sequence) < count:
-        raise ValueError('Sequence is too short for the requested sample count')
-    return [sequence[min(len(sequence)-1, int((i+.5)*len(sequence)/count))]
-            for i in range(count)]
-
-
-def check_disjoint(rows):
-    by_subject, by_hash = defaultdict(set), defaultdict(set)
-    for row in rows:
-        by_subject[(row['source'], row['subject'])].add(row['split'])
-        by_hash[row['image_sha256']].add(row['split'])
-        if row['source'] == 'statefarm' and row['split'] == 'train' and row['subject'] in EVAL_DRIVERS:
-            raise ValueError('State Farm evaluation-driver leakage')
-    if any(len(v) > 1 for v in by_subject.values()):
-        raise ValueError('Subject appears in multiple splits')
-    if any(len(v) > 1 for v in by_hash.values()):
-        raise ValueError('Identical image appears in multiple splits')
+from core.io import csv_rows, digest, write_csv, write_json
+from core.labels import BACKGROUND, NAMES, POSITIVE, validate_label
+from core.paths import BASE, artifact
+from core.splits import EVAL_DRIVERS, check_disjoint, check_snapshot, select_frames, split_subjects
 
 
 def inventory(source):

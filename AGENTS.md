@@ -70,9 +70,9 @@ State Farm 阶段的 seed/selftrain/review/remaining/validation 目录已在 `ar
 
 当前脚本（顶层）：`prepare_dataset.py`、`train_seed.py`、`check_validation.py`、
 `prepare_multiview.py`、`export_multiview.py`、`prepare_targeted_round.py`、`export_targeted_round.py`、
-`prepare_test_review.py`、`evaluate_reviewed_holdout.py`、单测 `test_multiview_dataset.py`。
-`continue_split.py` 提供 check_snapshot/csv_rows/digest 等公用函数，被现行脚本导入，必须留在顶层。
-标注转换共用 `annotation_io.py`；`project_paths.artifact()` 可定位活跃或归档数据。
+`prepare_test_review.py`、`evaluate_reviewed_holdout.py`、单测 `test_multiview_dataset.py`、`test_current_config.py`。
+公用逻辑在 `core/` 包（2026-11-14 起，见第 17 节）：`paths`、`io`、`labels`、`splits`、`metrics`、`config`。
+`continue_split.py`（State Farm 阶段 CLI）和 `annotation_io.py` 保留为兼容转发，供 experiments 中的历史脚本导入。
 归档旧脚本已于 2026-11-02 删除（移入废纸篓，见第 16 节）。
 
 ## 4. 数据与验证约定
@@ -417,7 +417,23 @@ experiments 中的 run/train 记录脚本。项目（不含 .venv）约 544M。
 - 新增 `yolo_phone/config/current.yaml` 与 `current_config.py`，作为当前训练集、网站权重（含 SHA-256）、
   阈值 0.35、imgsz 640、NMS IoU 0.5 的唯一来源。网站服务与页面滑块、`train_seed.py`、
   `check_validation.py` 的默认值改读此文件；权重哈希不符时拒绝启动。`--conf` 默认 0.5 未改，以便和历史结果对照。
-- 类别统一引用 `annotation_io.NAMES`（`prepare_dataset`、`prepare_multiview`、`check_validation`、server）。
+- 类别统一引用同一份 `NAMES`（`prepare_dataset`、`prepare_multiview`、`check_validation`、server），现位于 `core.labels`。
 - 各轮专用脚本的默认路径保持原样，属于历史复现记录。
 - 新增 `test_current_config.py`，共 16 个单测通过。网站冒烟验证通过：/health 返回 0.35 与 `eb63ae94…`，
   /api/predict 正常，页面滑块显示 0.35。验证后停止服务，恢复为原先未运行的状态。
+
+2026-11-14 用户再次说“接着做”，完成架构建议第 3 项：抽出 `yolo_phone/core/` 包。
+- 函数原样搬入，未改逻辑：
+  - `core.io`：csv_rows、write_csv、write_json、digest；
+  - `core.labels`：NAMES、3MDAD 的 POSITIVE/BACKGROUND、json_to_yolo、validate_label；
+  - `core.splits`：EVAL_DRIVERS、split_subjects、select_frames、check_disjoint、snapshot、check_snapshot；
+  - `core.metrics`：ground_truth、categorize、iou、image_status、summarize；
+  - `core.paths`：BASE、artifact；`core.config`：原 `current_config.py`。
+- 现行脚本、网站服务和单测改从 core 导入。删除 `project_paths.py` 和 `current_config.py`；
+  `continue_split.py`、`prepare_multiview.py`、`evaluate_reviewed_holdout.py`、`annotation_io.py` 仍导出原名称，
+  experiments 历史脚本的导入不需要改。`check_validation.py` 的重复 csv_rows/val_snapshot 改用 core。
+- 单测可在项目根运行：`./.venv/bin/python -m unittest discover -s yolo_phone -p 'test_*.py'`，16 个通过。
+- 核验：
+  - 全部脚本及 val_compare/threshold_select 均能导入，State Farm eval 快照通过；
+  - 用重构后代码 `--labels-only` 重跑 test：审核决策 440 行、标注哈希、类别计数与 10-21 结果完全一致；
+  - 用 core.metrics 从 10-21 逐图结果重算 e79、e27 的 @0.5 图像级汇总，与历史 summary.json 一致。

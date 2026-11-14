@@ -5,8 +5,8 @@ from pathlib import Path
 
 import yaml
 
-import current_config
-from annotation_io import NAMES
+from core import config as current_config
+from core.labels import NAMES
 
 
 class CurrentConfigTests(unittest.TestCase):

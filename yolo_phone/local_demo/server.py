@@ -21,8 +21,8 @@ from ultralytics import YOLO
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
 
-import current_config  # noqa: E402  config/current.yaml 决定默认权重、阈值与尺寸
-from annotation_io import NAMES  # noqa: E402
+from core import config as current_config  # noqa: E402  config/current.yaml 决定默认权重、阈值与尺寸
+from core.labels import NAMES  # noqa: E402
 
 
 class Handler(BaseHTTPRequestHandler):

@@ -4,7 +4,7 @@ from pathlib import Path
 import argparse
 from ultralytics import YOLO
 
-import current_config
+from core import config as current_config
 
 BASE = Path(__file__).resolve().parent
 
