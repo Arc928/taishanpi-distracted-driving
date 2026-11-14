@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB2_SUB40ACT1F67",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The driver is not using a mobile phone; hands are on or near the steering wheel."
+  },
+  "usage": {
+    "completion_tokens": 163,
+    "total_tokens": 1632,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 129
+    }
+  },
+  "seconds": 4.58,
+  "attempt": 1
+}

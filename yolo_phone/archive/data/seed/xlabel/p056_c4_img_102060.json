@@ -1,0 +1,92 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          230.28832,
+          124.04135999999998
+        ],
+        [
+          264.05791999999997,
+          124.04135999999998
+        ],
+        [
+          264.05791999999997,
+          174.30839999999998
+        ],
+        [
+          230.28832,
+          174.30839999999998
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          436.35936000000004,
+          412.75776
+        ],
+        [
+          629.99456,
+          412.75776
+        ],
+        [
+          629.99456,
+          480.0
+        ],
+        [
+          436.35936000000004,
+          480.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          580.3264,
+          102.07871999999999
+        ],
+        [
+          640.0,
+          102.07871999999999
+        ],
+        [
+          640.0,
+          199.38144
+        ],
+        [
+          580.3264,
+          199.38144
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p056_c4_img_102060.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

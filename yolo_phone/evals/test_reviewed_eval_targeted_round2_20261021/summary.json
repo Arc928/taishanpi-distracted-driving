@@ -1,0 +1,278 @@
+{
+  "split": "test",
+  "imgsz": 640,
+  "detection": "Ultralytics val conf=0.001 iou=0.7 on reviewed positives+backgrounds",
+  "image_level": "conf>=0.5, NMS iou=0.5; localized_hit needs every reviewed box matched by same class IoU>=0.5",
+  "not_visible": "source phone action without reviewed box; excluded from mAP and hit rates, reported separately",
+  "category_counts": {
+    "front/background_candidate/background": 100,
+    "front/calling/not_visible": 6,
+    "front/calling/positive": 54,
+    "front/texting/not_visible": 21,
+    "front/texting/positive": 39,
+    "side/background_candidate/background": 100,
+    "side/calling/not_visible": 19,
+    "side/calling/positive": 41,
+    "side/texting/not_visible": 2,
+    "side/texting/positive": 58
+  },
+  "models": {
+    "official_resume100_e79": {
+      "weights": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume100_20261011_yolo11n/weights/best.pt",
+      "weights_sha256": "6607c22b48553ddc3ecf432905f87ef87a1b7b13c08bd9c6c6d4914fc3b37c76",
+      "detection": {
+        "all": {
+          "precision": 0.9370263592196777,
+          "recall": 0.8726108313228196,
+          "mAP50": 0.9188512192954595,
+          "mAP50-95": 0.536306299939661,
+          "per_class": {
+            "texting": {
+              "AP50": 0.8876382463932402,
+              "AP50-95": 0.497514635406249
+            },
+            "calling": {
+              "AP50": 0.9500641921976789,
+              "AP50-95": 0.575097964473073
+            }
+          }
+        },
+        "front": {
+          "precision": 0.9249369558268417,
+          "recall": 0.8192172051338729,
+          "mAP50": 0.8708571432677487,
+          "mAP50-95": 0.6437699071337935,
+          "per_class": {
+            "texting": {
+              "AP50": 0.7895633364456893,
+              "AP50-95": 0.6116991303240664
+            },
+            "calling": {
+              "AP50": 0.952150950089808,
+              "AP50-95": 0.6758406839435205
+            }
+          }
+        },
+        "side": {
+          "precision": 0.9528331859797348,
+          "recall": 0.9127832312517086,
+          "mAP50": 0.9560396895301486,
+          "mAP50-95": 0.4691668753389632,
+          "per_class": {
+            "texting": {
+              "AP50": 0.9552593544902728,
+              "AP50-95": 0.46274472222748886
+            },
+            "calling": {
+              "AP50": 0.9568200245700245,
+              "AP50-95": 0.4755890284504375
+            }
+          }
+        }
+      },
+      "image_level_at_0.5": {
+        "all": {
+          "texting": {
+            "total": 98,
+            "class_hit": 84,
+            "localized_hit": 82,
+            "wrong_class_only": 0,
+            "missed": 14
+          },
+          "calling": {
+            "total": 94,
+            "class_hit": 89,
+            "localized_hit": 89,
+            "wrong_class_only": 0,
+            "missed": 5
+          },
+          "background": {
+            "total": 200,
+            "false_positive": 24
+          },
+          "not_visible": {
+            "total": 48,
+            "fired": 19
+          }
+        },
+        "front": {
+          "texting": {
+            "total": 39,
+            "class_hit": 29,
+            "localized_hit": 29,
+            "wrong_class_only": 0,
+            "missed": 10
+          },
+          "calling": {
+            "total": 54,
+            "class_hit": 51,
+            "localized_hit": 51,
+            "wrong_class_only": 0,
+            "missed": 3
+          },
+          "background": {
+            "total": 100,
+            "false_positive": 11
+          },
+          "not_visible": {
+            "total": 27,
+            "fired": 6
+          }
+        },
+        "side": {
+          "texting": {
+            "total": 59,
+            "class_hit": 55,
+            "localized_hit": 53,
+            "wrong_class_only": 0,
+            "missed": 4
+          },
+          "calling": {
+            "total": 40,
+            "class_hit": 38,
+            "localized_hit": 38,
+            "wrong_class_only": 0,
+            "missed": 2
+          },
+          "background": {
+            "total": 100,
+            "false_positive": 13
+          },
+          "not_visible": {
+            "total": 21,
+            "fired": 13
+          }
+        }
+      }
+    },
+    "targeted_round2_e51": {
+      "weights": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_targeted_round2_20261021_yolo11n/weights/best.pt",
+      "weights_sha256": "eb63ae9452d98a3603dc96ed42f823e6a4389e143e78563381945e317a935eca",
+      "detection": {
+        "all": {
+          "precision": 0.9480449007578677,
+          "recall": 0.8911202778983933,
+          "mAP50": 0.9373345352632967,
+          "mAP50-95": 0.5687252804799041,
+          "per_class": {
+            "texting": {
+              "AP50": 0.9237734210064736,
+              "AP50-95": 0.5571299794247286
+            },
+            "calling": {
+              "AP50": 0.9508956495201197,
+              "AP50-95": 0.5803205815350795
+            }
+          }
+        },
+        "front": {
+          "precision": 0.9517255196791046,
+          "recall": 0.8603988603988604,
+          "mAP50": 0.9312382549858657,
+          "mAP50-95": 0.6778342282337636,
+          "per_class": {
+            "texting": {
+              "AP50": 0.881911406760044,
+              "AP50-95": 0.6508623787660097
+            },
+            "calling": {
+              "AP50": 0.9805651032116873,
+              "AP50-95": 0.7048060777015173
+            }
+          }
+        },
+        "side": {
+          "precision": 0.94973897295311,
+          "recall": 0.9093067060534487,
+          "mAP50": 0.9314859911998858,
+          "mAP50-95": 0.4833527748262096,
+          "per_class": {
+            "texting": {
+              "AP50": 0.9472178064731817,
+              "AP50-95": 0.5010187269923204
+            },
+            "calling": {
+              "AP50": 0.9157541759265899,
+              "AP50-95": 0.46568682266009864
+            }
+          }
+        }
+      },
+      "image_level_at_0.5": {
+        "all": {
+          "texting": {
+            "total": 98,
+            "class_hit": 85,
+            "localized_hit": 85,
+            "wrong_class_only": 0,
+            "missed": 13
+          },
+          "calling": {
+            "total": 94,
+            "class_hit": 85,
+            "localized_hit": 84,
+            "wrong_class_only": 0,
+            "missed": 9
+          },
+          "background": {
+            "total": 200,
+            "false_positive": 5
+          },
+          "not_visible": {
+            "total": 48,
+            "fired": 11
+          }
+        },
+        "front": {
+          "texting": {
+            "total": 39,
+            "class_hit": 31,
+            "localized_hit": 31,
+            "wrong_class_only": 0,
+            "missed": 8
+          },
+          "calling": {
+            "total": 54,
+            "class_hit": 48,
+            "localized_hit": 48,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "background": {
+            "total": 100,
+            "false_positive": 2
+          },
+          "not_visible": {
+            "total": 27,
+            "fired": 3
+          }
+        },
+        "side": {
+          "texting": {
+            "total": 59,
+            "class_hit": 54,
+            "localized_hit": 54,
+            "wrong_class_only": 0,
+            "missed": 5
+          },
+          "calling": {
+            "total": 40,
+            "class_hit": 37,
+            "localized_hit": 36,
+            "wrong_class_only": 0,
+            "missed": 3
+          },
+          "background": {
+            "total": 100,
+            "false_positive": 3
+          },
+          "not_visible": {
+            "total": 21,
+            "fired": 8
+          }
+        }
+      }
+    }
+  },
+  "model_selection": "weights fixed before evaluation; no threshold tuning or model selection on this split"
+}

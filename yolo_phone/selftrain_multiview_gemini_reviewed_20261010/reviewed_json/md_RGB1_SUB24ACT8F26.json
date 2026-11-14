@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "score": null,
+      "points": [
+        [
+          298.5987903225806,
+          117.92685688405798
+        ],
+        [
+          442.36186594202894,
+          117.92685688405798
+        ],
+        [
+          442.36186594202894,
+          265.10584677419354
+        ],
+        [
+          298.5987903225806,
+          265.10584677419354
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB1_SUB24ACT8F26.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Unreviewed open-vocabulary proposals; empty shapes do not mean background."
+}

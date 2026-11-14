@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB1_SUB29ACT8F136",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": true,
+    "note": "The driver's hand is visible near the steering wheel, but strong overexposure makes it uncertain whether a phone is present."
+  },
+  "usage": {
+    "completion_tokens": 1132,
+    "total_tokens": 2601,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1091
+    }
+  },
+  "seconds": 10.57,
+  "attempt": 1
+}

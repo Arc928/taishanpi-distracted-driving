@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "score": null,
+      "points": [
+        [
+          293.36189516129036,
+          115.20665322580645
+        ],
+        [
+          430.3503024193549,
+          115.20665322580645
+        ],
+        [
+          430.3503024193549,
+          253.07711693548387
+        ],
+        [
+          293.36189516129036,
+          253.07711693548387
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB1_SUB15ACT8F73.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The driver is not holding or using a mobile phone; one hand is on the steering wheel and he is conversing."
+}

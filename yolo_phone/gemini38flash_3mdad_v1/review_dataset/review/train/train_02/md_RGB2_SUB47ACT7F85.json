@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "score": null,
+      "points": [
+        [
+          344.26403985507244,
+          95.48573369565219
+        ],
+        [
+          536.018455615942,
+          95.48573369565219
+        ],
+        [
+          536.018455615942,
+          296.14526721014494
+        ],
+        [
+          344.26403985507244,
+          296.14526721014494
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB47ACT7F85.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The person on the phone is the front passenger; the steering wheel is located on the left side of the vehicle with no driver visible."
+}

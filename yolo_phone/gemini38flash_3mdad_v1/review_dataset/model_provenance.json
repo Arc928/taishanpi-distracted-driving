@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3.8-flash-high",
+  "endpoint": "http://127.0.0.1:8317/v1/chat/completions",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "prompt_file": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/gemini38flash_3mdad_v1/prompt.txt",
+  "image_size": [
+    640,
+    480
+  ],
+  "coordinate_scale": 1000,
+  "prefilled_splits": [
+    "train",
+    "val",
+    "test"
+  ],
+  "same_parameters_all_splits": true,
+  "automatically_accepted": 0,
+  "protected_original_annotations": 443,
+  "returned_models": [
+    "gemini-3.8-flash-n"
+  ]
+}

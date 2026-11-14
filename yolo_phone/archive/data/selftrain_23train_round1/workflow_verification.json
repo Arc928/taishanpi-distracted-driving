@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "training_count": 1422,
+  "training_subject_count": 23,
+  "eval_subjects": [
+    "p016",
+    "p021",
+    "p026"
+  ],
+  "eval_image_count": 452,
+  "old_eval_hash_files_verified": 1021,
+  "new_eval_hash_files_verified": 716,
+  "eval_leakage": false,
+  "review_count": 140,
+  "review_edited_json_count": 0,
+  "independent_evaluation": "image-level only",
+  "train_driver_diagnostics": [
+    {
+      "stage": "remaining_23train_seed",
+      "subject": "p039",
+      "behavior": "texting",
+      "count": 16,
+      "total": 17
+    },
+    {
+      "stage": "remaining_23train_seed",
+      "subject": "p039",
+      "behavior": "calling",
+      "count": 4,
+      "total": 17
+    },
+    {
+      "stage": "remaining_23train_seed",
+      "subject": "p039",
+      "behavior": "background",
+      "count": 0,
+      "total": 51
+    },
+    {
+      "stage": "remaining_23train_seed",
+      "subject": "p081",
+      "behavior": "texting",
+      "count": 12,
+      "total": 23
+    },
+    {
+      "stage": "remaining_23train_seed",
+      "subject": "p081",
+      "behavior": "calling",
+      "count": 15,
+      "total": 22
+    },
+    {
+      "stage": "remaining_23train_seed",
+      "subject": "p081",
+      "behavior": "background",
+      "count": 2,
+      "total": 62
+    },
+    {
+      "stage": "remaining_23train_selftrained",
+      "subject": "p039",
+      "behavior": "texting",
+      "count": 17,
+      "total": 17
+    },
+    {
+      "stage": "remaining_23train_selftrained",
+      "subject": "p039",
+      "behavior": "calling",
+      "count": 6,
+      "total": 17
+    },
+    {
+      "stage": "remaining_23train_selftrained",
+      "subject": "p039",
+      "behavior": "background",
+      "count": 0,
+      "total": 51
+    },
+    {
+      "stage": "remaining_23train_selftrained",
+      "subject": "p081",
+      "behavior": "texting",
+      "count": 18,
+      "total": 23
+    },
+    {
+      "stage": "remaining_23train_selftrained",
+      "subject": "p081",
+      "behavior": "calling",
+      "count": 17,
+      "total": 22
+    },
+    {
+      "stage": "remaining_23train_selftrained",
+      "subject": "p081",
+      "behavior": "background",
+      "count": 1,
+      "total": 62
+    }
+  ]
+}

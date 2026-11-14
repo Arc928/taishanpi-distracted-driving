@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "score": null,
+      "points": [
+        [
+          298.55808423913044,
+          147.43885869565221
+        ],
+        [
+          376.63779438405794,
+          147.43885869565221
+        ],
+        [
+          376.63779438405794,
+          294.40160778985506
+        ],
+        [
+          298.55808423913044,
+          294.40160778985506
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB1_SUB50ACT8F110.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The driver is not holding or using a mobile phone; no texting or calling behavior is observed."
+}

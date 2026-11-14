@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          246.05298913043475,
+          290.12171648550725
+        ],
+        [
+          443.29030797101444,
+          290.12171648550725
+        ],
+        [
+          443.29030797101444,
+          422.8521286231884
+        ],
+        [
+          246.05298913043475,
+          422.8521286231884
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB50ACT5F110.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The person using a phone is the front-seat passenger. The driver is seated on the left behind the steering wheel with a hand on the wheel and no visible phone use."
+}

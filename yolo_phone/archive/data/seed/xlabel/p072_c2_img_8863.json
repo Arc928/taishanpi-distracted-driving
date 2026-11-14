@@ -1,0 +1,119 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          176.94527999999997,
+          79.79016
+        ],
+        [
+          208.46015999999997,
+          79.79016
+        ],
+        [
+          208.46015999999997,
+          122.66328
+        ],
+        [
+          176.94527999999997,
+          122.66328
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          177.49184,
+          77.43480000000001
+        ],
+        [
+          235.52064000000001,
+          77.43480000000001
+        ],
+        [
+          235.52064000000001,
+          114.72456000000001
+        ],
+        [
+          177.49184,
+          114.72456000000001
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          17.491200000000013,
+          2.096399999999985
+        ],
+        [
+          470.87104,
+          2.096399999999985
+        ],
+        [
+          470.87104,
+          384.18936
+        ],
+        [
+          17.491200000000013,
+          384.18936
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          542.20704,
+          206.32032000000004
+        ],
+        [
+          639.9984,
+          206.32032000000004
+        ],
+        [
+          639.9984,
+          480.0
+        ],
+        [
+          542.20704,
+          480.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p072_c2_img_8863.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

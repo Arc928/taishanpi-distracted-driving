@@ -1,0 +1,32 @@
+# 规则：跟踪代码、文档、配置、人工标注 JSON、YOLO 标签、manifest、审核回执与评估记录；
+# 不跟踪图片、权重、可再生的大文件。权重与源数据以 SHA-256 记录在 AGENTS.md / README / plan.json 中。
+
+# 环境与系统文件
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# 模型权重（含 yolo11n.pt 和 runs/*/weights）
+*.pt
+*.onnx
+*.rknn
+
+# 图片：State Farm / 3MDAD 原图的副本或绝对路径软链接，以及预览图
+*.jpg
+*.jpeg
+*.JPG
+
+# Ultralytics 标签缓存
+*.cache
+
+# 可从源数据或模型重新生成的大文件
+source_inventory_3mdad.csv
+mining_scores.jsonl
+training.log
+
+# 中期汇报的导出产物（pptx/docx/7z），源文件仍跟踪
+projects/*/exports/
+
+# 本机网站运行状态
+yolo_phone/local_demo/runtime.json

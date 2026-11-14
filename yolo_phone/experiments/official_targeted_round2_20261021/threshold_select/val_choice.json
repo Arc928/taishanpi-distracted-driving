@@ -1,0 +1,701 @@
+{
+  "rule": "Pick one display threshold for the e51 weights on the new val, then report test once at that threshold.\n\nRule fixed before looking: thresholds 0.20..0.60 step 0.05; score = localized texting hits +\nlocalized calling hits - background false positives on val; ties -> higher threshold.\nTest is read only after the choice is written, from raw predictions (conf>=0.1) saved by the\nearlier fixed-weight test run; nothing on test feeds back into the choice.",
+  "weights": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_targeted_round2_20261021_yolo11n/weights/best.pt",
+  "weights_sha256": "eb63ae9452d98a3603dc96ed42f823e6a4389e143e78563381945e317a935eca",
+  "chosen_threshold": 0.35,
+  "val": {
+    "0.2": {
+      "score": 90,
+      "summary": {
+        "all": {
+          "texting": {
+            "total": 59,
+            "class_hit": 53,
+            "localized_hit": 50,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "calling": {
+            "total": 54,
+            "class_hit": 48,
+            "localized_hit": 48,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "background": {
+            "total": 99,
+            "false_positive": 8
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "front": {
+          "texting": {
+            "total": 29,
+            "class_hit": 24,
+            "localized_hit": 21,
+            "wrong_class_only": 0,
+            "missed": 5
+          },
+          "calling": {
+            "total": 30,
+            "class_hit": 26,
+            "localized_hit": 26,
+            "wrong_class_only": 0,
+            "missed": 4
+          },
+          "background": {
+            "total": 50,
+            "false_positive": 5
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "side": {
+          "texting": {
+            "total": 30,
+            "class_hit": 29,
+            "localized_hit": 29,
+            "wrong_class_only": 0,
+            "missed": 1
+          },
+          "calling": {
+            "total": 24,
+            "class_hit": 22,
+            "localized_hit": 22,
+            "wrong_class_only": 0,
+            "missed": 2
+          },
+          "background": {
+            "total": 49,
+            "false_positive": 3
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        }
+      }
+    },
+    "0.25": {
+      "score": 90,
+      "summary": {
+        "all": {
+          "texting": {
+            "total": 59,
+            "class_hit": 53,
+            "localized_hit": 50,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "calling": {
+            "total": 54,
+            "class_hit": 46,
+            "localized_hit": 46,
+            "wrong_class_only": 0,
+            "missed": 8
+          },
+          "background": {
+            "total": 99,
+            "false_positive": 6
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "front": {
+          "texting": {
+            "total": 29,
+            "class_hit": 24,
+            "localized_hit": 21,
+            "wrong_class_only": 0,
+            "missed": 5
+          },
+          "calling": {
+            "total": 30,
+            "class_hit": 25,
+            "localized_hit": 25,
+            "wrong_class_only": 0,
+            "missed": 5
+          },
+          "background": {
+            "total": 50,
+            "false_positive": 4
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "side": {
+          "texting": {
+            "total": 30,
+            "class_hit": 29,
+            "localized_hit": 29,
+            "wrong_class_only": 0,
+            "missed": 1
+          },
+          "calling": {
+            "total": 24,
+            "class_hit": 21,
+            "localized_hit": 21,
+            "wrong_class_only": 0,
+            "missed": 3
+          },
+          "background": {
+            "total": 49,
+            "false_positive": 2
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        }
+      }
+    },
+    "0.3": {
+      "score": 91,
+      "summary": {
+        "all": {
+          "texting": {
+            "total": 59,
+            "class_hit": 51,
+            "localized_hit": 49,
+            "wrong_class_only": 0,
+            "missed": 8
+          },
+          "calling": {
+            "total": 54,
+            "class_hit": 45,
+            "localized_hit": 45,
+            "wrong_class_only": 0,
+            "missed": 9
+          },
+          "background": {
+            "total": 99,
+            "false_positive": 3
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "front": {
+          "texting": {
+            "total": 29,
+            "class_hit": 23,
+            "localized_hit": 21,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "calling": {
+            "total": 30,
+            "class_hit": 25,
+            "localized_hit": 25,
+            "wrong_class_only": 0,
+            "missed": 5
+          },
+          "background": {
+            "total": 50,
+            "false_positive": 3
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "side": {
+          "texting": {
+            "total": 30,
+            "class_hit": 28,
+            "localized_hit": 28,
+            "wrong_class_only": 0,
+            "missed": 2
+          },
+          "calling": {
+            "total": 24,
+            "class_hit": 20,
+            "localized_hit": 20,
+            "wrong_class_only": 0,
+            "missed": 4
+          },
+          "background": {
+            "total": 49,
+            "false_positive": 0
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        }
+      }
+    },
+    "0.35": {
+      "score": 91,
+      "summary": {
+        "all": {
+          "texting": {
+            "total": 59,
+            "class_hit": 51,
+            "localized_hit": 49,
+            "wrong_class_only": 0,
+            "missed": 8
+          },
+          "calling": {
+            "total": 54,
+            "class_hit": 45,
+            "localized_hit": 45,
+            "wrong_class_only": 0,
+            "missed": 9
+          },
+          "background": {
+            "total": 99,
+            "false_positive": 3
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "front": {
+          "texting": {
+            "total": 29,
+            "class_hit": 23,
+            "localized_hit": 21,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "calling": {
+            "total": 30,
+            "class_hit": 25,
+            "localized_hit": 25,
+            "wrong_class_only": 0,
+            "missed": 5
+          },
+          "background": {
+            "total": 50,
+            "false_positive": 3
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "side": {
+          "texting": {
+            "total": 30,
+            "class_hit": 28,
+            "localized_hit": 28,
+            "wrong_class_only": 0,
+            "missed": 2
+          },
+          "calling": {
+            "total": 24,
+            "class_hit": 20,
+            "localized_hit": 20,
+            "wrong_class_only": 0,
+            "missed": 4
+          },
+          "background": {
+            "total": 49,
+            "false_positive": 0
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        }
+      }
+    },
+    "0.4": {
+      "score": 90,
+      "summary": {
+        "all": {
+          "texting": {
+            "total": 59,
+            "class_hit": 51,
+            "localized_hit": 49,
+            "wrong_class_only": 0,
+            "missed": 8
+          },
+          "calling": {
+            "total": 54,
+            "class_hit": 43,
+            "localized_hit": 43,
+            "wrong_class_only": 0,
+            "missed": 11
+          },
+          "background": {
+            "total": 99,
+            "false_positive": 2
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "front": {
+          "texting": {
+            "total": 29,
+            "class_hit": 23,
+            "localized_hit": 21,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "calling": {
+            "total": 30,
+            "class_hit": 24,
+            "localized_hit": 24,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "background": {
+            "total": 50,
+            "false_positive": 2
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "side": {
+          "texting": {
+            "total": 30,
+            "class_hit": 28,
+            "localized_hit": 28,
+            "wrong_class_only": 0,
+            "missed": 2
+          },
+          "calling": {
+            "total": 24,
+            "class_hit": 19,
+            "localized_hit": 19,
+            "wrong_class_only": 0,
+            "missed": 5
+          },
+          "background": {
+            "total": 49,
+            "false_positive": 0
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        }
+      }
+    },
+    "0.45": {
+      "score": 90,
+      "summary": {
+        "all": {
+          "texting": {
+            "total": 59,
+            "class_hit": 51,
+            "localized_hit": 49,
+            "wrong_class_only": 0,
+            "missed": 8
+          },
+          "calling": {
+            "total": 54,
+            "class_hit": 43,
+            "localized_hit": 43,
+            "wrong_class_only": 0,
+            "missed": 11
+          },
+          "background": {
+            "total": 99,
+            "false_positive": 2
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "front": {
+          "texting": {
+            "total": 29,
+            "class_hit": 23,
+            "localized_hit": 21,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "calling": {
+            "total": 30,
+            "class_hit": 24,
+            "localized_hit": 24,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "background": {
+            "total": 50,
+            "false_positive": 2
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "side": {
+          "texting": {
+            "total": 30,
+            "class_hit": 28,
+            "localized_hit": 28,
+            "wrong_class_only": 0,
+            "missed": 2
+          },
+          "calling": {
+            "total": 24,
+            "class_hit": 19,
+            "localized_hit": 19,
+            "wrong_class_only": 0,
+            "missed": 5
+          },
+          "background": {
+            "total": 49,
+            "false_positive": 0
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        }
+      }
+    },
+    "0.5": {
+      "score": 90,
+      "summary": {
+        "all": {
+          "texting": {
+            "total": 59,
+            "class_hit": 51,
+            "localized_hit": 49,
+            "wrong_class_only": 0,
+            "missed": 8
+          },
+          "calling": {
+            "total": 54,
+            "class_hit": 42,
+            "localized_hit": 42,
+            "wrong_class_only": 0,
+            "missed": 12
+          },
+          "background": {
+            "total": 99,
+            "false_positive": 1
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "front": {
+          "texting": {
+            "total": 29,
+            "class_hit": 23,
+            "localized_hit": 21,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "calling": {
+            "total": 30,
+            "class_hit": 24,
+            "localized_hit": 24,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "background": {
+            "total": 50,
+            "false_positive": 1
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "side": {
+          "texting": {
+            "total": 30,
+            "class_hit": 28,
+            "localized_hit": 28,
+            "wrong_class_only": 0,
+            "missed": 2
+          },
+          "calling": {
+            "total": 24,
+            "class_hit": 18,
+            "localized_hit": 18,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "background": {
+            "total": 49,
+            "false_positive": 0
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        }
+      }
+    },
+    "0.55": {
+      "score": 88,
+      "summary": {
+        "all": {
+          "texting": {
+            "total": 59,
+            "class_hit": 51,
+            "localized_hit": 49,
+            "wrong_class_only": 0,
+            "missed": 8
+          },
+          "calling": {
+            "total": 54,
+            "class_hit": 40,
+            "localized_hit": 40,
+            "wrong_class_only": 0,
+            "missed": 14
+          },
+          "background": {
+            "total": 99,
+            "false_positive": 1
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "front": {
+          "texting": {
+            "total": 29,
+            "class_hit": 23,
+            "localized_hit": 21,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "calling": {
+            "total": 30,
+            "class_hit": 22,
+            "localized_hit": 22,
+            "wrong_class_only": 0,
+            "missed": 8
+          },
+          "background": {
+            "total": 50,
+            "false_positive": 1
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "side": {
+          "texting": {
+            "total": 30,
+            "class_hit": 28,
+            "localized_hit": 28,
+            "wrong_class_only": 0,
+            "missed": 2
+          },
+          "calling": {
+            "total": 24,
+            "class_hit": 18,
+            "localized_hit": 18,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "background": {
+            "total": 49,
+            "false_positive": 0
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        }
+      }
+    },
+    "0.6": {
+      "score": 87,
+      "summary": {
+        "all": {
+          "texting": {
+            "total": 59,
+            "class_hit": 50,
+            "localized_hit": 49,
+            "wrong_class_only": 0,
+            "missed": 9
+          },
+          "calling": {
+            "total": 54,
+            "class_hit": 39,
+            "localized_hit": 39,
+            "wrong_class_only": 0,
+            "missed": 15
+          },
+          "background": {
+            "total": 99,
+            "false_positive": 1
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "front": {
+          "texting": {
+            "total": 29,
+            "class_hit": 22,
+            "localized_hit": 21,
+            "wrong_class_only": 0,
+            "missed": 7
+          },
+          "calling": {
+            "total": 30,
+            "class_hit": 22,
+            "localized_hit": 22,
+            "wrong_class_only": 0,
+            "missed": 8
+          },
+          "background": {
+            "total": 50,
+            "false_positive": 1
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "side": {
+          "texting": {
+            "total": 30,
+            "class_hit": 28,
+            "localized_hit": 28,
+            "wrong_class_only": 0,
+            "missed": 2
+          },
+          "calling": {
+            "total": 24,
+            "class_hit": 17,
+            "localized_hit": 17,
+            "wrong_class_only": 0,
+            "missed": 7
+          },
+          "background": {
+            "total": 49,
+            "false_positive": 0
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/Users/arc928/Documents/ChatGPT/泰山派/.venv/bin/python",
+    "-u",
+    "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/experiments/official_init_70epochs_20261011/train.py"
+  ],
+  "cwd": "/Users/arc928/Documents/ChatGPT/泰山派",
+  "run_dir": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_70epochs_20261011_yolo11n",
+  "baseline_run_dir": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_yolo11n_20261010",
+  "official_weights_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "dataset_manifest_sha256": "1ddcf1212612aaec99eaf90a5d90c632736de29f84443df23145abdb98c421e6",
+  "train_images": 2952,
+  "val_images": 200,
+  "epochs": 70,
+  "patience": 0,
+  "optimizer": "AdamW",
+  "lr0": 0.001667,
+  "momentum": 0.9,
+  "warmup_bias_lr": 0.0,
+  "source_image_and_label_checksums_verified": true,
+  "reason": "Previous optimizer state was stripped; restart from identical official COCO weights for a full 70-epoch schedule.",
+  "test_used": false,
+  "service_model_changed": false
+}

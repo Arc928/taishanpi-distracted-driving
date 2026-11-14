@@ -1,0 +1,119 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          259.35392,
+          181.84992
+        ],
+        [
+          271.49408,
+          181.84992
+        ],
+        [
+          271.49408,
+          200.06976
+        ],
+        [
+          259.35392,
+          200.06976
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          252.29280000000003,
+          175.82832
+        ],
+        [
+          271.92096,
+          175.82832
+        ],
+        [
+          271.92096,
+          200.90735999999998
+        ],
+        [
+          252.29280000000003,
+          200.90735999999998
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          152.42208,
+          78.90768
+        ],
+        [
+          451.63167999999996,
+          78.90768
+        ],
+        [
+          451.63167999999996,
+          466.38960000000003
+        ],
+        [
+          152.42208,
+          466.38960000000003
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          38.15199999999999,
+          63.38016
+        ],
+        [
+          321.18240000000003,
+          63.38016
+        ],
+        [
+          321.18240000000003,
+          390.24672
+        ],
+        [
+          38.15199999999999,
+          390.24672
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p022_c2_img_43732.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

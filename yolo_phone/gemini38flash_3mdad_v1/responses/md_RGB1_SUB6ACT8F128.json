@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB1_SUB6ACT8F128",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": true,
+    "note": "The driver's left hand is near the jaw/neck area, but no phone is clearly visible, making it uncertain whether he is holding a phone or merely touching his face."
+  },
+  "usage": {
+    "completion_tokens": 1025,
+    "total_tokens": 2494,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 973
+    }
+  },
+  "seconds": 9.64,
+  "attempt": 1
+}

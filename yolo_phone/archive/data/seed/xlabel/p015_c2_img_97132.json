@@ -1,0 +1,92 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          16.98176,
+          0.5349600000000088
+        ],
+        [
+          431.85536,
+          0.5349600000000088
+        ],
+        [
+          431.85536,
+          336.25608
+        ],
+        [
+          16.98176,
+          336.25608
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          0.1961599999999919,
+          99.81455999999997
+        ],
+        [
+          393.79424,
+          99.81455999999997
+        ],
+        [
+          393.79424,
+          478.64208
+        ],
+        [
+          0.1961599999999919,
+          478.64208
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          168.77568,
+          1.0226400000000169
+        ],
+        [
+          591.264,
+          1.0226400000000169
+        ],
+        [
+          591.264,
+          323.67048
+        ],
+        [
+          168.77568,
+          323.67048
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p015_c2_img_97132.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

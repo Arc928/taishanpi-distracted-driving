@@ -1,0 +1,33 @@
+{
+  "id": "md_RGB1_SUB11ACT7F50",
+  "group": "untouched",
+  "view": "side",
+  "weak_class": "calling",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "seconds": 14.12,
+  "usage": {
+    "completion_tokens": 1424,
+    "total_tokens": 2835,
+    "prompt_tokens": 1411,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1372
+    }
+  },
+  "result": {
+    "objects": [
+      {
+        "label": "calling",
+        "box_2d": [
+          348,
+          462,
+          577,
+          635
+        ]
+      }
+    ],
+    "uncertain": false,
+    "note": "driver holding phone to right ear with right hand while driving"
+  },
+  "finish_reason": "stop"
+}

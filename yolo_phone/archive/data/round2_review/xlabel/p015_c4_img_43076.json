@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "score": null,
+      "points": [
+        [
+          205.7883064516129,
+          8.190524193548379
+        ],
+        [
+          407.64314516129025,
+          8.190524193548379
+        ],
+        [
+          407.64314516129025,
+          141.6985887096774
+        ],
+        [
+          205.7883064516129,
+          141.6985887096774
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "p015_c4_img_43076.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "pool=calling_hard_miss; model-first proposal, verify before training"
+}

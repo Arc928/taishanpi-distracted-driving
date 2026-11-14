@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB2_SUB21ACT6F101",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "No phone use observed; driver is not holding or using a mobile phone."
+  },
+  "usage": {
+    "completion_tokens": 1005,
+    "total_tokens": 2474,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 974
+    }
+  },
+  "seconds": 11.01,
+  "attempt": 1
+}

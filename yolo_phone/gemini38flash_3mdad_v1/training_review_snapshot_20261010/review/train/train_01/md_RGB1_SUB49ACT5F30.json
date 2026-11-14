@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          201.04755930656933,
+          221.20152828467153
+        ],
+        [
+          276.6976505474452,
+          221.20152828467153
+        ],
+        [
+          276.6976505474452,
+          308.4933850364963
+        ],
+        [
+          201.04755930656933,
+          308.4933850364963
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB1_SUB49ACT5F30.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Unreviewed open-vocabulary proposals; empty shapes do not mean background."
+}

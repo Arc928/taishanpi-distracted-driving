@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB2_SUB27ACT12F59",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The driver is touching his forehead/sunglasses with his left hand while keeping his right hand near the steering wheel; no phone is present."
+  },
+  "usage": {
+    "completion_tokens": 672,
+    "total_tokens": 2141,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 628
+    }
+  },
+  "seconds": 6.26,
+  "attempt": 1
+}

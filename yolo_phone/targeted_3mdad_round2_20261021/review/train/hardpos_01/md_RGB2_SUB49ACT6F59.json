@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": 0.8256537914276123,
+      "points": [
+        [
+          239.67071533203125,
+          244.37086486816406
+        ],
+        [
+          332.37147177419354,
+          244.37086486816406
+        ],
+        [
+          332.37147177419354,
+          333.11239919354836
+        ],
+        [
+          239.67071533203125,
+          333.11239919354836
+        ]
+      ],
+      "group_id": null,
+      "description": "MODEL PROPOSAL (conf>=0.25) — verify or delete",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB49ACT6F59.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Source phone action. Box only if the phone is visible; empty = not visible, excluded."
+}

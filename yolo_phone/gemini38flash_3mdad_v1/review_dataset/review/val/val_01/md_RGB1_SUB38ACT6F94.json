@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          205.5383831521739,
+          225.79030797101453
+        ],
+        [
+          296.42379981884056,
+          225.79030797101453
+        ],
+        [
+          296.42379981884056,
+          295.471580615942
+        ],
+        [
+          205.5383831521739,
+          295.471580615942
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB1_SUB38ACT6F94.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The driver is driving normally with both hands on the steering wheel; no phone is present."
+}

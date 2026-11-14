@@ -1,0 +1,37 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          385.92,
+          337.44
+        ],
+        [
+          572.8000000000001,
+          337.44
+        ],
+        [
+          572.8000000000001,
+          454.08
+        ],
+        [
+          385.92,
+          454.08
+        ]
+      ],
+      "flags": {},
+      "group_id": null,
+      "description": "Gemini candidate; pending human review, not ground truth."
+    }
+  ],
+  "imagePath": "md_RGB2_SUB15ACT5F71.jpg",
+  "imageData": null,
+  "imageWidth": 640,
+  "imageHeight": 480,
+  "description": "Driver holding a mobile phone away from the ear."
+}

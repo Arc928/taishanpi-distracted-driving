@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          214.1717617753623,
+          225.83559782608697
+        ],
+        [
+          297.3097826086956,
+          225.83559782608697
+        ],
+        [
+          297.3097826086956,
+          293.515625
+        ],
+        [
+          214.1717617753623,
+          293.515625
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB1_SUB5ACT6F25.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The driver is driving normally with a phone mounted/resting on the dashboard, but she is not holding or operating it."
+}

@@ -1,0 +1,8 @@
+﻿image,subject,source_class,source_behavior,predicted_behavior,boxes,max_conf,status,detected_classes
+images/val/p016_c8_img_76845.jpg,p016,c8,background,calling,1,0.5449873208999634,background_false_positive,1
+images/val/p021_c2_img_27895.jpg,p021,c2,calling,background,0,0,positive_missed,
+images/val/p021_c9_img_84826.jpg,p021,c9,background,texting,1,0.7184328436851501,background_false_positive,0
+images/val/p026_c2_img_5956.jpg,p026,c2,calling,background,0,0,positive_missed,
+images/val/p026_c2_img_69691.jpg,p026,c2,calling,texting,1,0.8252933025360107,class_conflict,0
+images/val/p026_c2_img_73183.jpg,p026,c2,calling,background,0,0,positive_missed,
+images/val/p026_c2_img_74616.jpg,p026,c2,calling,background,0,0,positive_missed,

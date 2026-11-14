@@ -1,0 +1,11 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [],
+  "imagePath": "p042_c8_img_17009.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "pool=bg_fp_mid; model-first proposal, verify before training"
+}

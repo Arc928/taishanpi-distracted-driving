@@ -1,0 +1,37 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          361.6,
+          96.0
+        ],
+        [
+          526.08,
+          96.0
+        ],
+        [
+          526.08,
+          274.56
+        ],
+        [
+          361.6,
+          274.56
+        ]
+      ],
+      "flags": {},
+      "group_id": null,
+      "description": "Gemini candidate; pending human review, not ground truth."
+    }
+  ],
+  "imagePath": "md_RGB2_SUB38ACT8F104.jpg",
+  "imageData": null,
+  "imageWidth": 640,
+  "imageHeight": 480,
+  "description": "driver holding phone to ear with left hand"
+}

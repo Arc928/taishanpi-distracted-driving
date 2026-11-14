@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="header" data-pptx-bounds="40 70 1176 66">
+    <rect x="40" y="76" width="6" height="46" fill="#1F3A5F"/>
+    <text x="64" y="114" font-size="42" font-weight="bold" fill="#1F3A5F">下一阶段重点：上板部署，并补齐正面与手近脸的短板</text>
+  </g>
+
+  <g id="column-heads" data-pptx-bounds="64 144 1152 36">
+    <text x="64" y="170" font-size="18" font-weight="bold" fill="#5B6575">当前问题</text>
+    <text x="660" y="170" font-size="18" font-weight="bold" fill="#5B6575">下一步计划</text>
+  </g>
+
+  <g id="issue-1" data-pptx-bounds="64 190 500 100">
+    <rect x="64" y="190" width="500" height="100" fill="#F3F5F8"/>
+    <use data-icon="tabler-outline/alert-triangle" x="84" y="208" width="28" height="28" fill="#E8833A" stroke-width="2"/>
+    <text x="128" y="230" font-size="24" fill="#1E2430">正面视角左手打字仍有漏检<tspan x="128" dy="34" font-size="18" fill="#5B6575">正面 texting 命中 31 / 39</tspan></text>
+  </g>
+  <g id="p08-arrow-1" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="rightArrow" data-pptx-frame="580 222 56 36" fill="#1F3A5F" stroke="none">
+<path d="M 580 231 L 618 231 L 618 222 L 636 240 L 618 258 L 618 249 L 580 249 Z"/>
+</g>
+  <g id="plan-1" data-pptx-bounds="652 190 564 100">
+    <text x="660" y="248" font-size="24" fill="#1E2430">继续补充<tspan font-weight="bold" fill="#1F3A5F">正面左手打字</tspan>困难样本</text>
+  </g>
+
+  <g id="issue-2" data-pptx-bounds="64 305 500 100">
+    <rect x="64" y="305" width="500" height="100" fill="#F3F5F8"/>
+    <use data-icon="tabler-outline/alert-triangle" x="84" y="323" width="28" height="28" fill="#E8833A" stroke-width="2"/>
+    <text x="128" y="345" font-size="24" fill="#1E2430">手靠近脸的动作仍会误报为打电话<tspan x="128" dy="34" font-size="18" fill="#5B6575">如喝水、整理头发</tspan></text>
+  </g>
+  <g id="p08-arrow-2" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="rightArrow" data-pptx-frame="580 337 56 36" fill="#1F3A5F" stroke="none">
+<path d="M 580 346 L 618 346 L 618 337 L 636 355 L 618 373 L 618 364 L 580 364 Z"/>
+</g>
+  <g id="plan-2" data-pptx-bounds="652 305 564 100">
+    <text x="660" y="363" font-size="24" fill="#1E2430">补充<tspan font-weight="bold" fill="#1F3A5F">喝水、整理头发</tspan>等困难背景</text>
+  </g>
+
+  <g id="issue-3" data-pptx-bounds="64 420 500 112">
+    <rect x="64" y="420" width="500" height="112" fill="#F3F5F8"/>
+    <use data-icon="tabler-outline/alert-triangle" x="84" y="438" width="28" height="28" fill="#E8833A" stroke-width="2"/>
+    <text x="128" y="460" font-size="24" fill="#1E2430">跨场景泛化弱<tspan x="128" dy="30" font-size="18" fill="#5B6575">早期模型在外部 56 张其他场景图中只检出 2 张；</tspan><tspan x="128" dy="24" font-size="18" fill="#5B6575">电脑正面摄像头效果也差</tspan></text>
+  </g>
+  <g id="p08-arrow-3" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="rightArrow" data-pptx-frame="580 452 56 36" fill="#1F3A5F" stroke="none">
+<path d="M 580 461 L 618 461 L 618 452 L 636 470 L 618 488 L 618 479 L 580 479 Z"/>
+</g>
+  <g id="plan-3" data-pptx-bounds="652 420 564 112">
+    <text x="660" y="462" font-size="24" fill="#1E2430">采集贴近<tspan font-weight="bold" fill="#1F3A5F">实际安装位置</tspan>的数据，<tspan x="660" dy="34">建立对应的独立测试集</tspan></text>
+  </g>
+
+  <g id="deploy-strip" data-pptx-bounds="64 548 1152 96">
+    <text x="64" y="594" font-size="24" font-weight="bold" fill="#1F3A5F">部署路线</text>
+    <text x="64" y="622" font-size="18" fill="#5B6575">目标板：泰山派 RK3566</text>
+    <g id="p08-step-1" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="homePlate" data-pptx-frame="296 568 300 64" fill="#1F3A5F" stroke="none">
+<path d="M 296 568 L 564 568 L 596 600 L 564 632 L 296 632 Z"/>
+</g>
+    <g id="p08-step-2" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="604 568 300 64" fill="#1F3A5F" stroke="none">
+<path d="M 604 568 L 872 568 L 904 600 L 872 632 L 604 632 L 636 600 Z"/>
+</g>
+    <g id="p08-step-3" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="912 568 304 64" fill="#1F3A5F" stroke="none">
+<path d="M 912 568 L 1184 568 L 1216 600 L 1184 632 L 912 632 L 944 600 Z"/>
+</g>
+    <g font-size="24" fill="#FFFFFF" text-anchor="middle">
+      <text x="440" y="608">导出 ONNX</text>
+      <text x="768" y="608">转 RKNN · INT8 量化</text>
+      <text x="1078" y="608">上板测速度与精度</text>
+    </g>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 672 1152 24">
+    <text x="64" y="690" font-size="14" fill="#5B6575">08 / 09</text>
+    <text x="1216" y="690" font-size="14" fill="#5B6575" text-anchor="end">中期汇报 · 问题与计划</text>
+  </g>
+</svg>

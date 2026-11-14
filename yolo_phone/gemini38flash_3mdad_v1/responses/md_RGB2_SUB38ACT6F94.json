@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB2_SUB38ACT6F94",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The driver has his hand on the steering wheel with no mobile phone visible."
+  },
+  "usage": {
+    "completion_tokens": 157,
+    "total_tokens": 1626,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 127
+    }
+  },
+  "seconds": 4.82,
+  "attempt": 1
+}

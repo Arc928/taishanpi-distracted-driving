@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB1_SUB5ACT15F55",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The driver is not using a mobile phone; no texting or calling behavior observed."
+  },
+  "usage": {
+    "completion_tokens": 951,
+    "total_tokens": 2420,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 919
+    }
+  },
+  "seconds": 9.2,
+  "attempt": 1
+}

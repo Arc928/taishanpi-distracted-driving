@@ -1,0 +1,13 @@
+﻿threshold,source_behavior,total,with_any_box,with_expected_class,with_wrong_class
+0.25,texting,136,133,133,0
+0.25,calling,131,112,112,0
+0.25,background,377,13,0,0
+0.5,texting,136,132,132,0
+0.5,calling,131,106,106,0
+0.5,background,377,7,0,0
+0.75,texting,136,129,129,0
+0.75,calling,131,88,88,0
+0.75,background,377,3,0,0
+0.8,texting,136,127,127,0
+0.8,calling,131,84,84,0
+0.8,background,377,2,0,0

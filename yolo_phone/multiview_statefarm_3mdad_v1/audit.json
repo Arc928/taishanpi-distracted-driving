@@ -1,0 +1,18 @@
+{
+  "selected_count": 3734,
+  "pending_new": 2200,
+  "source_images_exist": true,
+  "inherited_label_hashes_verified": true,
+  "subject_and_pixel_leakage_check": "passed",
+  "heldout_preannotations_empty": true,
+  "pending_export_refused": true,
+  "corrected_p014_label_preserved": true,
+  "original_eval_snapshot_verified": true,
+  "first_batch_count": 280,
+  "first_batch_subjects": 35,
+  "proposal_counts": {
+    "without_prefill": 1514,
+    "with_prefill": 26
+  },
+  "training_started": false
+}

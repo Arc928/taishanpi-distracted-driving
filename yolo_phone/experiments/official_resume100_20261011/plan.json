@@ -1,0 +1,61 @@
+{
+  "command": [
+    "/Users/arc928/Documents/ChatGPT/泰山派/.venv/bin/python",
+    "-u",
+    "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/experiments/official_resume100_20261011/train.py"
+  ],
+  "cwd": "/Users/arc928/Documents/ChatGPT/泰山派",
+  "run_dir": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume100_20261011_yolo11n",
+  "baseline_run_dir": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_70epochs_20261011_yolo11n",
+  "resume_checkpoint": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/experiments/official_resume100_20261011/resume_epoch66.pt",
+  "source_checkpoint": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_70epochs_20261011_yolo11n/weights/epoch65.pt",
+  "source_checkpoint_sha256": "3ed5440ced1b8263d7b274454ebb8be6e292aa2e454c303a6e415491f144eb80",
+  "resume_checkpoint_sha256": "cd40618691e58e4ca954d3b6947b6fdb409552edf5a6a421f36cf31cf0325e15",
+  "checkpoint_arg_changes": {
+    "epochs": {
+      "before": 70,
+      "after": 100
+    },
+    "patience": {
+      "before": 0,
+      "after": 0
+    },
+    "project": {
+      "before": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs",
+      "after": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs"
+    },
+    "name": {
+      "before": "multiview_official_70epochs_20261011_yolo11n",
+      "after": "multiview_official_resume100_20261011_yolo11n"
+    },
+    "save_dir": {
+      "before": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_70epochs_20261011_yolo11n",
+      "after": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume100_20261011_yolo11n"
+    },
+    "mosaic": {
+      "before": 1.0,
+      "after": 0.0
+    },
+    "close_mosaic": {
+      "before": 10,
+      "after": 0
+    }
+  },
+  "completed_at_checkpoint": 66,
+  "start_epoch_display": 67,
+  "total_epochs": 100,
+  "new_training_epochs": 34,
+  "replayed_epochs": [
+    67,
+    68,
+    69,
+    70
+  ],
+  "dataset_manifest_sha256": "1ddcf1212612aaec99eaf90a5d90c632736de29f84443df23145abdb98c421e6",
+  "train_images": 2952,
+  "val_images": 200,
+  "patience": 0,
+  "test_used": false,
+  "service_model_changed": false,
+  "schedule_note": "Extend linear LR schedule to 100 total epochs; keep mosaic disabled as at checkpoint. Not a from-scratch 100-epoch schedule."
+}

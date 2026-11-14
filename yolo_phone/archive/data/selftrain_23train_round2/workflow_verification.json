@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "train_count": 1534,
+  "train_driver_count": 23,
+  "review_accepted": 127,
+  "empty_positive_excluded": 13,
+  "original_review_json_unchanged_since_export": true,
+  "eval_leakage": false,
+  "old_eval_hash_files_verified": 1021,
+  "new_eval_hash_files_verified": 716,
+  "eval_image_count": 452,
+  "epochs_completed": 11,
+  "early_stopping_patience": 10,
+  "selected_best_epoch": 1,
+  "selected_weights": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/selftrain_23train_round2_yolo11n/weights/best.pt",
+  "weights_sha256": "ca22c7ea45f75a5b3134095bceb98a2eddc66855780a437fb1ac1edc6b22eece",
+  "train_driver_diagnostics": [
+    {
+      "stage": "remaining_23train_selftrained",
+      "subject": "p039",
+      "behavior": "texting",
+      "count": 17,
+      "total": 17
+    },
+    {
+      "stage": "remaining_23train_selftrained",
+      "subject": "p039",
+      "behavior": "calling",
+      "count": 6,
+      "total": 17
+    },
+    {
+      "stage": "remaining_23train_selftrained",
+      "subject": "p039",
+      "behavior": "background",
+      "count": 0,
+      "total": 51
+    },
+    {
+      "stage": "remaining_23train_selftrained",
+      "subject": "p081",
+      "behavior": "texting",
+      "count": 18,
+      "total": 23
+    },
+    {
+      "stage": "remaining_23train_selftrained",
+      "subject": "p081",
+      "behavior": "calling",
+      "count": 17,
+      "total": 22
+    },
+    {
+      "stage": "remaining_23train_selftrained",
+      "subject": "p081",
+      "behavior": "background",
+      "count": 1,
+      "total": 62
+    },
+    {
+      "stage": "remaining_23train_round2",
+      "subject": "p039",
+      "behavior": "texting",
+      "count": 16,
+      "total": 17
+    },
+    {
+      "stage": "remaining_23train_round2",
+      "subject": "p039",
+      "behavior": "calling",
+      "count": 13,
+      "total": 17
+    },
+    {
+      "stage": "remaining_23train_round2",
+      "subject": "p039",
+      "behavior": "background",
+      "count": 0,
+      "total": 51
+    },
+    {
+      "stage": "remaining_23train_round2",
+      "subject": "p081",
+      "behavior": "texting",
+      "count": 19,
+      "total": 23
+    },
+    {
+      "stage": "remaining_23train_round2",
+      "subject": "p081",
+      "behavior": "calling",
+      "count": 21,
+      "total": 22
+    },
+    {
+      "stage": "remaining_23train_round2",
+      "subject": "p081",
+      "behavior": "background",
+      "count": 4,
+      "total": 62
+    }
+  ],
+  "limitation": "Independent metrics are image-level hits, not detection mAP; train-driver diagnostics overlap training."
+}

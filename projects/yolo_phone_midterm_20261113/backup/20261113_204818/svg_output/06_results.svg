@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="header" data-pptx-bounds="40 70 1176 66">
+    <rect x="40" y="76" width="6" height="46" fill="#1F3A5F"/>
+    <text x="64" y="114" font-size="42" font-weight="bold" fill="#1F3A5F">背景误报下降约 80%，正面视角 mAP50 提升到 0.931</text>
+  </g>
+
+  <g id="table-caption" data-pptx-bounds="64 142 576 26">
+    <text x="64" y="160" font-size="18" fill="#5B6575">同一份 440 张人工框测试集：上一版 e79 → 当前 e51</text>
+  </g>
+
+  <g id="model-compare" data-pptx-replace-with="table" data-pptx-bounds="64 172 576 352" data-pptx-fallback-sha256="f0866c1664f0b4ed64a0b0e6b0e956f287777322f6f7d0a18496b99d1cd2bf4a">
+    <metadata type="application/json">{"schema": "ppt-master.semantic-table.v2", "x": 64, "y": 172, "width": 576, "height": 344, "name": "model-compare", "column_widths": [256, 160, 160], "row_heights": [44, 42, 42, 42, 42, 42, 42, 48], "defaults": {"cell": {"font_size": 18, "valign": "middle", "borders": {"top": {"style": "none"}, "left": {"style": "none"}, "right": {"style": "none"}, "bottom": {"style": "solid", "color": "#D5DBE3", "width": 1}}}}, "columns": [{"text": "指标", "bold": true, "color": "#5B6575", "align": "l", "borders": {"bottom": {"style": "solid", "color": "#1F3A5F", "width": 2}}}, {"text": "上一版 e79", "bold": true, "color": "#5B6575", "align": "r", "borders": {"bottom": {"style": "solid", "color": "#1F3A5F", "width": 2}}}, {"text": "当前 e51", "bold": true, "color": "#1F3A5F", "align": "r", "borders": {"bottom": {"style": "solid", "color": "#1F3A5F", "width": 2}}}], "rows": [[{"text": "mAP50（全部）", "color": "#1E2430", "align": "l"}, {"text": "0.919", "color": "#1E2430", "align": "r"}, {"text": "0.937", "color": "#1F3A5F", "bold": true, "align": "r"}], [{"text": "mAP50-95", "color": "#1E2430", "align": "l"}, {"text": "0.536", "color": "#1E2430", "align": "r"}, {"text": "0.569", "color": "#1F3A5F", "bold": true, "align": "r"}], [{"text": "正面视角 mAP50", "color": "#1E2430", "align": "l"}, {"text": "0.871", "color": "#1E2430", "align": "r"}, {"text": "0.931", "color": "#1F3A5F", "bold": true, "align": "r"}], [{"text": "侧面视角 mAP50", "color": "#1E2430", "align": "l"}, {"text": "0.956", "color": "#1E2430", "align": "r"}, {"text": "0.931", "color": "#1F3A5F", "bold": true, "align": "r"}], [{"text": "texting 命中（@0.5）", "color": "#1E2430", "align": "l"}, {"text": "84 / 98", "color": "#1E2430", "align": "r"}, {"text": "85 / 98", "color": "#1F3A5F", "bold": true, "align": "r"}], [{"text": "calling 命中（@0.5）", "color": "#1E2430", "align": "l"}, {"text": "89 / 94", "color": "#1E2430", "align": "r"}, {"text": "85 / 94", "color": "#1F3A5F", "bold": true, "align": "r"}], [{"text": "背景误报（@0.5）", "color": "#1E2430", "bold": true, "align": "l", "fill": "#FCEFE5"}, {"text": "24 / 200", "color": "#1E2430", "bold": true, "align": "r", "fill": "#FCEFE5"}, {"text": "5 / 200", "color": "#E8833A", "bold": true, "align": "r", "fill": "#FCEFE5"}]]}</metadata>
+    <g font-size="18" font-weight="bold" fill="#5B6575">
+      <text x="76" y="200">指标</text>
+      <text x="468" y="200" text-anchor="end">上一版 e79</text>
+      <text x="628" y="200" text-anchor="end" fill="#1F3A5F">当前 e51</text>
+    </g>
+    <line x1="64" y1="216" x2="640" y2="216" stroke="#1F3A5F" stroke-width="2"/>
+    <g font-size="18" fill="#1E2430">
+      <text x="76" y="244">mAP50（全部）</text>
+      <text x="76" y="286">mAP50-95</text>
+      <text x="76" y="328">正面视角 mAP50</text>
+      <text x="76" y="370">侧面视角 mAP50</text>
+      <text x="76" y="412">texting 命中（@0.5）</text>
+      <text x="76" y="454">calling 命中（@0.5）</text>
+    </g>
+    <g font-size="18" fill="#1E2430" text-anchor="end">
+      <text x="468" y="244">0.919</text>
+      <text x="468" y="286">0.536</text>
+      <text x="468" y="328">0.871</text>
+      <text x="468" y="370">0.956</text>
+      <text x="468" y="412">84 / 98</text>
+      <text x="468" y="454">89 / 94</text>
+    </g>
+    <g font-size="18" font-weight="bold" fill="#1F3A5F" text-anchor="end">
+      <text x="628" y="244">0.937</text>
+      <text x="628" y="286">0.569</text>
+      <text x="628" y="328">0.931</text>
+      <text x="628" y="370">0.931</text>
+      <text x="628" y="412">85 / 98</text>
+      <text x="628" y="454">85 / 94</text>
+    </g>
+    <g stroke="#D5DBE3" stroke-width="1">
+      <line x1="64" y1="258" x2="640" y2="258"/>
+      <line x1="64" y1="300" x2="640" y2="300"/>
+      <line x1="64" y1="342" x2="640" y2="342"/>
+      <line x1="64" y1="384" x2="640" y2="384"/>
+      <line x1="64" y1="426" x2="640" y2="426"/>
+      <line x1="64" y1="468" x2="640" y2="468"/>
+    </g>
+    <rect x="64" y="468" width="576" height="48" fill="#FCEFE5"/>
+    <text x="76" y="499" font-size="18" font-weight="bold" fill="#1E2430">背景误报（@0.5）</text>
+    <text x="468" y="499" font-size="18" font-weight="bold" fill="#1E2430" text-anchor="end">24 / 200</text>
+    <text x="628" y="499" font-size="18" font-weight="bold" fill="#E8833A" text-anchor="end">5 / 200</text>
+  </g>
+
+  <g id="result-notes" data-pptx-bounds="64 540 576 116">
+    <text x="64" y="566" font-size="18" fill="#1E2430">calling 命中减少主要是置信度落到 0.5 以下；<tspan x="64" dy="28">正面 calling AP50 实际上升：<tspan font-weight="bold" fill="#1F3A5F">0.952 → 0.981</tspan>。</tspan></text>
+    <text x="64" y="642" font-size="14" fill="#5B6575">模型与阈值只依据 val 选择；test 在开发中看过，定位为固定留出集的回归对照。</text>
+  </g>
+
+  <g id="examples-caption" data-pptx-bounds="672 144 544 24">
+    <text x="672" y="160" font-size="18" fill="#5B6575">检测样例（当前模型，阈值 0.5；白色虚线为人工框）</text>
+  </g>
+
+  <g id="example-texting-hit" data-pptx-bounds="672 172 260 228">
+    <image href="../images/ex_front_texting_hit.jpg" x="672" y="172" width="260" height="195" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="672" y="172" width="260" height="195" fill="none" stroke="#D5DBE3" stroke-width="1"/>
+    <circle cx="678" cy="386" r="5" fill="#2EAD6B"/>
+    <text x="690" y="392" font-size="18" fill="#1E2430">正面玩手机 · 命中 0.56</text>
+  </g>
+  <g id="example-calling-hit" data-pptx-bounds="956 172 260 228">
+    <image href="../images/ex_side_calling_hit.jpg" x="956" y="172" width="260" height="195" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="956" y="172" width="260" height="195" fill="none" stroke="#D5DBE3" stroke-width="1"/>
+    <circle cx="962" cy="386" r="5" fill="#2EAD6B"/>
+    <text x="974" y="392" font-size="18" fill="#1E2430">侧面打电话 · 命中 0.83</text>
+  </g>
+  <g id="example-texting-miss" data-pptx-bounds="672 420 260 228">
+    <image href="../images/ex_front_texting_miss.jpg" x="672" y="420" width="260" height="195" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="672" y="420" width="260" height="195" fill="none" stroke="#D5DBE3" stroke-width="1"/>
+    <circle cx="678" cy="634" r="5" fill="#E8833A"/>
+    <text x="690" y="640" font-size="18" fill="#1E2430">正面左手打字 · 漏检</text>
+  </g>
+  <g id="example-background-fp" data-pptx-bounds="956 420 260 228">
+    <image href="../images/ex_front_background_fp.jpg" x="956" y="420" width="260" height="195" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="956" y="420" width="260" height="195" fill="none" stroke="#D5DBE3" stroke-width="1"/>
+    <circle cx="962" cy="634" r="5" fill="#E8833A"/>
+    <text x="974" y="640" font-size="18" fill="#1E2430">喝水 · 误报为打电话 0.61</text>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 672 1152 24">
+    <text x="64" y="690" font-size="14" fill="#5B6575">06 / 09</text>
+    <text x="1216" y="690" font-size="14" fill="#5B6575" text-anchor="end">中期汇报 · 主要结果</text>
+  </g>
+</svg>

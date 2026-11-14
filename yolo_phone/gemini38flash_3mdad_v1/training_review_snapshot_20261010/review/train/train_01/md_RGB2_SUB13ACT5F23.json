@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          373.6260190217391,
+          331.1628170289855
+        ],
+        [
+          567.3816802536232,
+          331.1628170289855
+        ],
+        [
+          567.3816802536232,
+          433.84341032608694
+        ],
+        [
+          373.6260190217391,
+          433.84341032608694
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB13ACT5F23.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The person holding the phone is sitting in the passenger seat (right side), while the steering wheel is on the left with another person's hand visible on it; therefore, the person using the phone is not the driver."
+}

@@ -1,0 +1,38 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          472.62431999999995,
+          296.01552
+        ],
+        [
+          521.8704,
+          296.01552
+        ],
+        [
+          521.8704,
+          320.9784
+        ],
+        [
+          472.62431999999995,
+          320.9784
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p002_c8_img_18091.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

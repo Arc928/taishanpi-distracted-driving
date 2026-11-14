@@ -1,0 +1,154 @@
+{
+  "chosen_on_val": 0.35,
+  "test": {
+    "0.5": {
+      "all": {
+        "texting": {
+          "total": 98,
+          "class_hit": 85,
+          "localized_hit": 85,
+          "wrong_class_only": 0,
+          "missed": 13
+        },
+        "calling": {
+          "total": 94,
+          "class_hit": 85,
+          "localized_hit": 84,
+          "wrong_class_only": 0,
+          "missed": 9
+        },
+        "background": {
+          "total": 200,
+          "false_positive": 5
+        },
+        "not_visible": {
+          "total": 48,
+          "fired": 11
+        }
+      },
+      "front": {
+        "texting": {
+          "total": 39,
+          "class_hit": 31,
+          "localized_hit": 31,
+          "wrong_class_only": 0,
+          "missed": 8
+        },
+        "calling": {
+          "total": 54,
+          "class_hit": 48,
+          "localized_hit": 48,
+          "wrong_class_only": 0,
+          "missed": 6
+        },
+        "background": {
+          "total": 100,
+          "false_positive": 2
+        },
+        "not_visible": {
+          "total": 27,
+          "fired": 3
+        }
+      },
+      "side": {
+        "texting": {
+          "total": 59,
+          "class_hit": 54,
+          "localized_hit": 54,
+          "wrong_class_only": 0,
+          "missed": 5
+        },
+        "calling": {
+          "total": 40,
+          "class_hit": 37,
+          "localized_hit": 36,
+          "wrong_class_only": 0,
+          "missed": 3
+        },
+        "background": {
+          "total": 100,
+          "false_positive": 3
+        },
+        "not_visible": {
+          "total": 21,
+          "fired": 8
+        }
+      }
+    },
+    "0.35": {
+      "all": {
+        "texting": {
+          "total": 98,
+          "class_hit": 85,
+          "localized_hit": 85,
+          "wrong_class_only": 0,
+          "missed": 13
+        },
+        "calling": {
+          "total": 94,
+          "class_hit": 89,
+          "localized_hit": 88,
+          "wrong_class_only": 0,
+          "missed": 5
+        },
+        "background": {
+          "total": 200,
+          "false_positive": 9
+        },
+        "not_visible": {
+          "total": 48,
+          "fired": 13
+        }
+      },
+      "front": {
+        "texting": {
+          "total": 39,
+          "class_hit": 31,
+          "localized_hit": 31,
+          "wrong_class_only": 0,
+          "missed": 8
+        },
+        "calling": {
+          "total": 54,
+          "class_hit": 51,
+          "localized_hit": 51,
+          "wrong_class_only": 0,
+          "missed": 3
+        },
+        "background": {
+          "total": 100,
+          "false_positive": 5
+        },
+        "not_visible": {
+          "total": 27,
+          "fired": 5
+        }
+      },
+      "side": {
+        "texting": {
+          "total": 59,
+          "class_hit": 54,
+          "localized_hit": 54,
+          "wrong_class_only": 0,
+          "missed": 5
+        },
+        "calling": {
+          "total": 40,
+          "class_hit": 38,
+          "localized_hit": 37,
+          "wrong_class_only": 0,
+          "missed": 2
+        },
+        "background": {
+          "total": 100,
+          "false_positive": 4
+        },
+        "not_visible": {
+          "total": 21,
+          "fired": 8
+        }
+      }
+    }
+  },
+  "note": "test reported once after choice; not used for selection"
+}

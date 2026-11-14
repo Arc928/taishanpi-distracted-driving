@@ -1,0 +1,23 @@
+{
+  "subjects": {
+    "S10": 8,
+    "S11": 4
+  },
+  "groups": {
+    "untouched": 8,
+    "modified_reference_not_certified_ground_truth": 4
+  },
+  "candidate_classes": {
+    "texting": 6,
+    "calling": 6
+  },
+  "usage": {
+    "completion_tokens": 15499,
+    "total_tokens": 32431,
+    "prompt_tokens": 16932
+  },
+  "successful": 12,
+  "source_files_changed": [],
+  "coordinate_and_image_checks": "passed",
+  "test_or_val_images_used": false
+}

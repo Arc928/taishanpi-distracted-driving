@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB1_SUB27ACT16F79",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "driver is holding a vape device near his face, not a mobile phone"
+  },
+  "usage": {
+    "completion_tokens": 346,
+    "total_tokens": 1815,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 317
+    }
+  },
+  "seconds": 5.2,
+  "attempt": 1
+}

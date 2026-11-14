@@ -1,0 +1,90 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          320.505615234375,
+          275.5936279296875
+        ],
+        [
+          504.885009765625,
+          275.5936279296875
+        ],
+        [
+          504.885009765625,
+          416.385986328125
+        ],
+        [
+          320.505615234375,
+          416.385986328125
+        ]
+      ],
+      "group_id": null,
+      "flags": {},
+      "score": 0.5619333982467651,
+      "description": "UNREVIEWED Grounding DINO proposal. Verify driver vs passenger and holding hand. Class from weak source action; verify actual behavior. "
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          485.1388244628906,
+          130.1610870361328
+        ],
+        [
+          557.9890747070312,
+          130.1610870361328
+        ],
+        [
+          557.9890747070312,
+          174.9547119140625
+        ],
+        [
+          485.1388244628906,
+          174.9547119140625
+        ]
+      ],
+      "group_id": null,
+      "flags": {},
+      "score": 0.435426265001297,
+      "description": "UNREVIEWED Grounding DINO proposal. Verify driver vs passenger and holding hand. Class from weak source action; verify actual behavior. No adjacent hand detected; expand/correct manually. "
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          604.5455322265625,
+          157.2270965576172
+        ],
+        [
+          632.169189453125,
+          157.2270965576172
+        ],
+        [
+          632.169189453125,
+          188.78067016601562
+        ],
+        [
+          604.5455322265625,
+          188.78067016601562
+        ]
+      ],
+      "group_id": null,
+      "flags": {},
+      "score": 0.4048098921775818,
+      "description": "UNREVIEWED Grounding DINO proposal. Verify driver vs passenger and holding hand. Class from weak source action; verify actual behavior. No adjacent hand detected; expand/correct manually. "
+    }
+  ],
+  "imagePath": "md_RGB2_SUB10ACT5F111.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Unreviewed open-vocabulary proposals; empty shapes do not mean background."
+}

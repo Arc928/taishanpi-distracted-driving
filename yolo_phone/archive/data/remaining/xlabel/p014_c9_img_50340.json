@@ -1,0 +1,38 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          442.62176,
+          291.81816000000003
+        ],
+        [
+          493.38336,
+          291.81816000000003
+        ],
+        [
+          493.38336,
+          315.15432
+        ],
+        [
+          442.62176,
+          315.15432
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p014_c9_img_50340.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

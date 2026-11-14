@@ -1,0 +1,33 @@
+{
+  "id": "md_RGB1_SUB10ACT5F111",
+  "group": "untouched",
+  "view": "side",
+  "weak_class": "texting",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "seconds": 28.53,
+  "usage": {
+    "completion_tokens": 3431,
+    "total_tokens": 4842,
+    "prompt_tokens": 1411,
+    "completion_tokens_details": {
+      "reasoning_tokens": 3378
+    }
+  },
+  "result": {
+    "objects": [
+      {
+        "label": "texting",
+        "box_2d": [
+          545,
+          290,
+          758,
+          418
+        ]
+      }
+    ],
+    "uncertain": false,
+    "note": "driver holding and viewing phone with right hand near steering wheel"
+  },
+  "finish_reason": "stop"
+}

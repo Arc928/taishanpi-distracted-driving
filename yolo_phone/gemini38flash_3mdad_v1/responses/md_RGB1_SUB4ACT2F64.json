@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB1_SUB4ACT2F64",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "driver is touching her forehead/hair with a bare hand; no phone is present"
+  },
+  "usage": {
+    "completion_tokens": 403,
+    "total_tokens": 1872,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 371
+    }
+  },
+  "seconds": 8.17,
+  "attempt": 1
+}

@@ -1,0 +1,24 @@
+{
+  "e79": {
+    "weights": "/Users/arc928/Documents/ChatGPT/\u6cf0\u5c71\u6d3e/yolo_phone/runs/multiview_official_resume100_20261011_yolo11n/weights/best.pt",
+    "mAP50": 0.893795158894324,
+    "mAP50-95": 0.5806995361420526,
+    "P": 0.7971386954859714,
+    "R": 0.8634989734652572,
+    "per_class_mAP50": {
+      "texting": 0.8241552359253792,
+      "calling": 0.9634350818632689
+    }
+  },
+  "e150": {
+    "weights": "/Users/arc928/Documents/ChatGPT/\u6cf0\u5c71\u6d3e/yolo_phone/runs/multiview_official_resume150_20261012_yolo11n/weights/last.pt",
+    "mAP50": 0.8212962266407047,
+    "mAP50-95": 0.5174500961608391,
+    "P": 0.9061339761707353,
+    "R": 0.8159317179530634,
+    "per_class_mAP50": {
+      "texting": 0.728646613679975,
+      "calling": 0.9139458396014344
+    }
+  }
+}

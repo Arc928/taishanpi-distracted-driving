@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB2_SUB13ACT5F23",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": true,
+    "note": "The person holding the phone is sitting in the passenger seat (right side), while the steering wheel is on the left with another person's hand visible on it; therefore, the person using the phone is not the driver."
+  },
+  "usage": {
+    "completion_tokens": 1906,
+    "total_tokens": 3375,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1845
+    }
+  },
+  "seconds": 20.03,
+  "attempt": 1
+}

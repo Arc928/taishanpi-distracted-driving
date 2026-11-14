@@ -1,0 +1,11 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [],
+  "imagePath": "p066_c3_img_7812.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "pool=texting_hard_miss; model-first proposal, verify before training"
+}

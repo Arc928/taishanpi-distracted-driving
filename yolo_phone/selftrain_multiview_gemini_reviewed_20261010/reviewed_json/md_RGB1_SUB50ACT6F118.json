@@ -1,0 +1,37 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          221.44,
+          244.79999999999998
+        ],
+        [
+          304.64,
+          244.79999999999998
+        ],
+        [
+          304.64,
+          290.88
+        ],
+        [
+          221.44,
+          290.88
+        ]
+      ],
+      "flags": {},
+      "group_id": null,
+      "description": "Gemini candidate; pending human review, not ground truth."
+    }
+  ],
+  "imagePath": "md_RGB1_SUB50ACT6F118.jpg",
+  "imageData": null,
+  "imageWidth": 640,
+  "imageHeight": 480,
+  "description": "driver holding/using mobile phone"
+}

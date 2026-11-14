@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "score": null,
+      "points": [
+        [
+          308.0717844202898,
+          161.2381114130435
+        ],
+        [
+          416.72497735507244,
+          161.2381114130435
+        ],
+        [
+          416.72497735507244,
+          290.2349411231884
+        ],
+        [
+          308.0717844202898,
+          290.2349411231884
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB1_SUB28ACT8F59.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The driver has a hand near the chin/face, but no mobile phone is clearly visible due to lighting and overexposure. It cannot be confirmed as a calling or texting distraction."
+}

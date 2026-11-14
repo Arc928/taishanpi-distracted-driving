@@ -1,0 +1,38 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          155.660888671875,
+          276.0033874511719
+        ],
+        [
+          258.262939453125,
+          276.0033874511719
+        ],
+        [
+          258.262939453125,
+          383.5426330566406
+        ],
+        [
+          155.660888671875,
+          383.5426330566406
+        ]
+      ],
+      "group_id": null,
+      "flags": {},
+      "score": 0.6128811240196228,
+      "description": "MODEL PROPOSAL ONLY — requires human review"
+    }
+  ],
+  "imagePath": "md_RGB1_SUB24ACT5F20.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Pending human review. Empty shapes are NOT a background label."
+}

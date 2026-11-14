@@ -1,0 +1,119 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          159.52448,
+          156.65952
+        ],
+        [
+          275.6064,
+          156.65952
+        ],
+        [
+          275.6064,
+          210.43391999999997
+        ],
+        [
+          159.52448,
+          210.43391999999997
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          44.77888,
+          13.68768000000002
+        ],
+        [
+          313.14752,
+          13.68768000000002
+        ],
+        [
+          313.14752,
+          402.52704
+        ],
+        [
+          44.77888,
+          402.52704
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          165.87456,
+          161.13288
+        ],
+        [
+          208.32832,
+          161.13288
+        ],
+        [
+          208.32832,
+          211.42296000000002
+        ],
+        [
+          165.87456,
+          211.42296000000002
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          230.8752,
+          173.43983999999998
+        ],
+        [
+          271.25728,
+          173.43983999999998
+        ],
+        [
+          271.25728,
+          204.92112
+        ],
+        [
+          230.8752,
+          204.92112
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p024_c2_img_84773.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

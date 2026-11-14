@@ -1,0 +1,95 @@
+{
+  "roles": {
+    "body": {
+      "family": "Microsoft YaHei, Arial, sans-serif",
+      "size": 24.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 3.9,
+      "latin_chars_per_100px": 8.1,
+      "caps_chars_per_100px": 7.5,
+      "digits_chars_per_100px": 7.1,
+      "citation_chars_per_100px": 7.5,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 1625.6,
+        "slide": "P03",
+        "text": "流程：① 人工标注种子 250 张 → ② 模型伪标签（置信度 ≥ 0.8 且…"
+      }
+    },
+    "title": {
+      "family": "Microsoft YaHei, Arial, sans-serif",
+      "size": 42.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 2.2,
+      "latin_chars_per_100px": 4.6,
+      "caps_chars_per_100px": 4.3,
+      "digits_chars_per_100px": 4.1,
+      "citation_chars_per_100px": 4.3,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 1164.2,
+        "slide": "P03",
+        "text": "公开数据只有分类标签，我们用人工 + 模型协同补出检测框"
+      }
+    },
+    "subtitle": {
+      "family": "Microsoft YaHei, Arial, sans-serif",
+      "size": 32.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 2.9,
+      "latin_chars_per_100px": 6.1,
+      "caps_chars_per_100px": 5.6,
+      "digits_chars_per_100px": 5.4,
+      "citation_chars_per_100px": 5.6,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": {
+        "px": 973.0,
+        "slide": "P06",
+        "text": "针对性补数据后，测试 mAP50 0.919 → 0.937，背景误报 24 …"
+      }
+    },
+    "annotation": {
+      "family": "Microsoft YaHei, Arial, sans-serif",
+      "size": 18.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 5.2,
+      "latin_chars_per_100px": 10.8,
+      "caps_chars_per_100px": 10.0,
+      "digits_chars_per_100px": 9.5,
+      "citation_chars_per_100px": 10.0,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "display": {
+      "family": "Microsoft YaHei, Arial, sans-serif",
+      "size": 72.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 1.3,
+      "latin_chars_per_100px": 2.7,
+      "caps_chars_per_100px": 2.5,
+      "digits_chars_per_100px": 2.4,
+      "citation_chars_per_100px": 2.5,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    },
+    "footnote": {
+      "family": "Microsoft YaHei, Arial, sans-serif",
+      "size": 14.0,
+      "weight": "normal",
+      "cjk_chars_per_100px": 6.7,
+      "latin_chars_per_100px": 13.9,
+      "caps_chars_per_100px": 12.8,
+      "digits_chars_per_100px": 12.3,
+      "citation_chars_per_100px": 12.9,
+      "script_clusters_per_100px": {},
+      "longest_planned_line": null
+    }
+  },
+  "script_samples": {},
+  "source": "spec_lock.md",
+  "generated_at": "2026-11-13T12:40:52Z",
+  "notes": [
+    "role display (72px, at least twice body) has no display_family and uses body_family; declare display_family if it is display type",
+    "every role is measured at normal weight; recalibrate a role realized as bold deck-wide with --role NAME:FAMILY:SIZE:bold: bold widens Latin and digits about 7%, while the bundled advance table gives CJK one width for both weights"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          225.26760864257812,
+          97.67947387695312
+        ],
+        [
+          357.4020690917969,
+          97.67947387695312
+        ],
+        [
+          357.4020690917969,
+          245.4287109375
+        ],
+        [
+          225.26760864257812,
+          245.4287109375
+        ]
+      ],
+      "flags": {},
+      "group_id": null,
+      "score": 0.8425384163856506,
+      "description": "YOLO11n proposal conf=0.843; pending review."
+    }
+  ],
+  "imagePath": "p022_c4_img_80836.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

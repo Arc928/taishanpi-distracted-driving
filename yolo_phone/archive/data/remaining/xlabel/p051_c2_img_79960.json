@@ -1,0 +1,92 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          136.59104000000002,
+          144.3456
+        ],
+        [
+          258.78176,
+          144.3456
+        ],
+        [
+          258.78176,
+          212.6448
+        ],
+        [
+          136.59104000000002,
+          212.6448
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          217.10144,
+          163.28712
+        ],
+        [
+          254.88191999999998,
+          163.28712
+        ],
+        [
+          254.88191999999998,
+          192.87096
+        ],
+        [
+          217.10144,
+          192.87096
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          237.16000000000003,
+          168.09168000000003
+        ],
+        [
+          253.88768,
+          168.09168000000003
+        ],
+        [
+          253.88768,
+          191.41392
+        ],
+        [
+          237.16000000000003,
+          191.41392
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p051_c2_img_79960.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

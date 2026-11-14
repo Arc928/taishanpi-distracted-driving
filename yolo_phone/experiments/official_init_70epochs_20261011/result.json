@@ -1,0 +1,41 @@
+{
+  "completed_epochs": 70,
+  "official_init_best_validation": {
+    "epoch": "42",
+    "time": "5197.93",
+    "train/box_loss": "0.85872",
+    "train/cls_loss": "0.54402",
+    "train/dfl_loss": "1.09406",
+    "metrics/precision(B)": "0.88257",
+    "metrics/recall(B)": "0.83018",
+    "metrics/mAP50(B)": "0.91089",
+    "metrics/mAP50-95(B)": "0.58721",
+    "val/box_loss": "1.20179",
+    "val/cls_loss": "0.82476",
+    "val/dfl_loss": "1.35736",
+    "lr/pg0": "0.000700378",
+    "lr/pg1": "0.000700378",
+    "lr/pg2": "0.000700378"
+  },
+  "previous_init_best_validation": {
+    "epoch": "15",
+    "time": "1854.65",
+    "train/box_loss": "1.01268",
+    "train/cls_loss": "0.74904",
+    "train/dfl_loss": "1.18275",
+    "metrics/precision(B)": "0.88498",
+    "metrics/recall(B)": "0.7727",
+    "metrics/mAP50(B)": "0.89083",
+    "metrics/mAP50-95(B)": "0.55754",
+    "val/box_loss": "1.24424",
+    "val/cls_loss": "1.07922",
+    "val/dfl_loss": "1.42499",
+    "lr/pg0": "0.000896846",
+    "lr/pg1": "0.000896846",
+    "lr/pg2": "0.000896846"
+  },
+  "best_weights": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_70epochs_20261011_yolo11n/weights/best.pt",
+  "best_weights_sha256": "f2bb4e14fbf59e7f1c276751df68364430785376993c2abf34ec963e02ce9c58",
+  "comparison_scope": "same sampled validation set; no held-out test used",
+  "limitation": "200 validation images; 20 source-positive images with no annotation were excluded; same epoch budget does not establish convergence."
+}

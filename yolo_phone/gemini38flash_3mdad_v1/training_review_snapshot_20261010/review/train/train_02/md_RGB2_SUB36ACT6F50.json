@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          295.68,
+          249.6
+        ],
+        [
+          403.8088768115942,
+          249.6
+        ],
+        [
+          403.8088768115942,
+          362.28260869565213
+        ],
+        [
+          295.68,
+          362.28260869565213
+        ]
+      ],
+      "group_id": null,
+      "description": "Gemini candidate; pending human review, not ground truth.",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB36ACT6F50.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Driver is holding a mobile phone away from the ear with one hand while driving."
+}

@@ -1,0 +1,21 @@
+{
+  "model": "IDEA-Research/grounding-dino-tiny",
+  "family": "Grounding DINO SwinT, also supported by X-AnyLabeling",
+  "runtime": "transformers PyTorch, MPS; official non-quantized checkpoint",
+  "weights_sha256": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3",
+  "prompt": "cell phone. hand. face.",
+  "longest_edge": 640,
+  "raw_box_threshold": 0.2,
+  "text_threshold": 0.2,
+  "phone_threshold": 0.3,
+  "hand_face_threshold": 0.25,
+  "classes": "Positive source actions supply weak class hints; background candidates use phone-face proximity heuristic.",
+  "box_construction": "Phone plus nearby hand; calling optionally includes nearby driver face. All require human review.",
+  "prefilled_splits": [
+    "train",
+    "val",
+    "test"
+  ],
+  "same_parameters_all_splits": true,
+  "automatically_accepted": 0
+}

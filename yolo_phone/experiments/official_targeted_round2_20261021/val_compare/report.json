@@ -1,0 +1,570 @@
+{
+  "val_images": 212,
+  "threshold": 0.5,
+  "weights": {
+    "e79": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume100_20261011_yolo11n/weights/best.pt",
+    "e150_last": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume150_20261012_yolo11n/weights/last.pt",
+    "new_best_e51": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_targeted_round2_20261021_yolo11n/weights/best.pt",
+    "new_last_e80": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_targeted_round2_20261021_yolo11n/weights/last.pt"
+  },
+  "results": {
+    "e79": {
+      "detection": {
+        "all": {
+          "precision": 0.7971386954859714,
+          "recall": 0.8634989734652572,
+          "mAP50": 0.893795158894324,
+          "mAP50-95": 0.5806995361420526,
+          "per_class": {
+            "texting": {
+              "AP50": 0.8241552359253792,
+              "AP50-95": 0.5421517609009354
+            },
+            "calling": {
+              "AP50": 0.9634350818632689,
+              "AP50-95": 0.6192473113831698
+            }
+          }
+        },
+        "front": {
+          "precision": 0.8208388165511658,
+          "recall": 0.7810666739722044,
+          "mAP50": 0.8353277901882614,
+          "mAP50-95": 0.5424281196007377,
+          "per_class": {
+            "texting": {
+              "AP50": 0.7050025302675904,
+              "AP50-95": 0.4315660631057844
+            },
+            "calling": {
+              "AP50": 0.9656530501089325,
+              "AP50-95": 0.6532901760956908
+            }
+          }
+        },
+        "side": {
+          "precision": 0.967886960776418,
+          "recall": 0.8291666666666666,
+          "mAP50": 0.9500679612679039,
+          "mAP50-95": 0.6239625552666885,
+          "per_class": {
+            "texting": {
+              "AP50": 0.9361310916179336,
+              "AP50-95": 0.6577224323572436
+            },
+            "calling": {
+              "AP50": 0.9640048309178744,
+              "AP50-95": 0.5902026781761335
+            }
+          }
+        }
+      },
+      "image_level": {
+        "all": {
+          "texting": {
+            "total": 59,
+            "class_hit": 45,
+            "localized_hit": 43,
+            "wrong_class_only": 0,
+            "missed": 14
+          },
+          "calling": {
+            "total": 54,
+            "class_hit": 45,
+            "localized_hit": 45,
+            "wrong_class_only": 0,
+            "missed": 9
+          },
+          "background": {
+            "total": 99,
+            "false_positive": 8
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "front": {
+          "texting": {
+            "total": 29,
+            "class_hit": 18,
+            "localized_hit": 17,
+            "wrong_class_only": 0,
+            "missed": 11
+          },
+          "calling": {
+            "total": 30,
+            "class_hit": 25,
+            "localized_hit": 25,
+            "wrong_class_only": 0,
+            "missed": 5
+          },
+          "background": {
+            "total": 50,
+            "false_positive": 2
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "side": {
+          "texting": {
+            "total": 30,
+            "class_hit": 27,
+            "localized_hit": 26,
+            "wrong_class_only": 0,
+            "missed": 3
+          },
+          "calling": {
+            "total": 24,
+            "class_hit": 20,
+            "localized_hit": 20,
+            "wrong_class_only": 0,
+            "missed": 4
+          },
+          "background": {
+            "total": 49,
+            "false_positive": 6
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        }
+      },
+      "new_front_ac6_12": {
+        "localized_hit": 6,
+        "missed": 6
+      },
+      "front_ac6_all": {
+        "localized_hit": 7,
+        "class_hit_poor_box": 1,
+        "missed": 6
+      },
+      "false_positive_actions": {
+        "AC12": 3,
+        "AC16": 2,
+        "AC13": 1,
+        "AC14": 2
+      }
+    },
+    "e150_last": {
+      "detection": {
+        "all": {
+          "precision": 0.9061339761707353,
+          "recall": 0.8159317179530634,
+          "mAP50": 0.8212962266407047,
+          "mAP50-95": 0.5174500961608391,
+          "per_class": {
+            "texting": {
+              "AP50": 0.728646613679975,
+              "AP50-95": 0.4632966564968575
+            },
+            "calling": {
+              "AP50": 0.9139458396014344,
+              "AP50-95": 0.5716035358248207
+            }
+          }
+        },
+        "front": {
+          "precision": 0.8993844844204544,
+          "recall": 0.7426543055261656,
+          "mAP50": 0.7466547018054248,
+          "mAP50-95": 0.4829346965398429,
+          "per_class": {
+            "texting": {
+              "AP50": 0.577076923076923,
+              "AP50-95": 0.3640977196049565
+            },
+            "calling": {
+              "AP50": 0.9162324805339267,
+              "AP50-95": 0.6017716734747293
+            }
+          }
+        },
+        "side": {
+          "precision": 0.9334478642436915,
+          "recall": 0.8916666666666666,
+          "mAP50": 0.9140018336540076,
+          "mAP50-95": 0.5725804399985464,
+          "per_class": {
+            "texting": {
+              "AP50": 0.9147427977427978,
+              "AP50-95": 0.6067439780584517
+            },
+            "calling": {
+              "AP50": 0.9132608695652173,
+              "AP50-95": 0.5384169019386411
+            }
+          }
+        }
+      },
+      "image_level": {
+        "all": {
+          "texting": {
+            "total": 59,
+            "class_hit": 44,
+            "localized_hit": 42,
+            "wrong_class_only": 0,
+            "missed": 15
+          },
+          "calling": {
+            "total": 54,
+            "class_hit": 46,
+            "localized_hit": 46,
+            "wrong_class_only": 0,
+            "missed": 8
+          },
+          "background": {
+            "total": 99,
+            "false_positive": 4
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "front": {
+          "texting": {
+            "total": 29,
+            "class_hit": 18,
+            "localized_hit": 17,
+            "wrong_class_only": 0,
+            "missed": 11
+          },
+          "calling": {
+            "total": 30,
+            "class_hit": 26,
+            "localized_hit": 26,
+            "wrong_class_only": 0,
+            "missed": 4
+          },
+          "background": {
+            "total": 50,
+            "false_positive": 2
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "side": {
+          "texting": {
+            "total": 30,
+            "class_hit": 26,
+            "localized_hit": 25,
+            "wrong_class_only": 0,
+            "missed": 4
+          },
+          "calling": {
+            "total": 24,
+            "class_hit": 20,
+            "localized_hit": 20,
+            "wrong_class_only": 0,
+            "missed": 4
+          },
+          "background": {
+            "total": 49,
+            "false_positive": 2
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        }
+      },
+      "new_front_ac6_12": {
+        "localized_hit": 6,
+        "missed": 6
+      },
+      "front_ac6_all": {
+        "localized_hit": 7,
+        "class_hit_poor_box": 1,
+        "missed": 6
+      },
+      "false_positive_actions": {
+        "AC16": 2,
+        "AC14": 1,
+        "AC12": 1
+      }
+    },
+    "new_best_e51": {
+      "detection": {
+        "all": {
+          "precision": 0.9199125655389546,
+          "recall": 0.8513518521340107,
+          "mAP50": 0.9132621490434352,
+          "mAP50-95": 0.5732240043568946,
+          "per_class": {
+            "texting": {
+              "AP50": 0.8540040540478531,
+              "AP50-95": 0.5308645907972629
+            },
+            "calling": {
+              "AP50": 0.9725202440390172,
+              "AP50-95": 0.6155834179165262
+            }
+          }
+        },
+        "front": {
+          "precision": 0.8863191650553297,
+          "recall": 0.7620689655172415,
+          "mAP50": 0.849262460793968,
+          "mAP50-95": 0.5395320190310443,
+          "per_class": {
+            "texting": {
+              "AP50": 0.7336579994934278,
+              "AP50-95": 0.44328124333223495
+            },
+            "calling": {
+              "AP50": 0.9648669220945083,
+              "AP50-95": 0.6357827947298534
+            }
+          }
+        },
+        "side": {
+          "precision": 0.9701762263832003,
+          "recall": 0.9390350934891261,
+          "mAP50": 0.9725465838509316,
+          "mAP50-95": 0.6168476055657147,
+          "per_class": {
+            "texting": {
+              "AP50": 0.965,
+              "AP50-95": 0.6413143277635898
+            },
+            "calling": {
+              "AP50": 0.9800931677018633,
+              "AP50-95": 0.5923808833678399
+            }
+          }
+        }
+      },
+      "image_level": {
+        "all": {
+          "texting": {
+            "total": 59,
+            "class_hit": 51,
+            "localized_hit": 49,
+            "wrong_class_only": 0,
+            "missed": 8
+          },
+          "calling": {
+            "total": 54,
+            "class_hit": 42,
+            "localized_hit": 42,
+            "wrong_class_only": 0,
+            "missed": 12
+          },
+          "background": {
+            "total": 99,
+            "false_positive": 1
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "front": {
+          "texting": {
+            "total": 29,
+            "class_hit": 23,
+            "localized_hit": 21,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "calling": {
+            "total": 30,
+            "class_hit": 24,
+            "localized_hit": 24,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "background": {
+            "total": 50,
+            "false_positive": 1
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "side": {
+          "texting": {
+            "total": 30,
+            "class_hit": 28,
+            "localized_hit": 28,
+            "wrong_class_only": 0,
+            "missed": 2
+          },
+          "calling": {
+            "total": 24,
+            "class_hit": 18,
+            "localized_hit": 18,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "background": {
+            "total": 49,
+            "false_positive": 0
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        }
+      },
+      "new_front_ac6_12": {
+        "localized_hit": 10,
+        "missed": 1,
+        "class_hit_poor_box": 1
+      },
+      "front_ac6_all": {
+        "localized_hit": 11,
+        "class_hit_poor_box": 2,
+        "missed": 1
+      },
+      "false_positive_actions": {
+        "AC16": 1
+      }
+    },
+    "new_last_e80": {
+      "detection": {
+        "all": {
+          "precision": 0.9679594958224293,
+          "recall": 0.8496925016169669,
+          "mAP50": 0.9244910055467879,
+          "mAP50-95": 0.5419402527960941,
+          "per_class": {
+            "texting": {
+              "AP50": 0.8965333141823788,
+              "AP50-95": 0.5145947613555729
+            },
+            "calling": {
+              "AP50": 0.9524486969111968,
+              "AP50-95": 0.569285744236615
+            }
+          }
+        },
+        "front": {
+          "precision": 0.9270268515084701,
+          "recall": 0.7951007208719292,
+          "mAP50": 0.8662991419479908,
+          "mAP50-95": 0.521775745707765,
+          "per_class": {
+            "texting": {
+              "AP50": 0.8035382171551586,
+              "AP50-95": 0.4677738436017198
+            },
+            "calling": {
+              "AP50": 0.9290600667408231,
+              "AP50-95": 0.5757776478138102
+            }
+          }
+        },
+        "side": {
+          "precision": 0.9904934583191909,
+          "recall": 0.909715506087944,
+          "mAP50": 0.9777178100026938,
+          "mAP50-95": 0.5666390505732684,
+          "per_class": {
+            "texting": {
+              "AP50": 0.9781100386100386,
+              "AP50-95": 0.5657974533896688
+            },
+            "calling": {
+              "AP50": 0.9773255813953488,
+              "AP50-95": 0.5674806477568681
+            }
+          }
+        }
+      },
+      "image_level": {
+        "all": {
+          "texting": {
+            "total": 59,
+            "class_hit": 47,
+            "localized_hit": 46,
+            "wrong_class_only": 0,
+            "missed": 12
+          },
+          "calling": {
+            "total": 54,
+            "class_hit": 48,
+            "localized_hit": 48,
+            "wrong_class_only": 0,
+            "missed": 6
+          },
+          "background": {
+            "total": 99,
+            "false_positive": 1
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "front": {
+          "texting": {
+            "total": 29,
+            "class_hit": 20,
+            "localized_hit": 19,
+            "wrong_class_only": 0,
+            "missed": 9
+          },
+          "calling": {
+            "total": 30,
+            "class_hit": 26,
+            "localized_hit": 26,
+            "wrong_class_only": 0,
+            "missed": 4
+          },
+          "background": {
+            "total": 50,
+            "false_positive": 1
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        },
+        "side": {
+          "texting": {
+            "total": 30,
+            "class_hit": 27,
+            "localized_hit": 27,
+            "wrong_class_only": 0,
+            "missed": 3
+          },
+          "calling": {
+            "total": 24,
+            "class_hit": 22,
+            "localized_hit": 22,
+            "wrong_class_only": 0,
+            "missed": 2
+          },
+          "background": {
+            "total": 49,
+            "false_positive": 0
+          },
+          "not_visible": {
+            "total": 0,
+            "fired": 0
+          }
+        }
+      },
+      "new_front_ac6_12": {
+        "localized_hit": 9,
+        "missed": 3
+      },
+      "front_ac6_all": {
+        "localized_hit": 10,
+        "class_hit_poor_box": 1,
+        "missed": 3
+      },
+      "false_positive_actions": {
+        "AC16": 1
+      }
+    }
+  }
+}

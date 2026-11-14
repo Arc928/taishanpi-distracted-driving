@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          142.87420742753622,
+          299.0721240942029
+        ],
+        [
+          251.24150815217388,
+          299.0721240942029
+        ],
+        [
+          251.24150815217388,
+          369.9960371376811
+        ],
+        [
+          142.87420742753622,
+          369.9960371376811
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB1_SUB28ACT5F83.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "driver is not using a phone; the passenger in the back seat is using a phone"
+}

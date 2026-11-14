@@ -1,0 +1,702 @@
+{
+  "p039_c4_img_28935": {
+    "sha256": "80adeed6612e918622913498b00c7ef28064ac59e5de4b860a218cb628b1ada6",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p039_c4_img_70471": {
+    "sha256": "9809b7cbb95f978427668681ac760c19fcf49a5852ae2cdc8592551553ce3e01",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c2_img_27484": {
+    "sha256": "2d8332b4771e50a522c5e7d0fa398d9968b11cffeab0f990b00289bbf2be8548",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c2_img_51781": {
+    "sha256": "b9f5e049959536b56990ef36095ef3780feb95d94622a067724d05d529cc8a31",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p039_c4_img_30929": {
+    "sha256": "a9d02cd7bc9a8ae84666979a3e349904d9501245b0ef3fd8435fa23d16412170",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p039_c4_img_52529": {
+    "sha256": "d2a3608dfe213fe917be2ba9052f0b75a79d3635ddc4871830be201073b5646a",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c2_img_51235": {
+    "sha256": "8b88b11f52e076df841f34e3270d54e89cabd8a074874cf8bf8ac01484dfdea5",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c1_img_49094": {
+    "sha256": "f07b22b702adf5a5e184c8907bc32d579047f4dcbc279278e564a2f824c94145",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p039_c2_img_53252": {
+    "sha256": "5a178e8d1325dd8f1ca7c83aa7ce8dc7ba75e1c93352a20cf141436659639a4a",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p039_c1_img_64419": {
+    "sha256": "46f77153016818bf46e54d472bba16ec38d48cacec1b73bfc14019f938eaa961",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c1_img_5796": {
+    "sha256": "c6c7b81ea0494c0a6829f53c1821089fc6c40553f52fdd918ac2c5dec31985ed",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p039_c4_img_50408": {
+    "sha256": "ad074a7ee3b3d36e65131179613da966a3e1cb204902a52084ca0fcdb8b3a551",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c1_img_98085": {
+    "sha256": "381d15631f03eb19525199f1ba961bb56977530e97fdd9050f12a220c8c66d7c",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p039_c4_img_10844": {
+    "sha256": "4c5b71f6aa8c59f0af85ce97435eb90bd9a70e9ef1db309beef713a7824a690e",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p039_c4_img_90284": {
+    "sha256": "a567bf8e28391bb5f3a30221646ccfce30243d3aa44900a6129330d8782cc271",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c1_img_7380": {
+    "sha256": "fafd8b4ec4c06d483a3c76a0935e009d968e675b0d8120cf44311703a9a7a789",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c2_img_93872": {
+    "sha256": "87018aa56dfa8d7b22feeaeeee81f011dd103fd9175f76fc1d76de102903e170",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c1_img_67327": {
+    "sha256": "2a1b6f7f711403d47ce5c5c16e03fdff306bfa5c1d658136597ad990bf89ed1c",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p039_c4_img_64192": {
+    "sha256": "a7da55fdb780d8aabc0baa63dccd52589d281a7c1f03b7fc0a60c8406f377287",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c3_img_43348": {
+    "sha256": "6c00eec09e756982560dd6153624e0321841c09f06a6339760eec80d93956779",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p039_c2_img_71104": {
+    "sha256": "d199416627f2e0e662a9ed5151a0705902a6bc0fb89ad5804ea0bafab6f79282",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c3_img_82742": {
+    "sha256": "1d018c747c48d96af0fe147562d0c73a3be36379a7a7451e946bc494ef25ab60",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c3_img_33972": {
+    "sha256": "a240ef58d846eb65d5c4ae5099b074faba9a82b376d03488dbad1d6f2c7d707b",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c4_img_21764": {
+    "sha256": "e1c332693dfd73856bb9ec5ce98c529112bc61762fa9dd805a0a6fb04e5394e8",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c4_img_89746": {
+    "sha256": "348e9fca1960b363d6dda7b908e0b23fbb87b5a51c057ea693a1da959944541d",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p039_c2_img_46409": {
+    "sha256": "6332d43a56125522f85a86f99d6f5287fc954ee813fcd9d3e988d9a9a8699a81",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c2_img_16831": {
+    "sha256": "cf708c779cb79d459a39c681b423e88e0bdecff632ac427799f13e293816b698",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c1_img_56524": {
+    "sha256": "28aaea7b1934ed5e833f20d5f0871cc26f2c84e11b3da226832e890e3dc92e98",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p039_c2_img_99489": {
+    "sha256": "48dfe52033161236a5ca9035caedd560efe87421c812a6a6a50c8cdae0052483",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p039_c2_img_66549": {
+    "sha256": "96167d51efce392ef68e8feb44e9819e92328a7951bb8fda8f503c955ba32f16",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c3_img_2114": {
+    "sha256": "51ca0182788190cba57ff6e4aceaffb226f5e93f2a7b2edd29e43af6a5296a88",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c1_img_61485": {
+    "sha256": "6b81582d8aa1d54d62829ff1620ffdc48c1cb3351634105f5d1868147ad558d4",
+    "prefill_shapes": 0,
+    "group": "new_driver_positive"
+  },
+  "p081_c4_img_4440": {
+    "sha256": "535322569569b48ade89d89f9daa33ebae70fb93d987bbfc82e0a2447d4af032",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c1_img_7368": {
+    "sha256": "0fef5f6dc10d91fee52461d702bfb951a9eca2b4311f71f785b06a02790c0077",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c4_img_61941": {
+    "sha256": "e11a56e1b65100b82603a14ae5a89808ff924abb69597389f5977f3450d77e54",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c2_img_78315": {
+    "sha256": "020aef05919e11c20ae9ba96927c5d0066f2d3215a8a3454f36774eca1209eda",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c2_img_31714": {
+    "sha256": "656321025636674ca6e4d46a8471b00d6b7d5ecadfe4db31aedfd45ce9d547e5",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c3_img_51491": {
+    "sha256": "8fa0e7c8c342103662d6a565d958ca8d9bc52041ec7c380d7444fb831c74cf4e",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c2_img_65312": {
+    "sha256": "4bd4c6fc8e24b558d2e537fc031db63300719938a2c8d64ffce30f57f1a7e477",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c2_img_81361": {
+    "sha256": "c8514582036396d3e789d0f2e7bb6f41c2fa2843b926e7daca98c6f97256f1c3",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c2_img_83976": {
+    "sha256": "c754251524da6beaa0401db008f3d4c1496d4cb7519aa55ed285c46743d263c4",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c4_img_6648": {
+    "sha256": "70daa86c86fdc33176825258f26972a9dc0a613c16af10d799bd774096c67629",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c2_img_77950": {
+    "sha256": "c28d7f5fd8435555b480df5a24adcd84c35c6187a9637a59664d554a6eaf61dd",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c2_img_38037": {
+    "sha256": "3dff4a8cfabecc3a1951f41092e4e262b598cf966afdca17c79855ea9082ed49",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c4_img_31474": {
+    "sha256": "40fedbeb0f57dc9b523fc4b04a42ba5a79c9778c963e32fff56507c038ff81e6",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c4_img_68224": {
+    "sha256": "33a9fb2aa812ecc132cbecf39c574731c7641b36e10a2ebbdd2bda7615fc744f",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c1_img_42624": {
+    "sha256": "ea6a3c829035c99d81afdec31681623a39e54034494afec6e5b288b2543d67d9",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c2_img_5362": {
+    "sha256": "e171aaaece990b072c1ca44f50e58cfc33b3f6d034d31e2a04a806085b0af6b4",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c2_img_44242": {
+    "sha256": "94217874c832b19cc4ab40df3c1db194956fe85f3487b32a339565d03f882dab",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c2_img_31888": {
+    "sha256": "bc111454df64b656de13e21e7e7d8da8a4337a305174975789bd4c74c825f6f9",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c3_img_50393": {
+    "sha256": "c0611e891716ad578312c19a6c730b343b9e8e98be5a5076b9c43dfef972297d",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c4_img_74289": {
+    "sha256": "a24ad06e4c6153dc60684057ff6ace7d98e034158d6c6feb6bf4006746689f4e",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c2_img_2967": {
+    "sha256": "0e2a17fb296cf8176dab790b7ea6665030cce506e6ee1d003fac050b2e397e37",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c4_img_86549": {
+    "sha256": "e733bb8b807056767de7ad44671a8199da65153a85bb597251a25cad84525d61",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c1_img_18323": {
+    "sha256": "59923db3514718ce5f8ecaab3f522c4e8e3f2337aee830170d508abb90e801de",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c1_img_58145": {
+    "sha256": "ed7aa729e2e3dd5d453ead9fc1da3caa46f6d03ec02fb7b8ccb732d7e16f9ee3",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c3_img_13326": {
+    "sha256": "e8567639adb84f32ac1aabcb7ae6074002b00d254b2258bd6950640ca82edf23",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c3_img_44440": {
+    "sha256": "a8243c1ae35005c7cadc6919cc844ce6648e54cabf5d7aeae235efe404e6ec13",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c3_img_35808": {
+    "sha256": "007826ff7bc80554a69a45566463bb138eda91ba67fab74a3e1382bd9105cdc6",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c1_img_63062": {
+    "sha256": "9d99db476c79c0ec72edbcd600a11ac4c5b1820d5e8e569b886249cd1a19645d",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c3_img_101921": {
+    "sha256": "bd449a0309cbf6bd5f400628350ef3a054e8200b24a8ca1b189dd8fe6c598907",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c1_img_41412": {
+    "sha256": "122fc5b8a5b0b5645991d63a3750ad86f4a6c2747cfd0595edf7ede827f623c8",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c3_img_73295": {
+    "sha256": "23778d866db67853a969b596e1ee7b1c9e52a95d52e1fbc21f5db2e4ebce334d",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c1_img_44673": {
+    "sha256": "b20229bd040858d99b8210a5d68b37a9b58504f48130da0281a46ceaa62e4288",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c3_img_51623": {
+    "sha256": "4fe70146a5a16bda2e4af3779ba3e2ea9bda20695abc1cd185b24ff5771c16d4",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c3_img_84290": {
+    "sha256": "b24b1e08486ae9427c518dd8b48372e6aeaacc75016ac70ab4d20c25809ec202",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c4_img_78271": {
+    "sha256": "4e875d603e520c0e40c3d7431a3887dfb99d52f68eef7a2c024deba8ff488b0f",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c1_img_27535": {
+    "sha256": "1daee10e879d5586824c9082c6a1eb6d13c86586f46f9065683e84ec905b6bc5",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c1_img_8465": {
+    "sha256": "f1e71698eb58ef0eb8dd1753d49f4cf618e1c30479b38a9886ca8bd32c8063e2",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c3_img_68390": {
+    "sha256": "378e94b69122145973b94e621fda2a06f6aa4a0e4c133a16b1abe49c0f5ff02c",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c1_img_23911": {
+    "sha256": "832bbd521619a77176edb47047e159cac2770886d019d5fd545db4dae3f45a31",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c3_img_14169": {
+    "sha256": "7053f4c18d7461f5c46a7e0296bad986623419955af836d30463ae1ee73bb66a",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c3_img_32391": {
+    "sha256": "d16c29eff2fd83c0ac225db8b8b57ff65829fdeb66296ed7a203b184635ec4b2",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c3_img_25072": {
+    "sha256": "7306b54b3608fc6112f3c230e3adc015b1981b3858c87b7eeba042c32a9c52d3",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c3_img_71150": {
+    "sha256": "febf2091ba4dbd400d7fd00205192ad01dcaef68f073875e5f895755ae3efaa5",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c3_img_63135": {
+    "sha256": "e73d2704408867d173d2ad8f563d2a80a78c417f5c3d920ab3f56a3c71919b4a",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p081_c1_img_9061": {
+    "sha256": "920063a758637263ce0bddc6606777a0c26f0c60f152c798f058dd3a4f16f108",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c3_img_3825": {
+    "sha256": "7d750cf8f5e8c21802de78221c679d3f9b6eb7ed346ce194e0eeea2d99c77d38",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p039_c1_img_67951": {
+    "sha256": "ca43734eeb17fd148f2372aae80f1cb633ef02f2c18654f6fff279e8b5cea259",
+    "prefill_shapes": 1,
+    "group": "new_driver_positive"
+  },
+  "p014_c2_img_86001": {
+    "sha256": "7c9920ec1f2ca618de0d6d5e4c1384881c203ab579eb07d9848432fb1a7c4501",
+    "prefill_shapes": 0,
+    "group": "unselected_positive"
+  },
+  "p052_c2_img_76349": {
+    "sha256": "1cebfee2f069652d4c75a52f0fba9cf2bdc5168d54e4b23b9664af085740d54e",
+    "prefill_shapes": 0,
+    "group": "unselected_positive"
+  },
+  "p056_c3_img_13910": {
+    "sha256": "37438245284fa5fa0de3a84ecfac423c9861d0d4dc4c73671d5ba24ce71d2100",
+    "prefill_shapes": 0,
+    "group": "unselected_positive"
+  },
+  "p072_c4_img_76540": {
+    "sha256": "ac9c16c9d6be7a7f3ba531caff9eda18f71be406d78990508c44a9e51d6cadad",
+    "prefill_shapes": 0,
+    "group": "unselected_positive"
+  },
+  "p072_c4_img_92903": {
+    "sha256": "850c44808a86b848e1d62791e59cb85e12d0bea9fc790f4ab733439ad04a31aa",
+    "prefill_shapes": 0,
+    "group": "unselected_positive"
+  },
+  "p052_c2_img_25954": {
+    "sha256": "655b36c6ef539251828c4851be9e588118cdd0ee296455ae183e2059bb2bc1a0",
+    "prefill_shapes": 0,
+    "group": "unselected_positive"
+  },
+  "p015_c4_img_76757": {
+    "sha256": "182b086cf1fd5d3349f736e123c256d6b045db7dec50fbbe8201a4503c6440e1",
+    "prefill_shapes": 1,
+    "group": "unselected_positive"
+  },
+  "p081_c5_img_23085": {
+    "sha256": "173988905d68163170f3b1494058f2567252cc32f87b92d5334ccaae59633bf6",
+    "prefill_shapes": 1,
+    "group": "background_false_positive"
+  },
+  "p024_c8_img_26378": {
+    "sha256": "a6bb633c41990d535bea7d974ca194d644b7394f39c4545f6a0e09604a35b79c",
+    "prefill_shapes": 1,
+    "group": "background_false_positive"
+  },
+  "p081_c8_img_63438": {
+    "sha256": "cd58f960283e5148ccf87901fe6a02e7b89b8cee937efa17e4742e11744ea9dd",
+    "prefill_shapes": 1,
+    "group": "background_false_positive"
+  },
+  "p039_c0_img_13938": {
+    "sha256": "106b58d6033fd5cc6a0716e58856d6a71cf01e3dc012fb6527cc9caad3057bcb",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c0_img_33537": {
+    "sha256": "b383c5097dd4a8ad6d1ad18024f5fc3fb7f54c9a23965b25b819c6f39ee2ee81",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c0_img_34146": {
+    "sha256": "431b08a53b36263191c1d81ad57816fc625ad626da19292c13e4ae03bcddde77",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c0_img_61366": {
+    "sha256": "823ccca97e08a04926716f86bfeb2d7991448a27afe425943f6e62830ad515e3",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c0_img_6874": {
+    "sha256": "b2b63301f3338f3a0bc49452c5a1f3a86c5ff11dd484143c67480e8f4614c45d",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c0_img_71078": {
+    "sha256": "5a58ee474d217f6b0fa71bb7914dcd5199b227a8ddf6366a68409408cef0de01",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c0_img_82721": {
+    "sha256": "684164b008de9d1f39ed236ec8c7bea54468e8715ae99fb3a31aaf2f2eed1723",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c0_img_83187": {
+    "sha256": "e1658acd5974c931c5ecffab787624ff8459420f65e446980a6d063b6444a07e",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c0_img_85138": {
+    "sha256": "56f2d6714b42d460207b175d54536ee06844d5208d18071c822c07acc7b799de",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c5_img_1016": {
+    "sha256": "f3c38a79cb83ae144b3ebc239e5920289f03497f02558fce54e0cbe8200cc272",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c5_img_14460": {
+    "sha256": "4cac5c91985c618271c95d4729306b5e283fb5b9fc600c60494562d9e0615f81",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c5_img_20583": {
+    "sha256": "e60b4886845ea73d4603beba5194173b19d0782b9e3f25c170ce8448d4ee3888",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c5_img_20662": {
+    "sha256": "1f2828e1ee2cbb7dd33a375d5562c0fa2db327acc4947d649952096cabd2c075",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c5_img_4371": {
+    "sha256": "bc07b24514746a31867448a26e4b677ef4cfe23e13b6a6507dc9dd501f17bf57",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c5_img_4959": {
+    "sha256": "8922524a0b6c049c6618093542e5bf0b62af2957fc4e571ded74368a8f29fcf7",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c5_img_61515": {
+    "sha256": "733f0f49efbe40e8f8de88f3f0c557a06b8300809b0a26e11dae8eb15baa199a",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c5_img_90142": {
+    "sha256": "1253d069b6bf3d1a1313b8b7539073dfef90324528cdb31c69e296784c9d9934",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c6_img_33786": {
+    "sha256": "134cb149ebb772971363c86cfca82ff635ee04de2875149b8020d019166b1bd6",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c6_img_37392": {
+    "sha256": "c1d655b6dc547e0f07cdd616103be88fabda972905d7d7c470880ca24cb6d5c0",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c6_img_4158": {
+    "sha256": "1a80064cf4995ea85148a419b334382a00dbc49b3904b928b6d8fe0764ed4d37",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c6_img_42010": {
+    "sha256": "b28fc6bd31f919c96e261388eb1a3c0e9729c8d89d067ff45d8846015a156615",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c6_img_44537": {
+    "sha256": "8d46869205893458b9a49c056ed33438e0cfee3f820bf793d241813d1c1b5f03",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c6_img_47226": {
+    "sha256": "11f711c6376b0f1bd74b97cc7aa40a80bd2f52dd9eb281a28a88e50a0fc07a72",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c6_img_53621": {
+    "sha256": "7cddccf8d85b09f14ce4b9f93bea82a3356fb8786a9539e503bd3a63f09003a7",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c6_img_5849": {
+    "sha256": "58de3a88037e5bfa03837c5dfc9d1bb6c2a392f0d2235a764f770d5d2a2e179c",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c7_img_13022": {
+    "sha256": "e5d757fad736bf883ba702d8c7cb2f591d12d609a9124f98a31cc5fe65b127e7",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c7_img_18697": {
+    "sha256": "8ffebc5fd3cc500fd5492e378c3f775b4792ec6683e614231f7b4061491ce0d8",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c7_img_56581": {
+    "sha256": "9ac2333352121b0a4a2bd01adc6516cb7af85c72f43b60316f408d686d297a9e",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c7_img_59449": {
+    "sha256": "98dfee38fec59154db139a6235f8a9dd57c1dfbd6d96f4c439733665ee7b1eab",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c7_img_73360": {
+    "sha256": "c36b4b85879fff54d3e88e2c85155d3508b220fc286b2e32beecaf70cd628874",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c7_img_79406": {
+    "sha256": "5026013ce20f1257fa87ab5a2fe45c89eb17cbde162c5f376ad390fcfe8d3e5c",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c7_img_8771": {
+    "sha256": "68a9d1214603e1c1b1b0a217b33682ced7787ae26dfd248501bed332ea0219bb",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c7_img_92692": {
+    "sha256": "0efb80ed30444007fa60551535b4e9f59e3fd18b1ba3f0bebdaee6f0dbf685ef",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c8_img_16138": {
+    "sha256": "b7fe462715c2e6e353d915c3984fb5ae6a835167b21f53264c4b03ec2c083b53",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c8_img_20537": {
+    "sha256": "53aaab5f078c7ec3a8289ce202e6fa07a46ce288137da27f3214a2e5df81ff09",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c8_img_26130": {
+    "sha256": "fea7bb9a7a56218bbcb1827faf8bc77b86ea62ecc0b065ee479990b44949409f",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c8_img_27307": {
+    "sha256": "54f8b5b5e4460c66dcc62691778bbae7bdf44ce0e237a3fd2eac9954b298eda1",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c8_img_38121": {
+    "sha256": "f976d1e2dd62b5fb11aec4b6f1e8f57a86a4563009595780b4b340b16db1e421",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c8_img_4365": {
+    "sha256": "60274269420dd85f4543c2050d6b4c58e2b61e6e3b67c38a2fa97743b3f105a4",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c8_img_4809": {
+    "sha256": "5ee551d24eb1cc3cbab1ca372266a6c5afc6b65c3a1c2815df044a646ad2d12f",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c8_img_71059": {
+    "sha256": "3c4ea270f4b75e4062aeba76fd31e47ee88744460a445234c0e38192e5009719",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c8_img_77167": {
+    "sha256": "960648fa47bcd51c7cdb312240ef610b5298485c3a615f32b3c9ab4358dca6cc",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c9_img_24474": {
+    "sha256": "c925f1f9487b5680506675e17d3ca5dcc056e29567828d8e04c5717cbcb6d7b9",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c9_img_33896": {
+    "sha256": "c070a35914663f6ab6a56f60e7bbbcc65c2a60f44ba9335a3195b495eae32bd4",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c9_img_39114": {
+    "sha256": "a77eb28e415efb2013a1d32930f5ceb475c12d9643b5364cb4ba652bc8501172",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c9_img_48828": {
+    "sha256": "bb7646e8e10f3e115146702c92d8a70a4b7fda61d232469037c15bba9de8d417",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c9_img_60822": {
+    "sha256": "ef178bb2c864903fd36aaf7030d8d4ae1e77602a71a8b2d4fffe7c97b7d7b5cf",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c9_img_66616": {
+    "sha256": "0447fa34fb1c7a15583805782a3b9c8c59266fc3d532011fdf457c3f2b24a033",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c9_img_8749": {
+    "sha256": "caa85cc2b5cdb9096fdb61b47a6a3d16ac1fbcab9e40f93df90ad09545df9534",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c9_img_90127": {
+    "sha256": "1ddbca1fb7736156ffb644977fe2ef3434496a5876126fb5f1cfa7cfa537dc04",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  },
+  "p039_c9_img_91129": {
+    "sha256": "ac5b3b1f1ea9ec3d9a3b0d7e02d40becaf89fab08cafef64015d64ef32f2a479",
+    "prefill_shapes": 0,
+    "group": "background_control"
+  }
+}

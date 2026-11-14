@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/Users/arc928/Documents/ChatGPT/泰山派/.venv/bin/python",
+    "-u",
+    "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/experiments/official_targeted_round2_20261021/train.py"
+  ],
+  "cwd": "/Users/arc928/Documents/ChatGPT/泰山派",
+  "data": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/selftrain_multiview_targeted_round2_20261021/data.yaml",
+  "run_dir": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_targeted_round2_20261021_yolo11n",
+  "official_weights_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "dataset_manifest_sha256": "a7b824f27fde2e1b136cfe8cb9a1764eebc9564cd9a85d0462f297cf60f2cac7",
+  "train_images": 3449,
+  "val_images": 212,
+  "epochs": 80,
+  "patience": 0,
+  "optimizer": "AdamW",
+  "lr0": 0.001667,
+  "momentum": 0.9,
+  "warmup_bias_lr": 0.0,
+  "close_mosaic": 10,
+  "baseline_on_new_val": "baseline_new_val.json",
+  "test_used": false,
+  "service_model_changed": false
+}

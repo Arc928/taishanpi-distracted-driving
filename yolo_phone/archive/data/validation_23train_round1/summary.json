@@ -1,0 +1,189 @@
+{
+  "weights": "/Users/arc928/Documents/ChatGPT/\u6cf0\u5c71\u6d3e/yolo_phone/runs/selftrain_23train_round1_yolo11n/weights/best.pt",
+  "weights_sha256": "710eb8d548165b1f68e86d33f62078cdeb84c82c632de96c8e50bbc35d4ffd5f",
+  "dataset": "/Users/arc928/Documents/ChatGPT/\u6cf0\u5c71\u6d3e/yolo_phone/dataset_23train_3eval_1of8",
+  "image_count": 452,
+  "subjects": [
+    "p016",
+    "p021",
+    "p026"
+  ],
+  "confidence": 0.5,
+  "status_counts": {
+    "background_no_detection": 262,
+    "positive_candidate": 183,
+    "background_false_positive": 2,
+    "positive_missed": 4,
+    "class_conflict": 1
+  },
+  "diagnostics": [
+    {
+      "threshold": 0.25,
+      "source_behavior": "texting",
+      "total": 96,
+      "with_any_box": 96,
+      "with_expected_class": 96,
+      "with_wrong_class": 0
+    },
+    {
+      "threshold": 0.25,
+      "source_behavior": "calling",
+      "total": 92,
+      "with_any_box": 91,
+      "with_expected_class": 91,
+      "with_wrong_class": 1
+    },
+    {
+      "threshold": 0.25,
+      "source_behavior": "background",
+      "total": 264,
+      "with_any_box": 3,
+      "with_expected_class": 0,
+      "with_wrong_class": 0
+    },
+    {
+      "threshold": 0.5,
+      "source_behavior": "texting",
+      "total": 96,
+      "with_any_box": 96,
+      "with_expected_class": 96,
+      "with_wrong_class": 0
+    },
+    {
+      "threshold": 0.5,
+      "source_behavior": "calling",
+      "total": 92,
+      "with_any_box": 88,
+      "with_expected_class": 87,
+      "with_wrong_class": 1
+    },
+    {
+      "threshold": 0.5,
+      "source_behavior": "background",
+      "total": 264,
+      "with_any_box": 2,
+      "with_expected_class": 0,
+      "with_wrong_class": 0
+    },
+    {
+      "threshold": 0.75,
+      "source_behavior": "texting",
+      "total": 96,
+      "with_any_box": 96,
+      "with_expected_class": 96,
+      "with_wrong_class": 0
+    },
+    {
+      "threshold": 0.75,
+      "source_behavior": "calling",
+      "total": 92,
+      "with_any_box": 81,
+      "with_expected_class": 80,
+      "with_wrong_class": 1
+    },
+    {
+      "threshold": 0.75,
+      "source_behavior": "background",
+      "total": 264,
+      "with_any_box": 0,
+      "with_expected_class": 0,
+      "with_wrong_class": 0
+    },
+    {
+      "threshold": 0.8,
+      "source_behavior": "texting",
+      "total": 96,
+      "with_any_box": 96,
+      "with_expected_class": 96,
+      "with_wrong_class": 0
+    },
+    {
+      "threshold": 0.8,
+      "source_behavior": "calling",
+      "total": 92,
+      "with_any_box": 70,
+      "with_expected_class": 69,
+      "with_wrong_class": 1
+    },
+    {
+      "threshold": 0.8,
+      "source_behavior": "background",
+      "total": 264,
+      "with_any_box": 0,
+      "with_expected_class": 0,
+      "with_wrong_class": 0
+    }
+  ],
+  "image_level_confusion": {
+    "0.25": [
+      [
+        96,
+        0,
+        0
+      ],
+      [
+        1,
+        90,
+        1
+      ],
+      [
+        2,
+        1,
+        261
+      ]
+    ],
+    "0.5": [
+      [
+        96,
+        0,
+        0
+      ],
+      [
+        1,
+        87,
+        4
+      ],
+      [
+        1,
+        1,
+        262
+      ]
+    ],
+    "0.75": [
+      [
+        96,
+        0,
+        0
+      ],
+      [
+        1,
+        80,
+        11
+      ],
+      [
+        0,
+        0,
+        264
+      ]
+    ],
+    "0.8": [
+      [
+        96,
+        0,
+        0
+      ],
+      [
+        1,
+        69,
+        22
+      ],
+      [
+        0,
+        0,
+        264
+      ]
+    ]
+  },
+  "validation_files_unchanged": true,
+  "limitations": "Image-level source class labels only. No positive ground-truth boxes; no detection mAP or localization recall."
+}

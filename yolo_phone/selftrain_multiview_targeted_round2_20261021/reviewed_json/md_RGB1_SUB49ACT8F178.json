@@ -1,0 +1,38 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          300.8837890625,
+          148.7867431640625
+        ],
+        [
+          399.57305908203125,
+          148.7867431640625
+        ],
+        [
+          399.57305908203125,
+          263.372314453125
+        ],
+        [
+          300.8837890625,
+          263.372314453125
+        ]
+      ],
+      "group_id": null,
+      "flags": {},
+      "score": 0.8700370192527771,
+      "description": "MODEL PROPOSAL (conf>=0.25) — verify or delete"
+    }
+  ],
+  "imagePath": "md_RGB1_SUB49ACT8F178.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Source phone action. Box only if the phone is visible; empty = not visible, excluded."
+}

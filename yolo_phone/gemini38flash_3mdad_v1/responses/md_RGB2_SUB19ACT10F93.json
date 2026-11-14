@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB2_SUB19ACT10F93",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The driver is looking behind/sideways with one hand on the steering wheel and the other hand empty on her chest, with no phone present."
+  },
+  "usage": {
+    "completion_tokens": 296,
+    "total_tokens": 1765,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 251
+    }
+  },
+  "seconds": 3.96,
+  "attempt": 1
+}

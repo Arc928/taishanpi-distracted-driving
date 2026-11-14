@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="header" data-pptx-bounds="40 70 1176 100">
+    <rect x="40" y="76" width="6" height="46" fill="#1F3A5F"/>
+    <text x="64" y="114" font-size="42" font-weight="bold" fill="#1F3A5F">用人工 + 模型协同，为只有分类标签的数据补出检测框</text>
+    <text x="64" y="160" font-size="24" fill="#5B6575">难点：公开数据只有整图类别，没有检测框，需要自己补框。</text>
+  </g>
+
+  <g id="sources" data-pptx-bounds="64 196 560 128">
+    <text x="64" y="220" font-size="18" font-weight="bold" fill="#5B6575">数据来源</text>
+    <rect x="64" y="236" width="272" height="88" fill="#F3F5F8"/>
+    <text x="84" y="270" font-size="24" font-weight="bold" fill="#1E2430">State Farm</text>
+    <text x="84" y="302" font-size="18" fill="#5B6575">22424 张 · 26 位司机 · 车内侧视</text>
+    <rect x="352" y="236" width="272" height="88" fill="#F3F5F8"/>
+    <text x="372" y="270" font-size="24" font-weight="bold" fill="#1E2430">3MDAD</text>
+    <text x="372" y="302" font-size="18" fill="#5B6575">50 位参与者 · 侧面 + 正面</text>
+  </g>
+
+  <g id="label-flow" data-pptx-bounds="64 352 560 300">
+    <text x="64" y="376" font-size="18" font-weight="bold" fill="#5B6575">标注流程（人工 + 模型协同）</text>
+    <line x1="84" y1="412" x2="84" y2="610" stroke="#D5DBE3" stroke-width="2"/>
+    <circle cx="84" cy="412" r="18" fill="#1F3A5F"/>
+    <text x="84" y="419" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+    <text x="120" y="420" font-size="24" fill="#1E2430">人工标注种子集 <tspan font-weight="bold" fill="#1F3A5F">250 张</tspan></text>
+    <circle cx="84" cy="478" r="18" fill="#1F3A5F"/>
+    <text x="84" y="485" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="120" y="486" font-size="24" fill="#1E2430">模型生成伪标签，高门槛筛选</text>
+    <text x="120" y="512" font-size="18" fill="#5B6575">置信度 ≥ 0.8，且无竞争的错类框</text>
+    <circle cx="84" cy="552" r="18" fill="#1F3A5F"/>
+    <text x="84" y="559" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="120" y="560" font-size="24" fill="#1E2430">低置信与漏检送人工复核</text>
+    <circle cx="84" cy="610" r="18" fill="#1F3A5F"/>
+    <text x="84" y="617" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+    <text x="120" y="618" font-size="24" fill="#1E2430">新数据：模型预填框，人工逐张审核</text>
+  </g>
+
+  <g id="dataset-growth" data-pptx-replace-with="chart" data-pptx-bounds="672 196 544 456" data-pptx-fallback-sha256="a0ac3afed32ec7f888c554c1ef1a2421a69705c08f3e640df8dddeb4294f51c5">
+    <metadata type="application/json">{"x": 672, "y": 196, "width": 544, "height": 456, "name": "dataset-growth", "type": "column", "title": "训练集规模（张）", "categories": ["人工种子", "自训练", "人工补标", "加入 3MDAD", "针对性补充"], "series": [{"name": "训练集张数", "values": [250, 1422, 1534, 2952, 3449]}], "point_colors": [{"series": 0, "point": 0, "color": "#8F9DB0"}, {"series": 0, "point": 1, "color": "#8F9DB0"}, {"series": 0, "point": 2, "color": "#8F9DB0"}, {"series": 0, "point": 3, "color": "#8F9DB0"}, {"series": 0, "point": 4, "color": "#1F3A5F"}], "data_labels": {"show_value": true, "position": "outEnd"}, "axes": {"value": {"minimum": 0, "maximum": 3500, "visible": false}}, "show_legend": false}</metadata>
+    <text x="680" y="220" font-size="18" font-weight="bold" fill="#5B6575">训练集规模（张）</text>
+    <g id="dataset-growth-chartArea">
+      <line id="dataset-growth-axis" x1="680" y1="580" x2="1208" y2="580" stroke="#D5DBE3" stroke-width="2"/>
+      <!-- chart-plot-area: object=dataset-growth | 680,250,1208,580 -->
+      <rect x="711.7" y="556.4" width="42.2" height="23.6" fill="#8F9DB0"/>
+      <rect x="817.3" y="445.9" width="42.2" height="134.1" fill="#8F9DB0"/>
+      <rect x="922.9" y="435.4" width="42.2" height="144.6" fill="#8F9DB0"/>
+      <rect x="1028.5" y="301.7" width="42.2" height="278.3" fill="#8F9DB0"/>
+      <rect x="1134.1" y="254.8" width="42.2" height="325.2" fill="#1F3A5F"/>
+      <g font-size="18" font-weight="bold" fill="#1E2430" text-anchor="middle">
+        <text x="732.8" y="546">250</text>
+        <text x="838.4" y="436">1422</text>
+        <text x="944" y="425">1534</text>
+        <text x="1049.6" y="292">2952</text>
+        <text x="1155.2" y="245" fill="#1F3A5F">3449</text>
+      </g>
+      <g font-size="18" fill="#5B6575" text-anchor="middle">
+        <text x="732.8" y="606">人工种子</text>
+        <text x="838.4" y="606">自训练</text>
+        <text x="944" y="606">人工补标</text>
+        <text x="1049.6" y="606">加入 3MDAD</text>
+        <text x="1155.2" y="606">针对性补充</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 672 1152 24">
+    <text x="64" y="690" font-size="14" fill="#5B6575">03 / 10</text>
+    <text x="1216" y="690" font-size="14" fill="#5B6575" text-anchor="end">中期汇报 · 数据与标注</text>
+  </g>
+</svg>

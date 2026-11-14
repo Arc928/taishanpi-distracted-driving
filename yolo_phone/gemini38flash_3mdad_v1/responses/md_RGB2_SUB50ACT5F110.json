@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB2_SUB50ACT5F110",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The person using a phone is the front-seat passenger. The driver is seated on the left behind the steering wheel with a hand on the wheel and no visible phone use."
+  },
+  "usage": {
+    "completion_tokens": 2935,
+    "total_tokens": 4404,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 2884
+    }
+  },
+  "seconds": 22.24,
+  "attempt": 1
+}

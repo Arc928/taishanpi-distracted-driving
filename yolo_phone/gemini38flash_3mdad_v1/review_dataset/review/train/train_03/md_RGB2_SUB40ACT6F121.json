@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          282.48018568840575,
+          344.7582653985507
+        ],
+        [
+          411.2986865942029,
+          344.7582653985507
+        ],
+        [
+          411.2986865942029,
+          440.48686594202894
+        ],
+        [
+          282.48018568840575,
+          440.48686594202894
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB40ACT6F121.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The driver's other hand is partially visible beneath the steering wheel in dark shadow, but it is uncertain whether a phone is present."
+}

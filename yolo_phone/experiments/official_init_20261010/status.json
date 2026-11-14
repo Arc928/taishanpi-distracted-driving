@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "started_at": "2026-10-10T23:14:04.012211+08:00",
+  "supervisor_pid": 79733,
+  "run_dir": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_yolo11n_20261010",
+  "service_model_changed": false,
+  "training_pid": 79735,
+  "finished_at": "2026-10-11T00:05:46.245429+08:00",
+  "returncode": 0,
+  "completed_epochs": 25,
+  "best_epoch": 15,
+  "best_weights": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_yolo11n_20261010/weights/best.pt"
+}

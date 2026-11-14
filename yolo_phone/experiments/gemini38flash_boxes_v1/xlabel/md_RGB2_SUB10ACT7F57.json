@@ -1,0 +1,37 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          403.2,
+          163.2
+        ],
+        [
+          508.8,
+          163.2
+        ],
+        [
+          508.8,
+          333.59999999999997
+        ],
+        [
+          403.2,
+          333.59999999999997
+        ]
+      ],
+      "flags": {},
+      "group_id": null,
+      "description": "Gemini candidate; requires human review, not ground truth."
+    }
+  ],
+  "imagePath": "md_RGB2_SUB10ACT7F57.jpg",
+  "imageData": null,
+  "imageWidth": 640,
+  "imageHeight": 480,
+  "description": "driver holding mobile phone to ear"
+}

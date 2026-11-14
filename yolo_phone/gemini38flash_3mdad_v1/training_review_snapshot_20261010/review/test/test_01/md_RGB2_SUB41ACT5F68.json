@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          359.22101449275357,
+          189.2753623188406
+        ],
+        [
+          517.12,
+          189.2753623188406
+        ],
+        [
+          517.12,
+          308.15999999999997
+        ],
+        [
+          359.22101449275357,
+          308.15999999999997
+        ]
+      ],
+      "group_id": null,
+      "description": "Gemini candidate; pending human review, not ground truth.",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB41ACT5F68.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "driver holding and looking at a mobile phone away from the ear"
+}

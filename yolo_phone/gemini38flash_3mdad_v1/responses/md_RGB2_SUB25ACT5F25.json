@@ -1,0 +1,32 @@
+{
+  "id": "md_RGB2_SUB25ACT5F25",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [
+      {
+        "label": "texting",
+        "box_2d": [
+          544,
+          452,
+          796,
+          668
+        ]
+      }
+    ],
+    "uncertain": false,
+    "note": "driver holding mobile phone in right hand while holding steering wheel with left hand"
+  },
+  "usage": {
+    "completion_tokens": 959,
+    "total_tokens": 2428,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 903
+    }
+  },
+  "seconds": 11.08,
+  "attempt": 1
+}

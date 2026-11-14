@@ -1,0 +1,8 @@
+# Round-2 self-training. val is the 150 human seeds (overlaps train); the 5 independent drivers in dataset/images/val are never trained on.
+# Archived config: paths updated; original retained in archive/config-originals.
+path: /Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/archive/data/selftrain_round2
+train: images/train
+val: /Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/archive/data/seed_reviewed/images/train
+names:
+  0: texting
+  1: calling

@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB1_SUB46ACT10F85",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The driver is holding the steering wheel with both hands and is not using a phone."
+  },
+  "usage": {
+    "completion_tokens": 385,
+    "total_tokens": 1854,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 352
+    }
+  },
+  "seconds": 5.88,
+  "attempt": 1
+}

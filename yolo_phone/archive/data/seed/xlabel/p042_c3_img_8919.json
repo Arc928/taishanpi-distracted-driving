@@ -1,0 +1,92 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          415.75104,
+          126.17904000000001
+        ],
+        [
+          440.72,
+          126.17904000000001
+        ],
+        [
+          440.72,
+          201.37488
+        ],
+        [
+          415.75104,
+          201.37488
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          0.27328000000000685,
+          33.03959999999998
+        ],
+        [
+          382.74496,
+          33.03959999999998
+        ],
+        [
+          382.74496,
+          451.84488
+        ],
+        [
+          0.27328000000000685,
+          451.84488
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          11.57184,
+          344.24592
+        ],
+        [
+          33.2512,
+          344.24592
+        ],
+        [
+          33.2512,
+          368.19599999999997
+        ],
+        [
+          11.57184,
+          368.19599999999997
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p042_c3_img_8919.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

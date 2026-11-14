@@ -1,0 +1,37 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          235.52,
+          228.95999999999998
+        ],
+        [
+          306.56,
+          228.95999999999998
+        ],
+        [
+          306.56,
+          289.44
+        ],
+        [
+          235.52,
+          289.44
+        ]
+      ],
+      "flags": {},
+      "group_id": null,
+      "description": "Gemini candidate; pending human review, not ground truth."
+    }
+  ],
+  "imagePath": "md_RGB1_SUB36ACT6F82.jpg",
+  "imageData": null,
+  "imageWidth": 640,
+  "imageHeight": 480,
+  "description": "Driver is holding a smartphone in his right hand away from his ear."
+}

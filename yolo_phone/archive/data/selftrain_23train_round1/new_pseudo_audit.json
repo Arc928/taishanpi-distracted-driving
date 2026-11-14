@@ -1,0 +1,7 @@
+{
+  "reviewer": "assistant visual inspection; not human ground truth",
+  "count": 15,
+  "usable_candidate_boxes": 15,
+  "preview": "new_pseudo_audit.jpg",
+  "note": "All newly admitted positive pseudo labels visually checked. Still queued for human review with other p039/p081 positives."
+}

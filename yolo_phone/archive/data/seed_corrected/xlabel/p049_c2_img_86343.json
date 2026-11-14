@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "score": null,
+      "points": [
+        [
+          160.0,
+          109.00453629032258
+        ],
+        [
+          269.8210685483871,
+          109.00453629032258
+        ],
+        [
+          269.8210685483871,
+          260.0
+        ],
+        [
+          160.0,
+          260.0
+        ]
+      ],
+      "group_id": null,
+      "description": "Assistant visually revised; user confirmation pending.",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "p049_c2_img_86343.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Driver actions only; passenger phones are outside scope. All 150 seed images visually inspected by assistant; not human-approved."
+}

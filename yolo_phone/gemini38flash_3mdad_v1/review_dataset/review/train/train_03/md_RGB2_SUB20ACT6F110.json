@@ -1,0 +1,37 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          232.32,
+          238.07999999999998
+        ],
+        [
+          302.08,
+          238.07999999999998
+        ],
+        [
+          302.08,
+          308.64
+        ],
+        [
+          232.32,
+          308.64
+        ]
+      ],
+      "flags": {},
+      "group_id": null,
+      "description": "Gemini candidate; pending human review, not ground truth."
+    }
+  ],
+  "imagePath": "md_RGB2_SUB20ACT6F110.jpg",
+  "imageData": null,
+  "imageWidth": 640,
+  "imageHeight": 480,
+  "description": "driver holding mobile phone behind steering wheel"
+}

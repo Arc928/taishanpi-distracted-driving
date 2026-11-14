@@ -1,0 +1,105 @@
+{
+  "same_test_images_and_labels_verified": true,
+  "previous_weights_sha256": "009093f0e187778cce6b44c0adad2d09c62866ad3b3b1b628fefa56b82802640",
+  "official_weights_sha256": "10dd55c32a3f5d1fc340d2355522f8d95063e5a744ba41773c1c1aa16cf35c71",
+  "fixed_threshold": 0.5,
+  "results": [
+    {
+      "scope": "3MDAD 全部",
+      "behavior": "texting",
+      "metric": "expected_class_hit",
+      "previous": 82,
+      "official_init": 82,
+      "total": 120
+    },
+    {
+      "scope": "3MDAD 全部",
+      "behavior": "calling",
+      "metric": "expected_class_hit",
+      "previous": 90,
+      "official_init": 80,
+      "total": 120
+    },
+    {
+      "scope": "3MDAD 全部",
+      "behavior": "background",
+      "metric": "any_detection",
+      "previous": 14,
+      "official_init": 16,
+      "total": 200
+    },
+    {
+      "scope": "3MDAD 正面",
+      "behavior": "texting",
+      "metric": "expected_class_hit",
+      "previous": 29,
+      "official_init": 26,
+      "total": 60
+    },
+    {
+      "scope": "3MDAD 正面",
+      "behavior": "calling",
+      "metric": "expected_class_hit",
+      "previous": 48,
+      "official_init": 40,
+      "total": 60
+    },
+    {
+      "scope": "3MDAD 正面",
+      "behavior": "background",
+      "metric": "any_detection",
+      "previous": 9,
+      "official_init": 7,
+      "total": 100
+    },
+    {
+      "scope": "3MDAD 侧面",
+      "behavior": "texting",
+      "metric": "expected_class_hit",
+      "previous": 53,
+      "official_init": 56,
+      "total": 60
+    },
+    {
+      "scope": "3MDAD 侧面",
+      "behavior": "calling",
+      "metric": "expected_class_hit",
+      "previous": 42,
+      "official_init": 40,
+      "total": 60
+    },
+    {
+      "scope": "3MDAD 侧面",
+      "behavior": "background",
+      "metric": "any_detection",
+      "previous": 5,
+      "official_init": 9,
+      "total": 100
+    },
+    {
+      "scope": "State Farm",
+      "behavior": "texting",
+      "metric": "expected_class_hit",
+      "previous": 96,
+      "official_init": 95,
+      "total": 96
+    },
+    {
+      "scope": "State Farm",
+      "behavior": "calling",
+      "metric": "expected_class_hit",
+      "previous": 90,
+      "official_init": 89,
+      "total": 92
+    },
+    {
+      "scope": "State Farm",
+      "behavior": "background",
+      "metric": "any_detection",
+      "previous": 0,
+      "official_init": 2,
+      "total": 264
+    }
+  ],
+  "service_model_changed": false
+}

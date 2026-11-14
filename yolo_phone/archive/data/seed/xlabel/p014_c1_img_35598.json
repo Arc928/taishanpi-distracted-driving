@@ -1,0 +1,146 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          478.49248,
+          111.51048
+        ],
+        [
+          520.07904,
+          111.51048
+        ],
+        [
+          520.07904,
+          180.04824
+        ],
+        [
+          478.49248,
+          180.04824
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          450.64160000000004,
+          290.78904
+        ],
+        [
+          500.52896000000004,
+          290.78904
+        ],
+        [
+          500.52896000000004,
+          312.95592000000005
+        ],
+        [
+          450.64160000000004,
+          312.95592000000005
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          554.70176,
+          85.57488
+        ],
+        [
+          584.48416,
+          85.57488
+        ],
+        [
+          584.48416,
+          132.13008
+        ],
+        [
+          554.70176,
+          132.13008
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          325.62592,
+          459.41208
+        ],
+        [
+          459.05632,
+          459.41208
+        ],
+        [
+          459.05632,
+          479.99976000000004
+        ],
+        [
+          325.62592,
+          479.99976000000004
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          0.1315199999999983,
+          32.955359999999985
+        ],
+        [
+          318.8304,
+          32.955359999999985
+        ],
+        [
+          318.8304,
+          424.92048
+        ],
+        [
+          0.1315199999999983,
+          424.92048
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p014_c1_img_35598.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

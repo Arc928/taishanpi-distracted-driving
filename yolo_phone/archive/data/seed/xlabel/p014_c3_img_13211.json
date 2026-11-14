@@ -1,0 +1,92 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          0.0,
+          3.410879999999974
+        ],
+        [
+          318.58432,
+          3.410879999999974
+        ],
+        [
+          318.58432,
+          374.4144
+        ],
+        [
+          0.0,
+          374.4144
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          53.18528,
+          247.83336000000003
+        ],
+        [
+          86.3808,
+          247.83336000000003
+        ],
+        [
+          86.3808,
+          282.27192
+        ],
+        [
+          53.18528,
+          282.27192
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          466.45408000000003,
+          107.68415999999999
+        ],
+        [
+          505.44607999999994,
+          107.68415999999999
+        ],
+        [
+          505.44607999999994,
+          181.06848
+        ],
+        [
+          466.45408000000003,
+          181.06848
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p014_c3_img_13211.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

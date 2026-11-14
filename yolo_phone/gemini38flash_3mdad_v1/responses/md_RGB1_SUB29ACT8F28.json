@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB1_SUB29ACT8F28",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": true,
+    "note": "Driver has her left hand raised near her ear/chin, but no mobile phone is clearly visible."
+  },
+  "usage": {
+    "completion_tokens": 2942,
+    "total_tokens": 4411,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 2906
+    }
+  },
+  "seconds": 29.46,
+  "attempt": 1
+}

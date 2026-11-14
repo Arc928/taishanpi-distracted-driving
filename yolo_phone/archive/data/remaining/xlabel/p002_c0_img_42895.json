@@ -1,0 +1,38 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          475.7376,
+          297.91008
+        ],
+        [
+          522.37568,
+          297.91008
+        ],
+        [
+          522.37568,
+          322.69728
+        ],
+        [
+          475.7376,
+          322.69728
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p002_c0_img_42895.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

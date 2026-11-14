@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "image_count": 2926,
+  "train_subject_count": 23,
+  "eval_subject_count": 3,
+  "eval_subjects": [
+    "p016",
+    "p021",
+    "p026"
+  ],
+  "train_eval_subject_overlap": [],
+  "same_sampled_images_as_original_dataset": true,
+  "sampling_groups_verified": 260,
+  "symlinks_verified": 2926,
+  "positive_annotation_pending": 1207,
+  "background_empty_labels": 1719,
+  "old_validation_hash_files_verified": 1021,
+  "new_eval_snapshot_files": 716,
+  "new_eval_positive_ground_truth_boxes": 0
+}

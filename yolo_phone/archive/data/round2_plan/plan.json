@@ -1,0 +1,8 @@
+{
+  "round1_selected": 1002,
+  "round2_human_review": 140,
+  "reserved_high_conf_auto": {
+    "calling": 147,
+    "texting": 45
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB2_SUB40ACT12F78",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The driver has one hand on the steering wheel and the other near their chest/collar with no phone visible."
+  },
+  "usage": {
+    "completion_tokens": 374,
+    "total_tokens": 1843,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 336
+    }
+  },
+  "seconds": 5.51,
+  "attempt": 1
+}

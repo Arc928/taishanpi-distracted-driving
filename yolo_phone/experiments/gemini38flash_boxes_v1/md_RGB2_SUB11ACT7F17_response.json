@@ -1,0 +1,33 @@
+{
+  "id": "md_RGB2_SUB11ACT7F17",
+  "group": "untouched",
+  "view": "front",
+  "weak_class": "calling",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "seconds": 12.92,
+  "usage": {
+    "completion_tokens": 584,
+    "total_tokens": 1995,
+    "prompt_tokens": 1411,
+    "completion_tokens_details": {
+      "reasoning_tokens": 528
+    }
+  },
+  "result": {
+    "objects": [
+      {
+        "label": "calling",
+        "box_2d": [
+          242,
+          610,
+          439,
+          784
+        ]
+      }
+    ],
+    "uncertain": false,
+    "note": "Driver is holding a phone to his ear with his left hand while driving."
+  },
+  "finish_reason": "stop"
+}

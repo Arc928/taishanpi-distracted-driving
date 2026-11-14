@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="header" data-pptx-bounds="40 70 1176 100">
+    <rect x="40" y="76" width="6" height="46" fill="#1F3A5F"/>
+    <text x="64" y="114" font-size="42" font-weight="bold" fill="#1F3A5F">训练 80 轮收敛平稳，按验证集 fitness 选出第 51 轮</text>
+    <text x="64" y="160" font-size="24" fill="#5B6575">补数据后的训练过程正常收敛，第 51 轮在验证集上 mAP50 0.913。</text>
+  </g>
+
+  <g id="train-curves" data-pptx-bounds="64 188 704 418">
+    <image href="../images/train_curves.png" x="64" y="188" width="704" height="352" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="64" y="188" width="704" height="352" fill="none" stroke="#D5DBE3" stroke-width="1"/>
+    <text x="64" y="568" font-size="18" fill="#5B6575">上排前三张为训练损失，下排前三张为验证集损失，其余为验证集<tspan x="64" dy="26">精确率、召回率与 mAP；最后 10 轮关闭 mosaic，训练损失明显下降。</tspan></text>
+  </g>
+
+  <g id="val-pr" data-pptx-bounds="800 188 416 412">
+    <image href="../images/val_pr_curve.png" x="800" y="188" width="416" height="277" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="800" y="188" width="416" height="277" fill="none" stroke="#D5DBE3" stroke-width="1"/>
+    <text x="800" y="494" font-size="18" fill="#5B6575">验证集 212 张 PR 曲线（第 51 轮复验）</text>
+    <g font-size="32" font-weight="bold">
+      <text x="800" y="548" fill="#2EAD6B">0.854</text>
+      <text x="940" y="548" fill="#E8833A">0.973</text>
+      <text x="1080" y="548" fill="#1F3A5F">0.913</text>
+    </g>
+    <g font-size="18" fill="#1E2430">
+      <text x="800" y="578">texting AP50</text>
+      <text x="940" y="578">calling AP50</text>
+      <text x="1080" y="578">全部 mAP50</text>
+    </g>
+  </g>
+
+  <line id="settings-rule" data-pptx-role="decoration" x1="64" y1="612" x2="1216" y2="612" stroke="#D5DBE3" stroke-width="1"/>
+
+  <g id="train-settings" data-pptx-bounds="64 620 1152 46">
+    <text x="64" y="638" font-size="14" fill="#5B6575">设置：官方 yolo11n.pt 起点 · 80 轮 · batch 16 · 输入 640 · AdamW · Apple M1 Pro（MPS）<tspan x="64" dy="20">best.pt 按 fitness（0.1×mAP50 + 0.9×mAP50-95）在验证集上选择，test 不参与。</tspan></text>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 672 1152 24">
+    <text x="64" y="690" font-size="14" fill="#5B6575">06 / 10</text>
+    <text x="1216" y="690" font-size="14" fill="#5B6575" text-anchor="end">中期汇报 · 训练过程</text>
+  </g>
+</svg>

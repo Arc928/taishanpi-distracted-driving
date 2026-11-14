@@ -1,0 +1,10 @@
+{
+  "weights": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/selftrain_23train_round2_yolo11n/weights/best.pt",
+  "sha256": "ca22c7ea45f75a5b3134095bceb98a2eddc66855780a437fb1ac1edc6b22eece",
+  "imgsz": 640,
+  "raw_threshold": 0.1,
+  "display_threshold": 0.5,
+  "split": "train",
+  "auto_accepted_count": 0,
+  "val_test_prefilled": false
+}

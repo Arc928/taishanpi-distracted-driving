@@ -1,0 +1,37 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          300.16,
+          270.71999999999997
+        ],
+        [
+          457.6,
+          270.71999999999997
+        ],
+        [
+          457.6,
+          408.96
+        ],
+        [
+          300.16,
+          408.96
+        ]
+      ],
+      "flags": {},
+      "group_id": null,
+      "description": "Gemini candidate; pending human review, not ground truth."
+    }
+  ],
+  "imagePath": "md_RGB2_SUB43ACT5F31.jpg",
+  "imageData": null,
+  "imageWidth": 640,
+  "imageHeight": 480,
+  "description": "driver holding and using a red mobile phone away from the ear"
+}

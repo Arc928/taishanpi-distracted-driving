@@ -1,0 +1,8 @@
+No,Filename,Width,Height,AspectRatio,PixelAspectRatio,SourceDisplayRatio,RatioSource,Format,HasTransparentPixels,UsageCount,DisplayRatioVariants,AssetKind,SvgRenderable,PptxNativeSupported,SizeKB,Category
+1,demo_screenshot.png,661,1368,0.48,0.48,,native,PNG,False,1,,bitmap,True,True,574.7,Portrait
+2,ex_front_background_fp.jpg,640,480,1.33,1.33,,native,JPEG,False,1,,bitmap,True,True,51.3,Standard landscape
+3,ex_front_texting_hit.jpg,640,480,1.33,1.33,,native,JPEG,False,1,,bitmap,True,True,59.7,Standard landscape
+4,ex_front_texting_miss.jpg,640,480,1.33,1.33,,native,JPEG,False,1,,bitmap,True,True,67.8,Standard landscape
+5,ex_side_calling_hit.jpg,640,480,1.33,1.33,,native,JPEG,False,1,,bitmap,True,True,54.9,Standard landscape
+6,train_curves.png,2400,1200,2.00,2.00,,native,PNG,False,1,,bitmap,True,True,300.7,Wide landscape
+7,val_pr_curve.png,2250,1500,1.50,1.50,,native,PNG,False,1,,bitmap,True,True,87.2,Standard landscape

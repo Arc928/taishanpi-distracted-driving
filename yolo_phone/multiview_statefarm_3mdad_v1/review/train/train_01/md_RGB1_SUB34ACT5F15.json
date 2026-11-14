@@ -1,0 +1,38 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          166.60137939453125,
+          230.33612060546875
+        ],
+        [
+          267.56549072265625,
+          230.33612060546875
+        ],
+        [
+          267.56549072265625,
+          354.5869140625
+        ],
+        [
+          166.60137939453125,
+          354.5869140625
+        ]
+      ],
+      "group_id": null,
+      "flags": {},
+      "score": 0.5594841837882996,
+      "description": "MODEL PROPOSAL ONLY — requires human review"
+    }
+  ],
+  "imagePath": "md_RGB1_SUB34ACT5F15.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Pending human review. Empty shapes are NOT a background label."
+}

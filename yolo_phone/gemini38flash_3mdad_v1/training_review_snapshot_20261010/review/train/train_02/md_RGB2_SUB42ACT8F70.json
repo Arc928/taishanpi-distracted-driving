@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "score": null,
+      "points": [
+        [
+          330.24,
+          101.05638586956523
+        ],
+        [
+          534.3908514492754,
+          101.05638586956523
+        ],
+        [
+          534.3908514492754,
+          283.2
+        ],
+        [
+          330.24,
+          283.2
+        ]
+      ],
+      "group_id": null,
+      "description": "Gemini candidate; pending human review, not ground truth.",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB42ACT8F70.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Driver is holding a mobile phone to his right ear while driving."
+}

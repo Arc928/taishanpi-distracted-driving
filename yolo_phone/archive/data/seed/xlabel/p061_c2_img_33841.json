@@ -1,0 +1,38 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          163.20736,
+          175.3596
+        ],
+        [
+          252.48288,
+          175.3596
+        ],
+        [
+          252.48288,
+          211.71911999999998
+        ],
+        [
+          163.20736,
+          211.71911999999998
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p061_c2_img_33841.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

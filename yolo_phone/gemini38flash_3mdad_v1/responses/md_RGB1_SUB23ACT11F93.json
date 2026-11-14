@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB1_SUB23ACT11F93",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The driver is not holding or using a phone; both hands are empty."
+  },
+  "usage": {
+    "completion_tokens": 398,
+    "total_tokens": 1867,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 367
+    }
+  },
+  "seconds": 4.96,
+  "attempt": 1
+}

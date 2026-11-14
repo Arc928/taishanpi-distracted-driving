@@ -1,0 +1,626 @@
+{
+  "3mdad/S15": {
+    "images": 44,
+    "by_source_class": {
+      "texting": {
+        "total": 12,
+        "any_detection": 8,
+        "expected_class_hit": 8,
+        "wrong_class_present": 0,
+        "no_detection": 4
+      },
+      "calling": {
+        "total": 12,
+        "any_detection": 9,
+        "expected_class_hit": 9,
+        "wrong_class_present": 0,
+        "no_detection": 3
+      },
+      "background": {
+        "total": 20,
+        "any_detection": 1,
+        "expected_class_hit": 0,
+        "wrong_class_present": 1,
+        "no_detection": 19
+      }
+    },
+    "top_class_confusion_matrix": [
+      [
+        8,
+        0,
+        4
+      ],
+      [
+        0,
+        9,
+        3
+      ],
+      [
+        0,
+        1,
+        19
+      ]
+    ],
+    "matrix_class_order": [
+      "texting",
+      "calling",
+      "background"
+    ]
+  },
+  "3mdad/S16": {
+    "images": 44,
+    "by_source_class": {
+      "texting": {
+        "total": 12,
+        "any_detection": 8,
+        "expected_class_hit": 8,
+        "wrong_class_present": 0,
+        "no_detection": 4
+      },
+      "calling": {
+        "total": 12,
+        "any_detection": 5,
+        "expected_class_hit": 5,
+        "wrong_class_present": 0,
+        "no_detection": 7
+      },
+      "background": {
+        "total": 20,
+        "any_detection": 2,
+        "expected_class_hit": 0,
+        "wrong_class_present": 2,
+        "no_detection": 18
+      }
+    },
+    "top_class_confusion_matrix": [
+      [
+        8,
+        0,
+        4
+      ],
+      [
+        0,
+        5,
+        7
+      ],
+      [
+        1,
+        1,
+        18
+      ]
+    ],
+    "matrix_class_order": [
+      "texting",
+      "calling",
+      "background"
+    ]
+  },
+  "3mdad/S18": {
+    "images": 44,
+    "by_source_class": {
+      "texting": {
+        "total": 12,
+        "any_detection": 7,
+        "expected_class_hit": 7,
+        "wrong_class_present": 0,
+        "no_detection": 5
+      },
+      "calling": {
+        "total": 12,
+        "any_detection": 9,
+        "expected_class_hit": 9,
+        "wrong_class_present": 0,
+        "no_detection": 3
+      },
+      "background": {
+        "total": 20,
+        "any_detection": 1,
+        "expected_class_hit": 0,
+        "wrong_class_present": 1,
+        "no_detection": 19
+      }
+    },
+    "top_class_confusion_matrix": [
+      [
+        7,
+        0,
+        5
+      ],
+      [
+        0,
+        9,
+        3
+      ],
+      [
+        1,
+        0,
+        19
+      ]
+    ],
+    "matrix_class_order": [
+      "texting",
+      "calling",
+      "background"
+    ]
+  },
+  "3mdad/S2": {
+    "images": 44,
+    "by_source_class": {
+      "texting": {
+        "total": 12,
+        "any_detection": 6,
+        "expected_class_hit": 6,
+        "wrong_class_present": 0,
+        "no_detection": 6
+      },
+      "calling": {
+        "total": 12,
+        "any_detection": 8,
+        "expected_class_hit": 8,
+        "wrong_class_present": 0,
+        "no_detection": 4
+      },
+      "background": {
+        "total": 20,
+        "any_detection": 1,
+        "expected_class_hit": 0,
+        "wrong_class_present": 1,
+        "no_detection": 19
+      }
+    },
+    "top_class_confusion_matrix": [
+      [
+        6,
+        0,
+        6
+      ],
+      [
+        0,
+        8,
+        4
+      ],
+      [
+        1,
+        0,
+        19
+      ]
+    ],
+    "matrix_class_order": [
+      "texting",
+      "calling",
+      "background"
+    ]
+  },
+  "3mdad/S35": {
+    "images": 44,
+    "by_source_class": {
+      "texting": {
+        "total": 12,
+        "any_detection": 9,
+        "expected_class_hit": 9,
+        "wrong_class_present": 0,
+        "no_detection": 3
+      },
+      "calling": {
+        "total": 12,
+        "any_detection": 9,
+        "expected_class_hit": 9,
+        "wrong_class_present": 0,
+        "no_detection": 3
+      },
+      "background": {
+        "total": 20,
+        "any_detection": 3,
+        "expected_class_hit": 0,
+        "wrong_class_present": 3,
+        "no_detection": 17
+      }
+    },
+    "top_class_confusion_matrix": [
+      [
+        9,
+        0,
+        3
+      ],
+      [
+        0,
+        9,
+        3
+      ],
+      [
+        1,
+        2,
+        17
+      ]
+    ],
+    "matrix_class_order": [
+      "texting",
+      "calling",
+      "background"
+    ]
+  },
+  "3mdad/S41": {
+    "images": 44,
+    "by_source_class": {
+      "texting": {
+        "total": 12,
+        "any_detection": 8,
+        "expected_class_hit": 8,
+        "wrong_class_present": 0,
+        "no_detection": 4
+      },
+      "calling": {
+        "total": 12,
+        "any_detection": 9,
+        "expected_class_hit": 9,
+        "wrong_class_present": 0,
+        "no_detection": 3
+      },
+      "background": {
+        "total": 20,
+        "any_detection": 1,
+        "expected_class_hit": 0,
+        "wrong_class_present": 1,
+        "no_detection": 19
+      }
+    },
+    "top_class_confusion_matrix": [
+      [
+        8,
+        0,
+        4
+      ],
+      [
+        0,
+        9,
+        3
+      ],
+      [
+        0,
+        1,
+        19
+      ]
+    ],
+    "matrix_class_order": [
+      "texting",
+      "calling",
+      "background"
+    ]
+  },
+  "3mdad/S6": {
+    "images": 44,
+    "by_source_class": {
+      "texting": {
+        "total": 12,
+        "any_detection": 7,
+        "expected_class_hit": 7,
+        "wrong_class_present": 0,
+        "no_detection": 5
+      },
+      "calling": {
+        "total": 12,
+        "any_detection": 7,
+        "expected_class_hit": 7,
+        "wrong_class_present": 0,
+        "no_detection": 5
+      },
+      "background": {
+        "total": 20,
+        "any_detection": 3,
+        "expected_class_hit": 0,
+        "wrong_class_present": 3,
+        "no_detection": 17
+      }
+    },
+    "top_class_confusion_matrix": [
+      [
+        7,
+        0,
+        5
+      ],
+      [
+        0,
+        7,
+        5
+      ],
+      [
+        2,
+        1,
+        17
+      ]
+    ],
+    "matrix_class_order": [
+      "texting",
+      "calling",
+      "background"
+    ]
+  },
+  "3mdad/S7": {
+    "images": 44,
+    "by_source_class": {
+      "texting": {
+        "total": 12,
+        "any_detection": 9,
+        "expected_class_hit": 9,
+        "wrong_class_present": 0,
+        "no_detection": 3
+      },
+      "calling": {
+        "total": 12,
+        "any_detection": 8,
+        "expected_class_hit": 8,
+        "wrong_class_present": 0,
+        "no_detection": 4
+      },
+      "background": {
+        "total": 20,
+        "any_detection": 1,
+        "expected_class_hit": 0,
+        "wrong_class_present": 1,
+        "no_detection": 19
+      }
+    },
+    "top_class_confusion_matrix": [
+      [
+        9,
+        0,
+        3
+      ],
+      [
+        0,
+        8,
+        4
+      ],
+      [
+        1,
+        0,
+        19
+      ]
+    ],
+    "matrix_class_order": [
+      "texting",
+      "calling",
+      "background"
+    ]
+  },
+  "3mdad/S8": {
+    "images": 44,
+    "by_source_class": {
+      "texting": {
+        "total": 12,
+        "any_detection": 11,
+        "expected_class_hit": 11,
+        "wrong_class_present": 0,
+        "no_detection": 1
+      },
+      "calling": {
+        "total": 12,
+        "any_detection": 8,
+        "expected_class_hit": 8,
+        "wrong_class_present": 0,
+        "no_detection": 4
+      },
+      "background": {
+        "total": 20,
+        "any_detection": 0,
+        "expected_class_hit": 0,
+        "wrong_class_present": 0,
+        "no_detection": 20
+      }
+    },
+    "top_class_confusion_matrix": [
+      [
+        11,
+        0,
+        1
+      ],
+      [
+        0,
+        8,
+        4
+      ],
+      [
+        0,
+        0,
+        20
+      ]
+    ],
+    "matrix_class_order": [
+      "texting",
+      "calling",
+      "background"
+    ]
+  },
+  "3mdad/S9": {
+    "images": 44,
+    "by_source_class": {
+      "texting": {
+        "total": 12,
+        "any_detection": 9,
+        "expected_class_hit": 9,
+        "wrong_class_present": 0,
+        "no_detection": 3
+      },
+      "calling": {
+        "total": 12,
+        "any_detection": 9,
+        "expected_class_hit": 8,
+        "wrong_class_present": 1,
+        "no_detection": 3
+      },
+      "background": {
+        "total": 20,
+        "any_detection": 3,
+        "expected_class_hit": 0,
+        "wrong_class_present": 3,
+        "no_detection": 17
+      }
+    },
+    "top_class_confusion_matrix": [
+      [
+        9,
+        0,
+        3
+      ],
+      [
+        1,
+        8,
+        3
+      ],
+      [
+        0,
+        3,
+        17
+      ]
+    ],
+    "matrix_class_order": [
+      "texting",
+      "calling",
+      "background"
+    ]
+  },
+  "statefarm/p016": {
+    "images": 137,
+    "by_source_class": {
+      "texting": {
+        "total": 29,
+        "any_detection": 29,
+        "expected_class_hit": 29,
+        "wrong_class_present": 0,
+        "no_detection": 0
+      },
+      "calling": {
+        "total": 26,
+        "any_detection": 26,
+        "expected_class_hit": 26,
+        "wrong_class_present": 0,
+        "no_detection": 0
+      },
+      "background": {
+        "total": 82,
+        "any_detection": 2,
+        "expected_class_hit": 0,
+        "wrong_class_present": 2,
+        "no_detection": 80
+      }
+    },
+    "top_class_confusion_matrix": [
+      [
+        29,
+        0,
+        0
+      ],
+      [
+        0,
+        26,
+        0
+      ],
+      [
+        0,
+        2,
+        80
+      ]
+    ],
+    "matrix_class_order": [
+      "texting",
+      "calling",
+      "background"
+    ]
+  },
+  "statefarm/p021": {
+    "images": 159,
+    "by_source_class": {
+      "texting": {
+        "total": 33,
+        "any_detection": 32,
+        "expected_class_hit": 32,
+        "wrong_class_present": 0,
+        "no_detection": 1
+      },
+      "calling": {
+        "total": 33,
+        "any_detection": 33,
+        "expected_class_hit": 33,
+        "wrong_class_present": 0,
+        "no_detection": 0
+      },
+      "background": {
+        "total": 93,
+        "any_detection": 0,
+        "expected_class_hit": 0,
+        "wrong_class_present": 0,
+        "no_detection": 93
+      }
+    },
+    "top_class_confusion_matrix": [
+      [
+        32,
+        0,
+        1
+      ],
+      [
+        0,
+        33,
+        0
+      ],
+      [
+        0,
+        0,
+        93
+      ]
+    ],
+    "matrix_class_order": [
+      "texting",
+      "calling",
+      "background"
+    ]
+  },
+  "statefarm/p026": {
+    "images": 156,
+    "by_source_class": {
+      "texting": {
+        "total": 34,
+        "any_detection": 34,
+        "expected_class_hit": 34,
+        "wrong_class_present": 0,
+        "no_detection": 0
+      },
+      "calling": {
+        "total": 33,
+        "any_detection": 30,
+        "expected_class_hit": 30,
+        "wrong_class_present": 0,
+        "no_detection": 3
+      },
+      "background": {
+        "total": 89,
+        "any_detection": 0,
+        "expected_class_hit": 0,
+        "wrong_class_present": 0,
+        "no_detection": 89
+      }
+    },
+    "top_class_confusion_matrix": [
+      [
+        34,
+        0,
+        0
+      ],
+      [
+        0,
+        30,
+        3
+      ],
+      [
+        0,
+        0,
+        89
+      ]
+    ],
+    "matrix_class_order": [
+      "texting",
+      "calling",
+      "background"
+    ]
+  }
+}

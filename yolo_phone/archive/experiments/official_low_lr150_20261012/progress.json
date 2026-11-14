@@ -1,0 +1,40 @@
+{
+  "updated_at": "2026-10-12T21:08:05.467235+08:00",
+  "additional_epochs_completed": 22,
+  "lineage_epochs_completed": 122,
+  "max_lineage_epochs": 150,
+  "latest_metrics": {
+    "epoch": "22",
+    "time": "2829.52",
+    "train/box_loss": "0.4851",
+    "train/cls_loss": "0.24134",
+    "train/dfl_loss": "0.89238",
+    "metrics/precision(B)": "0.90474",
+    "metrics/recall(B)": "0.83661",
+    "metrics/mAP50(B)": "0.87973",
+    "metrics/mAP50-95(B)": "0.5649",
+    "val/box_loss": "1.32084",
+    "val/cls_loss": "0.74021",
+    "val/dfl_loss": "1.45791",
+    "lr/pg0": "1.866e-05",
+    "lr/pg1": "1.866e-05",
+    "lr/pg2": "1.866e-05"
+  },
+  "best_additional_metrics": {
+    "epoch": "12",
+    "time": "1585.99",
+    "train/box_loss": "0.49547",
+    "train/cls_loss": "0.24265",
+    "train/dfl_loss": "0.90663",
+    "metrics/precision(B)": "0.9377",
+    "metrics/recall(B)": "0.82299",
+    "metrics/mAP50(B)": "0.89605",
+    "metrics/mAP50-95(B)": "0.57671",
+    "val/box_loss": "1.31882",
+    "val/cls_loss": "0.75892",
+    "val/dfl_loss": "1.45076",
+    "lr/pg0": "2.406e-05",
+    "lr/pg1": "2.406e-05",
+    "lr/pg2": "2.406e-05"
+  }
+}

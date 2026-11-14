@@ -1,0 +1,92 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          323.60544,
+          59.29415999999998
+        ],
+        [
+          639.9657599999999,
+          59.29415999999998
+        ],
+        [
+          639.9657599999999,
+          452.16888
+        ],
+        [
+          323.60544,
+          452.16888
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          0.0,
+          107.5764
+        ],
+        [
+          366.83392,
+          107.5764
+        ],
+        [
+          366.83392,
+          478.80696000000006
+        ],
+        [
+          0.0,
+          478.80696000000006
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          95.79552,
+          11.025599999999995
+        ],
+        [
+          403.0064,
+          11.025599999999995
+        ],
+        [
+          403.0064,
+          377.24447999999995
+        ],
+        [
+          95.79552,
+          377.24447999999995
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p014_c4_img_18203.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "score": null,
+      "points": [
+        [
+          354.3976449275362,
+          145.91032608695656
+        ],
+        [
+          484.8012907608695,
+          145.91032608695656
+        ],
+        [
+          484.8012907608695,
+          296.06317934782606
+        ],
+        [
+          354.3976449275362,
+          296.06317934782606
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB28ACT8F20.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The driver is touching her face/jaw with her hand, but no mobile phone is visible; this is considered touching face/safe driving background."
+}

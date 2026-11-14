@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          290.02943840579707,
+          339.4819972826087
+        ],
+        [
+          425.7178442028985,
+          339.4819972826087
+        ],
+        [
+          425.7178442028985,
+          408.9679574275362
+        ],
+        [
+          290.02943840579707,
+          408.9679574275362
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB33ACT6F66.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The driver appears to be looking down towards his lap, but no mobile phone is clearly visible behind the steering wheel."
+}

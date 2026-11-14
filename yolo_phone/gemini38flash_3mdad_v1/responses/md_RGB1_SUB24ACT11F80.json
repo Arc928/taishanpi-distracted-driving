@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB1_SUB24ACT11F80",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The driver is not holding or using a mobile phone; both hands are free of devices."
+  },
+  "usage": {
+    "completion_tokens": 298,
+    "total_tokens": 1767,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 264
+    }
+  },
+  "seconds": 4.85,
+  "attempt": 1
+}

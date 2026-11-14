@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          400.44610507246375,
+          289.16779891304344
+        ],
+        [
+          587.190330615942,
+          289.16779891304344
+        ],
+        [
+          587.190330615942,
+          432.8102355072464
+        ],
+        [
+          400.44610507246375,
+          432.8102355072464
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB38ACT5F58.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The person using the phone is seated in the front passenger seat, not the driver's seat; only driver behavior is annotated."
+}

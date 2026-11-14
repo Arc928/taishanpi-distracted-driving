@@ -1,0 +1,92 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          492.52768000000003,
+          443.95584
+        ],
+        [
+          561.8992000000001,
+          443.95584
+        ],
+        [
+          561.8992000000001,
+          480.0
+        ],
+        [
+          492.52768000000003,
+          480.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          367.63584000000003,
+          215.01432
+        ],
+        [
+          428.22464,
+          215.01432
+        ],
+        [
+          428.22464,
+          279.66216
+        ],
+        [
+          367.63584000000003,
+          279.66216
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          191.3168,
+          1.4179199999999792
+        ],
+        [
+          639.9996799999999,
+          1.4179199999999792
+        ],
+        [
+          639.9996799999999,
+          366.79488000000003
+        ],
+        [
+          191.3168,
+          366.79488000000003
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p047_c3_img_72566.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

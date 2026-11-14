@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "score": null,
+      "points": [
+        [
+          289.70674818840575,
+          141.31340579710147
+        ],
+        [
+          368.1855751811594,
+          141.31340579710147
+        ],
+        [
+          368.1855751811594,
+          282.53566576086956
+        ],
+        [
+          289.70674818840575,
+          282.53566576086956
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB1_SUB4ACT8F152.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The driver's right hand is on the steering wheel and her left hand is touching her chin/scarf area, but no mobile phone is visible."
+}

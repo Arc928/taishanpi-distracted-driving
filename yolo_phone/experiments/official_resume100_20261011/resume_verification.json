@@ -1,0 +1,13 @@
+{
+  "restored": true,
+  "start_epoch": 67,
+  "total_epochs": 100,
+  "optimizer": "AdamW",
+  "restored_optimizer_parameter_states": 255,
+  "ema_updates": 3183,
+  "early_stopping_disabled": true,
+  "inherited_best_epoch": 42,
+  "inherited_best_fitness": 0.58721,
+  "copied_history_epochs": 66,
+  "mosaic_remains_disabled": true
+}

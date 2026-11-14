@@ -1,0 +1,69 @@
+{
+  "primary_language": "zh-Hans-CN",
+  "canvas": "ppt169",
+  "audience": "课题组导师与评审老师，以及组内同学；熟悉深度学习和目标检测的基本概念，关心阶段进展是否扎实、评估是否可信、后续计划是否可行",
+  "communication_intent": "先汇报阶段进展（数据、标注、评估、模型结果、演示），再如实说明当前短板，最后给出以板端部署为重点的下一阶段计划",
+  "audience_outcome": "老师能看清项目已完成哪些工作、指标可信的原因（按司机划分、人工框测试集），认可当前问题判断，并同意下一阶段以 RKNN 部署和困难样本补充为重点",
+  "core_message": "从只有分类标签的公开数据出发，建立了人工 + 模型协同的检测框标注流程和严格的防泄漏评估；当前模型测试 mAP50 0.937、背景误报从 24/200 降到 5/200，下一步上板部署",
+  "delivery_context": "主要为有主讲的中期汇报现场投影，约 10 分钟、9 页；次要为会后老师查阅",
+  "artifact_afterlife": "作为中期检查材料留档，供后续结题汇报复用",
+  "content_divergence": "",
+  "delivery_purpose": "balanced",
+  "page_count": "9",
+  "mode": "custom",
+  "mode_behavior": "以 pyramid 为基底：封面后先用一页交代背景与目标，正文每页标题写成结论句（如“背景误报下降约 80%”），下方用数据、流程或证据图支撑；问题页与计划页同页对照“短板→对策”，最后一页三句话收束，不做空洞的致谢页。",
+  "visual_style": "custom",
+  "visual_style_behavior": "以 swiss-minimal 为基底：近白底、左对齐模块网格、直角细线分隔，一条深蓝色竖向色带或大号数字承担版面分区；装饰几乎为零，关键指标用超大数字呈现，检测样例图用细线框排成证据格；两类行为固定用绿（texting）与橙（calling）作为语义色，与样例图中的框色一致；完全扁平，无阴影无渐变。",
+  "color": {
+    "name": "深蓝学术",
+    "palette": {
+      "background": "#FFFFFF",
+      "secondary_bg": "#F3F5F8",
+      "primary": "#1F3A5F",
+      "accent": "#E8833A",
+      "secondary_accent": "#2EAD6B",
+      "body_text": "#1E2430"
+    }
+  },
+  "icons": "tabler-outline",
+  "typography": {
+    "name": "微软雅黑 + Arial（同族统一）",
+    "heading": {
+      "css": "sans-serif",
+      "english": "Arial",
+      "primary": "Microsoft YaHei",
+      "sample_primary": "",
+      "sample_english": ""
+    },
+    "body": {
+      "css": "sans-serif",
+      "english": "Arial",
+      "primary": "Microsoft YaHei",
+      "sample_primary": "",
+      "sample_english": ""
+    },
+    "body_size": 24,
+    "sizes": {
+      "title": 42,
+      "subtitle": 32,
+      "annotation": 18
+    },
+    "note": "",
+    "body_size_unit": "px"
+  },
+  "image_usage": [
+    "provided"
+  ],
+  "image_notes": "只使用项目提供的图片，不生成 AI 图：4 张测试集检测样例图（正面玩手机命中、侧面打电话命中、正面左手打字漏检、喝水误报为打电话）放在第 6 页“主要结果”作为证据；本机演示网页截图（竖版）放在第 7 页。图片均为证据，不裁掉检测框和标签。",
+  "proactive_speaker_notes": true,
+  "proactive_custom_animations": false,
+  "proactive_narration_audio": false,
+  "generation_mode": "continuous",
+  "refine_spec": false,
+  "design_spec_depth": "brief",
+  "stage": "final",
+  "status": "confirmed",
+  "stage1_sha256": "edebbb3f354d555b0cab5d41ab8197d9cb589abd09488010b882be004a582072",
+  "selection_sha256": "f92c8e6690cc52dcce378ca04a6fc9b7e1d660ab0b976d6c26ad1009fdea4043",
+  "confirmed_at": "2026-11-13T20:38:11"
+}

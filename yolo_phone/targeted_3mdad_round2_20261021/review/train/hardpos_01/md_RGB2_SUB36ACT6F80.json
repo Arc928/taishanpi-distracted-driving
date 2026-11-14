@@ -1,0 +1,38 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          303.6124267578125,
+          259.2413330078125
+        ],
+        [
+          405.666015625,
+          259.2413330078125
+        ],
+        [
+          405.666015625,
+          361.055419921875
+        ],
+        [
+          303.6124267578125,
+          361.055419921875
+        ]
+      ],
+      "group_id": null,
+      "flags": {},
+      "score": 0.9103489518165588,
+      "description": "MODEL PROPOSAL (conf>=0.25) — verify or delete"
+    }
+  ],
+  "imagePath": "md_RGB2_SUB36ACT6F80.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Source phone action. Box only if the phone is visible; empty = not visible, excluded."
+}

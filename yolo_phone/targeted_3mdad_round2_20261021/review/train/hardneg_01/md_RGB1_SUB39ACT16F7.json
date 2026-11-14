@@ -1,0 +1,11 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [],
+  "imagePath": "md_RGB1_SUB39ACT16F7.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Hard negative: the model fired here (e79 fired texting 0.84 at [158, 286, 234, 373]). Box only if the driver really uses a phone."
+}

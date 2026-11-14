@@ -1,0 +1,115 @@
+{
+  "stage": "stage2",
+  "lang": "zh",
+  "selection_sha256": "f92c8e6690cc52dcce378ca04a6fc9b7e1d660ab0b976d6c26ad1009fdea4043",
+  "recommend": {
+    "delivery_purpose": "balanced",
+    "mode": "custom",
+    "visual_style": "custom",
+    "image_strategy": "custom",
+    "image_usage": ["provided"],
+    "generation_mode": "continuous"
+  },
+  "page_count": { "value": "9" },
+  "image_notes": { "value": "只使用项目提供的图片，不生成 AI 图：4 张测试集检测样例图（正面玩手机命中、侧面打电话命中、正面左手打字漏检、喝水误报为打电话）放在第 6 页“主要结果”作为证据；本机演示网页截图（竖版）放在第 7 页。图片均为证据，不裁掉检测框和标签。" },
+  "proactive_speaker_notes": { "value": true },
+  "proactive_custom_animations": { "value": false },
+  "proactive_narration_audio": { "value": false },
+  "refine_spec": { "value": false },
+  "design_spec_depth": { "value": "brief" },
+  "design_directions": {
+    "selected": 0,
+    "candidates": [
+      {
+        "id": "academic-grid",
+        "name": "学术网格·结论先行",
+        "note": "白底深蓝的严谨网格风，每页标题直接写结论，数据和证据图在下方支撑，适合投影答辩。",
+        "mode": "custom",
+        "mode_behavior": "以 pyramid 为基底：封面后先用一页交代背景与目标，正文每页标题写成结论句（如“背景误报下降约 80%”），下方用数据、流程或证据图支撑；问题页与计划页同页对照“短板→对策”，最后一页三句话收束，不做空洞的致谢页。",
+        "mode_references": ["pyramid"],
+        "visual_style": "custom",
+        "visual_style_behavior": "以 swiss-minimal 为基底：近白底、左对齐模块网格、直角细线分隔，一条深蓝色竖向色带或大号数字承担版面分区；装饰几乎为零，关键指标用超大数字呈现，检测样例图用细线框排成证据格；两类行为固定用绿（texting）与橙（calling）作为语义色，与样例图中的框色一致；完全扁平，无阴影无渐变。",
+        "visual_style_references": ["swiss-minimal"],
+        "icons": "tabler-outline",
+        "color": { "name": "深蓝学术", "palette": {
+          "background": "#FFFFFF", "secondary_bg": "#F3F5F8",
+          "primary": "#1F3A5F", "accent": "#E8833A",
+          "secondary_accent": "#2EAD6B", "body_text": "#1E2430"
+        } },
+        "typography": {
+          "name": "微软雅黑 + Arial（同族统一）",
+          "heading": { "primary": "Microsoft YaHei", "english": "Arial", "css": "sans-serif" },
+          "body": { "primary": "Microsoft YaHei", "english": "Arial", "css": "sans-serif" },
+          "body_size": 24
+        },
+        "image_strategy": {
+          "name": "网格示意图",
+          "rendering": "custom",
+          "visual": "极简几何示意：直线、矩形和圆点构成的流程或结构示意，大面积留白",
+          "mood": "冷静、精确，像学术论文中的方法示意图",
+          "behavior": "线条为单一粗细的直线与直角，填色只用深蓝与少量橙绿语义色的平涂；无纹理、无透视、无阴影；主体居于网格一侧，留出大面积空白。"
+        }
+      },
+      {
+        "id": "dark-console",
+        "name": "深色技术·控制台",
+        "note": "深色画布配青色发光强调，延续演示网页的深色界面，更像技术发布，但投影对比度要注意。",
+        "mode": "custom",
+        "mode_behavior": "以 pyramid 为基底：标题写结论，指标页以一个发光的大数字为视觉中心，周围用细线节点串起数据来源与评估设置；问题与计划页用左右两栏对照；结尾页回到核心指标并点出下一步上板部署。",
+        "mode_references": ["pyramid"],
+        "visual_style": "custom",
+        "visual_style_behavior": "以 dark-tech 为基底：深石墨底色，细网格背景，青色细线和节点连接流程步骤，关键数字带同色微弱外发光；标签与数字用等宽字体并加宽字距；检测样例图放在细括号框里像监控画面；texting 绿、calling 橙作为语义色保持不变；深度只靠发光与层叠，不用投影。",
+        "visual_style_references": ["dark-tech"],
+        "icons": "tabler-outline",
+        "color": { "name": "石墨青光", "palette": {
+          "background": "#0F1722", "secondary_bg": "#18222F",
+          "primary": "#2EC4B6", "accent": "#F29F43",
+          "secondary_accent": "#3DDC84", "body_text": "#E6EDF3"
+        } },
+        "typography": {
+          "name": "微软雅黑 + Consolas（正文与等宽数据对比）",
+          "heading": { "primary": "Microsoft YaHei", "english": "Arial", "css": "sans-serif" },
+          "body": { "primary": "Microsoft YaHei", "english": "Consolas", "css": "monospace" },
+          "body_size": 24
+        },
+        "image_strategy": {
+          "name": "控制台界面图",
+          "rendering": "custom",
+          "visual": "深色界面风格的数据面板与节点连线示意",
+          "mood": "专注、科技感，像车载监控系统的调试屏幕",
+          "behavior": "细发光线条与圆角面板构成界面元素，深色底上只有青色和橙色两种发光色；质感为平面屏幕，深度来自层叠与发光而非透视。"
+        }
+      },
+      {
+        "id": "evidence-journal",
+        "name": "研究报道·证据叙事",
+        "note": "米白纸面、衬线标题的数据报道风，按“难题→办法→结果→不足→下一步”讲成一个故事，图表和样例图是主角。",
+        "mode": "custom",
+        "mode_behavior": "以 narrative 为基底：开场抛出难题“公开数据没有检测框”，中段讲如何用人工 + 模型协同补框并建立可信评估，结果页给出转折性的数字（误报 24→5），随后坦白短板，结尾落在下一步上板部署；标题写成推进故事的节拍句。",
+        "mode_references": ["narrative"],
+        "visual_style": "custom",
+        "visual_style_behavior": "以 data-journalism 为基底：米白纸面、多栏网格，图表是页面的骨架而非装在卡片里；关键数字用衬线大字作为 pull-stat，细发丝线分栏，每个数据页底部有一行来源说明；检测样例图像报道配图一样带小号图注；texting 绿、calling 橙只用于数据含义着色；扁平无阴影。",
+        "visual_style_references": ["data-journalism"],
+        "icons": "tabler-outline",
+        "color": { "name": "纸面墨红", "palette": {
+          "background": "#FAF8F4", "secondary_bg": "#F0ECE4",
+          "primary": "#22313F", "accent": "#B8432F",
+          "secondary_accent": "#2E8B57", "body_text": "#2A2A2A"
+        } },
+        "typography": {
+          "name": "宋体 + Cambria 标题 × 微软雅黑正文（衬线与无衬线对比）",
+          "heading": { "primary": "SimSun", "english": "Cambria", "css": "serif" },
+          "body": { "primary": "Microsoft YaHei", "english": "Arial", "css": "sans-serif" },
+          "body_size": 24
+        },
+        "image_strategy": {
+          "name": "报道信息图",
+          "rendering": "custom",
+          "visual": "杂志信息图风格的示意插图，配简洁注释线",
+          "mood": "克制、可信，像科技报道里的解释性配图",
+          "behavior": "平涂色块配细注释线，纸面上用深蓝与墨红两色，带极轻的纸张颗粒；无立体透视，主体简化为可识别的轮廓。"
+        }
+      }
+    ]
+  }
+}

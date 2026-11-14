@@ -1,0 +1,38 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          217.84536743164062,
+          257.41748046875
+        ],
+        [
+          306.4472351074219,
+          257.41748046875
+        ],
+        [
+          306.4472351074219,
+          350.169921875
+        ],
+        [
+          217.84536743164062,
+          350.169921875
+        ]
+      ],
+      "group_id": null,
+      "flags": {},
+      "score": 0.5441612601280212,
+      "description": "MODEL PROPOSAL ONLY — requires human review"
+    }
+  ],
+  "imagePath": "md_RGB1_SUB13ACT5F23.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Pending human review. Empty shapes are NOT a background label."
+}

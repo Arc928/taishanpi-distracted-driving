@@ -1,0 +1,37 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          216.32,
+          219.84
+        ],
+        [
+          277.12,
+          219.84
+        ],
+        [
+          277.12,
+          284.64
+        ],
+        [
+          216.32,
+          284.64
+        ]
+      ],
+      "flags": {},
+      "group_id": null,
+      "description": "Gemini candidate; pending human review, not ground truth."
+    }
+  ],
+  "imagePath": "md_RGB1_SUB17ACT6F142.jpg",
+  "imageData": null,
+  "imageWidth": 640,
+  "imageHeight": 480,
+  "description": "Driver is holding a smartphone in hand while operating the steering wheel."
+}

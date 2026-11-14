@@ -1,0 +1,7 @@
+{
+  "weights": "/Users/arc928/Documents/ChatGPT/\u6cf0\u5c71\u6d3e/yolo_phone/runs/seed_reviewed_yolo11n/weights/best.pt",
+  "display_threshold": 0.5,
+  "raw_threshold": 0.1,
+  "image_count": 2132,
+  "source_split": "train"
+}

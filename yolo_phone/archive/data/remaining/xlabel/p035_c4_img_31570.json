@@ -1,0 +1,92 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          209.69791999999998,
+          162.66456000000002
+        ],
+        [
+          243.23008000000002,
+          162.66456000000002
+        ],
+        [
+          243.23008000000002,
+          210.51432
+        ],
+        [
+          209.69791999999998,
+          210.51432
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          460.15583999999996,
+          258.97296
+        ],
+        [
+          503.93504,
+          258.97296
+        ],
+        [
+          503.93504,
+          310.2888
+        ],
+        [
+          460.15583999999996,
+          310.2888
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          216.88416,
+          150.99144
+        ],
+        [
+          252.82335999999998,
+          150.99144
+        ],
+        [
+          252.82335999999998,
+          204.19704
+        ],
+        [
+          216.88416,
+          204.19704
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p035_c4_img_31570.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

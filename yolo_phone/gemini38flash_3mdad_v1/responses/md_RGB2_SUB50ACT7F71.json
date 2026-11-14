@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB2_SUB50ACT7F71",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The visible person is sitting in the front passenger seat; the driver seat (with the steering wheel) is on the left and unoccupied. Passengers must not be annotated."
+  },
+  "usage": {
+    "completion_tokens": 3193,
+    "total_tokens": 4662,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 3144
+    }
+  },
+  "seconds": 29.81,
+  "attempt": 1
+}

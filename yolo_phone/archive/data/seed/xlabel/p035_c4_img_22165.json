@@ -1,0 +1,119 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          0.0,
+          63.88200000000001
+        ],
+        [
+          344.23424,
+          63.88200000000001
+        ],
+        [
+          344.23424,
+          454.07352000000003
+        ],
+        [
+          0.0,
+          454.07352000000003
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          280.42015999999995,
+          172.026
+        ],
+        [
+          572.37344,
+          172.026
+        ],
+        [
+          572.37344,
+          479.01239999999996
+        ],
+        [
+          280.42015999999995,
+          479.01239999999996
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          218.0704,
+          145.58376
+        ],
+        [
+          245.52512000000002,
+          145.58376
+        ],
+        [
+          245.52512000000002,
+          202.87320000000003
+        ],
+        [
+          218.0704,
+          202.87320000000003
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          459.592,
+          256.22447999999997
+        ],
+        [
+          505.11072,
+          256.22447999999997
+        ],
+        [
+          505.11072,
+          308.3016
+        ],
+        [
+          459.592,
+          308.3016
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p035_c4_img_22165.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

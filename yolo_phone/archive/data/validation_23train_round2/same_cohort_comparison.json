@@ -1,0 +1,107 @@
+{
+  "subjects": [
+    "p016",
+    "p021",
+    "p026"
+  ],
+  "image_count": 452,
+  "results": [
+    {
+      "stage": "old_round1",
+      "source_behavior": "texting",
+      "threshold": 0.5,
+      "metric": "expected_class_image_hits",
+      "count": 94,
+      "total": 96
+    },
+    {
+      "stage": "old_round1",
+      "source_behavior": "calling",
+      "threshold": 0.5,
+      "metric": "expected_class_image_hits",
+      "count": 87,
+      "total": 92
+    },
+    {
+      "stage": "old_round1",
+      "source_behavior": "background",
+      "threshold": 0.5,
+      "metric": "background_false_positives",
+      "count": 5,
+      "total": 264
+    },
+    {
+      "stage": "old_round2",
+      "source_behavior": "texting",
+      "threshold": 0.5,
+      "metric": "expected_class_image_hits",
+      "count": 96,
+      "total": 96
+    },
+    {
+      "stage": "old_round2",
+      "source_behavior": "calling",
+      "threshold": 0.5,
+      "metric": "expected_class_image_hits",
+      "count": 90,
+      "total": 92
+    },
+    {
+      "stage": "old_round2",
+      "source_behavior": "background",
+      "threshold": 0.5,
+      "metric": "background_false_positives",
+      "count": 4,
+      "total": 264
+    },
+    {
+      "stage": "previous_new_split",
+      "source_behavior": "texting",
+      "threshold": 0.5,
+      "metric": "expected_class_image_hits",
+      "count": 96,
+      "total": 96
+    },
+    {
+      "stage": "previous_new_split",
+      "source_behavior": "calling",
+      "threshold": 0.5,
+      "metric": "expected_class_image_hits",
+      "count": 87,
+      "total": 92
+    },
+    {
+      "stage": "previous_new_split",
+      "source_behavior": "background",
+      "threshold": 0.5,
+      "metric": "background_false_positives",
+      "count": 2,
+      "total": 264
+    },
+    {
+      "stage": "new_round2",
+      "source_behavior": "texting",
+      "threshold": 0.5,
+      "metric": "expected_class_image_hits",
+      "count": 93,
+      "total": 96
+    },
+    {
+      "stage": "new_round2",
+      "source_behavior": "calling",
+      "threshold": 0.5,
+      "metric": "expected_class_image_hits",
+      "count": 92,
+      "total": 92
+    },
+    {
+      "stage": "new_round2",
+      "source_behavior": "background",
+      "threshold": 0.5,
+      "metric": "background_false_positives",
+      "count": 2,
+      "total": 264
+    }
+  ],
+  "limitation": "Image-level diagnostics only, not detection mAP."
+}

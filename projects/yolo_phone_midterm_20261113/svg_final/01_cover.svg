@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="cover" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <rect id="cover-band" data-pptx-role="decoration" x="0" y="0" width="760" height="720" fill="#1F3A5F" />
+
+  <g id="cover-title" data-pptx-bounds="64 150 680 400">
+    <text x="72" y="200" font-size="32" fill="#FFFFFF" fill-opacity="0.75">基于 YOLO11n 的</text>
+    <text font-weight="bold" font-size="72" fill="#FFFFFF" x="72" y="300">驾驶员手机使用</text><text font-weight="bold" font-size="72" fill="#FFFFFF" x="72" y="392">行为检测</text><rect x="72" y="436" width="64" height="4" fill="#E8833A" />
+    <text x="72" y="500" font-size="32" fill="#FFFFFF">中期汇报 · 阶段性成果</text>
+  </g>
+
+  <g id="cover-hook" data-pptx-bounds="840 150 380 340">
+    <text x="840" y="184" font-size="18" fill="#5B6575">测试集（人工标框）mAP50</text>
+    <text x="840" y="262" font-size="72" font-weight="bold" fill="#1F3A5F">0.937</text>
+    <line x1="840" y1="306" x2="1200" y2="306" stroke="#D5DBE3" stroke-width="1" />
+    <text x="840" y="350" font-size="18" fill="#5B6575">背景误报（每 200 张）</text>
+    <text x="840" y="428" font-size="72" font-weight="bold" fill="#E8833A">24 → 5</text>
+  </g>
+
+  <g id="cover-meta" data-pptx-bounds="840 560 380 100">
+    <text x="840" y="588" font-size="24" fill="#1E2430">汇报人：（待填）</text>
+    <text x="840" y="624" font-size="24" fill="#1E2430">指导老师：（待填）</text>
+    <text x="840" y="656" font-size="18" fill="#5B6575">2026 年 11 月</text>
+  </g>
+</svg>

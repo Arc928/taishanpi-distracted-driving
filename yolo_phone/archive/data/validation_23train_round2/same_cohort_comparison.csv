@@ -1,0 +1,13 @@
+﻿stage,source_behavior,threshold,metric,count,total
+old_round1,texting,0.5,expected_class_image_hits,94,96
+old_round1,calling,0.5,expected_class_image_hits,87,92
+old_round1,background,0.5,background_false_positives,5,264
+old_round2,texting,0.5,expected_class_image_hits,96,96
+old_round2,calling,0.5,expected_class_image_hits,90,92
+old_round2,background,0.5,background_false_positives,4,264
+previous_new_split,texting,0.5,expected_class_image_hits,96,96
+previous_new_split,calling,0.5,expected_class_image_hits,87,92
+previous_new_split,background,0.5,background_false_positives,2,264
+new_round2,texting,0.5,expected_class_image_hits,93,96
+new_round2,calling,0.5,expected_class_image_hits,92,92
+new_round2,background,0.5,background_false_positives,2,264

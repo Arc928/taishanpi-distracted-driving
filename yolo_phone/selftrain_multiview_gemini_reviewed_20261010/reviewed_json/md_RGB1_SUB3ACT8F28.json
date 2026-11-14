@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "score": null,
+      "points": [
+        [
+          298.85246829710144,
+          149.90149456521743
+        ],
+        [
+          415.8135190217391,
+          149.90149456521743
+        ],
+        [
+          415.8135190217391,
+          272.03125
+        ],
+        [
+          298.85246829710144,
+          272.03125
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB1_SUB3ACT8F28.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The driver has their left hand on the steering wheel and is touching their face/chin with their right hand; no mobile phone is present."
+}

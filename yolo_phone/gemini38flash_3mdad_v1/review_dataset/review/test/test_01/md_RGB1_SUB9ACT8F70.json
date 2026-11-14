@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "score": null,
+      "points": [
+        [
+          288.1300403225806,
+          153.6491935483871
+        ],
+        [
+          407.8855846774194,
+          153.6491935483871
+        ],
+        [
+          407.8855846774194,
+          290.2898185483871
+        ],
+        [
+          288.1300403225806,
+          290.2898185483871
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB1_SUB9ACT8F70.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The driver is driving with one hand on the steering wheel; his right ear is visible with no phone present, and no phone is visible in either hand."
+}

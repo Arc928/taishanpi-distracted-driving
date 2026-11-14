@@ -1,0 +1,62 @@
+{
+  "count": 1422,
+  "by_class": {
+    "texting": 480,
+    "calling": 468,
+    "background": 474
+  },
+  "by_origin": {
+    "reused:round1:human_seed": 150,
+    "reused:round1:pseudo_conf_ge_0.80": 568,
+    "reused:round1:assistant_checked_hard_negative": 12,
+    "reused:round1:source_class_background": 272,
+    "reused:round1_leftover_auto_texting": 45,
+    "reused:round1_leftover_auto_calling": 147,
+    "reused:round2:calling_hard_miss": 17,
+    "reused:round2:calling_near": 8,
+    "reused:round2:calling_mid:accepted_prefill": 23,
+    "reused:round2:calling_mid": 4,
+    "reused:round2:texting_hard_miss": 9,
+    "reused:round2:texting_mid:accepted_prefill": 10,
+    "reused:round2:texting_near": 2,
+    "reused:round2:bg_fp_high:background": 9,
+    "reused:round2:bg_fp_mid:background": 26,
+    "reused:round2:bg_control:background": 25,
+    "reused:round2_topup_background": 72,
+    "new_pseudo_ge_0.8": 15,
+    "new_source_background_no_detection": 8
+  },
+  "train_subjects": [
+    "p002",
+    "p012",
+    "p014",
+    "p015",
+    "p022",
+    "p024",
+    "p035",
+    "p039",
+    "p041",
+    "p042",
+    "p045",
+    "p047",
+    "p049",
+    "p050",
+    "p051",
+    "p052",
+    "p056",
+    "p061",
+    "p064",
+    "p066",
+    "p072",
+    "p075",
+    "p081"
+  ],
+  "eval_subjects": [
+    "p016",
+    "p021",
+    "p026"
+  ],
+  "dataset": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/dataset_23train_3eval_1of8",
+  "eval_files_unchanged": true,
+  "val_is_training_fit_check": true
+}

@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          297.08165322580646,
+          189.0398185483871
+        ],
+        [
+          393.56098790322585,
+          189.0398185483871
+        ],
+        [
+          393.56098790322585,
+          242.02368951612902
+        ],
+        [
+          297.08165322580646,
+          242.02368951612902
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "p066_c3_img_30666.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "pool=texting_near; model-first proposal, verify before training"
+}

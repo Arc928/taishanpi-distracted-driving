@@ -1,0 +1,63 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          95.1715316772461,
+          59.676422119140625
+        ],
+        [
+          303.9684143066406,
+          59.676422119140625
+        ],
+        [
+          303.9684143066406,
+          273.9363708496094
+        ],
+        [
+          95.1715316772461,
+          273.9363708496094
+        ]
+      ],
+      "flags": {},
+      "group_id": null,
+      "score": 0.7087914943695068,
+      "description": "YOLO11n proposal conf=0.709; pending review."
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          142.15411376953125,
+          156.31338500976562
+        ],
+        [
+          303.28594970703125,
+          156.31338500976562
+        ],
+        [
+          303.28594970703125,
+          272.9775085449219
+        ],
+        [
+          142.15411376953125,
+          272.9775085449219
+        ]
+      ],
+      "flags": {},
+      "group_id": null,
+      "score": 0.6517759561538696,
+      "description": "YOLO11n proposal conf=0.652; pending review."
+    }
+  ],
+  "imagePath": "p041_c8_img_87249.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

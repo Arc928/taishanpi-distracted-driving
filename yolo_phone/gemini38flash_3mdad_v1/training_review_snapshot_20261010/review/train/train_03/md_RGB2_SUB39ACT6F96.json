@@ -1,0 +1,37 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          204.8,
+          303.36
+        ],
+        [
+          316.8,
+          303.36
+        ],
+        [
+          316.8,
+          388.8
+        ],
+        [
+          204.8,
+          388.8
+        ]
+      ],
+      "flags": {},
+      "group_id": null,
+      "description": "Gemini candidate; pending human review, not ground truth."
+    }
+  ],
+  "imagePath": "md_RGB2_SUB39ACT6F96.jpg",
+  "imageData": null,
+  "imageWidth": 640,
+  "imageHeight": 480,
+  "description": "Driver is holding a smartphone with their left hand below the steering wheel while resting their right arm on the wheel."
+}

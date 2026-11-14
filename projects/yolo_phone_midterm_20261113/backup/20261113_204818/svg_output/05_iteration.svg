@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="header" data-pptx-bounds="40 70 1176 100">
+    <rect x="40" y="76" width="6" height="46" fill="#1F3A5F"/>
+    <text x="64" y="114" font-size="42" font-weight="bold" fill="#1F3A5F">补困难样本，比加大分辨率、堆简单样本更有效</text>
+    <text x="64" y="160" font-size="24" fill="#5B6575">失败分析定位了两类短板，据此补充 725 张针对性数据。</text>
+  </g>
+
+  <g id="findings" data-pptx-bounds="64 196 520 452">
+    <text x="64" y="220" font-size="18" font-weight="bold" fill="#5B6575">早期发现</text>
+    <use data-icon="tabler-outline/x" x="64" y="246" width="28" height="28" fill="#5B6575" stroke-width="2"/>
+    <text x="104" y="268" font-size="24" font-weight="bold" fill="#1E2430">加大输入分辨率没有帮助</text>
+    <text x="104" y="300" font-size="18" fill="#5B6575">640 / 960 / 1280 下打电话命中 108 / 100 / 42 张</text>
+    <use data-icon="tabler-outline/x" x="64" y="346" width="28" height="28" fill="#5B6575" stroke-width="2"/>
+    <text x="104" y="368" font-size="24" font-weight="bold" fill="#1E2430">伪标签自训练有天花板</text>
+    <text x="104" y="400" font-size="18" fill="#5B6575">反复使用同一批司机的简单样本，提升有限</text>
+    <use data-icon="tabler-outline/check" x="64" y="446" width="28" height="28" fill="#2EAD6B" stroke-width="2"/>
+    <text x="104" y="468" font-size="24" font-weight="bold" fill="#1E2430">新司机与困难姿态更有价值</text>
+    <text x="104" y="500" font-size="18" fill="#5B6575">比堆同一批司机的容易样本更有效</text>
+    <text x="64" y="620" font-size="14" fill="#5B6575">注：早期对照，均为当时模型的图像级统计</text>
+  </g>
+
+  <g id="failure-analysis" data-pptx-bounds="616 196 600 144">
+    <rect x="616" y="196" width="600" height="144" fill="#F3F5F8"/>
+    <text x="640" y="230" font-size="18" font-weight="bold" fill="#5B6575">失败分析</text>
+    <text x="640" y="268" font-size="24" fill="#1E2430">漏检集中在<tspan font-weight="bold" fill="#2EAD6B">“正面视角、左手打字”</tspan>（AC6）</text>
+    <text x="640" y="312" font-size="24" fill="#1E2430">误报集中在<tspan font-weight="bold" fill="#E8833A">“手靠近脸”</tspan>的动作<tspan font-size="18" fill="#5B6575">　如喝水、整理头发</tspan></text>
+  </g>
+
+  <g id="p05-arrow-down" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="downArrow" data-pptx-frame="892 350 48 52" fill="#1F3A5F" stroke="none">
+<path d="M 892 378 L 904 378 L 904 350 L 928 350 L 928 378 L 940 378 L 916 402 Z"/>
+</g>
+
+  <g id="targeted-data" data-pptx-bounds="616 412 600 236">
+    <rect x="616" y="412" width="600" height="236" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+    <text x="640" y="452" font-size="24" font-weight="bold" fill="#1F3A5F">针对性补充 725 张候选</text>
+    <g font-size="32" font-weight="bold" fill="#1F3A5F">
+      <text x="640" y="526">280</text>
+      <text x="784" y="526">105</text>
+      <text x="928" y="526">300</text>
+      <text x="1072" y="526">40</text>
+    </g>
+    <g font-size="18" fill="#1E2430">
+      <text x="640" y="560">正面左手打字</text>
+      <text x="784" y="560">侧面打电话</text>
+      <text x="928" y="560">困难背景</text>
+      <text x="1072" y="560">验证集</text>
+    </g>
+    <text x="640" y="616" font-size="18" fill="#5B6575">全部人工逐张审核后才加入训练</text>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 672 1152 24">
+    <text x="64" y="690" font-size="14" fill="#5B6575">05 / 09</text>
+    <text x="1216" y="690" font-size="14" fill="#5B6575" text-anchor="end">中期汇报 · 迭代与发现</text>
+  </g>
+</svg>

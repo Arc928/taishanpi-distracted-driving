@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "train/base/background": 1226,
+    "train/base/calling": 861,
+    "train/base/texting": 865,
+    "train/targeted_round2/background": 300,
+    "train/targeted_round2/calling": 45,
+    "train/targeted_round2/texting": 152,
+    "val/base/background": 99,
+    "val/base/calling": 54,
+    "val/base/texting": 47,
+    "val/targeted_round2/texting": 12
+  },
+  "totals": {
+    "train": 3449,
+    "val": 212
+  },
+  "rule": "box->positive; empty source phone action->excluded; empty hard negative->background",
+  "test_included": false,
+  "leakage_checks": "subject and SHA-256 disjoint incl. 3MDAD test"
+}

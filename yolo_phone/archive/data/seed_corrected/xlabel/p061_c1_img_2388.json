@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          345.70564516129036,
+          215.1587701612903
+        ],
+        [
+          450.70564516129036,
+          215.1587701612903
+        ],
+        [
+          450.70564516129036,
+          330.1587701612903
+        ],
+        [
+          345.70564516129036,
+          330.1587701612903
+        ]
+      ],
+      "group_id": null,
+      "description": "Assistant visually revised; user confirmation pending.",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "p061_c1_img_2388.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Driver actions only; passenger phones are outside scope. All 150 seed images visually inspected by assistant; not human-approved."
+}

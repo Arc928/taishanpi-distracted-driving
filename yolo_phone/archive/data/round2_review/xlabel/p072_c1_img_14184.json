@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          368.8760080645161,
+          151.88760080645162
+        ],
+        [
+          493.80040322580646,
+          151.88760080645162
+        ],
+        [
+          493.80040322580646,
+          257.08417338709677
+        ],
+        [
+          368.8760080645161,
+          257.08417338709677
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "p072_c1_img_14184.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "pool=texting_hard_miss; model-first proposal, verify before training"
+}

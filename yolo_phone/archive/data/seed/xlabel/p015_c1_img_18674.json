@@ -1,0 +1,119 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          517.20928,
+          238.81992
+        ],
+        [
+          588.10272,
+          238.81992
+        ],
+        [
+          588.10272,
+          294.92664
+        ],
+        [
+          517.20928,
+          294.92664
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          123.29248,
+          0.0
+        ],
+        [
+          191.52608,
+          0.0
+        ],
+        [
+          191.52608,
+          31.980480000000004
+        ],
+        [
+          123.29248,
+          31.980480000000004
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          0.4899199999999837,
+          105.81696
+        ],
+        [
+          359.8352,
+          105.81696
+        ],
+        [
+          359.8352,
+          478.73088
+        ],
+        [
+          0.4899199999999837,
+          478.73088
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          322.99199999999996,
+          84.64296000000002
+        ],
+        [
+          639.8278399999999,
+          84.64296000000002
+        ],
+        [
+          639.8278399999999,
+          473.05656
+        ],
+        [
+          322.99199999999996,
+          473.05656
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p015_c1_img_18674.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

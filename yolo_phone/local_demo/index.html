@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分心驾驶 · 本机测试</title>
+<style>
+:root{color-scheme:dark;--bg:#10141c;--panel:#181e29;--line:#2c3545;--text:#edf2fa;--muted:#9aa8bc;--green:#61e0a9;--orange:#ffbd72}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:1320px;margin:auto;padding:32px 28px}header{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:28px}h1{font-size:25px;margin:0 0 8px;font-weight:650}p{margin:0;color:var(--muted);font-size:14px;line-height:1.6}.badge{border:1px solid var(--line);border-radius:30px;padding:9px 14px;font-size:13px;white-space:nowrap}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:20px}.viewer{min-height:500px;background:#090d14;border:1px solid var(--line);border-radius:18px;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}.viewer.drag{border-color:var(--green)}canvas{display:none;width:100%;height:auto;max-height:72vh;object-fit:contain}.placeholder{text-align:center;padding:36px}.icon{font-size:45px;margin-bottom:20px;color:var(--green)}.placeholder h2{font-size:20px;margin:0 0 12px}.placeholder button{margin-top:24px}
+.side{display:flex;flex-direction:column;gap:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px}.label{font-size:13px;color:var(--muted);margin-bottom:14px}.actions{display:flex;flex-direction:column;gap:10px}button{border:1px solid var(--line);border-radius:10px;background:#263044;color:var(--text);padding:12px 16px;font:inherit;font-size:14px;cursor:pointer}button:hover{background:#334159}button.primary{background:var(--green);color:#10251d;border-color:var(--green);font-weight:650}button.primary:hover{background:#8ce9c1}button:disabled{opacity:.4;cursor:default}.row{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}input[type=range]{width:100%;accent-color:var(--green);margin:4px 0 12px}.result{padding:12px 0;display:flex;justify-content:space-between;border-bottom:1px solid var(--line);font-size:14px}.result:last-child{border:0}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:8px}.hint{color:var(--muted);font-size:13px;line-height:1.6}.stats{display:flex;gap:24px;padding:14px 2px;color:var(--muted);font-size:13px}.message{min-height:24px;font-size:13px;color:var(--muted);line-height:1.6;margin-top:14px}.message.error{color:#ff9e97}.source-video{display:none;width:100%;max-height:180px;border-radius:10px;margin-top:12px;background:#000}footer{margin-top:24px;font-size:12px;color:var(--muted)}
+@media(max-width:800px){main{padding:20px 16px}.layout{grid-template-columns:1fr}.side{display:grid;grid-template-columns:1fr 1fr}.viewer{min-height:330px}.side .card:last-child{grid-column:1/-1}header{align-items:flex-start}.badge{font-size:11px;padding:7px 10px}}
+@media(max-width:440px){.side{display:flex}h1{font-size:21px}.stats{gap:12px;flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<main>
+<header><div><h1>分心驾驶检测</h1><p>摄像头、图片或视频 · 识别玩手机与打电话</p></div><span class="badge" id="status">正在连接模型</span></header>
+<div class="layout">
+<section>
+<div class="viewer" id="viewer">
+<div class="placeholder" id="placeholder"><div class="icon">▣</div><h2>开始一次测试</h2><p>开启摄像头，或将图片、视频拖到这里</p><button id="choose-placeholder">选择图片 / 视频</button></div>
+<canvas id="output"></canvas>
+</div>
+<div class="stats"><span id="source-label">尚未选择输入</span><span id="latency">检测耗时 —</span><span id="fps">检测频率 —</span></div>
+<p class="message" id="message">模型就绪后，点击右侧按钮开始。</p>
+</section>
+<aside class="side">
+<div class="card"><div class="label">测试输入</div><div class="actions"><button class="primary" id="camera" disabled>开启摄像头</button><button id="choose" disabled>选择图片 / 视频</button><button id="stop" disabled>停止检测</button><button id="download" disabled>保存当前结果图</button></div><video class="source-video" id="source-video" playsinline muted controls></video></div>
+<div class="card"><div class="row"><span>置信度阈值</span><strong id="threshold-value">0.35</strong></div><input id="threshold" type="range" min="0.10" max="0.95" step="0.05" value="0.35" aria-label="置信度阈值"><p class="hint">默认 0.35（按验证集选定）。提高阈值会减少显示的预测框。</p></div>
+<div class="card"><div class="label">当前帧结果</div><div id="results" class="hint">等待检测</div></div>
+</aside>
+</div>
+<footer>本机临时测试 · YOLO11n · 玩手机：手与手机；打电话：持机手、手机及附近脸部</footer>
+<input id="file" type="file" accept="image/*,video/*" hidden>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+const video=$('source-video'),output=$('output'),ctx=output.getContext('2d');
+const labels=['玩手机','打电话'],colors=['#61e0a9','#ffbd72'];
+let mode=null,media=null,stream=null,objectURL=null,generation=0,timer=null,busy=false,imageDirty=false,videoDirty=true,ready=false;
+let renderHandle=null,renderIsVFC=false,lastVideoTime=-1,lastResult=null,resultAt=0,displayTimes=[],detectionTimes=[],lastStatsAt=0;
+function message(text,error=false){$('message').textContent=text;$('message').classList.toggle('error',error)}
+function stopSource(){
+ generation++;clearTimeout(timer);
+ if(renderHandle!==null){if(renderIsVFC&&video.cancelVideoFrameCallback)video.cancelVideoFrameCallback(renderHandle);else cancelAnimationFrame(renderHandle)}
+ renderHandle=null;if(stream)stream.getTracks().forEach(track=>track.stop());stream=null;
+ video.pause();video.srcObject=null;video.removeAttribute('src');video.load();video.style.display='none';
+ if(objectURL)URL.revokeObjectURL(objectURL);objectURL=null;mode=null;media=null;lastResult=null;resultAt=0;lastVideoTime=-1;displayTimes=[];detectionTimes=[];lastStatsAt=0;$('stop').disabled=true;
+}
+function controls(active){$('stop').disabled=!active;$('status').textContent=active?'检测中':'模型就绪'}
+function schedule(gen,delay=0){clearTimeout(timer);timer=setTimeout(()=>tick(gen),delay)}
+function countFrame(times,now){times.push(now);while(times.length>2&&times[0]<now-2000)times.shift()}
+function frameRate(times){return times.length<2?'—':((times.length-1)*1000/(times.at(-1)-times[0])).toFixed(1)}
+function updateRates(now){if(now-lastStatsAt<250)return;lastStatsAt=now;$('fps').textContent='画面 '+frameRate(displayTimes)+' 帧/秒 · 检测 '+frameRate(detectionTimes)+' 帧/秒'}
+function drawBoxes(result,w,h){
+ if(!result)return;const sx=w/result.width,sy=h/result.height,font=Math.max(16,Math.round(w/45));
+ ctx.font='600 '+font+'px -apple-system, sans-serif';ctx.lineWidth=Math.max(2,w/320);
+ for(const box of result.detections){
+  const [ax,ay,bx,by]=box.xyxy,x1=ax*sx,y1=ay*sy,x2=bx*sx,y2=by*sy,color=colors[box.class_id],text=labels[box.class_id]+' '+Math.round(box.confidence*100)+'%';
+  ctx.strokeStyle=color;ctx.strokeRect(x1,y1,x2-x1,y2-y1);
+  const tw=ctx.measureText(text).width+14,th=font+12,tx=Math.max(0,Math.min(x1,w-tw)),ty=Math.max(0,y1-th);
+  ctx.fillStyle=color;ctx.fillRect(tx,ty,tw,th);ctx.fillStyle='#102018';ctx.fillText(text,tx+7,ty+font+2);
+ }
+}
+function showCanvas(w,h){if(output.width!==w||output.height!==h){output.width=w;output.height=h}output.style.display='block';$('placeholder').style.display='none';$('download').disabled=false}
+function renderPreview(gen,fromNewFrame=false){
+ if(gen!==generation||!mode||mode==='image'||video.readyState<2)return;
+ const ratio=Math.min(1,1280/Math.max(video.videoWidth,video.videoHeight)),w=Math.round(video.videoWidth*ratio),h=Math.round(video.videoHeight*ratio);
+ showCanvas(w,h);ctx.drawImage(video,0,0,w,h);const now=performance.now();
+ if(now-resultAt<350)drawBoxes(lastResult,w,h);
+ if(fromNewFrame){countFrame(displayTimes,now);updateRates(now)}
+}
+function startPreview(gen){
+ const callback=()=>{if(gen!==generation||!mode||mode==='image')return;renderPreview(gen,true);if(video.requestVideoFrameCallback){renderIsVFC=true;renderHandle=video.requestVideoFrameCallback(callback)}else{renderIsVFC=false;renderHandle=requestAnimationFrame(callback)}};
+ renderPreview(gen);if(video.requestVideoFrameCallback){renderIsVFC=true;renderHandle=video.requestVideoFrameCallback(callback)}else{renderIsVFC=false;renderHandle=requestAnimationFrame(callback)}
+}
+function showResults(result){
+ $('results').replaceChildren();if(!result.detections.length)$('results').textContent='当前帧未检出目标';
+ for(const box of result.detections){const row=document.createElement('div');row.className='result';const label=document.createElement('span'),dot=document.createElement('i');dot.className='dot';dot.style.background=colors[box.class_id];label.append(dot,labels[box.class_id]);const score=document.createElement('strong');score.textContent=Math.round(box.confidence*100)+'%';row.append(label,score);$('results').append(row)}
+}
+async function tick(gen){
+ if(gen!==generation||!mode)return;
+ if(busy){schedule(gen,8);return}
+ if(mode==='image'&&!imageDirty){schedule(gen,100);return}
+ if(mode!=='image'&&video.readyState<2){schedule(gen,50);return}
+ if(mode==='video'&&video.ended&&!videoDirty){$('status').textContent='视频结束';message('视频已播放完，可拖动进度条重测。');schedule(gen,150);return}
+ if(mode==='video'&&video.paused&&!videoDirty){schedule(gen,80);return}
+ if(mode!=='image'&&video.currentTime===lastVideoTime&&!videoDirty){schedule(gen,5);return}
+ const currentMode=mode,source=currentMode==='image'?media:video,iw=currentMode==='image'?source.naturalWidth:source.videoWidth,ih=currentMode==='image'?source.naturalHeight:source.videoHeight;
+ if(!iw||!ih){schedule(gen,50);return}
+ busy=true;imageDirty=false;videoDirty=false;lastVideoTime=video.currentTime;const started=performance.now(),threshold=$('threshold').value;
+ // Only inference frames are reduced. Preview uses the camera's native frames.
+ const scale=Math.min(1,(currentMode==='image'?1280:640)/Math.max(iw,ih)),w=Math.round(iw*scale),h=Math.round(ih*scale);
+ const frame=document.createElement('canvas');frame.width=w;frame.height=h;frame.getContext('2d').drawImage(source,0,0,w,h);
+ try{
+  const blob=await new Promise(resolve=>frame.toBlob(resolve,'image/jpeg',currentMode==='image'?0.9:0.85));
+  if(!blob)throw new Error('无法读取当前画面');
+  const response=await fetch('/api/predict?confidence='+threshold,{method:'POST',headers:{'Content-Type':'image/jpeg'},body:blob});
+  const result=await response.json();if(!response.ok)throw new Error(result.error||'检测失败');
+  if(gen!==generation)return;
+  if(threshold!==$('threshold').value){imageDirty=true;videoDirty=true;return}
+  const now=performance.now();lastResult=result;resultAt=now;
+  if(currentMode==='image'){showCanvas(w,h);ctx.drawImage(frame,0,0);drawBoxes(result,w,h);$('fps').textContent='单张图片'}
+  else{renderPreview(gen);countFrame(detectionTimes,now);updateRates(now)}
+  $('latency').textContent='总延迟 '+Math.round(now-started)+' ms · 推理 '+result.inference_ms+' ms';
+  $('latency').title='图像解码 '+result.decode_ms+' ms；预处理 '+result.preprocess_ms+' ms；后处理 '+result.postprocess_ms+' ms';
+  showResults(result);$('status').textContent=currentMode==='image'?'检测完成':currentMode==='video'&&video.ended?'视频结束':'检测中';
+ }catch(error){if(gen===generation){message(error.message||'无法连接测试服务',true);$('status').textContent='检测出错'}}
+ finally{busy=false;if(gen===generation)schedule(gen,currentMode==='image'?100:0)}
+}
+async function useFile(file){
+ if(!ready||!file)return;
+ const isImage=file.type.startsWith('image/'),isVideo=file.type.startsWith('video/')||/\.(mp4|mov|webm|m4v|avi)$/i.test(file.name);
+ if(!isImage&&!isVideo){message('请选择图片或视频文件。',true);return}
+ stopSource();video.onloadeddata=null;video.onerror=null;objectURL=URL.createObjectURL(file);const gen=generation;$('source-label').textContent=file.name;message('正在读取文件…');
+ if(isImage){const image=new Image();media=image;mode='image';image.onload=()=>{if(gen!==generation)return;imageDirty=true;controls(true);message('图片已载入，可调整阈值重新检测。');schedule(gen,0)};image.onerror=()=>message('无法打开这张图片，请换一张重试。',true);image.src=objectURL}
+ else{mode='video';media=video;video.style.display='block';video.controls=true;video.src=objectURL;videoDirty=true;
+  video.onloadeddata=async()=>{if(gen!==generation)return;controls(true);videoDirty=true;startPreview(gen);message('画面连续播放，检测框独立更新；可暂停或拖动进度条。');schedule(gen,0);try{await video.play()}catch(error){message('点击视频播放按钮开始，或拖动进度条检测单帧。')}};
+  video.onerror=()=>message('浏览器无法播放此视频，建议使用 MP4（H.264）。',true)}
+}
+$('camera').onclick=async()=>{
+ stopSource();const gen=generation;message('请在浏览器中允许摄像头访问。');
+ try{const camera=await navigator.mediaDevices.getUserMedia({video:{width:{ideal:1280},height:{ideal:720},frameRate:{ideal:30,max:30}},audio:false});
+  if(gen!==generation){camera.getTracks().forEach(track=>track.stop());return}
+  stream=camera;mode='camera';media=video;video.onloadeddata=null;video.onerror=null;video.srcObject=camera;video.controls=false;await video.play();
+  controls(true);$('source-label').textContent='摄像头实时画面';message('画面连续播放，检测框独立更新。点击“停止检测”关闭摄像头。');startPreview(gen);schedule(gen,0);
+ }catch(error){if(gen!==generation)return;stopSource();$('status').textContent='模型就绪';message(error.name==='NotAllowedError'?'摄像头权限未允许。请在浏览器地址栏允许摄像头后重试。':'无法开启摄像头，请检查是否被其他应用占用。',true)}
+};
+function choose(){if(ready)$('file').click()}
+$('choose').onclick=choose;$('choose-placeholder').onclick=choose;
+$('file').onchange=()=>{const file=$('file').files[0];$('file').value='';useFile(file)};
+$('stop').onclick=()=>{stopSource();$('status').textContent='已停止';message('检测已停止，可以重新选择输入。')};
+$('threshold').oninput=()=>{$('threshold-value').textContent=Number($('threshold').value).toFixed(2);imageDirty=true;videoDirty=true;lastResult=null};
+video.onseeked=()=>{videoDirty=true;renderPreview(generation)};
+video.onended=()=>{videoDirty=true};
+$('download').onclick=()=>{const link=document.createElement('a');link.download='检测结果.png';link.href=output.toDataURL('image/png');link.click()};
+const viewer=$('viewer');viewer.ondragover=event=>{event.preventDefault();viewer.classList.add('drag')};viewer.ondragleave=()=>viewer.classList.remove('drag');viewer.ondrop=event=>{event.preventDefault();viewer.classList.remove('drag');useFile(event.dataTransfer.files[0])};
+window.addEventListener('pagehide',stopSource);
+fetch('/health').then(response=>{if(!response.ok)throw new Error();return response.json()}).then(data=>{ready=data.ready;$('camera').disabled=!ready;$('choose').disabled=!ready;$('status').textContent='模型就绪';message('选择摄像头、图片或视频开始测试。')}).catch(()=>{$('status').textContent='服务未连接';message('无法连接本机服务，请重新启动测试服务。',true)});
+</script>
+</body>
+</html>

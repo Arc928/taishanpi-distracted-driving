@@ -1,0 +1,32 @@
+{
+  "id": "md_RGB1_SUB45ACT5F21",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [
+      {
+        "label": "texting",
+        "box_2d": [
+          513,
+          298,
+          700,
+          412
+        ]
+      }
+    ],
+    "uncertain": false,
+    "note": "driver holding and viewing phone in right hand"
+  },
+  "usage": {
+    "completion_tokens": 851,
+    "total_tokens": 2320,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 801
+    }
+  },
+  "seconds": 8.36,
+  "attempt": 1
+}

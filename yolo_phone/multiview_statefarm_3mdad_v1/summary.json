@@ -1,0 +1,38 @@
+{
+  "status": "awaiting_human_boxes_not_training_ready",
+  "seed": 42,
+  "imgsz": 640,
+  "inherited_train": 1534,
+  "new_review": 2200,
+  "new_by_split": {
+    "train": 1540,
+    "val": 220,
+    "test": 440
+  },
+  "new_by_split_behavior": {
+    "train/texting": 420,
+    "train/calling": 420,
+    "train/background_candidate": 700,
+    "val/texting": 60,
+    "val/calling": 60,
+    "val/background_candidate": 100,
+    "test/texting": 120,
+    "test/calling": 120,
+    "test/background_candidate": 200
+  },
+  "new_by_view": {
+    "front": 1100,
+    "side": 1100
+  },
+  "inherited_annotation_classes": {
+    "texting": 507,
+    "calling": 499,
+    "background": 528
+  },
+  "original_statefarm_eval_count": 452,
+  "eval_files_unchanged": true,
+  "subject_and_exact_hash_leakage_checks": "passed",
+  "prefill_train_only": true,
+  "new_auto_accepted": 0,
+  "original_annotations": "/Users/arc928/Downloads/3MDAD/Annotations 3MDAD"
+}

@@ -1,0 +1,146 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          163.86752,
+          160.65672
+        ],
+        [
+          273.90912000000003,
+          160.65672
+        ],
+        [
+          273.90912000000003,
+          214.73976
+        ],
+        [
+          163.86752,
+          214.73976
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          230.88927999999999,
+          174.38064
+        ],
+        [
+          271.22144000000003,
+          174.38064
+        ],
+        [
+          271.22144000000003,
+          210.67152000000002
+        ],
+        [
+          230.88927999999999,
+          210.67152000000002
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          43.39711999999999,
+          17.00136
+        ],
+        [
+          312.59136,
+          17.00136
+        ],
+        [
+          312.59136,
+          398.27448
+        ],
+        [
+          43.39711999999999,
+          398.27448
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          252.16448,
+          179.43384
+        ],
+        [
+          271.94176,
+          179.43384
+        ],
+        [
+          271.94176,
+          213.38855999999998
+        ],
+        [
+          252.16448,
+          213.38855999999998
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          167.45280000000002,
+          161.81112000000002
+        ],
+        [
+          209.49056,
+          161.81112000000002
+        ],
+        [
+          209.49056,
+          209.322
+        ],
+        [
+          167.45280000000002,
+          209.322
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p024_c2_img_14826.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

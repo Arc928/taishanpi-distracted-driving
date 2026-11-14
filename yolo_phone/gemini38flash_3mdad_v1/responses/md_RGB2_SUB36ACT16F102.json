@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB2_SUB36ACT16F102",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": true,
+    "note": "The driver is holding an object near his chest that appears to be an electronic cigarette/vape rather than a mobile phone, so it is uncertain whether a phone is present."
+  },
+  "usage": {
+    "completion_tokens": 1420,
+    "total_tokens": 2889,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1369
+    }
+  },
+  "seconds": 12.94,
+  "attempt": 1
+}

@@ -1,0 +1,98 @@
+{
+  "front": {
+    "images": 220,
+    "by_source_class": {
+      "texting": {
+        "total": 60,
+        "any_detection": 26,
+        "expected_class_hit": 26,
+        "wrong_class_present": 0,
+        "no_detection": 34
+      },
+      "calling": {
+        "total": 60,
+        "any_detection": 40,
+        "expected_class_hit": 40,
+        "wrong_class_present": 0,
+        "no_detection": 20
+      },
+      "background": {
+        "total": 100,
+        "any_detection": 7,
+        "expected_class_hit": 0,
+        "wrong_class_present": 7,
+        "no_detection": 93
+      }
+    },
+    "top_class_confusion_matrix": [
+      [
+        26,
+        0,
+        34
+      ],
+      [
+        0,
+        40,
+        20
+      ],
+      [
+        2,
+        5,
+        93
+      ]
+    ],
+    "matrix_class_order": [
+      "texting",
+      "calling",
+      "background"
+    ]
+  },
+  "side": {
+    "images": 220,
+    "by_source_class": {
+      "texting": {
+        "total": 60,
+        "any_detection": 56,
+        "expected_class_hit": 56,
+        "wrong_class_present": 0,
+        "no_detection": 4
+      },
+      "calling": {
+        "total": 60,
+        "any_detection": 41,
+        "expected_class_hit": 40,
+        "wrong_class_present": 1,
+        "no_detection": 19
+      },
+      "background": {
+        "total": 100,
+        "any_detection": 9,
+        "expected_class_hit": 0,
+        "wrong_class_present": 9,
+        "no_detection": 91
+      }
+    },
+    "top_class_confusion_matrix": [
+      [
+        56,
+        0,
+        4
+      ],
+      [
+        1,
+        40,
+        19
+      ],
+      [
+        5,
+        4,
+        91
+      ]
+    ],
+    "matrix_class_order": [
+      "texting",
+      "calling",
+      "background"
+    ]
+  }
+}

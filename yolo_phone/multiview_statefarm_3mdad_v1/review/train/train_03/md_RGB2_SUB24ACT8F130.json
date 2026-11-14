@@ -1,0 +1,38 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          117.1698989868164,
+          283.82421875
+        ],
+        [
+          237.03176879882812,
+          283.82421875
+        ],
+        [
+          237.03176879882812,
+          375.7073974609375
+        ],
+        [
+          117.1698989868164,
+          375.7073974609375
+        ]
+      ],
+      "group_id": null,
+      "flags": {},
+      "score": 0.6394833922386169,
+      "description": "MODEL PROPOSAL ONLY — requires human review"
+    }
+  ],
+  "imagePath": "md_RGB2_SUB24ACT8F130.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Pending human review. Empty shapes are NOT a background label."
+}

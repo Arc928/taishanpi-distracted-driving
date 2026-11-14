@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB2_SUB31ACT6F70",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": true,
+    "note": "The driver is looking at the road with a hand on the steering wheel. A dark rectangular object is partially visible behind the wheel, but it is obscured and not clearly identified or held as a mobile phone."
+  },
+  "usage": {
+    "completion_tokens": 2786,
+    "total_tokens": 4255,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 2729
+    }
+  },
+  "seconds": 23.16,
+  "attempt": 1
+}

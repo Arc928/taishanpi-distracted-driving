@@ -1,0 +1,37 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          190.72,
+          246.23999999999998
+        ],
+        [
+          263.68,
+          246.23999999999998
+        ],
+        [
+          263.68,
+          336.0
+        ],
+        [
+          190.72,
+          336.0
+        ]
+      ],
+      "flags": {},
+      "group_id": null,
+      "description": "Gemini candidate; pending human review, not ground truth."
+    }
+  ],
+  "imagePath": "md_RGB1_SUB45ACT5F21.jpg",
+  "imageData": null,
+  "imageWidth": 640,
+  "imageHeight": 480,
+  "description": "driver holding and viewing phone in right hand"
+}

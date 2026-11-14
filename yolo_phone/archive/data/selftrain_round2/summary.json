@@ -1,0 +1,70 @@
+{
+  "count": 1399,
+  "positives": 933,
+  "backgrounds": 466,
+  "by_origin": {
+    "round1": 1002,
+    "round1_leftover_auto_texting": 45,
+    "round1_leftover_auto_calling": 147,
+    "round2": 133,
+    "round2_topup_background": 72
+  },
+  "round2_added": {
+    "round2": 40,
+    "round2:calling_mid": 23,
+    "round2:texting_mid": 10,
+    "bg_fp_high:background": 9,
+    "bg_fp_mid:background": 26,
+    "bg_control:background": 25
+  },
+  "excluded": [
+    {
+      "image": "images/train/p015_c4_img_76757.jpg",
+      "pool": "calling_hard_miss",
+      "source_class": "c4",
+      "reason": "untouched_empty_positive"
+    },
+    {
+      "image": "images/train/p052_c2_img_76349.jpg",
+      "pool": "calling_hard_miss",
+      "source_class": "c2",
+      "reason": "untouched_empty_positive"
+    },
+    {
+      "image": "images/train/p072_c4_img_92903.jpg",
+      "pool": "calling_hard_miss",
+      "source_class": "c4",
+      "reason": "untouched_empty_positive"
+    },
+    {
+      "image": "images/train/p014_c2_img_86001.jpg",
+      "pool": "calling_hard_miss",
+      "source_class": "c2",
+      "reason": "untouched_prefill_label_conflict"
+    },
+    {
+      "image": "images/train/p052_c2_img_25954.jpg",
+      "pool": "calling_hard_miss",
+      "source_class": "c2",
+      "reason": "untouched_empty_positive"
+    },
+    {
+      "image": "images/train/p072_c4_img_76540.jpg",
+      "pool": "calling_hard_miss",
+      "source_class": "c4",
+      "reason": "untouched_empty_positive"
+    },
+    {
+      "image": "images/train/p056_c3_img_13910.jpg",
+      "pool": "texting_hard_miss",
+      "source_class": "c3",
+      "reason": "untouched_empty_positive"
+    }
+  ],
+  "assumptions": [
+    "untouched prefill with boxes = user accepted the model box (tagged accepted_prefill)",
+    "edited empty in bg_* pools = user confirmed background (removed false positive)",
+    "untouched empty with source background = background control",
+    "untouched or edited empty with source positive = excluded, never used as background"
+  ]
+}

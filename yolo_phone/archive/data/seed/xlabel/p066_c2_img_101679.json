@@ -1,0 +1,119 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          110.67904,
+          126.54192
+        ],
+        [
+          203.58015999999998,
+          126.54192
+        ],
+        [
+          203.58015999999998,
+          184.38959999999997
+        ],
+        [
+          110.67904,
+          184.38959999999997
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          114.92287999999999,
+          127.73399999999998
+        ],
+        [
+          164.53568,
+          127.73399999999998
+        ],
+        [
+          164.53568,
+          159.70056
+        ],
+        [
+          114.92287999999999,
+          159.70056
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          129.38048,
+          126.16439999999999
+        ],
+        [
+          185.94111999999998,
+          126.16439999999999
+        ],
+        [
+          185.94111999999998,
+          160.05672
+        ],
+        [
+          129.38048,
+          160.05672
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          2.9292799999999986,
+          0.3439199999999776
+        ],
+        [
+          458.90240000000006,
+          0.3439199999999776
+        ],
+        [
+          458.90240000000006,
+          320.9988
+        ],
+        [
+          2.9292799999999986,
+          320.9988
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p066_c2_img_101679.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

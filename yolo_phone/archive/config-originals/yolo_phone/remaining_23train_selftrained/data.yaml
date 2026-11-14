@@ -1,0 +1,7 @@
+# Review pseudo labels before using this dataset for retraining.
+path: /Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/remaining_23train_selftrained
+train: images/train
+val: images/train
+names:
+  0: texting
+  1: calling

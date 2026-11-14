@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          385.6646286231884,
+          281.8648097826087
+        ],
+        [
+          557.4858469202899,
+          281.8648097826087
+        ],
+        [
+          557.4858469202899,
+          412.19769021739125
+        ],
+        [
+          385.6646286231884,
+          412.19769021739125
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB28ACT5F83.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The visible phone user appears to be the front passenger; the steering wheel is on the far left where another person (the driver) is seated."
+}

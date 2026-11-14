@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "score": null,
+      "points": [
+        [
+          337.776268115942,
+          105.45799365942031
+        ],
+        [
+          499.401607789855,
+          105.45799365942031
+        ],
+        [
+          499.401607789855,
+          298.9079483695652
+        ],
+        [
+          337.776268115942,
+          298.9079483695652
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB33ACT8F54.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "driver holding a mobile phone near the mouth away from the ear"
+}

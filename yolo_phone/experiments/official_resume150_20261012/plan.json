@@ -1,0 +1,66 @@
+{
+  "cwd": "/Users/arc928/Documents/ChatGPT/泰山派",
+  "run_dir": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume150_20261012_yolo11n",
+  "baseline_run_dir": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume100_20261011_yolo11n",
+  "baseline_best": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume100_20261011_yolo11n/weights/best.pt",
+  "baseline_best_validation": {
+    "epoch": "79",
+    "time": "1559.08",
+    "train/box_loss": "0.65382",
+    "train/cls_loss": "0.32697",
+    "train/dfl_loss": "0.96945",
+    "metrics/precision(B)": "0.93314",
+    "metrics/recall(B)": "0.78251",
+    "metrics/mAP50(B)": "0.9108",
+    "metrics/mAP50-95(B)": "0.60045",
+    "val/box_loss": "1.24703",
+    "val/cls_loss": "0.76191",
+    "val/dfl_loss": "1.41744",
+    "lr/pg0": "0.000379743",
+    "lr/pg1": "0.000379743",
+    "lr/pg2": "0.000379743"
+  },
+  "resume_checkpoint": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/experiments/official_resume150_20261012/resume_epoch96.pt",
+  "resume_checkpoint_sha256": "74a75a068bf6e0f905b533ddab35163b80d927ac7880ea0cb5431b36bb58ddb2",
+  "original_checkpoint": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume100_20261011_yolo11n/weights/epoch95.pt",
+  "protected_weight_hashes": {
+    "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume100_20261011_yolo11n/weights/epoch95.pt": "19e1b035491516b579dde347b0e0728b27a227ab2df4eb807774b6231d75efc1",
+    "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume100_20261011_yolo11n/weights/best.pt": "6607c22b48553ddc3ecf432905f87ef87a1b7b13c08bd9c6c6d4914fc3b37c76",
+    "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume100_20261011_yolo11n/weights/last.pt": "b2cdca90ce25b3c08035623ab19fdc9af0bb551b2da07f641e18264feecaba39"
+  },
+  "checkpoint_arg_changes": {
+    "epochs": {
+      "before": 100,
+      "after": 150
+    },
+    "name": {
+      "before": "multiview_official_resume100_20261011_yolo11n",
+      "after": "multiview_official_resume150_20261012_yolo11n"
+    },
+    "save_dir": {
+      "before": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume100_20261011_yolo11n",
+      "after": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume150_20261012_yolo11n"
+    }
+  },
+  "data": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/selftrain_multiview_gemini_reviewed_20261010/data.yaml",
+  "dataset_manifest_sha256": "1ddcf1212612aaec99eaf90a5d90c632736de29f84443df23145abdb98c421e6",
+  "start_epoch": 97,
+  "target_epochs": 150,
+  "new_run_epochs": 54,
+  "replayed_epochs": [
+    97,
+    98,
+    99,
+    100
+  ],
+  "optimizer": "AdamW",
+  "optimizer_state_restored": true,
+  "lr0": 0.001667,
+  "lrf": 0.01,
+  "cos_lr": false,
+  "patience": 0,
+  "test_used": false,
+  "service_model_changed": false,
+  "schedule_note": "No manual LR hyperparameter change. Linear decay retains its rule but uses the extended 150-epoch horizon, so future actual LRs differ from the 100-epoch schedule.",
+  "authorization": "用户要求：设置不要提前结束，不做学习率和AdamW调整，再试试。"
+}

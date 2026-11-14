@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          238.07348278985506,
+          320.07529438405794
+        ],
+        [
+          432.4575407608695,
+          320.07529438405794
+        ],
+        [
+          432.4575407608695,
+          434.93036684782606
+        ],
+        [
+          238.07348278985506,
+          434.93036684782606
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB50ACT5F66.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "No mobile phone is visible in the driver's hands."
+}

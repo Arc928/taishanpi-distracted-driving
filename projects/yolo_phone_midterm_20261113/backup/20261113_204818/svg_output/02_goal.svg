@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="header" data-pptx-bounds="40 70 1176 100">
+    <rect x="40" y="76" width="6" height="46" fill="#1F3A5F"/>
+    <text x="64" y="114" font-size="42" font-weight="bold" fill="#1F3A5F">目标：在车内画面中实时识别驾驶员玩手机与打电话</text>
+    <text x="64" y="160" font-size="24" fill="#5B6575">背景：分心驾驶是交通事故的重要诱因，驾驶时使用手机最常见。</text>
+  </g>
+
+  <g id="card-texting" data-pptx-bounds="64 212 560 208">
+    <rect x="64" y="212" width="560" height="208" fill="#F3F5F8"/>
+    <rect x="64" y="212" width="8" height="208" fill="#2EAD6B"/>
+    <use data-icon="tabler-outline/device-mobile" x="104" y="240" width="44" height="44" fill="#2EAD6B" stroke-width="2"/>
+    <text x="164" y="274" font-size="32" font-weight="bold" fill="#1E2430">texting<tspan font-size="24" font-weight="normal" fill="#5B6575">　玩手机</tspan></text>
+    <text x="104" y="340" font-size="24" fill="#1E2430">框住：持机手 + 手机</text>
+    <text x="104" y="384" font-size="24" fill="#1E2430">不含：扶方向盘的手</text>
+  </g>
+
+  <g id="card-calling" data-pptx-bounds="656 212 560 208">
+    <rect x="656" y="212" width="560" height="208" fill="#F3F5F8"/>
+    <rect x="656" y="212" width="8" height="208" fill="#E8833A"/>
+    <use data-icon="tabler-outline/phone-call" x="696" y="240" width="44" height="44" fill="#E8833A" stroke-width="2"/>
+    <text x="756" y="274" font-size="32" font-weight="bold" fill="#1E2430">calling<tspan font-size="24" font-weight="normal" fill="#5B6575">　打电话</tspan></text>
+    <text x="696" y="340" font-size="24" fill="#1E2430">框住：持机手 + 手机 + 附近脸部</text>
+  </g>
+
+  <g id="scope-driver" data-pptx-bounds="64 500 340 140">
+    <use data-icon="tabler-outline/users" x="64" y="512" width="36" height="36" fill="#1F3A5F" stroke-width="2"/>
+    <text x="64" y="590" font-size="24" font-weight="bold" fill="#1E2430">只看驾驶员</text>
+    <text x="64" y="620" font-size="18" fill="#5B6575">乘客使用手机不属于任务</text>
+  </g>
+
+  <g id="scope-model" data-pptx-bounds="440 500 300 140">
+    <use data-icon="tabler-outline/target" x="440" y="512" width="36" height="36" fill="#1F3A5F" stroke-width="2"/>
+    <text x="440" y="590" font-size="24" font-weight="bold" fill="#1E2430">YOLO11n 检测</text>
+    <text x="440" y="620" font-size="18" fill="#5B6575">轻量模型，输入尺寸 640</text>
+  </g>
+
+  <g id="scope-arrow" data-pptx-bounds="756 560 96 24">
+    <line x1="764" y1="572" x2="840" y2="572" stroke="#1F3A5F" stroke-width="2" marker-end="url(#arrowHead)"/>
+  </g>
+
+  <g id="scope-board" data-pptx-bounds="868 500 348 140">
+    <use data-icon="tabler-outline/cpu" x="868" y="512" width="36" height="36" fill="#1F3A5F" stroke-width="2"/>
+    <text x="868" y="590" font-size="24" font-weight="bold" fill="#1E2430">部署到泰山派</text>
+    <text x="868" y="620" font-size="18" fill="#5B6575">瑞芯微 RK3566，带 NPU</text>
+  </g>
+
+  <defs>
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#1F3A5F"/>
+    </marker>
+  </defs>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 672 1152 24">
+    <text x="64" y="690" font-size="14" fill="#5B6575">02 / 09</text>
+    <text x="1216" y="690" font-size="14" fill="#5B6575" text-anchor="end">中期汇报 · 背景与目标</text>
+  </g>
+</svg>

@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-02T13:55:00.244551+08:00",
+ "user_choice": "用户 2026-11-02 要求删除用不到的脚本等，选择两项：targeted round2 的 16 个中间检查点；archive/scripts 全部 16 个旧脚本（含空目录 archive/scratch）",
+ "trash_root": "/Users/arc928/.Trash/taishan-delete-2026-11-02-57b5cd98",
+ "bytes": 339836980,
+ "items": {
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/epoch0.pt": {
+   ".": "f7e5c6ae63c7228603ffea1a8f9ed7cbe215e6aa4940556a91cde07f99acacc0"
+  },
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/epoch5.pt": {
+   ".": "ac04e2386504c9234040694df170043088c1ef82ac4bd6e52cba2a44a9f9d75b"
+  },
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/epoch10.pt": {
+   ".": "27c446d28d3609e9fdc694c10e37317c31dfb043734aec9029f57dd8b582cc6e"
+  },
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/epoch15.pt": {
+   ".": "b36ac3cf0ec225c2d8cb7ec214e45de33d1da34c330625115d5154c00e225064"
+  },
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/epoch20.pt": {
+   ".": "b4190ad63185f67457f38b7fb5a68c70e10955b2d4c349e79ca0176a60389c28"
+  },
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/epoch25.pt": {
+   ".": "3119f9c3270bcf0bbad39cb50888a87afc96296ca47a4e1ec40930f397d618a4"
+  },
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/epoch30.pt": {
+   ".": "5e3ebf1fce375fb10859aad108503b9ed1dedd78eefc039e803a184fabe85100"
+  },
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/epoch35.pt": {
+   ".": "c2a784a885512ae5fb5fc3cb9b73b80cabe8f60d906c9c393c55a3fb63398a42"
+  },
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/epoch40.pt": {
+   ".": "182b8f9447065769a0248cb879627c7b60ddf069dc9be9cda26d438b75b6b125"
+  },
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/epoch45.pt": {
+   ".": "4ef218ff6c5ce1c82473183895abbfddcfebb1d8d16d5bdebd6940e2e1206c95"
+  },
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/epoch50.pt": {
+   ".": "3b6407626cb467ac4e205f911c68807fb74e1cc8d31cc2f697cab520b33b6a72"
+  },
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/epoch55.pt": {
+   ".": "5a8f680a12d96ec47ee1c74638d831eee6f1f29e3eac0d063a5e15fef0c7fe5e"
+  },
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/epoch60.pt": {
+   ".": "934602674c036854c8c2325a0bc5c90f2691e14ecfd0c332eb64f2a7631ad5e5"
+  },
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/epoch65.pt": {
+   ".": "dfa7cced45f66f858428ab96838ee729fea3095e90dab20b9560f9312e31ab8a"
+  },
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/epoch70.pt": {
+   ".": "6056b9d5c6881548b3454fe291f9f18d9c9f01f24701fcb16398937f93caf0fd"
+  },
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/epoch75.pt": {
+   ".": "bfa07f615be65b7815f608b57d4ecd32d0b2cb3802245300cca4f92895dca879"
+  },
+  "archive/scripts": {
+   "auto_label_seed.py": "b654446392208dad77a2d15fccd14af592ab5d54f8cd40a50af9784e941bcd5c",
+   "build_corrected_seed.py": "8b2231c1c9748e53453681144c4cee9d8b12829b9333e7b9cf12f68dc2534d9f",
+   "build_round2_dataset.py": "8236b1af210453573a8606dda0fd8e9e7a4f8f061be481db38308f7a9c312e55",
+   "build_selftrain_dataset.py": "adbb7b073fe1443d676af82ef890c6cf84fcdc669fa29d957042473555e53cfe",
+   "compare_rounds.py": "051dd7a989f299ec9368b481eb335ffbdac6c5810e1f47ed9d4df41dbbaa41c2",
+   "compare_split_validation.py": "dcb4780c063046e15539435c302d054577f9dfac52ae14d4d06471a3a06ef998",
+   "compare_validation.py": "7fe385f9e100d1c8d84bce9cc6900a82b0cc44341f9e377ffa05207757dbeeb0",
+   "evaluate_multiview_holdout.py": "7063fb1986fcac03affae87dc90f2234a6a6a669280d2c82a982f3148221ef51",
+   "finalize_seed.py": "aa3833fee52df2616df4fa70d033f76bd3c0f9ea2984efbb28cd93353dc492f9",
+   "merge_split_review.py": "f256ba2e557290272e525dcb1941e683fd6f384d19f99c1ad710f8dd799a04ad",
+   "prepare_seed.py": "e479aaf67a1ea0b028beccd1d81fb00a95e67883a440df493495f9221bc9ae55",
+   "prepare_split_review.py": "dc86dce589dec6e33801cbb9ccaaaecfb84065540b9ead2bceec3f1afffd6132",
+   "pseudo_label_remaining.py": "5ded94818699324068b9d863bb0216452958b39eb5c50ee1ddc50ff63887e7b3",
+   "review_predictions.py": "ef61dd1fcaa1df747964fde55e06e616fbddf781e32c8c813bee115458003161",
+   "sync_xlabel_to_yolo.py": "f6c9592ddd6d4bc4c84d129f73e1a42e275bbc09967bd9bd8a975317c3a5bf5a",
+   "test_external_texting.py": "d492086d7a5a6ec50c2ba4847af00428cd65d96bd4faabe919cf06583ecf14dd"
+  },
+  "archive/scratch": {
+   "round2_plan": "dir",
+   "round2_plan/resolution_check.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+ },
+ "kept": {
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/best.pt": "eb63ae9452d98a3603dc96ed42f823e6a4389e143e78563381945e317a935eca",
+  "runs/multiview_targeted_round2_20261021_yolo11n/weights/last.pt": "d8b090a87fa927711fafd08c13349e8c16201b83ff1726d18d367cd85a770ee3"
+ },
+ "verification": {
+  "trash_mismatch": [],
+  "kept_weights_unchanged": true,
+  "ok": true
+ }
+}

@@ -1,0 +1,10 @@
+{
+  "reviewer": "assistant visual spot check, not human confirmation",
+  "source": "/Users/arc928/Documents/ChatGPT/\u6cf0\u5c71\u6d3e/yolo_phone/remaining_reviewed/review/sample.csv",
+  "positive_proposals_inspected": 24,
+  "positive_proposals_usable": 24,
+  "missed_positives_inspected": 12,
+  "background_false_positives_inspected": 12,
+  "background_no_detection_inspected": 6,
+  "policy": "No positive misses or wrong-class proposals enter as background."
+}

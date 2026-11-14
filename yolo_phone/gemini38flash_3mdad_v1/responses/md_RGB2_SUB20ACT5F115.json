@@ -1,0 +1,32 @@
+{
+  "id": "md_RGB2_SUB20ACT5F115",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [
+      {
+        "label": "texting",
+        "box_2d": [
+          487,
+          257,
+          835,
+          661
+        ]
+      }
+    ],
+    "uncertain": false,
+    "note": "driver holding a mobile phone in a case with her right hand while looking at it"
+  },
+  "usage": {
+    "completion_tokens": 703,
+    "total_tokens": 2172,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 645
+    }
+  },
+  "seconds": 7.19,
+  "attempt": 1
+}

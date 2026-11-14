@@ -1,0 +1,1335 @@
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 25,
+  "counts": {
+    "success": 12,
+    "protected": 13
+  },
+  "elapsed_seconds": 20,
+  "workers": 8,
+  "boxes": 11,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 50,
+  "counts": {
+    "success": 28,
+    "protected": 22
+  },
+  "elapsed_seconds": 52,
+  "workers": 8,
+  "boxes": 23,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 75,
+  "counts": {
+    "success": 34,
+    "protected": 41
+  },
+  "elapsed_seconds": 61,
+  "workers": 8,
+  "boxes": 27,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 100,
+  "counts": {
+    "success": 45,
+    "protected": 55
+  },
+  "elapsed_seconds": 78,
+  "workers": 8,
+  "boxes": 34,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 125,
+  "counts": {
+    "success": 58,
+    "protected": 67
+  },
+  "elapsed_seconds": 94,
+  "workers": 8,
+  "boxes": 44,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 150,
+  "counts": {
+    "success": 71,
+    "protected": 79
+  },
+  "elapsed_seconds": 116,
+  "workers": 8,
+  "boxes": 56,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 175,
+  "counts": {
+    "success": 88,
+    "protected": 87
+  },
+  "elapsed_seconds": 144,
+  "workers": 8,
+  "boxes": 68,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 200,
+  "counts": {
+    "success": 97,
+    "protected": 103
+  },
+  "elapsed_seconds": 158,
+  "workers": 8,
+  "boxes": 75,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 225,
+  "counts": {
+    "success": 109,
+    "protected": 116
+  },
+  "elapsed_seconds": 184,
+  "workers": 8,
+  "boxes": 87,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 250,
+  "counts": {
+    "success": 127,
+    "protected": 123
+  },
+  "elapsed_seconds": 213,
+  "workers": 8,
+  "boxes": 102,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 275,
+  "counts": {
+    "success": 142,
+    "protected": 133
+  },
+  "elapsed_seconds": 238,
+  "workers": 8,
+  "boxes": 111,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 300,
+  "counts": {
+    "success": 158,
+    "protected": 142
+  },
+  "elapsed_seconds": 267,
+  "workers": 8,
+  "boxes": 123,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 325,
+  "counts": {
+    "success": 177,
+    "protected": 148
+  },
+  "elapsed_seconds": 291,
+  "workers": 8,
+  "boxes": 139,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 350,
+  "counts": {
+    "success": 188,
+    "protected": 162
+  },
+  "elapsed_seconds": 303,
+  "workers": 8,
+  "boxes": 148,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 375,
+  "counts": {
+    "success": 202,
+    "protected": 173
+  },
+  "elapsed_seconds": 321,
+  "workers": 8,
+  "boxes": 159,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 400,
+  "counts": {
+    "success": 221,
+    "protected": 179
+  },
+  "elapsed_seconds": 350,
+  "workers": 8,
+  "boxes": 176,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 425,
+  "counts": {
+    "success": 241,
+    "protected": 184
+  },
+  "elapsed_seconds": 385,
+  "workers": 8,
+  "boxes": 190,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 450,
+  "counts": {
+    "success": 259,
+    "protected": 191
+  },
+  "elapsed_seconds": 405,
+  "workers": 8,
+  "boxes": 204,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 475,
+  "counts": {
+    "success": 279,
+    "protected": 196
+  },
+  "elapsed_seconds": 431,
+  "workers": 8,
+  "boxes": 218,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 500,
+  "counts": {
+    "success": 295,
+    "protected": 205
+  },
+  "elapsed_seconds": 452,
+  "workers": 8,
+  "boxes": 233,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 525,
+  "counts": {
+    "success": 311,
+    "protected": 214
+  },
+  "elapsed_seconds": 475,
+  "workers": 8,
+  "boxes": 243,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 550,
+  "counts": {
+    "success": 329,
+    "protected": 221
+  },
+  "elapsed_seconds": 508,
+  "workers": 8,
+  "boxes": 255,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 575,
+  "counts": {
+    "success": 352,
+    "protected": 223
+  },
+  "elapsed_seconds": 538,
+  "workers": 8,
+  "boxes": 273,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 600,
+  "counts": {
+    "success": 377,
+    "protected": 223
+  },
+  "elapsed_seconds": 568,
+  "workers": 8,
+  "boxes": 294,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 625,
+  "counts": {
+    "success": 402,
+    "protected": 223
+  },
+  "elapsed_seconds": 612,
+  "workers": 8,
+  "boxes": 317,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 650,
+  "counts": {
+    "success": 427,
+    "protected": 223
+  },
+  "elapsed_seconds": 651,
+  "workers": 8,
+  "boxes": 337,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 675,
+  "counts": {
+    "success": 452,
+    "protected": 223
+  },
+  "elapsed_seconds": 695,
+  "workers": 8,
+  "boxes": 358,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 700,
+  "counts": {
+    "success": 477,
+    "protected": 223
+  },
+  "elapsed_seconds": 740,
+  "workers": 8,
+  "boxes": 380,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 725,
+  "counts": {
+    "success": 502,
+    "protected": 223
+  },
+  "elapsed_seconds": 778,
+  "workers": 8,
+  "boxes": 401,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 750,
+  "counts": {
+    "success": 527,
+    "protected": 223
+  },
+  "elapsed_seconds": 815,
+  "workers": 8,
+  "boxes": 422,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 775,
+  "counts": {
+    "success": 552,
+    "protected": 223
+  },
+  "elapsed_seconds": 855,
+  "workers": 8,
+  "boxes": 443,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 800,
+  "counts": {
+    "success": 577,
+    "protected": 223
+  },
+  "elapsed_seconds": 889,
+  "workers": 8,
+  "boxes": 463,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 825,
+  "counts": {
+    "success": 602,
+    "protected": 223
+  },
+  "elapsed_seconds": 932,
+  "workers": 8,
+  "boxes": 484,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 850,
+  "counts": {
+    "success": 627,
+    "protected": 223
+  },
+  "elapsed_seconds": 964,
+  "workers": 8,
+  "boxes": 494,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 875,
+  "counts": {
+    "success": 652,
+    "protected": 223
+  },
+  "elapsed_seconds": 985,
+  "workers": 8,
+  "boxes": 495,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 900,
+  "counts": {
+    "success": 677,
+    "protected": 223
+  },
+  "elapsed_seconds": 1005,
+  "workers": 8,
+  "boxes": 496,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 925,
+  "counts": {
+    "success": 702,
+    "protected": 223
+  },
+  "elapsed_seconds": 1025,
+  "workers": 8,
+  "boxes": 496,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 950,
+  "counts": {
+    "success": 727,
+    "protected": 223
+  },
+  "elapsed_seconds": 1042,
+  "workers": 8,
+  "boxes": 497,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 975,
+  "counts": {
+    "success": 752,
+    "protected": 223
+  },
+  "elapsed_seconds": 1060,
+  "workers": 8,
+  "boxes": 497,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1000,
+  "counts": {
+    "success": 777,
+    "protected": 223
+  },
+  "elapsed_seconds": 1080,
+  "workers": 8,
+  "boxes": 498,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1025,
+  "counts": {
+    "success": 802,
+    "protected": 223
+  },
+  "elapsed_seconds": 1097,
+  "workers": 8,
+  "boxes": 498,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1050,
+  "counts": {
+    "success": 827,
+    "protected": 223
+  },
+  "elapsed_seconds": 1112,
+  "workers": 8,
+  "boxes": 498,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1075,
+  "counts": {
+    "success": 852,
+    "protected": 223
+  },
+  "elapsed_seconds": 1130,
+  "workers": 8,
+  "boxes": 498,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1100,
+  "counts": {
+    "success": 877,
+    "protected": 223
+  },
+  "elapsed_seconds": 1145,
+  "workers": 8,
+  "boxes": 498,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1125,
+  "counts": {
+    "success": 902,
+    "protected": 223
+  },
+  "elapsed_seconds": 1160,
+  "workers": 8,
+  "boxes": 498,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1150,
+  "counts": {
+    "success": 927,
+    "protected": 223
+  },
+  "elapsed_seconds": 1178,
+  "workers": 8,
+  "boxes": 500,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1175,
+  "counts": {
+    "success": 952,
+    "protected": 223
+  },
+  "elapsed_seconds": 1193,
+  "workers": 8,
+  "boxes": 500,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1200,
+  "counts": {
+    "success": 977,
+    "protected": 223
+  },
+  "elapsed_seconds": 1208,
+  "workers": 8,
+  "boxes": 500,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1225,
+  "counts": {
+    "success": 1002,
+    "protected": 223
+  },
+  "elapsed_seconds": 1223,
+  "workers": 8,
+  "boxes": 500,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1250,
+  "counts": {
+    "success": 1027,
+    "protected": 223
+  },
+  "elapsed_seconds": 1240,
+  "workers": 8,
+  "boxes": 500,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1275,
+  "counts": {
+    "success": 1052,
+    "protected": 223
+  },
+  "elapsed_seconds": 1260,
+  "workers": 8,
+  "boxes": 501,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1300,
+  "counts": {
+    "success": 1077,
+    "protected": 223
+  },
+  "elapsed_seconds": 1282,
+  "workers": 8,
+  "boxes": 501,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1325,
+  "counts": {
+    "success": 1102,
+    "protected": 223
+  },
+  "elapsed_seconds": 1300,
+  "workers": 8,
+  "boxes": 502,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1350,
+  "counts": {
+    "success": 1127,
+    "protected": 223
+  },
+  "elapsed_seconds": 1319,
+  "workers": 8,
+  "boxes": 502,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1375,
+  "counts": {
+    "success": 1152,
+    "protected": 223
+  },
+  "elapsed_seconds": 1337,
+  "workers": 8,
+  "boxes": 502,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1400,
+  "counts": {
+    "success": 1177,
+    "protected": 223
+  },
+  "elapsed_seconds": 1357,
+  "workers": 8,
+  "boxes": 502,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1425,
+  "counts": {
+    "success": 1202,
+    "protected": 223
+  },
+  "elapsed_seconds": 1374,
+  "workers": 8,
+  "boxes": 502,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1450,
+  "counts": {
+    "success": 1227,
+    "protected": 223
+  },
+  "elapsed_seconds": 1393,
+  "workers": 8,
+  "boxes": 502,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1475,
+  "counts": {
+    "success": 1252,
+    "protected": 223
+  },
+  "elapsed_seconds": 1414,
+  "workers": 8,
+  "boxes": 502,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1500,
+  "counts": {
+    "success": 1277,
+    "protected": 223
+  },
+  "elapsed_seconds": 1435,
+  "workers": 8,
+  "boxes": 502,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1525,
+  "counts": {
+    "success": 1302,
+    "protected": 223
+  },
+  "elapsed_seconds": 1459,
+  "workers": 8,
+  "boxes": 503,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1550,
+  "counts": {
+    "success": 1327,
+    "protected": 223
+  },
+  "elapsed_seconds": 1485,
+  "workers": 8,
+  "boxes": 515,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1575,
+  "counts": {
+    "success": 1352,
+    "protected": 223
+  },
+  "elapsed_seconds": 1524,
+  "workers": 8,
+  "boxes": 534,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1600,
+  "counts": {
+    "success": 1377,
+    "protected": 223
+  },
+  "elapsed_seconds": 1576,
+  "workers": 8,
+  "boxes": 550,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1625,
+  "counts": {
+    "success": 1402,
+    "protected": 223
+  },
+  "elapsed_seconds": 1620,
+  "workers": 8,
+  "boxes": 567,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1650,
+  "counts": {
+    "success": 1427,
+    "protected": 223
+  },
+  "elapsed_seconds": 1657,
+  "workers": 8,
+  "boxes": 586,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1675,
+  "counts": {
+    "success": 1452,
+    "protected": 223
+  },
+  "elapsed_seconds": 1685,
+  "workers": 8,
+  "boxes": 592,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1700,
+  "counts": {
+    "success": 1477,
+    "protected": 223
+  },
+  "elapsed_seconds": 1710,
+  "workers": 8,
+  "boxes": 593,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1725,
+  "counts": {
+    "success": 1502,
+    "protected": 223
+  },
+  "elapsed_seconds": 1736,
+  "workers": 8,
+  "boxes": 595,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1750,
+  "counts": {
+    "success": 1527,
+    "protected": 223
+  },
+  "elapsed_seconds": 1762,
+  "workers": 8,
+  "boxes": 596,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1775,
+  "counts": {
+    "success": 1539,
+    "protected": 236
+  },
+  "elapsed_seconds": 1773,
+  "workers": 8,
+  "boxes": 597,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1800,
+  "counts": {
+    "success": 1549,
+    "protected": 251
+  },
+  "elapsed_seconds": 1786,
+  "workers": 8,
+  "boxes": 605,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1825,
+  "counts": {
+    "success": 1559,
+    "protected": 266
+  },
+  "elapsed_seconds": 1802,
+  "workers": 8,
+  "boxes": 612,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1850,
+  "counts": {
+    "success": 1569,
+    "protected": 281
+  },
+  "elapsed_seconds": 1821,
+  "workers": 8,
+  "boxes": 619,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1875,
+  "counts": {
+    "success": 1583,
+    "protected": 292
+  },
+  "elapsed_seconds": 1846,
+  "workers": 8,
+  "boxes": 625,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1900,
+  "counts": {
+    "success": 1593,
+    "protected": 307
+  },
+  "elapsed_seconds": 1861,
+  "workers": 8,
+  "boxes": 632,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1925,
+  "counts": {
+    "success": 1600,
+    "protected": 325
+  },
+  "elapsed_seconds": 1877,
+  "workers": 8,
+  "boxes": 637,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1950,
+  "counts": {
+    "success": 1615,
+    "protected": 335
+  },
+  "elapsed_seconds": 1901,
+  "workers": 8,
+  "boxes": 646,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 1975,
+  "counts": {
+    "success": 1628,
+    "protected": 347
+  },
+  "elapsed_seconds": 1921,
+  "workers": 8,
+  "boxes": 654,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 2000,
+  "counts": {
+    "success": 1635,
+    "protected": 365
+  },
+  "elapsed_seconds": 1931,
+  "workers": 8,
+  "boxes": 658,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 2025,
+  "counts": {
+    "success": 1650,
+    "protected": 375
+  },
+  "elapsed_seconds": 1943,
+  "workers": 8,
+  "boxes": 663,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 2050,
+  "counts": {
+    "success": 1666,
+    "protected": 384
+  },
+  "elapsed_seconds": 1955,
+  "workers": 8,
+  "boxes": 663,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 2075,
+  "counts": {
+    "success": 1679,
+    "protected": 396
+  },
+  "elapsed_seconds": 1968,
+  "workers": 8,
+  "boxes": 663,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 2100,
+  "counts": {
+    "success": 1690,
+    "protected": 410
+  },
+  "elapsed_seconds": 1979,
+  "workers": 8,
+  "boxes": 663,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 2125,
+  "counts": {
+    "success": 1704,
+    "protected": 421
+  },
+  "elapsed_seconds": 1991,
+  "workers": 8,
+  "boxes": 664,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 2150,
+  "counts": {
+    "success": 1718,
+    "protected": 432
+  },
+  "elapsed_seconds": 2003,
+  "workers": 8,
+  "boxes": 664,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 2175,
+  "counts": {
+    "success": 1739,
+    "protected": 436
+  },
+  "elapsed_seconds": 2017,
+  "workers": 8,
+  "boxes": 664,
+  "training_started": false
+}
+
+{
+  "stage": "running",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 2200,
+  "counts": {
+    "success": 1757,
+    "protected": 443
+  },
+  "elapsed_seconds": 2034,
+  "workers": 8,
+  "boxes": 664,
+  "training_started": false
+}
+
+{
+  "stage": "complete",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 2200,
+  "counts": {
+    "success": 1757,
+    "protected": 443
+  },
+  "elapsed_seconds": 2035,
+  "workers": 8,
+  "boxes": 664,
+  "training_started": false
+}
+

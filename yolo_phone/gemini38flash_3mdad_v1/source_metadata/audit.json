@@ -1,0 +1,11 @@
+{
+  "all_2200_json_valid": true,
+  "all_images_sha256_verified": true,
+  "inherited_labels_sha256_verified": true,
+  "original_files_unchanged": true,
+  "subject_and_pixel_split_checks": "passed",
+  "all_review_decisions_pending": true,
+  "unreviewed_export_blocked": true,
+  "original_statefarm_eval_unchanged": true,
+  "raw_prediction_records": 2200
+}

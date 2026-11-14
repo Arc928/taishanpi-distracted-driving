@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "score": null,
+      "points": [
+        [
+          354.9920742753623,
+          121.75384963768117
+        ],
+        [
+          506.76120923913044,
+          121.75384963768117
+        ],
+        [
+          506.76120923913044,
+          299.4938858695652
+        ],
+        [
+          354.9920742753623,
+          299.4938858695652
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB50ACT7F71.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The visible person is sitting in the front passenger seat; the driver seat (with the steering wheel) is on the left and unoccupied. Passengers must not be annotated."
+}

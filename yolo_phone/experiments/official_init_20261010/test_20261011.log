@@ -1,0 +1,229 @@
+16/892
+176/892
+336/892
+496/892
+656/892
+816/892
+{
+  "weights": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_yolo11n_20261010/weights/best.pt",
+  "weights_sha256": "10dd55c32a3f5d1fc340d2355522f8d95063e5a744ba41773c1c1aa16cf35c71",
+  "imgsz": 640,
+  "report_threshold": 0.5,
+  "raw_threshold": 0.1,
+  "nms_iou": 0.5,
+  "sources": {
+    "3mdad": {
+      "images": 440,
+      "by_source_class": {
+        "texting": {
+          "total": 120,
+          "any_detection": 82,
+          "expected_class_hit": 82,
+          "wrong_class_present": 0,
+          "no_detection": 38
+        },
+        "calling": {
+          "total": 120,
+          "any_detection": 81,
+          "expected_class_hit": 80,
+          "wrong_class_present": 1,
+          "no_detection": 39
+        },
+        "background": {
+          "total": 200,
+          "any_detection": 16,
+          "expected_class_hit": 0,
+          "wrong_class_present": 16,
+          "no_detection": 184
+        }
+      },
+      "top_class_confusion_matrix": [
+        [
+          82,
+          0,
+          38
+        ],
+        [
+          1,
+          80,
+          39
+        ],
+        [
+          7,
+          9,
+          184
+        ]
+      ],
+      "matrix_class_order": [
+        "texting",
+        "calling",
+        "background"
+      ]
+    },
+    "statefarm": {
+      "images": 452,
+      "by_source_class": {
+        "texting": {
+          "total": 96,
+          "any_detection": 95,
+          "expected_class_hit": 95,
+          "wrong_class_present": 0,
+          "no_detection": 1
+        },
+        "calling": {
+          "total": 92,
+          "any_detection": 89,
+          "expected_class_hit": 89,
+          "wrong_class_present": 0,
+          "no_detection": 3
+        },
+        "background": {
+          "total": 264,
+          "any_detection": 2,
+          "expected_class_hit": 0,
+          "wrong_class_present": 2,
+          "no_detection": 262
+        }
+      },
+      "top_class_confusion_matrix": [
+        [
+          95,
+          0,
+          1
+        ],
+        [
+          0,
+          89,
+          3
+        ],
+        [
+          0,
+          2,
+          262
+        ]
+      ],
+      "matrix_class_order": [
+        "texting",
+        "calling",
+        "background"
+      ]
+    }
+  },
+  "3mdad_views": {
+    "front": {
+      "images": 220,
+      "by_source_class": {
+        "texting": {
+          "total": 60,
+          "any_detection": 26,
+          "expected_class_hit": 26,
+          "wrong_class_present": 0,
+          "no_detection": 34
+        },
+        "calling": {
+          "total": 60,
+          "any_detection": 40,
+          "expected_class_hit": 40,
+          "wrong_class_present": 0,
+          "no_detection": 20
+        },
+        "background": {
+          "total": 100,
+          "any_detection": 7,
+          "expected_class_hit": 0,
+          "wrong_class_present": 7,
+          "no_detection": 93
+        }
+      },
+      "top_class_confusion_matrix": [
+        [
+          26,
+          0,
+          34
+        ],
+        [
+          0,
+          40,
+          20
+        ],
+        [
+          2,
+          5,
+          93
+        ]
+      ],
+      "matrix_class_order": [
+        "texting",
+        "calling",
+        "background"
+      ]
+    },
+    "side": {
+      "images": 220,
+      "by_source_class": {
+        "texting": {
+          "total": 60,
+          "any_detection": 56,
+          "expected_class_hit": 56,
+          "wrong_class_present": 0,
+          "no_detection": 4
+        },
+        "calling": {
+          "total": 60,
+          "any_detection": 41,
+          "expected_class_hit": 40,
+          "wrong_class_present": 1,
+          "no_detection": 19
+        },
+        "background": {
+          "total": 100,
+          "any_detection": 9,
+          "expected_class_hit": 0,
+          "wrong_class_present": 9,
+          "no_detection": 91
+        }
+      },
+      "top_class_confusion_matrix": [
+        [
+          56,
+          0,
+          4
+        ],
+        [
+          1,
+          40,
+          19
+        ],
+        [
+          5,
+          4,
+          91
+        ]
+      ],
+      "matrix_class_order": [
+        "texting",
+        "calling",
+        "background"
+      ]
+    }
+  },
+  "3mdad_test_subjects": [
+    "S15",
+    "S16",
+    "S18",
+    "S2",
+    "S35",
+    "S41",
+    "S6",
+    "S7",
+    "S8",
+    "S9"
+  ],
+  "3mdad_source_positive_images_without_existing_box": 49,
+  "excluded_test_images": 0,
+  "source_files_unchanged": true,
+  "split_leakage_check": "passed",
+  "metric_type": "image-level source-action diagnostics, not detection mAP",
+  "annotation_review_status": "3MDAD test remains pending; no unconfirmed boxes used as ground truth",
+  "model_selection": "best.pt was fixed before test; no threshold tuning or model selection on test"
+}

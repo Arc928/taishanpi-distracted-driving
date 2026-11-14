@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB1_SUB28ACT16F85",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The driver is holding a thin object (such as a pen, cigarette, or makeup tool) near her mouth, not a mobile phone."
+  },
+  "usage": {
+    "completion_tokens": 539,
+    "total_tokens": 2008,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 495
+    }
+  },
+  "seconds": 7.11,
+  "attempt": 1
+}

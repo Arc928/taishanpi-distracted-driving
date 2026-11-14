@@ -1,0 +1,10 @@
+{
+  "weights": "/Users/arc928/Documents/ChatGPT/\u6cf0\u5c71\u6d3e/yolo_phone/runs/seed_23train_yolo11n/weights/best.pt",
+  "display_threshold": 0.5,
+  "raw_threshold": 0.1,
+  "image_count": 2224,
+  "source_split": "train",
+  "dataset": "/Users/arc928/Documents/ChatGPT/\u6cf0\u5c71\u6d3e/yolo_phone/dataset_23train_3eval_1of8",
+  "seed_dataset": "/Users/arc928/Documents/ChatGPT/\u6cf0\u5c71\u6d3e/yolo_phone/seed_23train_reviewed",
+  "weights_sha256": "54071ebf8df14a8ee008bcef4ab46b9f2d65db067b22e5d4fbf864540e5217c0"
+}

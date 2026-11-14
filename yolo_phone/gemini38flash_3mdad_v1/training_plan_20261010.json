@@ -1,0 +1,26 @@
+{
+  "status": "awaiting_annotation_completion_information",
+  "request": "用这里的数据集加上原来State Farm的数据重新训练",
+  "source_review_dataset": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/gemini38flash_3mdad_v1/review_dataset",
+  "inherited_statefarm_train": 1534,
+  "candidate_3mdad_train": 1418,
+  "candidate_combined_train": 2952,
+  "candidate_val": 200,
+  "empty_positive_exclusions": {
+    "train": 122,
+    "val": 20
+  },
+  "test": "remain held out; do not assume reviewed",
+  "model": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/selftrain_23train_round2_yolo11n/weights/best.pt",
+  "config": {
+    "architecture": "YOLO11n",
+    "imgsz": 640,
+    "batch": 16,
+    "epochs": 30,
+    "patience": 10,
+    "device": "mps"
+  },
+  "output_dataset_proposed": "yolo_phone/selftrain_multiview_gemini_reviewed_20261010",
+  "run_name_proposed": "multiview_gemini_reviewed_20261010_yolo11n",
+  "validation_limit": "Report exclusion coverage; selected-subset mAP does not measure all original positive frames."
+}

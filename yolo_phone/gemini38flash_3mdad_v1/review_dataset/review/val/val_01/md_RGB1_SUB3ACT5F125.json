@@ -1,0 +1,37 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          188.8,
+          258.24
+        ],
+        [
+          254.72,
+          258.24
+        ],
+        [
+          254.72,
+          343.2
+        ],
+        [
+          188.8,
+          343.2
+        ]
+      ],
+      "flags": {},
+      "group_id": null,
+      "description": "Gemini candidate; pending human review, not ground truth."
+    }
+  ],
+  "imagePath": "md_RGB1_SUB3ACT5F125.jpg",
+  "imageData": null,
+  "imageWidth": 640,
+  "imageHeight": 480,
+  "description": "driver holding and looking down at a mobile phone in right hand while left hand is on the wheel"
+}

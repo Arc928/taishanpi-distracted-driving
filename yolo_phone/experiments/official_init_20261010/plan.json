@@ -1,0 +1,30 @@
+{
+  "command": [
+    "/Users/arc928/Documents/ChatGPT/泰山派/.venv/bin/python",
+    "-u",
+    "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/train_seed.py",
+    "--data",
+    "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/selftrain_multiview_gemini_reviewed_20261010/data.yaml",
+    "--model",
+    "/Users/arc928/Documents/ChatGPT/泰山派/yolo11n.pt",
+    "--name",
+    "multiview_official_yolo11n_20261010",
+    "--epochs",
+    "30",
+    "--batch",
+    "16",
+    "--patience",
+    "10"
+  ],
+  "cwd": "/Users/arc928/Documents/ChatGPT/泰山派",
+  "run_dir": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_yolo11n_20261010",
+  "baseline_run_dir": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_gemini_reviewed_20261010_yolo11n",
+  "official_weights_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11n.pt",
+  "official_weights_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "official_release_hash_verified": true,
+  "dataset_manifest_sha256": "1ddcf1212612aaec99eaf90a5d90c632736de29f84443df23145abdb98c421e6",
+  "train_images": 2952,
+  "val_images": 200,
+  "test_used": false,
+  "service_model_changed": false
+}

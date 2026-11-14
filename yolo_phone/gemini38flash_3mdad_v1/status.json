@@ -1,0 +1,14 @@
+{
+  "stage": "complete",
+  "total_images": 2200,
+  "eligible_initial": 1757,
+  "processed": 2200,
+  "counts": {
+    "success": 1757,
+    "protected": 443
+  },
+  "elapsed_seconds": 2035,
+  "workers": 8,
+  "boxes": 664,
+  "training_started": false
+}

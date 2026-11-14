@@ -1,0 +1,27 @@
+{
+  "status": "awaiting_human_review_not_training_ready",
+  "count": 2200,
+  "counts": {
+    "train/images": 1540,
+    "train/with_candidates": 885,
+    "texting/with_candidates": 411,
+    "train/without_candidates": 655,
+    "texting/without_candidates": 189,
+    "calling/with_candidates": 437,
+    "calling/without_candidates": 163,
+    "background_candidate/with_candidates": 419,
+    "background_candidate/without_candidates": 581,
+    "val/images": 220,
+    "val/with_candidates": 119,
+    "val/without_candidates": 101,
+    "test/images": 440,
+    "test/with_candidates": 263,
+    "test/without_candidates": 177
+  },
+  "original_dataset": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/multiview_statefarm_3mdad_v1",
+  "original_files_unchanged": true,
+  "inherited_training": 1534,
+  "training_started": false,
+  "split_unchanged": true,
+  "heldout_model_proposals_are_not_ground_truth": true
+}

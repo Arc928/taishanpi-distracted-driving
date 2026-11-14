@@ -1,0 +1,36 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          196.47616577148438,
+          14.6776123046875
+        ],
+        [
+          386.3390197753906,
+          14.6776123046875
+        ],
+        [
+          386.3390197753906,
+          202.53628540039062
+        ],
+        [
+          196.47616577148438,
+          202.53628540039062
+        ]
+      ],
+      "score": 0.591393768787384,
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "p016_c8_img_76845.jpg",
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "imageData": null
+}

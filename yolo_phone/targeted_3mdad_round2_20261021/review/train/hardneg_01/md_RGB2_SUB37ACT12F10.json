@@ -1,0 +1,11 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [],
+  "imagePath": "md_RGB2_SUB37ACT12F10.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Hard negative: the model fired here (e79 fired calling 0.84 at [334, 97, 511, 291]). Box only if the driver really uses a phone."
+}

@@ -1,0 +1,119 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          256.78656,
+          123.89808
+        ],
+        [
+          293.64544,
+          123.89808
+        ],
+        [
+          293.64544,
+          169.6728
+        ],
+        [
+          256.78656,
+          169.6728
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          254.01024,
+          115.82232
+        ],
+        [
+          345.4688,
+          115.82232
+        ],
+        [
+          345.4688,
+          175.55976
+        ],
+        [
+          254.01024,
+          175.55976
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          314.64384,
+          118.45871999999999
+        ],
+        [
+          348.44096,
+          118.45871999999999
+        ],
+        [
+          348.44096,
+          142.64687999999998
+        ],
+        [
+          314.64384,
+          142.64687999999998
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          257.21760000000006,
+          123.68520000000001
+        ],
+        [
+          293.46784,
+          123.68520000000001
+        ],
+        [
+          293.46784,
+          144.79319999999998
+        ],
+        [
+          257.21760000000006,
+          144.79319999999998
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p012_c2_img_7061.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

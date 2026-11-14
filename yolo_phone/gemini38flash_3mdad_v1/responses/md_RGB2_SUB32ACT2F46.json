@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB2_SUB32ACT2F46",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The driver is touching her neck/face without a phone present. The passenger in the rear appears to be on a call, but passenger behavior is not annotated."
+  },
+  "usage": {
+    "completion_tokens": 805,
+    "total_tokens": 2274,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 757
+    }
+  },
+  "seconds": 8.76,
+  "attempt": 1
+}

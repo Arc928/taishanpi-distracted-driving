@@ -1,0 +1,38 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          244.47008,
+          117.09024
+        ],
+        [
+          283.98304,
+          117.09024
+        ],
+        [
+          283.98304,
+          166.59168
+        ],
+        [
+          244.47008,
+          166.59168
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p056_c4_img_51590.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

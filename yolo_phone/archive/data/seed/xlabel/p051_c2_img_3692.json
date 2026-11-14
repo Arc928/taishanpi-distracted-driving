@@ -1,0 +1,119 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          233.70335999999998,
+          168.39408
+        ],
+        [
+          251.64576,
+          168.39408
+        ],
+        [
+          251.64576,
+          192.39408000000003
+        ],
+        [
+          233.70335999999998,
+          192.39408000000003
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          134.43007999999998,
+          146.45087999999998
+        ],
+        [
+          250.54656,
+          146.45087999999998
+        ],
+        [
+          250.54656,
+          212.49215999999998
+        ],
+        [
+          134.43007999999998,
+          212.49215999999998
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          209.68064,
+          158.28143999999998
+        ],
+        [
+          251.31136,
+          158.28143999999998
+        ],
+        [
+          251.31136,
+          194.5128
+        ],
+        [
+          209.68064,
+          194.5128
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          180.82304,
+          154.36488000000003
+        ],
+        [
+          251.65312,
+          154.36488000000003
+        ],
+        [
+          251.65312,
+          197.3628
+        ],
+        [
+          180.82304,
+          197.3628
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p051_c2_img_3692.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

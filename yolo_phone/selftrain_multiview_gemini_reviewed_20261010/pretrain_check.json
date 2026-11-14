@@ -1,0 +1,12 @@
+{
+  "dataset": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/selftrain_multiview_gemini_reviewed_20261010",
+  "counts": {
+    "train/positive": 720,
+    "train/exclude": 122,
+    "train/background": 698,
+    "val/positive": 101,
+    "val/exclude": 20,
+    "val/background": 99
+  },
+  "original_review_json_unchanged": true
+}

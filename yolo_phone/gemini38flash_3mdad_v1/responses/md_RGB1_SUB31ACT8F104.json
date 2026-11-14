@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB1_SUB31ACT8F104",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The driver has a hand near his chin/face, but his ear is completely uncovered and no phone is present."
+  },
+  "usage": {
+    "completion_tokens": 1196,
+    "total_tokens": 2665,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1157
+    }
+  },
+  "seconds": 10.06,
+  "attempt": 1
+}

@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          227.50396286231882,
+          211.41077898550728
+        ],
+        [
+          297.833446557971,
+          211.41077898550728
+        ],
+        [
+          297.833446557971,
+          290.7133152173913
+        ],
+        [
+          227.50396286231882,
+          290.7133152173913
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB1_SUB47ACT6F99.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Uncertain whether a phone exists; the driver's right hand is near vehicle controls and no phone is clearly visible."
+}

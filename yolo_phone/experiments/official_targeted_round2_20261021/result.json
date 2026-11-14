@@ -1,0 +1,47 @@
+{
+  "completed_epochs": 80,
+  "best_validation": {
+    "epoch": "51",
+    "time": "7642.56",
+    "train/box_loss": "0.83139",
+    "train/cls_loss": "0.54678",
+    "train/dfl_loss": "1.08499",
+    "metrics/precision(B)": "0.90513",
+    "metrics/recall(B)": "0.84952",
+    "metrics/mAP50(B)": "0.92745",
+    "metrics/mAP50-95(B)": "0.57237",
+    "val/box_loss": "1.30693",
+    "val/cls_loss": "0.76089",
+    "val/dfl_loss": "1.43704",
+    "lr/pg0": "0.000635544",
+    "lr/pg1": "0.000635544",
+    "lr/pg2": "0.000635544"
+  },
+  "baselines_same_val": {
+    "e79": {
+      "weights": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume100_20261011_yolo11n/weights/best.pt",
+      "mAP50": 0.893795158894324,
+      "mAP50-95": 0.5806995361420526,
+      "P": 0.7971386954859714,
+      "R": 0.8634989734652572,
+      "per_class_mAP50": {
+        "texting": 0.8241552359253792,
+        "calling": 0.9634350818632689
+      }
+    },
+    "e150": {
+      "weights": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume150_20261012_yolo11n/weights/last.pt",
+      "mAP50": 0.8212962266407047,
+      "mAP50-95": 0.5174500961608391,
+      "P": 0.9061339761707353,
+      "R": 0.8159317179530634,
+      "per_class_mAP50": {
+        "texting": 0.728646613679975,
+        "calling": 0.9139458396014344
+      }
+    }
+  },
+  "best_weights": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_targeted_round2_20261021_yolo11n/weights/best.pt",
+  "best_weights_sha256": "eb63ae9452d98a3603dc96ed42f823e6a4389e143e78563381945e317a935eca",
+  "comparison_scope": "same 212-image val (200 old + 12 new front AC6); no held-out test used"
+}

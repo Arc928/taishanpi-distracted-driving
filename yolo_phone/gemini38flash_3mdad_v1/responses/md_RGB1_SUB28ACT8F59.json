@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB1_SUB28ACT8F59",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": true,
+    "note": "The driver has a hand near the chin/face, but no mobile phone is clearly visible due to lighting and overexposure. It cannot be confirmed as a calling or texting distraction."
+  },
+  "usage": {
+    "completion_tokens": 4070,
+    "total_tokens": 5539,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 4018
+    }
+  },
+  "seconds": 36.62,
+  "attempt": 1
+}

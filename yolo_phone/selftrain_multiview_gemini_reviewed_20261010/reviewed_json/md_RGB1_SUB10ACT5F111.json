@@ -1,0 +1,37 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          187.52,
+          264.0
+        ],
+        [
+          271.36,
+          264.0
+        ],
+        [
+          271.36,
+          363.84
+        ],
+        [
+          187.52,
+          363.84
+        ]
+      ],
+      "flags": {},
+      "group_id": null,
+      "description": "Gemini candidate; pending human review, not ground truth."
+    }
+  ],
+  "imagePath": "md_RGB1_SUB10ACT5F111.jpg",
+  "imageData": null,
+  "imageWidth": 640,
+  "imageHeight": 480,
+  "description": "Driver is holding and viewing a mobile phone with one hand while the other hand rests on the steering wheel."
+}

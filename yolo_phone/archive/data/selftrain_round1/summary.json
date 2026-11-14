@@ -1,0 +1,15 @@
+{
+  "count": 1002,
+  "by_origin": {
+    "human_seed": 150,
+    "pseudo_conf_ge_0.80": 568,
+    "assistant_checked_hard_negative": 12,
+    "source_class_background": 272
+  },
+  "by_class": {
+    "texting": 400,
+    "calling": 268,
+    "background": 334
+  },
+  "independent_val_used": false
+}

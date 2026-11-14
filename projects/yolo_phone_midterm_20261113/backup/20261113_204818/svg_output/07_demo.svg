@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <rect id="demo-field" data-pptx-role="decoration" x="0" y="0" width="420" height="720" fill="#F3F5F8"/>
+
+  <g id="demo-screenshot" data-pptx-bounds="64 40 292 640">
+    <image href="../images/demo_screenshot.png" x="65" y="41" width="290" height="600" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="64" y="40" width="292" height="602" fill="none" stroke="#D5DBE3" stroke-width="1"/>
+    <text x="64" y="672" font-size="14" fill="#5B6575">本机演示网页截图</text>
+  </g>
+
+  <g id="header" data-pptx-bounds="460 70 756 160">
+    <rect x="460" y="76" width="6" height="46" fill="#1F3A5F"/>
+    <text x="484" y="114" font-size="42" font-weight="bold" fill="#1F3A5F">本机网页演示已可实时检测<tspan x="484" dy="54">单帧推理约 7 ms</tspan></text>
+    <text x="484" y="214" font-size="24" fill="#5B6575">支持摄像头、图片、视频三种输入的实时演示系统。</text>
+  </g>
+
+  <g id="perf-preview" data-pptx-bounds="484 256 220 136">
+    <text x="484" y="330" font-size="72" font-weight="bold" fill="#1F3A5F">30</text>
+    <text x="484" y="372" font-size="18" fill="#5B6575">画面 帧/秒</text>
+  </g>
+  <g id="perf-detect" data-pptx-bounds="728 256 240 136">
+    <text x="728" y="330" font-size="72" font-weight="bold" fill="#1F3A5F">29.5</text>
+    <text x="728" y="372" font-size="18" fill="#5B6575">检测 帧/秒</text>
+  </g>
+  <g id="perf-latency" data-pptx-bounds="992 256 224 136">
+    <text x="992" y="330" font-size="72" font-weight="bold" fill="#E8833A">7<tspan font-size="32"> ms</tspan></text>
+    <text x="992" y="372" font-size="18" fill="#5B6575">单帧推理</text>
+  </g>
+
+  <line id="perf-rule" data-pptx-role="decoration" x1="484" y1="412" x2="1216" y2="412" stroke="#D5DBE3" stroke-width="1"/>
+
+  <g id="demo-features" data-pptx-bounds="484 432 732 156">
+    <use data-icon="tabler-outline/camera" x="484" y="446" width="32" height="32" fill="#1F3A5F" stroke-width="2"/>
+    <text x="532" y="470" font-size="24" fill="#1E2430">输入：摄像头 · 图片 · 视频，实时画框并显示置信度</text>
+    <use data-icon="tabler-outline/target" x="484" y="518" width="32" height="32" fill="#1F3A5F" stroke-width="2"/>
+    <text x="532" y="542" font-size="24" fill="#1E2430">阈值可调，默认 <tspan font-weight="bold" fill="#1F3A5F">0.35</tspan><tspan font-size="18" fill="#5B6575">　在 val 上按事先定好的规则选出</tspan></text>
+  </g>
+
+  <g id="demo-footnote" data-pptx-bounds="484 620 732 40">
+    <text x="484" y="642" font-size="14" fill="#5B6575">测试条件：30 帧/秒测试视频，Apple M1 Pro，非开发板；截图为早期权重下的界面。</text>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="484 672 732 24">
+    <text x="484" y="690" font-size="14" fill="#5B6575">07 / 09</text>
+    <text x="1216" y="690" font-size="14" fill="#5B6575" text-anchor="end">中期汇报 · 演示系统</text>
+  </g>
+</svg>

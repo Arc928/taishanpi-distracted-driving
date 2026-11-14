@@ -1,0 +1,38 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          153.7890625,
+          299.5279541015625
+        ],
+        [
+          258.85186767578125,
+          299.5279541015625
+        ],
+        [
+          258.85186767578125,
+          389.16314697265625
+        ],
+        [
+          153.7890625,
+          389.16314697265625
+        ]
+      ],
+      "group_id": null,
+      "flags": {},
+      "score": 0.8606751561164856,
+      "description": "MODEL PROPOSAL (conf>=0.25) — verify or delete"
+    }
+  ],
+  "imagePath": "md_RGB2_SUB26ACT6F20.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Source phone action. Box only if the phone is visible; empty = not visible, excluded."
+}

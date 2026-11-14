@@ -1,0 +1,32 @@
+{
+  "id": "md_RGB2_SUB43ACT6F101",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [
+      {
+        "label": "texting",
+        "box_2d": [
+          665,
+          288,
+          827,
+          411
+        ]
+      }
+    ],
+    "uncertain": false,
+    "note": "Driver is holding a mobile phone in one hand below the steering wheel while the other hand rests on the wheel."
+  },
+  "usage": {
+    "completion_tokens": 3012,
+    "total_tokens": 4481,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 2948
+    }
+  },
+  "seconds": 22.71,
+  "attempt": 1
+}

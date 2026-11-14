@@ -1,0 +1,36 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          153.7938232421875,
+          58.96723175048828
+        ],
+        [
+          353.8997497558594,
+          58.96723175048828
+        ],
+        [
+          353.8997497558594,
+          207.466552734375
+        ],
+        [
+          153.7938232421875,
+          207.466552734375
+        ]
+      ],
+      "score": 0.8712612390518188,
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "p026_c4_img_89133.jpg",
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "imageData": null
+}

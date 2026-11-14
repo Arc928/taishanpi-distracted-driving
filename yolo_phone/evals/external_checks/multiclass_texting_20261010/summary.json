@@ -1,0 +1,186 @@
+{
+  "source": "/Users/arc928/Downloads/Multi-Class Driver Behavior Image Dataset/texting_phone",
+  "weights": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/selftrain_23train_round2_yolo11n/weights/best.pt",
+  "weights_sha256": "ca22c7ea45f75a5b3134095bceb98a2eddc66855780a437fb1ac1edc6b22eece",
+  "image_count": 1561,
+  "imgsz": 640,
+  "device": "mps",
+  "display_threshold": 0.5,
+  "raw_threshold": 0.1,
+  "status_counts": {
+    "no_detection": 100,
+    "texting_hit": 1454,
+    "texting_and_calling": 6,
+    "calling_only": 1
+  },
+  "diagnostics": {
+    "all": [
+      {
+        "threshold": 0.25,
+        "total": 1561,
+        "texting_hit": 1479,
+        "calling_present": 17,
+        "calling_only": 2,
+        "texting_and_calling": 15,
+        "no_detection": 80
+      },
+      {
+        "threshold": 0.5,
+        "total": 1561,
+        "texting_hit": 1460,
+        "calling_present": 7,
+        "calling_only": 1,
+        "texting_and_calling": 6,
+        "no_detection": 100
+      },
+      {
+        "threshold": 0.8,
+        "total": 1561,
+        "texting_hit": 1274,
+        "calling_present": 0,
+        "calling_only": 0,
+        "texting_and_calling": 0,
+        "no_detection": 287
+      }
+    ],
+    "training_exact_overlap": [
+      {
+        "threshold": 0.25,
+        "total": 178,
+        "texting_hit": 177,
+        "calling_present": 1,
+        "calling_only": 0,
+        "texting_and_calling": 1,
+        "no_detection": 1
+      },
+      {
+        "threshold": 0.5,
+        "total": 178,
+        "texting_hit": 177,
+        "calling_present": 0,
+        "calling_only": 0,
+        "texting_and_calling": 0,
+        "no_detection": 1
+      },
+      {
+        "threshold": 0.8,
+        "total": 178,
+        "texting_hit": 149,
+        "calling_present": 0,
+        "calling_only": 0,
+        "texting_and_calling": 0,
+        "no_detection": 29
+      }
+    ],
+    "state_farm_exact": [
+      {
+        "threshold": 0.25,
+        "total": 1505,
+        "texting_hit": 1476,
+        "calling_present": 17,
+        "calling_only": 2,
+        "texting_and_calling": 15,
+        "no_detection": 27
+      },
+      {
+        "threshold": 0.5,
+        "total": 1505,
+        "texting_hit": 1458,
+        "calling_present": 7,
+        "calling_only": 1,
+        "texting_and_calling": 6,
+        "no_detection": 46
+      },
+      {
+        "threshold": 0.8,
+        "total": 1505,
+        "texting_hit": 1274,
+        "calling_present": 0,
+        "calling_only": 0,
+        "texting_and_calling": 0,
+        "no_detection": 231
+      }
+    ],
+    "state_farm_exact_without_training_overlap": [
+      {
+        "threshold": 0.25,
+        "total": 1327,
+        "texting_hit": 1299,
+        "calling_present": 16,
+        "calling_only": 2,
+        "texting_and_calling": 14,
+        "no_detection": 26
+      },
+      {
+        "threshold": 0.5,
+        "total": 1327,
+        "texting_hit": 1281,
+        "calling_present": 7,
+        "calling_only": 1,
+        "texting_and_calling": 6,
+        "no_detection": 45
+      },
+      {
+        "threshold": 0.8,
+        "total": 1327,
+        "texting_hit": 1125,
+        "calling_present": 0,
+        "calling_only": 0,
+        "texting_and_calling": 0,
+        "no_detection": 202
+      }
+    ],
+    "other_source": [
+      {
+        "threshold": 0.25,
+        "total": 56,
+        "texting_hit": 3,
+        "calling_present": 0,
+        "calling_only": 0,
+        "texting_and_calling": 0,
+        "no_detection": 53
+      },
+      {
+        "threshold": 0.5,
+        "total": 56,
+        "texting_hit": 2,
+        "calling_present": 0,
+        "calling_only": 0,
+        "texting_and_calling": 0,
+        "no_detection": 54
+      },
+      {
+        "threshold": 0.8,
+        "total": 56,
+        "texting_hit": 0,
+        "calling_present": 0,
+        "calling_only": 0,
+        "texting_and_calling": 0,
+        "no_detection": 56
+      }
+    ]
+  },
+  "overlap_method": "SHA-256 byte equality to actual training images and original State Farm images; for the 56 other-source frames, all 22424 original files were checked using file-size filtering followed by hashing.",
+  "limitation": "Folder-level texting labels only: expected-class image hits, not detection mAP or localization accuracy. Training-image overlap and same-dataset driver similarity affect apparent accuracy.",
+  "source_files_unchanged": true,
+  "other_source_no_exact_state_farm_match_verified": true,
+  "other_source_overlap_check": {
+    "all_original_images_size_checked": 22424,
+    "equal_size_original_images_hashed": 0,
+    "exact_matches": []
+  },
+  "visual_audit": {
+    "reviewer": "assistant visual inspection, not ground-truth annotation",
+    "other_source_positive_frames_inspected": 2,
+    "notes": [
+      {
+        "image": "2019-04-2416-51-31.png",
+        "finding": "Box covers the phone and holding hand."
+      },
+      {
+        "image": "IMG_20240930_133034767_HDR_AE.jpg",
+        "finding": "Box includes the steering-wheel hand, wider than the project annotation standard."
+      }
+    ]
+  }
+}

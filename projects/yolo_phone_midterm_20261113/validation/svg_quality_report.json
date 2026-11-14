@@ -1,0 +1,834 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "/Users/arc928/Documents/ChatGPT/泰山派/projects/yolo_phone_midterm_20261113",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "4ee9a27954a8df500d0176484d0efa2e872010f77e592a05b721cf89f439f6bf",
+    "file_count": 10,
+    "files": [
+      {
+        "file": "01_cover.svg",
+        "sha256": "a1f6aef28130a9d8c2f9289ced7c5f35e40f04c5621d89dc250cf11eb8f7cbf0"
+      },
+      {
+        "file": "02_goal.svg",
+        "sha256": "33cc682f8e89cf2a8f77cd3ecf0d839ddff6d087bce7169b7f13f64318ff26da"
+      },
+      {
+        "file": "03_data.svg",
+        "sha256": "5e93f003be429064956ebda37943cecdcf0d8af37ba9ce0402bc4f460483581d"
+      },
+      {
+        "file": "04_evaluation.svg",
+        "sha256": "625b192071dffffc8968304d2810b13570a9d0fc6a8ad7886ba681ef17e90501"
+      },
+      {
+        "file": "05_iteration.svg",
+        "sha256": "6e7c124186048f27a322e8b804b1f2c42dfc980b7e740576440fe3f564cab487"
+      },
+      {
+        "file": "06_training.svg",
+        "sha256": "fa913212e3ea6f6d45f2417ff3a80dd1a1800f8b67f25480fdcc618f58336d23"
+      },
+      {
+        "file": "07_results.svg",
+        "sha256": "e5665082f1267433e5ff14dda1113987ea7e984558b19e613ab05a63896c5eef"
+      },
+      {
+        "file": "08_demo.svg",
+        "sha256": "0c424db35ec6f374124e438ae465f3bf360ef03ad235360bc947c1741c4ba590"
+      },
+      {
+        "file": "09_next_steps.svg",
+        "sha256": "ca9bde2d23a9012b68f369647babfe69348aa9ca76c5510d58d60f865306b08d"
+      },
+      {
+        "file": "10_summary.svg",
+        "sha256": "ff7ebcb1e9810fb0803087b499833d80c46d6edd0182089df910b4d480fe5cd5"
+      }
+    ]
+  },
+  "summary": {
+    "total": 10,
+    "passed": 1,
+    "warnings": 9,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 11,
+      "issues": [
+        {
+          "file": "01_cover.svg",
+          "message": "<text> (x=840, y=656; text='2026 年 11 月') exceeds <g id=\"cover-meta\"> data-pptx-bounds on the vertical axis: content (840.0, 640.7)-(958.3, 662.3), container (840.0, 560.0)-(1220.0, 660.0), overflow horizontal 0.0%, vertical 2.3% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text"
+        },
+        {
+          "file": "01_cover.svg",
+          "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"cover-meta\"> x=840.0, y=588.0..624.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "02_goal.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5B6575'; footer:font-size None -> '14'; text[40]:fill '#5B6575' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "02_goal.svg",
+          "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"card-texting\"> x=104.0, y=340.0..384.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "03_data.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5B6575'; footer:font-size None -> '14'; text[55]:fill '#5B6575' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "04_evaluation.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5B6575'; footer:font-size None -> '14'; text[53]:fill '#5B6575' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "05_iteration.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5B6575'; footer:font-size None -> '14'; text[44]:fill '#5B6575' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "06_training.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5B6575'; footer:font-size None -> '14'; text[29]:fill '#5B6575' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "07_results.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (9 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): header:fill None -> '#1F3A5F'; rect[4]:fill '#1F3A5F' -> None; text[5]:fill '#1F3A5F' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "08_demo.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5B6575'; footer:font-size None -> '14'; text[34]:fill '#5B6575' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "09_next_steps.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (18 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): header:fill None -> '#1F3A5F'; rect[4]:fill '#1F3A5F' -> None; text[5]:fill '#1F3A5F' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#8F9DB0": [
+        "03_data.svg",
+        "04_evaluation.svg"
+      ],
+      "#FCEFE5": [
+        "07_results.svg"
+      ]
+    },
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 10,
+    "totals": {
+      "text_elements": 188,
+      "image_placements": 7,
+      "icons": 16,
+      "svg_geometry_elements": 78,
+      "preset_shapes": 7,
+      "page_frame_elements": 18,
+      "marker_uses": 1,
+      "inline_emphasis_runs": 25,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 3,
+      "icons": 5,
+      "presets": 2,
+      "charts": 1,
+      "tables": 1,
+      "formulas": 0,
+      "inline_emphasis_runs": 8,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": 0,
+    "geometry_elements": {
+      "circle": 8,
+      "ellipse": 0,
+      "line": 16,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 54
+    },
+    "preset_names": {
+      "chevron": 2,
+      "downArrow": 1,
+      "homePlate": 1,
+      "rightArrow": 3
+    },
+    "native_objects": {
+      "chart": 1,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 1
+    },
+    "image_page_max_frame_share_range": [
+      0.055,
+      0.2689
+    ]
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_cover.svg",
+      "path": "/Users/arc928/Documents/ChatGPT/泰山派/projects/yolo_phone_midterm_20261113/svg_output/01_cover.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "<text> (x=840, y=656; text='2026 年 11 月') exceeds <g id=\"cover-meta\"> data-pptx-bounds on the vertical axis: content (840.0, 640.7)-(958.3, 662.3), container (840.0, 560.0)-(1220.0, 660.0), overflow horizontal 0.0%, vertical 2.3% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text",
+        "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"cover-meta\"> x=840.0, y=588.0..624.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 10,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 10,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "a1f6aef28130a9d8c2f9289ced7c5f35e40f04c5621d89dc250cf11eb8f7cbf0"
+    },
+    {
+      "file": "02_goal.svg",
+      "path": "/Users/arc928/Documents/ChatGPT/泰山派/projects/yolo_phone_midterm_20261113/svg_output/02_goal.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5B6575'; footer:font-size None -> '14'; text[40]:fill '#5B6575' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)",
+        "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"card-texting\"> x=104.0, y=340.0..384.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 5,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 1
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "33cc682f8e89cf2a8f77cd3ecf0d839ddff6d087bce7169b7f13f64318ff26da"
+    },
+    {
+      "file": "03_data.svg",
+      "path": "/Users/arc928/Documents/ChatGPT/泰山派/projects/yolo_phone_midterm_20261113/svg_output/03_data.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5B6575'; footer:font-size None -> '14'; text[55]:fill '#5B6575' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 30,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 9,
+              "circle": 4,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 1,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 30,
+        "tspan_elements": 1,
+        "contextual_values": {
+          "colors": [
+            "#8F9DB0"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "5e93f003be429064956ebda37943cecdcf0d8af37ba9ce0402bc4f460483581d"
+    },
+    {
+      "file": "04_evaluation.svg",
+      "path": "/Users/arc928/Documents/ChatGPT/泰山派/projects/yolo_phone_midterm_20261113/svg_output/04_evaluation.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5B6575'; footer:font-size None -> '14'; text[53]:fill '#5B6575' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 22,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 8,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 9,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 10,
+        "contextual_values": {
+          "colors": [
+            "#8F9DB0"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "625b192071dffffc8968304d2810b13570a9d0fc6a8ad7886ba681ef17e90501"
+    },
+    {
+      "file": "05_iteration.svg",
+      "path": "/Users/arc928/Documents/ChatGPT/泰山派/projects/yolo_phone_midterm_20261113/svg_output/05_iteration.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5B6575'; footer:font-size None -> '14'; text[44]:fill '#5B6575' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 25,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 3,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 1,
+            "preset_names": {
+              "downArrow": 1
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 25,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "6e7c124186048f27a322e8b804b1f2c42dfc980b7e740576440fe3f564cab487"
+    },
+    {
+      "file": "06_training.svg",
+      "path": "/Users/arc928/Documents/ChatGPT/泰山派/projects/yolo_phone_midterm_20261113/svg_output/06_training.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5B6575'; footer:font-size None -> '14'; text[29]:fill '#5B6575' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 2,
+            "files": [
+              "train_curves.png",
+              "val_pr_curve.png"
+            ],
+            "max_frame_share": 0.2689
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "fa913212e3ea6f6d45f2417ff3a80dd1a1800f8b67f25480fdcc618f58336d23"
+    },
+    {
+      "file": "07_results.svg",
+      "path": "/Users/arc928/Documents/ChatGPT/泰山派/projects/yolo_phone_midterm_20261113/svg_output/07_results.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (9 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): header:fill None -> '#1F3A5F'; rect[4]:fill '#1F3A5F' -> None; text[5]:fill '#1F3A5F' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 35,
+          "images": {
+            "placements": 4,
+            "files": [
+              "ex_front_background_fp.jpg",
+              "ex_front_texting_hit.jpg",
+              "ex_front_texting_miss.jpg",
+              "ex_side_calling_hit.jpg"
+            ],
+            "max_frame_share": 0.055
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 4,
+              "ellipse": 0,
+              "line": 7,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 35,
+        "tspan_elements": 2,
+        "contextual_values": {
+          "colors": [
+            "#FCEFE5"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "e5665082f1267433e5ff14dda1113987ea7e984558b19e613ab05a63896c5eef"
+    },
+    {
+      "file": "08_demo.svg",
+      "path": "/Users/arc928/Documents/ChatGPT/泰山派/projects/yolo_phone_midterm_20261113/svg_output/08_demo.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (6 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): footer:fill None -> '#5B6575'; footer:font-size None -> '14'; text[34]:fill '#5B6575' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 1,
+            "files": [
+              "demo_screenshot.png"
+            ],
+            "max_frame_share": 0.1888
+          },
+          "icons": 2,
+          "effects": {
+            "inline_emphasis_runs": 3,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "0c424db35ec6f374124e438ae465f3bf360ef03ad235360bc947c1741c4ba590"
+    },
+    {
+      "file": "09_next_steps.svg",
+      "path": "/Users/arc928/Documents/ChatGPT/泰山派/projects/yolo_phone_midterm_20261113/svg_output/09_next_steps.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (18 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): header:fill None -> '#1F3A5F'; rect[4]:fill '#1F3A5F' -> None; text[5]:fill '#1F3A5F' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 3,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 6,
+            "preset_names": {
+              "chevron": 2,
+              "homePlate": 1,
+              "rightArrow": 3
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "ca9bde2d23a9012b68f369647babfe69348aa9ca76c5510d58d60f865306b08d"
+    },
+    {
+      "file": "10_summary.svg",
+      "path": "/Users/arc928/Documents/ChatGPT/泰山派/projects/yolo_phone_midterm_20261113/svg_output/10_summary.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 8,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 4,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 4,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 8,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "ff7ebcb1e9810fb0803087b499833d80c46d6edd0182089df910b4d480fe5cd5"
+    }
+  ]
+}

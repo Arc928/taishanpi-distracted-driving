@@ -1,0 +1,21 @@
+{
+  "verified_at": "2026-10-12T21:33:58.798262+08:00",
+  "restored": true,
+  "start_epoch": 97,
+  "total_epochs": 150,
+  "optimizer": "AdamW",
+  "optimizer_state_entries": 255,
+  "optimizer_state_tensors_equal": 765,
+  "optimizer_groups_equal": true,
+  "ema_updates": 4571,
+  "scaler_state_equal": true,
+  "lr0": 0.001667,
+  "lrf": 0.01,
+  "early_stopping_disabled": true,
+  "copied_history_epochs": 96,
+  "inherited_best_epoch": 79,
+  "inherited_best_fitness": 0.60045,
+  "dataset_hashes_verified": true,
+  "test_used": false,
+  "scheduler_note": "Original linear rule and LR hyperparameters retained; horizon extends to 150, changing future per-epoch LR."
+}

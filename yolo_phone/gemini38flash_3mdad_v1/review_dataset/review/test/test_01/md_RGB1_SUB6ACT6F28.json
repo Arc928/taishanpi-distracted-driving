@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": 0.6075235605239868,
+      "points": [
+        [
+          227.25302419354838,
+          254.71522177419357
+        ],
+        [
+          301.7666330645161,
+          254.71522177419357
+        ],
+        [
+          301.7666330645161,
+          328.2409274193548
+        ],
+        [
+          227.25302419354838,
+          328.2409274193548
+        ]
+      ],
+      "group_id": null,
+      "description": "UNREVIEWED Grounding DINO proposal. Verify driver vs passenger and holding hand. Class from weak source action; verify actual behavior. No adjacent hand detected; expand/correct manually. ",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB1_SUB6ACT6F28.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Unreviewed open-vocabulary proposals; empty shapes do not mean background."
+}

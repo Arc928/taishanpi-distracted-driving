@@ -1,0 +1,408 @@
+{
+  "model": "gemini-3.8-flash-high",
+  "endpoint": "http://127.0.0.1:8317/v1/chat/completions",
+  "requested": 12,
+  "successful": 12,
+  "results": [
+    {
+      "id": "md_RGB2_SUB10ACT5F111",
+      "group": "untouched",
+      "view": "front",
+      "weak_class": "texting",
+      "requested_model": "gemini-3.8-flash-high",
+      "returned_model": "gemini-3.8-flash-n",
+      "seconds": 26.16,
+      "usage": {
+        "completion_tokens": 2661,
+        "total_tokens": 4072,
+        "prompt_tokens": 1411,
+        "completion_tokens_details": {
+          "reasoning_tokens": 2611
+        }
+      },
+      "result": {
+        "objects": [
+          {
+            "label": "texting",
+            "box_2d": [
+              575,
+              502,
+              866,
+              792
+            ]
+          }
+        ],
+        "uncertain": false,
+        "note": "driver holding and operating mobile phone while driving"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "id": "md_RGB2_SUB11ACT5F117",
+      "group": "untouched",
+      "view": "front",
+      "weak_class": "texting",
+      "requested_model": "gemini-3.8-flash-high",
+      "returned_model": "gemini-3.8-flash-n",
+      "seconds": 8.84,
+      "usage": {
+        "completion_tokens": 674,
+        "total_tokens": 2085,
+        "prompt_tokens": 1411,
+        "completion_tokens_details": {
+          "reasoning_tokens": 618
+        }
+      },
+      "result": {
+        "objects": [
+          {
+            "label": "texting",
+            "box_2d": [
+              525,
+              477,
+              748,
+              715
+            ]
+          }
+        ],
+        "uncertain": false,
+        "note": "driver holding mobile phone in left hand while right hand is on steering wheel"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "id": "md_RGB2_SUB10ACT5F23",
+      "group": "modified_reference_not_certified_ground_truth",
+      "view": "front",
+      "weak_class": "texting",
+      "requested_model": "gemini-3.8-flash-high",
+      "returned_model": "gemini-3.8-flash-n",
+      "seconds": 12.19,
+      "usage": {
+        "completion_tokens": 918,
+        "total_tokens": 2329,
+        "prompt_tokens": 1411,
+        "completion_tokens_details": {
+          "reasoning_tokens": 863
+        }
+      },
+      "result": {
+        "objects": [
+          {
+            "label": "texting",
+            "box_2d": [
+              566,
+              484,
+              835,
+              783
+            ]
+          }
+        ],
+        "uncertain": false,
+        "note": "driver is holding and looking at a mobile phone away from the ear"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "id": "md_RGB2_SUB10ACT7F57",
+      "group": "untouched",
+      "view": "front",
+      "weak_class": "calling",
+      "requested_model": "gemini-3.8-flash-high",
+      "returned_model": "gemini-3.8-flash-n",
+      "seconds": 11.54,
+      "usage": {
+        "completion_tokens": 959,
+        "total_tokens": 2370,
+        "prompt_tokens": 1411,
+        "completion_tokens_details": {
+          "reasoning_tokens": 912
+        }
+      },
+      "result": {
+        "objects": [
+          {
+            "label": "calling",
+            "box_2d": [
+              340,
+              630,
+              695,
+              795
+            ]
+          }
+        ],
+        "uncertain": false,
+        "note": "driver holding mobile phone to ear"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "id": "md_RGB2_SUB11ACT7F17",
+      "group": "untouched",
+      "view": "front",
+      "weak_class": "calling",
+      "requested_model": "gemini-3.8-flash-high",
+      "returned_model": "gemini-3.8-flash-n",
+      "seconds": 12.92,
+      "usage": {
+        "completion_tokens": 584,
+        "total_tokens": 1995,
+        "prompt_tokens": 1411,
+        "completion_tokens_details": {
+          "reasoning_tokens": 528
+        }
+      },
+      "result": {
+        "objects": [
+          {
+            "label": "calling",
+            "box_2d": [
+              242,
+              610,
+              439,
+              784
+            ]
+          }
+        ],
+        "uncertain": false,
+        "note": "Driver is holding a phone to his ear with his left hand while driving."
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "id": "md_RGB2_SUB10ACT7F19",
+      "group": "modified_reference_not_certified_ground_truth",
+      "view": "front",
+      "weak_class": "calling",
+      "requested_model": "gemini-3.8-flash-high",
+      "returned_model": "gemini-3.8-flash-n",
+      "seconds": 8.11,
+      "usage": {
+        "completion_tokens": 602,
+        "total_tokens": 2013,
+        "prompt_tokens": 1411,
+        "completion_tokens_details": {
+          "reasoning_tokens": 556
+        }
+      },
+      "result": {
+        "objects": [
+          {
+            "label": "calling",
+            "box_2d": [
+              339,
+              606,
+              664,
+              785
+            ]
+          }
+        ],
+        "uncertain": false,
+        "note": "Driver holding phone to ear"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "id": "md_RGB1_SUB11ACT5F117",
+      "group": "untouched",
+      "view": "side",
+      "weak_class": "texting",
+      "requested_model": "gemini-3.8-flash-high",
+      "returned_model": "gemini-3.8-flash-n",
+      "seconds": 12.57,
+      "usage": {
+        "completion_tokens": 1074,
+        "total_tokens": 2485,
+        "prompt_tokens": 1411,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1016
+        }
+      },
+      "result": {
+        "objects": [
+          {
+            "label": "texting",
+            "box_2d": [
+              515,
+              330,
+              665,
+              425
+            ]
+          }
+        ],
+        "uncertain": false,
+        "note": "driver holding a mobile phone in right hand while left hand is on the steering wheel"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "id": "md_RGB1_SUB10ACT5F23",
+      "group": "modified_reference_not_certified_ground_truth",
+      "view": "side",
+      "weak_class": "texting",
+      "requested_model": "gemini-3.8-flash-high",
+      "returned_model": "gemini-3.8-flash-n",
+      "seconds": 10.19,
+      "usage": {
+        "completion_tokens": 913,
+        "total_tokens": 2324,
+        "prompt_tokens": 1411,
+        "completion_tokens_details": {
+          "reasoning_tokens": 857
+        }
+      },
+      "result": {
+        "objects": [
+          {
+            "label": "texting",
+            "box_2d": [
+              546,
+              297,
+              757,
+              426
+            ]
+          }
+        ],
+        "uncertain": false,
+        "note": "driver holding mobile phone in left hand while right hand is on steering wheel"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "id": "md_RGB1_SUB10ACT5F111",
+      "group": "untouched",
+      "view": "side",
+      "weak_class": "texting",
+      "requested_model": "gemini-3.8-flash-high",
+      "returned_model": "gemini-3.8-flash-n",
+      "seconds": 28.53,
+      "usage": {
+        "completion_tokens": 3431,
+        "total_tokens": 4842,
+        "prompt_tokens": 1411,
+        "completion_tokens_details": {
+          "reasoning_tokens": 3378
+        }
+      },
+      "result": {
+        "objects": [
+          {
+            "label": "texting",
+            "box_2d": [
+              545,
+              290,
+              758,
+              418
+            ]
+          }
+        ],
+        "uncertain": false,
+        "note": "driver holding and viewing phone with right hand near steering wheel"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "id": "md_RGB1_SUB10ACT7F95",
+      "group": "untouched",
+      "view": "side",
+      "weak_class": "calling",
+      "requested_model": "gemini-3.8-flash-high",
+      "returned_model": "gemini-3.8-flash-n",
+      "seconds": 12.34,
+      "usage": {
+        "completion_tokens": 1031,
+        "total_tokens": 2442,
+        "prompt_tokens": 1411,
+        "completion_tokens_details": {
+          "reasoning_tokens": 983
+        }
+      },
+      "result": {
+        "objects": [
+          {
+            "label": "calling",
+            "box_2d": [
+              412,
+              446,
+              692,
+              621
+            ]
+          }
+        ],
+        "uncertain": false,
+        "note": "driver holding a phone to her ear"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "id": "md_RGB1_SUB11ACT7F50",
+      "group": "untouched",
+      "view": "side",
+      "weak_class": "calling",
+      "requested_model": "gemini-3.8-flash-high",
+      "returned_model": "gemini-3.8-flash-n",
+      "seconds": 14.12,
+      "usage": {
+        "completion_tokens": 1424,
+        "total_tokens": 2835,
+        "prompt_tokens": 1411,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1372
+        }
+      },
+      "result": {
+        "objects": [
+          {
+            "label": "calling",
+            "box_2d": [
+              348,
+              462,
+              577,
+              635
+            ]
+          }
+        ],
+        "uncertain": false,
+        "note": "driver holding phone to right ear with right hand while driving"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "id": "md_RGB1_SUB10ACT7F19",
+      "group": "modified_reference_not_certified_ground_truth",
+      "view": "side",
+      "weak_class": "calling",
+      "requested_model": "gemini-3.8-flash-high",
+      "returned_model": "gemini-3.8-flash-n",
+      "seconds": 12.55,
+      "usage": {
+        "completion_tokens": 1228,
+        "total_tokens": 2639,
+        "prompt_tokens": 1411,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1179
+        }
+      },
+      "result": {
+        "objects": [
+          {
+            "label": "calling",
+            "box_2d": [
+              395,
+              450,
+              680,
+              630
+            ]
+          }
+        ],
+        "uncertain": false,
+        "note": "driver holding mobile phone to ear while driving"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "source_files_changed_during_experiment": [],
+  "automatically_accepted": 0,
+  "training_started": false,
+  "reference_note": "Edited JSONs are comparison references only, not confirmed independent ground truth."
+}

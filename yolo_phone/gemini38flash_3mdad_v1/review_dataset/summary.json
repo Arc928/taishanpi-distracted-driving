@@ -1,0 +1,19 @@
+{
+  "status": "awaiting_human_review_not_training_ready",
+  "total_3mdad": 2200,
+  "counts": {
+    "success": 1757,
+    "protected": 443
+  },
+  "original_dataset": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/open_vocab_3mdad_v1/review_dataset",
+  "inherited_training": 1534,
+  "split_unchanged": true,
+  "training_started": false,
+  "auto_accepted": 0,
+  "usage": {
+    "completion_tokens": 1516673,
+    "total_tokens": 4097706,
+    "prompt_tokens": 2581033
+  },
+  "source_changed_during_run": 0
+}

@@ -1,0 +1,92 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          191.9072,
+          128.16072
+        ],
+        [
+          305.14496,
+          128.16072
+        ],
+        [
+          305.14496,
+          177.10104
+        ],
+        [
+          191.9072,
+          177.10104
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          66.91519999999998,
+          0.6823199999999829
+        ],
+        [
+          346.23936000000003,
+          0.6823199999999829
+        ],
+        [
+          346.23936000000003,
+          369.8268
+        ],
+        [
+          66.91519999999998,
+          369.8268
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          479.27552,
+          298.86264
+        ],
+        [
+          524.04992,
+          298.86264
+        ],
+        [
+          524.04992,
+          322.52328
+        ],
+        [
+          479.27552,
+          322.52328
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p002_c2_img_63601.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

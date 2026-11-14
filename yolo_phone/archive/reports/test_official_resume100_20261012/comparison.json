@@ -1,0 +1,56 @@
+[
+  {
+    "source": "3mdad",
+    "behavior": "texting",
+    "metric": "expected_class_hit_images",
+    "total": 120,
+    "previous": 82,
+    "current": 86,
+    "delta": 4
+  },
+  {
+    "source": "3mdad",
+    "behavior": "calling",
+    "metric": "expected_class_hit_images",
+    "total": 120,
+    "previous": 90,
+    "current": 105,
+    "delta": 15
+  },
+  {
+    "source": "3mdad",
+    "behavior": "background",
+    "metric": "false_positive_images",
+    "total": 200,
+    "previous": 14,
+    "current": 24,
+    "delta": 10
+  },
+  {
+    "source": "statefarm",
+    "behavior": "texting",
+    "metric": "expected_class_hit_images",
+    "total": 96,
+    "previous": 96,
+    "current": 96,
+    "delta": 0
+  },
+  {
+    "source": "statefarm",
+    "behavior": "calling",
+    "metric": "expected_class_hit_images",
+    "total": 92,
+    "previous": 90,
+    "current": 91,
+    "delta": 1
+  },
+  {
+    "source": "statefarm",
+    "behavior": "background",
+    "metric": "false_positive_images",
+    "total": 264,
+    "previous": 0,
+    "current": 2,
+    "delta": 2
+  }
+]

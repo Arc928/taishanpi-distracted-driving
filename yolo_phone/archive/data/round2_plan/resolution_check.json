@@ -1,0 +1,71 @@
+{
+  "imgsz": {
+    "640": {
+      "texting@0.25": {
+        "hit": 133,
+        "with_any_box": 133,
+        "total": 136
+      },
+      "texting@0.5": {
+        "hit": 130,
+        "with_any_box": 130,
+        "total": 136
+      },
+      "calling@0.25": {
+        "hit": 114,
+        "with_any_box": 115,
+        "total": 131
+      },
+      "calling@0.5": {
+        "hit": 108,
+        "with_any_box": 109,
+        "total": 131
+      }
+    },
+    "960": {
+      "texting@0.25": {
+        "hit": 133,
+        "with_any_box": 133,
+        "total": 136
+      },
+      "texting@0.5": {
+        "hit": 131,
+        "with_any_box": 131,
+        "total": 136
+      },
+      "calling@0.25": {
+        "hit": 112,
+        "with_any_box": 113,
+        "total": 131
+      },
+      "calling@0.5": {
+        "hit": 100,
+        "with_any_box": 100,
+        "total": 131
+      }
+    },
+    "1280": {
+      "texting@0.25": {
+        "hit": 127,
+        "with_any_box": 127,
+        "total": 136
+      },
+      "texting@0.5": {
+        "hit": 116,
+        "with_any_box": 116,
+        "total": 136
+      },
+      "calling@0.25": {
+        "hit": 80,
+        "with_any_box": 81,
+        "total": 131
+      },
+      "calling@0.5": {
+        "hit": 42,
+        "with_any_box": 42,
+        "total": 131
+      }
+    }
+  },
+  "notes": "image-level behavior hit counts on 5 held-out drivers; not detection mAP"
+}

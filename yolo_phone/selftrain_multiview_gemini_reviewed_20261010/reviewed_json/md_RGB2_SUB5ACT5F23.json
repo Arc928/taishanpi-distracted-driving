@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "score": null,
+      "points": [
+        [
+          433.92,
+          333.12
+        ],
+        [
+          600.5961277173914,
+          333.12
+        ],
+        [
+          600.5961277173914,
+          469.5544610507246
+        ],
+        [
+          433.92,
+          469.5544610507246
+        ]
+      ],
+      "group_id": null,
+      "description": "Gemini candidate; pending human review, not ground truth.",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB5ACT5F23.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Driver is holding a smartphone in her right hand away from her ear."
+}

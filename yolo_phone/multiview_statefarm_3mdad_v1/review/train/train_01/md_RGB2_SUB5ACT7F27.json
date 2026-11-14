@@ -1,0 +1,38 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          338.07708740234375,
+          131.0609130859375
+        ],
+        [
+          517.7828979492188,
+          131.0609130859375
+        ],
+        [
+          517.7828979492188,
+          352.0091552734375
+        ],
+        [
+          338.07708740234375,
+          352.0091552734375
+        ]
+      ],
+      "group_id": null,
+      "flags": {},
+      "score": 0.6869081854820251,
+      "description": "MODEL PROPOSAL ONLY — requires human review"
+    }
+  ],
+  "imagePath": "md_RGB2_SUB5ACT7F27.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Pending human review. Empty shapes are NOT a background label."
+}

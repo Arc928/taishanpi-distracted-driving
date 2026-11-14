@@ -1,0 +1,38 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          442.53919999999994,
+          299.07576
+        ],
+        [
+          494.3056,
+          299.07576
+        ],
+        [
+          494.3056,
+          319.40808
+        ],
+        [
+          442.53919999999994,
+          319.40808
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p014_c8_img_9212.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

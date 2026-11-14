@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB1_SUB14ACT6F95",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": true,
+    "note": "The driver is looking at the road with one hand on the steering wheel. The other hand is near the steering column/dashboard, but it is uncertain whether a phone is being held."
+  },
+  "usage": {
+    "completion_tokens": 3820,
+    "total_tokens": 5289,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 3767
+    }
+  },
+  "seconds": 28.0,
+  "attempt": 1
+}

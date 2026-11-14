@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB2_SUB43ACT1F93",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The driver is holding the steering wheel with no phone present."
+  },
+  "usage": {
+    "completion_tokens": 130,
+    "total_tokens": 1599,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 103
+    }
+  },
+  "seconds": 3.6,
+  "attempt": 1
+}

@@ -1,0 +1,119 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          160.25536,
+          156.14855999999997
+        ],
+        [
+          274.73088,
+          156.14855999999997
+        ],
+        [
+          274.73088,
+          210.74712
+        ],
+        [
+          160.25536,
+          210.74712
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          166.28352,
+          157.21224
+        ],
+        [
+          208.11776000000003,
+          157.21224
+        ],
+        [
+          208.11776000000003,
+          203.98872
+        ],
+        [
+          166.28352,
+          203.98872
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          228.99168,
+          174.0036
+        ],
+        [
+          269.98304,
+          174.0036
+        ],
+        [
+          269.98304,
+          208.65816
+        ],
+        [
+          228.99168,
+          208.65816
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          45.21696,
+          16.76855999999999
+        ],
+        [
+          312.27296,
+          16.76855999999999
+        ],
+        [
+          312.27296,
+          394.71144
+        ],
+        [
+          45.21696,
+          394.71144
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p024_c2_img_28943.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

@@ -1,0 +1,55 @@
+{
+  "source": "/Users/arc928/Downloads/state-farm-distracted-driver-detection",
+  "source_csv_sha256": "891ca8e2bfd7a3522ac2098a1bc93825c581d07104d211c329de0b16c83ca5ee",
+  "source_count": 22424,
+  "sample_every": 8,
+  "seed": 42,
+  "sampling": "ceil(count / sample_every) per subject and source class",
+  "split_method": "explicit_subjects",
+  "train_subjects": [
+    "p002",
+    "p012",
+    "p014",
+    "p015",
+    "p022",
+    "p024",
+    "p035",
+    "p039",
+    "p041",
+    "p042",
+    "p045",
+    "p047",
+    "p049",
+    "p050",
+    "p051",
+    "p052",
+    "p056",
+    "p061",
+    "p064",
+    "p066",
+    "p072",
+    "p075",
+    "p081"
+  ],
+  "eval_subjects": [
+    "p016",
+    "p021",
+    "p026"
+  ],
+  "eval_split_directory": "val",
+  "selected_count": 2926,
+  "counts": {
+    "train": {
+      "texting": 507,
+      "calling": 512,
+      "background": 1455
+    },
+    "val": {
+      "texting": 96,
+      "calling": 92,
+      "background": 264
+    }
+  },
+  "ready_for_training": false,
+  "positive_labels": "absent until box annotation; never confirmed background"
+}

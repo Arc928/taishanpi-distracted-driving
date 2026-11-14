@@ -1,0 +1,14 @@
+{
+  "url": "http://127.0.0.1:8765",
+  "device": "mps",
+  "weights_sha256": "ca22c7ea45f75a5b3134095bceb98a2eddc66855780a437fb1ac1edc6b22eece",
+  "default_confidence": 0.5,
+  "model_imgsz": 640,
+  "realtime_capture_long_side": 640,
+  "test_input": "30 FPS generated video with State Farm sample frames",
+  "observed_preview_fps": 30.0,
+  "observed_detection_fps": 29.5,
+  "observed_total_latency_ms": 34,
+  "observed_model_ms": 7,
+  "note": "Video test only; actual camera FPS depends on device and browser. Model weights were not changed."
+}

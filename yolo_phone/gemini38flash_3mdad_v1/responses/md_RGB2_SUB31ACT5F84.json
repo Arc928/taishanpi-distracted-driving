@@ -1,0 +1,32 @@
+{
+  "id": "md_RGB2_SUB31ACT5F84",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [
+      {
+        "label": "texting",
+        "box_2d": [
+          596,
+          467,
+          850,
+          735
+        ]
+      }
+    ],
+    "uncertain": false,
+    "note": "Driver is holding a mobile phone away from the ear with his right hand."
+  },
+  "usage": {
+    "completion_tokens": 2650,
+    "total_tokens": 4119,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 2593
+    }
+  },
+  "seconds": 20.86,
+  "attempt": 1
+}

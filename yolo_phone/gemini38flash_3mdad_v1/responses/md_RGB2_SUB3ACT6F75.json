@@ -1,0 +1,32 @@
+{
+  "id": "md_RGB2_SUB3ACT6F75",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [
+      {
+        "label": "texting",
+        "box_2d": [
+          646,
+          278,
+          978,
+          502
+        ]
+      }
+    ],
+    "uncertain": false,
+    "note": "Driver is holding and looking at a mobile phone with both hands below the steering wheel."
+  },
+  "usage": {
+    "completion_tokens": 1552,
+    "total_tokens": 3021,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1493
+    }
+  },
+  "seconds": 14.83,
+  "attempt": 1
+}

@@ -1,0 +1,702 @@
+{
+  "p015_c4_img_43076": {
+    "sha256": "e5300ea26dbc9c224d7b1acd68cf2fe85214cb8c72078613946604b3e15c534a",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p064_c2_img_13117": {
+    "sha256": "5677bca975eb2ba8defe904136bf4eeec3149d98412d8d7b09229db05a2d2847",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p015_c4_img_36357": {
+    "sha256": "bbd58a38211f75172c3600452bd8a89ece7e968ac57f793b61c3728f87870b2f",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p015_c4_img_76757": {
+    "sha256": "30bcc86c6559c5d0b3c9da039e17f25527c76f5588fff2796d58606534352755",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p015_c4_img_41379": {
+    "sha256": "45328aa71fb583ab5e910faaddc913c899935be9c061284c8236cae4f20d9efe",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p050_c4_img_46544": {
+    "sha256": "bf1f52f631d0d3d829369878ef97ca5e48bb4ada165765c3fe22fca3231a29b9",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p050_c4_img_36001": {
+    "sha256": "8b487ff35c1824d1ecea257989473274047810f5fb7ed34e3063a12a3d4de262",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p052_c2_img_76349": {
+    "sha256": "71cd74ec4e23bda65f921eb19792c8d6f0424eb649de334b583b6d74c3177445",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p015_c4_img_84406": {
+    "sha256": "8c673a4906ce252925342ec603eb86f6ad981af66c62d0291087cb03ea0c794a",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p015_c4_img_65601": {
+    "sha256": "6a259b57d6d67e93608436ecc5b74ed36db7b5116ea54b3a41ba08718398bd3c",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p050_c4_img_3187": {
+    "sha256": "d029bb6197bc4efd1986bc6ae41213f40df1a8a39c3dbfe50519fe1f8aab64db",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p072_c4_img_92903": {
+    "sha256": "dd2cde9efa6b03d79fa95bccf56fe28eb7439e50c062ed0ff13c31cc43dbd230",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p015_c4_img_2443": {
+    "sha256": "0429b93000375389ac92df8a2265890ceecc268c56327a74dde3869761bc6145",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p015_c4_img_67631": {
+    "sha256": "c86dd8b7a65262ba9320a097ccdda290e29ae87fbf680d627af1df19d15dad2a",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p014_c2_img_86001": {
+    "sha256": "b5e9ad369250fb1d9a15a3ad937396902f8b2e751ee137cfd7beae420a0d161f",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 1
+  },
+  "p050_c4_img_34934": {
+    "sha256": "6d888a81c397b31846a7808577dd5a0f42f0075c986973126da64fe300e30c9f",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p042_c4_img_30384": {
+    "sha256": "9ba306d0f8f66f8b8e918e5643b24ae3511271a0878ef57fdbce099fa4c692b1",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p075_c2_img_40017": {
+    "sha256": "b1e41f6b618b8f65f1b305ddacb1ea628be57230a9ff746450c602f2b926b169",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p064_c4_img_83449": {
+    "sha256": "c5330eb795117c891149438a994b89847772930b1feb101acb2d77913df87735",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p015_c4_img_79352": {
+    "sha256": "32ee739c8efa04fb333b46904defc2be7941b0d133a452833aa17689390d13d4",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p052_c2_img_25954": {
+    "sha256": "8994278b96556f96b5cc0e3f05a92a019f55af5d9b1fdf8c8f534e0ad9787d2f",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p015_c4_img_50829": {
+    "sha256": "cf423dd512ba7747aa88bb84e9eb1e8e3e5f49d4d10eadfb5423763315e7be9e",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p072_c4_img_76540": {
+    "sha256": "97ece1d343078f0be64ba8dc4f7064eb64be3debc89d420dd01ad794d8baba45",
+    "pool": "calling_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p015_c4_img_4250": {
+    "sha256": "c4a8faa3171ca4c5f7e79b28e7c7ba3939faa9e895a25ac9f5e0d7dc10d0de4f",
+    "pool": "calling_near",
+    "prefill_shapes": 0
+  },
+  "p072_c4_img_21339": {
+    "sha256": "9c897c8db77885b8c8ce6974e28e360f5fa00877f5ae800844247b5edeb5b0f4",
+    "pool": "calling_near",
+    "prefill_shapes": 0
+  },
+  "p050_c4_img_80065": {
+    "sha256": "9eecbf42291c6a0d597e14efc091beedf066ee95f52812d0ba0d677cc7eca677",
+    "pool": "calling_near",
+    "prefill_shapes": 0
+  },
+  "p049_c4_img_96886": {
+    "sha256": "7eab32977f441327649c1c6592a503236c4dc0d1657d87619e738931240358fe",
+    "pool": "calling_near",
+    "prefill_shapes": 0
+  },
+  "p042_c2_img_88362": {
+    "sha256": "b71c43326168e728ff0e9ee3c43244534c1aa986dc039aa9d045ede71ae04606",
+    "pool": "calling_near",
+    "prefill_shapes": 0
+  },
+  "p050_c4_img_29748": {
+    "sha256": "ece700642cd85a3ca7627cd8ed0f77d01e3635ace16f901c661c007b41f2be63",
+    "pool": "calling_near",
+    "prefill_shapes": 0
+  },
+  "p050_c4_img_28612": {
+    "sha256": "542da115c9428cc913d6bc0f9fb516427ea9d01667d742af21840dd2e8f217c9",
+    "pool": "calling_near",
+    "prefill_shapes": 0
+  },
+  "p050_c4_img_6014": {
+    "sha256": "fbe53a9c79d57d0ef8fe00f54e08a8da4071597f0b89efc00d6514e8d1d1cd8a",
+    "pool": "calling_near",
+    "prefill_shapes": 0
+  },
+  "p042_c2_img_9418": {
+    "sha256": "8ca1ee4b1fe5da63d164270cc336c1809da5602545bde94302e7acc0ff7ffd72",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p056_c2_img_34625": {
+    "sha256": "c9a67d7fa52b44751c0a97e63cb5fedbcd2b200f698746dbd3dcea52cbf12380",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p052_c2_img_55969": {
+    "sha256": "f27f35fa08d165d8fe1f469e1c2476b408006be32e4e14fce21e533a928ea24e",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p042_c2_img_58440": {
+    "sha256": "443e6ea963fde027ee7d1b2c2e467d6aba84b11a7d4e4e8ffa7dbc5641e06063",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p042_c4_img_76508": {
+    "sha256": "f203e97e29c56e11a58f3e0769ffd8b14b41161124d87101b6d64fd2c47b0d66",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p056_c2_img_38000": {
+    "sha256": "5f6d579a8ac0c0ed5901be7b2dcbf3d2efa84eacfa66716b700972a3ef08e036",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p050_c4_img_4637": {
+    "sha256": "db08d080bc49bd1a1dfb8ea0ce9761f0734a9573f69fa43001293ce1c76d1f25",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p066_c4_img_9813": {
+    "sha256": "dff1ecfb68c13086cf9f4aeed459ce0a03be2cf84e63b7e82c4fc1460e9f21aa",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p042_c2_img_32895": {
+    "sha256": "8717b757f3bdd841adb647df30c5f0be03db9b1cce5e11d68ce0119759716f4f",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p015_c2_img_69156": {
+    "sha256": "fca7e3d39a5038545345624adb45870805e829459476e9d110378e5fa7c3924c",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p056_c2_img_91529": {
+    "sha256": "b0594b13f7da86656dd473817077ba03aaaaaa06244906b5fc5b27656874e1ee",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p042_c4_img_19239": {
+    "sha256": "23e27a41ec53a089de647831ba2cf34a4017761034b4ea0145de6f32017fd289",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p050_c4_img_7615": {
+    "sha256": "8826f7641cee8798b016f05e113721c5f0ea8ed5221869aeae0ce906ec0262de",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p042_c2_img_4398": {
+    "sha256": "4255808fab3a0ebe960d9ce68f92bffd8d4c493f2d954d05d5e5b0e72e559fc0",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p042_c4_img_99805": {
+    "sha256": "b66de4a87a639055728e89d0e073f97552af6db14cb01b500346258dcbd54a90",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p061_c4_img_27168": {
+    "sha256": "51ad7561b05a9c00e0dfc2bb0668b893e431ec4fa48c6b98f20122174ba38ffc",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p075_c2_img_37188": {
+    "sha256": "440639fe23ec7805d5c0d732ce1803caa60de972a785fae0b18252fef395b3c4",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p050_c4_img_26434": {
+    "sha256": "1b09e81f59e379a880d656005ff761efe24b58a88c646ef0dd811cb85a5dae34",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p042_c4_img_33760": {
+    "sha256": "ab30538c8fa9b40331a271874d3fb76d618de40e89697e9164efa4c6a95e066b",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p042_c4_img_74110": {
+    "sha256": "db1f1734eb999812d3d4aa64dbd00ed302fa78bcb5d6f99c2ca24c777166a538",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p042_c4_img_84490": {
+    "sha256": "24db14811b44d15d841127a5f36b84b1989c6dfddedc6a0b863c7e586e30ff91",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p042_c2_img_79923": {
+    "sha256": "c909899ac6117d1c43c31b62f52c3ea696447d39c66d4d0d474f7a45243961b5",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p015_c4_img_89589": {
+    "sha256": "cf106dfb1969545f6ee290b6e88efd9217fe1e25877f43269fd3289b365e7a5f",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p064_c2_img_93111": {
+    "sha256": "d026649f5756ae97c5897ff73b8c339870454f8a12741d30bf9085a09d0f3534",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p061_c2_img_26094": {
+    "sha256": "8bd1fd2983463dc8567d8bc65a78219e5d86c3035c0d0e8168d4ae01fb2eacc4",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p064_c4_img_53561": {
+    "sha256": "a4353bfe2ec82f5df1f84a06bb0bd86b3c46b25984a12872b7a1185c1054abe1",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p042_c2_img_91717": {
+    "sha256": "a489162bb9491f706f56ff738c2966d833f65623bbfe251f2097de1aa029af3b",
+    "pool": "calling_mid",
+    "prefill_shapes": 1
+  },
+  "p066_c3_img_61943": {
+    "sha256": "6beb90323b7467731d59c24ea9d2f0399b05414389b839cfe8c362fd6a295184",
+    "pool": "texting_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p066_c3_img_68226": {
+    "sha256": "d58c3cdc980b5dceeec5000a0718c08559d564531f20b78c2a153283de41cc30",
+    "pool": "texting_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p056_c3_img_13910": {
+    "sha256": "ee99d2b997e41c9cf4de19e294464de41c4f6a6e08e81ae36620553d61cd7ca7",
+    "pool": "texting_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p066_c3_img_7812": {
+    "sha256": "1497b7f7c729129c71a0cc887d745ffef452ae6123521a86d7e4bd7e41c4a421",
+    "pool": "texting_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p075_c3_img_94343": {
+    "sha256": "2099f65627674d85f10f52d3189e2574362b0ceb8290a6dac473e308f7495c98",
+    "pool": "texting_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p072_c1_img_14184": {
+    "sha256": "e692d03b9d1cdcbdbf830ace0a296aacd269c2a6820ef52f7db9b1a3f6a375b9",
+    "pool": "texting_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p072_c1_img_37192": {
+    "sha256": "8f6d83ff40acfa1950d206249a2ede44676720dc9a3f2cc380cf1cb5503fa8ba",
+    "pool": "texting_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p012_c1_img_85362": {
+    "sha256": "2b7b546e75d46c6623dd2c32e84db6be8308d15584f6ec4f6ebe6a6b9554f089",
+    "pool": "texting_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p064_c3_img_63578": {
+    "sha256": "dcd8a72547e4436b482c92380a5b1e3e8c97cac24ecb36e24ebe3ff9d69859bb",
+    "pool": "texting_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p072_c1_img_38057": {
+    "sha256": "959ce652d2982fdce251f4d302b618a39f30a9d03b2379ead14dfc592c2427a0",
+    "pool": "texting_hard_miss",
+    "prefill_shapes": 0
+  },
+  "p072_c1_img_96218": {
+    "sha256": "321c6d58cb4244daa5867188f7aa9b7ea909edd724dd37eba95a4a55f42c464a",
+    "pool": "texting_mid",
+    "prefill_shapes": 1
+  },
+  "p045_c1_img_33203": {
+    "sha256": "53481e7b8a08ff2d36484c203a311080ab524fc19c93aebfa405982344bf1457",
+    "pool": "texting_mid",
+    "prefill_shapes": 1
+  },
+  "p064_c3_img_39259": {
+    "sha256": "bf4859e821e0c4cd698f2be4e545aefc52282f9b0c7c4626022e8b8c478dbacc",
+    "pool": "texting_mid",
+    "prefill_shapes": 1
+  },
+  "p064_c3_img_41505": {
+    "sha256": "5430b62864decb3386ed32b1763337da60db7ff254079433f9ba981d4ab7a750",
+    "pool": "texting_mid",
+    "prefill_shapes": 1
+  },
+  "p066_c3_img_71678": {
+    "sha256": "febff64f5063f6a7c5afc0efdd3298e232016e510ad9564165ffb21f76eddd2d",
+    "pool": "texting_mid",
+    "prefill_shapes": 1
+  },
+  "p072_c1_img_70545": {
+    "sha256": "d79c2c30d09cf55dc52975b4e1c5f2c6f8ba7abbf91c79afbb1b332be3ca981b",
+    "pool": "texting_mid",
+    "prefill_shapes": 1
+  },
+  "p002_c1_img_77903": {
+    "sha256": "c05dcd5a146a4feb96eb40f593582bf0b3ffc4f0cb64bc29279c43641252fcce",
+    "pool": "texting_mid",
+    "prefill_shapes": 1
+  },
+  "p015_c3_img_2178": {
+    "sha256": "39d680a1d19510c9ab81e5529fa5efed7000d487c14df7ba7525b4037c536b65",
+    "pool": "texting_mid",
+    "prefill_shapes": 1
+  },
+  "p024_c1_img_99183": {
+    "sha256": "cd6d71c27b7529915693c5798035c8fbf207485940ab18970681b72b7f942916",
+    "pool": "texting_mid",
+    "prefill_shapes": 1
+  },
+  "p015_c3_img_46159": {
+    "sha256": "baa1ff38b2f9439de70706c56247746db957f70b6276bcc2fa9ddb1ce979069a",
+    "pool": "texting_mid",
+    "prefill_shapes": 1
+  },
+  "p012_c1_img_17460": {
+    "sha256": "969acfb7ef37afba5d95697b45a07e4ca7d872acddc34c58ca08c107aef0e629",
+    "pool": "texting_near",
+    "prefill_shapes": 0
+  },
+  "p066_c3_img_30666": {
+    "sha256": "51f57a50837c97c3cfd09bf7bcf892c5ea9ccccafad255eff6832dbee11cc1a3",
+    "pool": "texting_near",
+    "prefill_shapes": 0
+  },
+  "p056_c6_img_100811": {
+    "sha256": "933f26c2897ad3bea3825f52d765ebf1efdf2a4e95d7641150cfcd20d5a12b2c",
+    "pool": "bg_fp_high",
+    "prefill_shapes": 1
+  },
+  "p024_c8_img_8658": {
+    "sha256": "e5e1ffe35dfc4da05c938dec48c422a5a07aacafbc566daf779a931acb465e59",
+    "pool": "bg_fp_high",
+    "prefill_shapes": 1
+  },
+  "p045_c8_img_20780": {
+    "sha256": "7564fe70f0dc37d908933bf43f3797fb3b373a49a7d668888facbce4b420a5d1",
+    "pool": "bg_fp_high",
+    "prefill_shapes": 1
+  },
+  "p075_c8_img_13505": {
+    "sha256": "8e79368cc1acf4e634b856144ae757de41096bfcdf2bfe47a64fa6c8899d359b",
+    "pool": "bg_fp_high",
+    "prefill_shapes": 1
+  },
+  "p012_c8_img_922": {
+    "sha256": "9633a524ed6ccdf54b0a89c2c137a026ca900e75ad2ab6c25136a8a1eb00c277",
+    "pool": "bg_fp_high",
+    "prefill_shapes": 1
+  },
+  "p051_c6_img_88383": {
+    "sha256": "70a6760ada4ba40e2278dd1942a7f7ea70bd4b0322b2e80021c110ccc74efd5e",
+    "pool": "bg_fp_high",
+    "prefill_shapes": 1
+  },
+  "p064_c6_img_87017": {
+    "sha256": "8e2cb2740f3aabedcb86ce540dbc6031c7f69d8be3e90a19590847950c231a8d",
+    "pool": "bg_fp_high",
+    "prefill_shapes": 1
+  },
+  "p061_c6_img_81406": {
+    "sha256": "d65b8f1e3059c59aaa22064072bc4b1bc1d78315567c3509d595647bc3737324",
+    "pool": "bg_fp_high",
+    "prefill_shapes": 1
+  },
+  "p024_c8_img_50580": {
+    "sha256": "b85761d98bb4e1e7616b89279ac8b3fb9085a91c13fa33ec65e87ce449a26bcc",
+    "pool": "bg_fp_high",
+    "prefill_shapes": 1
+  },
+  "p042_c6_img_53020": {
+    "sha256": "4fc10e8b1d00c86dfa776274593a0115e2cd92d2676a79b975dc858baed442cd",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p042_c8_img_4520": {
+    "sha256": "5a49ecebf6f62bc1ec97a2910ceda7641ac39e2334f5b170f3790efdc21879b9",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p042_c8_img_56050": {
+    "sha256": "690629023315f9967f3f6b52b8f994b628d9182955890dd6fbea0dc9a010d83e",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p041_c8_img_38980": {
+    "sha256": "2f4604f6878158ffdb56acc2e22797d17a303f097ed213ec5139f9c387db5709",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p041_c8_img_78417": {
+    "sha256": "3aaa372978c64ed2bb5c3b950a84206a68a3d973259dcfd897316b708e32f793",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p012_c8_img_6070": {
+    "sha256": "cfc2419cc9b7731ae1e0e5d78370e6e81cb77b88df65eb6930e4d14faa3f8bb2",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p015_c8_img_27314": {
+    "sha256": "8d1841e5dcd1b2fbf9b0fc3b7778527583cefba6272bbd800d10f8d3c409b567",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p061_c6_img_87968": {
+    "sha256": "c3909a49737638f2ca8920fb585168aedcd870576459846d8f24f84cf7ddd521",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p075_c8_img_97050": {
+    "sha256": "bbb78a8307349e31cfdda4a90c248cfc3eec001dee0c73f9d2a6e27a1a7870fa",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p050_c6_img_54164": {
+    "sha256": "95721822a7cfb47bcd21942d59452648cf37503ddaffd3c306e85c23d37ea262",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p061_c6_img_18673": {
+    "sha256": "ef9c0b76ebdb841185bfee06f4daf2144d75513e007c532ed39d6fa021ff13a0",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p045_c8_img_26896": {
+    "sha256": "6025e61647e2fda28afcbaf696ba6db9accad6cd3521494c601d39ac62578fff",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p042_c8_img_37593": {
+    "sha256": "f92271a1e7d41b94e57fa54bfe0aa5a1e1b0775e795a03bb7232496529328f84",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p012_c8_img_33633": {
+    "sha256": "42491fada60ecd762da16003e65feab06661f8dba510a2928437d10b25fb1847",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p050_c8_img_29002": {
+    "sha256": "dfc0892a7516b6f54ea3789c9130c58b4e1e3eb6356b154fbc9db759ef1c212c",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p064_c8_img_46910": {
+    "sha256": "50c7a623c9441fb67cac1178aae1ef4ea7425f03a4585564b51c068323330957",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p045_c6_img_46903": {
+    "sha256": "13dc2141c17309f3c34533a943fc6a8cca6ed6e114319c3d3c5f3c4ffee6eb22",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p045_c8_img_20846": {
+    "sha256": "108f18a46dd2ee21bc0d691ede3b811991d1edd14bda5c1f4b784c5f60ab8aa0",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p042_c8_img_17009": {
+    "sha256": "e725562221d00abf21032fd6d84f27f4396f6645392dbe5cc927c3803150e66b",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p051_c6_img_13012": {
+    "sha256": "dd98d1fa47d2628110aedcfba5258ae705e05fa77f87cef736c304b4784e26e9",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p051_c8_img_69333": {
+    "sha256": "cc0a150a3e236b1879f55549fb36eb4b759fc305fb84c5ac196165fecd758e3a",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p041_c6_img_54209": {
+    "sha256": "ab7f408f6e9267150dff89ec405e846c14af307177f1580990d35ce33048321f",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p061_c8_img_96763": {
+    "sha256": "0138c1656ac792126257c52566b524de9f6b9683edaee75bf70a640d0dc4cd78",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p041_c8_img_71576": {
+    "sha256": "ecce6d9bcc54bb986fa55d438af2bc728051b8e536c74c4b8cfc25d6fd5d120a",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p042_c6_img_98565": {
+    "sha256": "6f17a647075b0c4fc561fa1dea2eecef0e48a1f7439229f64b446cfdad7b1d1c",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p051_c6_img_61255": {
+    "sha256": "65d61d07aa2cecd2e63daf96ef312a9d7b85d7ce57af92da16f0ec01855f13e4",
+    "pool": "bg_fp_mid",
+    "prefill_shapes": 1
+  },
+  "p052_c0_img_49788": {
+    "sha256": "ec42c683ad47a0a16b2268bce65cbf3f15cee89ebe95f699453321027ef0010a",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p014_c9_img_50340": {
+    "sha256": "394ebffdc1d0856ad6ed70a9026956bfc48f3a009d7736c4c8c7431fcb3c9dae",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p002_c7_img_4463": {
+    "sha256": "2960bcb3d17c287f285789035adfafe1dbb4718f96141881665f6e263bbdf490",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p061_c6_img_68428": {
+    "sha256": "a3d5952bb20c9810beb59b461a212b8334eaa2baef14ecce062174bb1cfc465c",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p024_c7_img_86959": {
+    "sha256": "9fb6187ce2df77c6343e85c5480ac2b05dec246fe416856c13ac44fc818326c2",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p024_c5_img_66479": {
+    "sha256": "7ec6c5715e16fa53bbc47932772fbe624fc9267ade5e19a9173312cfb265d207",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p022_c9_img_58548": {
+    "sha256": "4f8115a47619ec7cb62ac7be1c5377c1cb66487d173dd695b9a2360f041b155b",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p015_c6_img_9275": {
+    "sha256": "a276471f454853fd40e854385f6c39986f02b91bce60a1719957e0af4dc92a49",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p061_c5_img_53916": {
+    "sha256": "c40455b72a21ba04d5abca5ef5f5ad45ba3cc2166a6953dba15ecf45a6c31aec",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p014_c7_img_28308": {
+    "sha256": "dddd583dfebdacb2372c30f407765968947bf927642db7ec3affb80791503dfa",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p052_c9_img_58707": {
+    "sha256": "a428bbd30c11f090f780f15508bd405e6c8e5a392b5a709aac11b6a6ab32ac46",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p061_c6_img_24254": {
+    "sha256": "9b29f0c8a922a8a5f7e413080f131c47553afdc781274bb05b2c202ac33bd182",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p075_c0_img_80584": {
+    "sha256": "ef8a44a3f01d000b76187e250605a5628486098ef238992ecd85ec4ae5088144",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p050_c0_img_45618": {
+    "sha256": "8b5c81d03d292463d31863eeca79a510c31291858a214d8abcf2a27be9519154",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p014_c5_img_33610": {
+    "sha256": "4c9873d0792d0d0ea9029232844d4f16ec6a6203172e0454abb6925731aa782f",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p051_c0_img_39280": {
+    "sha256": "795e9f2a94db377a3f95362c9d63b30f674c1a5d3c47760c59841c10a0c9abaf",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p045_c9_img_33004": {
+    "sha256": "349be5f29fc5e3b1a22a4165646197251e4bc9a01614f2e462282c1ee0263661",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p002_c8_img_46280": {
+    "sha256": "2c6a5ed0e5a01fd18e630ad6ae875649d60fea2ccb274537e200b51ae3c94374",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p002_c7_img_7907": {
+    "sha256": "65f9ad6dcd1d57b8b9fe12cbe8dafb5ea79cf0f2abbc1f5dfff3aff7a198e1f6",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p014_c5_img_81819": {
+    "sha256": "e165bab84f6df3b76f77fd76559eceba29e8404e7f02455b50e02af2d4ebf1a2",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p022_c9_img_14483": {
+    "sha256": "ab7b890eeef2a1ff28c1d00a6618484620b30ddee51f4392920b931cf9428c8f",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p024_c0_img_76252": {
+    "sha256": "38be7c2207ca9d266ec4acffbe60810fad6f8994f82f7be28f4335ddba5bee65",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p049_c6_img_66537": {
+    "sha256": "745cf3501c4e197fcb52aaa0b7045e9fbd3bd031635e9afc25eef438bb7c5b38",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p051_c5_img_32000": {
+    "sha256": "ed094f6169de5b6915e3bef8cbac2b74a613aac1c0ad0b37fbbed7ba144a26ac",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  },
+  "p002_c7_img_50487": {
+    "sha256": "809c2abae8a470a05bd7877d0606baff3f9c537ee3ce9e9807ee863a25d3307a",
+    "pool": "bg_control",
+    "prefill_shapes": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          330,
+          145
+        ],
+        [
+          425,
+          145
+        ],
+        [
+          425,
+          250
+        ],
+        [
+          330,
+          250
+        ]
+      ],
+      "group_id": null,
+      "flags": {},
+      "description": "Assistant visually revised; user confirmation pending."
+    }
+  ],
+  "imagePath": "p061_c3_img_74558.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "Driver actions only; passenger phones are outside scope. All 150 seed images visually inspected by assistant; not human-approved."
+}

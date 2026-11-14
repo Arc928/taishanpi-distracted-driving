@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "started_at": "2026-10-12T20:20:45.239630+08:00",
+  "supervisor_pid": 3452,
+  "run_dir": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_low_lr150_20261012_yolo11n",
+  "source_last": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_resume100_20261011_yolo11n/weights/last.pt",
+  "service_model_changed": false,
+  "test_used": false,
+  "training_pid": 3454,
+  "finished_at": "2026-10-12T21:08:07.845653+08:00",
+  "additional_epochs": 22,
+  "lineage_epochs": 122,
+  "validation_map50_95_improved": false,
+  "new_best_weights": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_low_lr150_20261012_yolo11n/weights/best.pt"
+}

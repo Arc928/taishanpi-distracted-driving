@@ -1,0 +1,304 @@
+{
+  "confidence_threshold": 0.8,
+  "unique_box_threshold": 0.5,
+  "base": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/selftrain_23train_reused",
+  "proposals": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/remaining_23train_seed",
+  "model_provenance": {
+    "weights": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/seed_23train_yolo11n/weights/best.pt",
+    "display_threshold": 0.5,
+    "raw_threshold": 0.1,
+    "image_count": 2224,
+    "source_split": "train",
+    "dataset": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/dataset_23train_3eval_1of8",
+    "seed_dataset": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/seed_23train_reviewed",
+    "weights_sha256": "54071ebf8df14a8ee008bcef4ab46b9f2d65db067b22e5d4fbf864540e5217c0"
+  },
+  "excluded_positive_count": 71,
+  "excluded_positives": [
+    {
+      "image": "images/train/p014_c2_img_86001.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p015_c4_img_76757.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c1_img_18323.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c1_img_44673.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c1_img_58145.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c1_img_63062.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c1_img_64419.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c2_img_31714.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c2_img_31888.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c2_img_44242.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c2_img_46409.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c2_img_53252.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c2_img_65312.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c2_img_66549.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c2_img_71104.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c2_img_99489.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c3_img_101921.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c3_img_35808.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c3_img_50393.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c4_img_10844.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c4_img_28935.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c4_img_30929.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c4_img_50408.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c4_img_52529.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c4_img_64192.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c4_img_70471.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p039_c4_img_90284.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p052_c2_img_25954.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p052_c2_img_76349.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p056_c3_img_13910.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p072_c4_img_76540.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p072_c4_img_92903.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c1_img_41412.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c1_img_42624.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c1_img_49094.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c1_img_56524.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c1_img_5796.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c1_img_61485.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c1_img_67327.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c1_img_7368.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c1_img_7380.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c1_img_98085.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c2_img_16831.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c2_img_27484.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c2_img_2967.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c2_img_38037.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c2_img_51235.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c2_img_51781.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c2_img_5362.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c2_img_77950.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c2_img_78315.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c2_img_81361.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c2_img_83976.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c2_img_93872.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c3_img_13326.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c3_img_2114.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c3_img_33972.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c3_img_43348.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c3_img_44440.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c3_img_51491.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c3_img_73295.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c3_img_82742.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c4_img_21764.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c4_img_31474.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c4_img_4440.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c4_img_61941.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c4_img_6648.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c4_img_68224.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c4_img_74289.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c4_img_86549.jpg",
+      "reason": "needs_manual_review"
+    },
+    {
+      "image": "images/train/p081_c4_img_89746.jpg",
+      "reason": "needs_manual_review"
+    }
+  ],
+  "policy": "Positive misses never become background; human review required for excluded positives."
+}

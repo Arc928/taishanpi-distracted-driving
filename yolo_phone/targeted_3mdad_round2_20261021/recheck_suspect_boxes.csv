@@ -1,0 +1,14 @@
+﻿id,batch,reason
+md_RGB1_SUB14ACT8F123,hardpos_02,calling：头发挡住，看不到手或手机
+md_RGB1_SUB14ACT8F24,hardpos_02,calling：同上
+md_RGB1_SUB14ACT8F73,hardpos_02,calling：同上
+md_RGB1_SUB24ACT8F79,hardpos_02,calling：看不到持机手
+md_RGB1_SUB37ACT8F85,hardpos_02,calling：脸旁不清楚
+md_RGB1_SUB40ACT8F92,hardpos_02,calling：脸旁不清楚
+md_RGB1_SUB43ACT8F132,hardpos_02,calling：看不到手或手机
+md_RGB2_SUB10ACT6F85,hardpos_01,texting：框在方向盘上，看不到手机
+md_RGB2_SUB12ACT6F119,hardpos_01,texting：只见握拳的手
+md_RGB2_SUB14ACT6F107,hardpos_01,texting：框在方向盘上沿
+md_RGB2_SUB29ACT6F96,hardpos_01,texting：逆光过暗
+md_RGB2_SUB49ACT6F82,hardpos_01,texting：框在方向盘上，看不到手机
+md_RGB2_SUB4ACT6F29,hardpos_01,texting：框在方向盘处，看不清手机

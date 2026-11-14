@@ -1,0 +1,15 @@
+{
+  "verified_at": "2026-10-12T20:20:50.794853+08:00",
+  "dataset_hashes_verified": true,
+  "source_weights_verified": true,
+  "class_mapping_verified": true,
+  "independent_eval_snapshot_verified": true,
+  "new_optimizer": true,
+  "optimizer": "AdamW",
+  "initial_lr": 3e-05,
+  "additional_epochs_max": 50,
+  "lineage_completed_epochs": 100,
+  "patience": 10,
+  "test_used": false,
+  "run_dir": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/multiview_official_low_lr150_20261012_yolo11n"
+}

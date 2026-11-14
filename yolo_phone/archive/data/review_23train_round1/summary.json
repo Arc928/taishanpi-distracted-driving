@@ -1,0 +1,37 @@
+{
+  "count": 140,
+  "by_group": {
+    "new_driver_positive": 79,
+    "unselected_positive": 7,
+    "background_false_positive": 3,
+    "background_control": 51
+  },
+  "by_subject": {
+    "p039": 85,
+    "p081": 47,
+    "p014": 1,
+    "p052": 2,
+    "p056": 1,
+    "p072": 2,
+    "p015": 1,
+    "p024": 1
+  },
+  "source_split": "train",
+  "dataset": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/dataset_23train_3eval_1of8",
+  "model_provenance": {
+    "weights": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/runs/seed_23train_yolo11n/weights/best.pt",
+    "display_threshold": 0.5,
+    "raw_threshold": 0.1,
+    "image_count": 2224,
+    "source_split": "train",
+    "dataset": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/dataset_23train_3eval_1of8",
+    "seed_dataset": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/seed_23train_reviewed",
+    "weights_sha256": "54071ebf8df14a8ee008bcef4ab46b9f2d65db067b22e5d4fbf864540e5217c0"
+  },
+  "human_review_complete": true,
+  "eval_files_unchanged": true,
+  "completion_confirmation": "User replied 修完了 in the current conversation.",
+  "accepted_review_count": 127,
+  "excluded_empty_positive_count": 13,
+  "human_review_receipt": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/selftrain_23train_round2/human_review_receipt.json"
+}

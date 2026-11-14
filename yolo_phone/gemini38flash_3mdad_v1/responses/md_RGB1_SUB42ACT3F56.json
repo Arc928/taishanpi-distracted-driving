@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB1_SUB42ACT3F56",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The driver is operating dashboard controls with one hand on the steering wheel; no phone use by the driver is observed."
+  },
+  "usage": {
+    "completion_tokens": 536,
+    "total_tokens": 2005,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 497
+    }
+  },
+  "seconds": 6.88,
+  "attempt": 1
+}

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="header" data-pptx-bounds="40 70 1176 100">
+    <rect x="40" y="76" width="6" height="46" fill="#1F3A5F" />
+    <text x="64" y="114" font-size="42" font-weight="bold" fill="#1F3A5F">按司机划分 + 哈希校验，测试集 440 张全部人工标框</text>
+    <text x="64" y="160" font-size="24" fill="#5B6575">评估设计保证测试图片从未进入训练，指标可信。</text>
+  </g>
+
+  <g id="split-train" data-pptx-bounds="64 196 360 118">
+    <rect x="64" y="196" width="360" height="118" fill="#F3F5F8" />
+    <text x="88" y="236" font-size="24" font-weight="bold" fill="#1E2430">train 训练集<tspan font-weight="normal" fill="#5B6575">　3449 张</tspan></text>
+    <text x="88" y="276" font-size="18" fill="#5B6575">只用于训练</text>
+  </g>
+  <g id="split-val" data-pptx-bounds="460 196 360 118">
+    <rect x="460" y="196" width="360" height="118" fill="#F3F5F8" />
+    <text x="484" y="236" font-size="24" font-weight="bold" fill="#1E2430">val 验证集<tspan font-weight="normal" fill="#5B6575">　212 张</tspan></text>
+    <text x="484" y="276" font-size="18" fill="#5B6575">挑选模型、确定阈值</text>
+  </g>
+  <g id="split-test" data-pptx-bounds="856 196 360 118">
+    <rect x="856" y="196" width="360" height="118" fill="#1F3A5F" />
+    <text x="880" y="236" font-size="24" font-weight="bold" fill="#FFFFFF">test 测试集<tspan font-weight="normal">　440 张</tspan></text>
+    <text fill-opacity="0.85" font-size="18" fill="#FFFFFF" x="880" y="276">3MDAD 10 位司机 · 只做最终对照</text><text fill-opacity="0.85" font-size="18" fill="#FFFFFF" x="880" y="300">不参与调参</text></g>
+
+  <g id="isolation-note" data-pptx-bounds="64 328 1152 44">
+    
+  <g transform="translate(64, 336) scale(1.16667)" fill="none" stroke="#2EAD6B" stroke-width="2">
+    <path d="M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+    <text x="104" y="358" font-size="24" fill="#1E2430">同一司机的所有图片只在一个集合中 · 用 <tspan font-weight="bold" fill="#1F3A5F">SHA-256</tspan> 校验测试图片一张都没有进入训练</text>
+  </g>
+
+  <line id="mid-rule" data-pptx-role="decoration" x1="64" y1="396" x2="1216" y2="396" stroke="#D5DBE3" stroke-width="1" />
+
+  <g id="test-composition" data-pptx-bounds="64 412 592 236">
+    <text x="64" y="440" font-size="18" font-weight="bold" fill="#5B6575">测试集组成（440 张，逐张人工标框）</text>
+    <rect x="64" y="460" width="115.8" height="48" fill="#2EAD6B" />
+    <rect x="179.8" y="460" width="111.1" height="48" fill="#E8833A" />
+    <rect x="290.9" y="460" width="236.4" height="48" fill="#8F9DB0" />
+    <rect x="527.3" y="460" width="56.7" height="48" fill="#FFFFFF" stroke="#8F9DB0" stroke-width="2" stroke-dasharray="4,4" />
+    <text x="72" y="540" font-size="18" fill="#1E2430"><tspan font-weight="bold">98</tspan> texting</text>
+    <text x="187" y="540" font-size="18" fill="#1E2430"><tspan font-weight="bold">94</tspan> calling</text>
+    <text x="298" y="540" font-size="18" fill="#1E2430"><tspan font-weight="bold">200</tspan> 背景</text>
+    <text x="584" y="540" font-size="18" fill="#1E2430" text-anchor="end"><tspan font-weight="bold">48</tspan> 不可见</text>
+    <text font-size="18" fill="#5B6575" x="64" y="590">可见正样本 192 张；手机不可见的 48 张单独统计，</text><text font-size="18" fill="#5B6575" x="64" y="618">不当作背景。</text></g>
+
+  <g id="metrics" data-pptx-bounds="704 412 512 236">
+    <text x="704" y="440" font-size="18" font-weight="bold" fill="#5B6575">两类指标</text>
+    
+  <g transform="translate(704, 464) scale(1.33333)" fill="none" stroke="#1F3A5F" stroke-width="2">
+    <path d="M3 13a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -6" />
+    <path d="M15 9a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -10" />
+    <path d="M9 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -14" />
+    <path d="M4 20h14" />
+  </g>
+    <text x="752" y="488" font-size="24" font-weight="bold" fill="#1E2430">检测 mAP50</text>
+    <text x="752" y="518" font-size="18" fill="#5B6575">衡量检测框的质量</text>
+    
+  <g transform="translate(704, 552) scale(1.33333)" fill="none" stroke="#1F3A5F" stroke-width="2">
+    <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  </g>
+    <text x="752" y="576" font-size="24" font-weight="bold" fill="#1E2430">图像级命中（阈值 0.5）</text>
+    <text x="752" y="606" font-size="18" fill="#5B6575">类别和位置都对才算命中</text>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 672 1152 24">
+    <text x="64" y="690" font-size="14" fill="#5B6575">04 / 10</text>
+    <text x="1216" y="690" font-size="14" fill="#5B6575" text-anchor="end">中期汇报 · 评估方法</text>
+  </g>
+</svg>

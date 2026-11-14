@@ -1,0 +1,21 @@
+{
+  "stage": "stage1",
+  "lang": "zh",
+  "primary_language": "zh-Hans-CN",
+  "revision": 1,
+  "recommend": { "canvas": "ppt169" },
+  "audience": { "value": "课题组导师与评审老师，以及组内同学；熟悉深度学习和目标检测的基本概念，关心阶段进展是否扎实、评估是否可信、后续计划是否可行" },
+  "communication_intent": { "value": "先汇报阶段进展（数据、标注、评估、模型结果、演示），再如实说明当前短板，最后给出以板端部署为重点的下一阶段计划" },
+  "audience_outcome": { "value": "老师能看清项目已完成哪些工作、指标可信的原因（按司机划分、人工框测试集），认可当前问题判断，并同意下一阶段以 RKNN 部署和困难样本补充为重点" },
+  "core_message": { "value": "从只有分类标签的公开数据出发，建立了人工 + 模型协同的检测框标注流程和严格的防泄漏评估；当前模型测试 mAP50 0.937、背景误报从 24/200 降到 5/200，下一步上板部署" },
+  "delivery_context": { "value": "主要为有主讲的中期汇报现场投影，约 10 分钟、9 页；次要为会后老师查阅" },
+  "artifact_afterlife": { "value": "作为中期检查材料留档，供后续结题汇报复用" },
+  "content_divergence": { "value": "" },
+  "template_options": {
+    "schema_version": 1,
+    "phase": "template",
+    "lang": "zh",
+    "default_mode": "free_design",
+    "explicit_workspace_roots": []
+  }
+}

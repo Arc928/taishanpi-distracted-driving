@@ -1,0 +1,37 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "points": [
+        [
+          446.72,
+          80.16
+        ],
+        [
+          593.92,
+          80.16
+        ],
+        [
+          593.92,
+          232.79999999999998
+        ],
+        [
+          446.72,
+          232.79999999999998
+        ]
+      ],
+      "flags": {},
+      "group_id": null,
+      "description": "Gemini candidate; pending human review, not ground truth."
+    }
+  ],
+  "imagePath": "md_RGB2_SUB13ACT7F123.jpg",
+  "imageData": null,
+  "imageWidth": 640,
+  "imageHeight": 480,
+  "description": "driver holding phone to ear with left hand"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB2_SUB36ACT12F97",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": false,
+    "note": "The driver is resting his hand on his face/chin without holding a phone."
+  },
+  "usage": {
+    "completion_tokens": 352,
+    "total_tokens": 1821,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 320
+    }
+  },
+  "seconds": 5.39,
+  "attempt": 1
+}

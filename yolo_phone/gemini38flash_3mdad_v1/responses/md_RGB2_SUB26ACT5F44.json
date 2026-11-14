@@ -1,0 +1,32 @@
+{
+  "id": "md_RGB2_SUB26ACT5F44",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [
+      {
+        "label": "texting",
+        "box_2d": [
+          504,
+          513,
+          912,
+          867
+        ]
+      }
+    ],
+    "uncertain": false,
+    "note": "driver holding mobile phone away from ear"
+  },
+  "usage": {
+    "completion_tokens": 2798,
+    "total_tokens": 4267,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 2749
+    }
+  },
+  "seconds": 22.18,
+  "attempt": 1
+}

@@ -1,0 +1,4415 @@
+{
+  "captured_at": "2026-10-21T01:22:40.676742+08:00",
+  "review_dir": "/Users/arc928/Documents/ChatGPT/泰山派/yolo_phone/gemini38flash_3mdad_v1/review_dataset",
+  "note": "Pre-review state. Prefilled boxes are Gemini/Grounding DINO candidates, not ground truth.",
+  "counts": {
+    "test_01/background_candidate/prefill=False": 40,
+    "test_01/calling/prefill=False": 25,
+    "test_01/calling/prefill=True": 95,
+    "test_01/texting/prefill=False": 24,
+    "test_01/texting/prefill=True": 96,
+    "test_02/background_candidate/prefill=False": 160
+  },
+  "files": {
+    "md_RGB2_SUB2ACT5F33": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT5F33.json",
+      "json_sha256": "e44a0e1ad439f8396b736eafbcd7764f93c74102cbc82e67e0de7ede8c0b1b09",
+      "json_mtime": "2026-10-10T20:13:56.614097+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB2ACT6F21": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT6F21.json",
+      "json_sha256": "512f3ee1d17615c226f1606f0e7e1866f8b308240f0203af2f7cca4d11537325",
+      "json_mtime": "2026-10-10T20:13:56.614557+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB2ACT7F22": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT7F22.json",
+      "json_sha256": "ade09529a75ede9e57bbda85d8f3365b55057dbea5c48f0f3dcabd62d8c5c929",
+      "json_mtime": "2026-10-10T20:13:56.614987+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB2ACT8F22": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT8F22.json",
+      "json_sha256": "5ef2d235ff11109dc11351f21d6e839fff0695927e943f84fa2d533a4f5d8002",
+      "json_mtime": "2026-10-10T20:13:56.615437+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB2ACT5F33": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT5F33.json",
+      "json_sha256": "8f959e97629831a853dc3165ab68c1f0deb7cbf156667c6f537c06e7a0a4f059",
+      "json_mtime": "2026-10-10T20:13:56.590104+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB2ACT6F21": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT6F21.json",
+      "json_sha256": "89e221498b16f60682fbf9a4d56b9a535c7a7d96ef5243589cc3ab9cd0ae79a4",
+      "json_mtime": "2026-10-10T20:13:56.590574+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB2ACT7F22": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT7F22.json",
+      "json_sha256": "192e5b1596e7bf89b26321c80421d44ef9b322665eadc377b8dcbfc6e3025e99",
+      "json_mtime": "2026-10-10T20:13:56.591107+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB2ACT8F22": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT8F22.json",
+      "json_sha256": "2f627397fc49066aec3fe8afd00e266af771e09cb121fffd82b3269397238901",
+      "json_mtime": "2026-10-10T20:13:56.591542+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB6ACT5F25": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT5F25.json",
+      "json_sha256": "1a99f281e606f6534e3487d5bf130d3b59fd7e58418a807f4da9352be581da67",
+      "json_mtime": "2026-10-10T20:13:56.617476+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB6ACT6F28": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT6F28.json",
+      "json_sha256": "337e84b7b0bc232fb820ce75431fd1ac15fd8f397900f0e83244855b40fcb689",
+      "json_mtime": "2026-10-10T20:13:56.617998+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB6ACT7F25": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT7F25.json",
+      "json_sha256": "498037af5854c6bd43c2b7755151bebcd3143438e2b1e15fc0192c893cc09beb",
+      "json_mtime": "2026-10-10T20:13:56.618485+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB6ACT8F26": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT8F26.json",
+      "json_sha256": "cd15a21d1ce3835ece55e65b60c07d8f6d2ea5d690b251da82e2552ac498294d",
+      "json_mtime": "2026-10-10T20:13:56.618984+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB6ACT5F25": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT5F25.json",
+      "json_sha256": "5fea922fc11177d0acb0dce1d0c4b4b64eaaa84347323de3e3adb33ba405e221",
+      "json_mtime": "2026-10-10T20:13:56.593586+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB6ACT6F28": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT6F28.json",
+      "json_sha256": "42f9b9987da047d1323ea7e5368b653048d24a35e51c5e3c4ed84dac4085eea2",
+      "json_mtime": "2026-10-10T20:13:56.594244+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB6ACT7F25": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT7F25.json",
+      "json_sha256": "782b8aa97f8f79488e59ddc083d745265f4c4f7f22c13cbd843c59f5e76d9c1d",
+      "json_mtime": "2026-10-10T20:13:56.594837+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB6ACT8F26": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT8F26.json",
+      "json_sha256": "7b1768540889e8b20f4c0353741c15a78167ab77fd4fb57ed9acf27bb97593a0",
+      "json_mtime": "2026-10-10T20:13:56.595505+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB7ACT5F21": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB7ACT5F21.json",
+      "json_sha256": "2f821258eb0251eda9d4e0a5d6405c0c9e3f15dc3b66d6224bdaca3675a890a9",
+      "json_mtime": "2026-10-10T20:13:56.620635+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB7ACT6F24": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB7ACT6F24.json",
+      "json_sha256": "1933321eb60b5292617e050369e960b1314438b8bc67579f278f03791157ecc1",
+      "json_mtime": "2026-10-10T20:13:56.621169+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB7ACT7F27": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB7ACT7F27.json",
+      "json_sha256": "c74658938fcd71c2187abf7a878f52a2f3d4f9df11edf7c512c20d08676e23d1",
+      "json_mtime": "2026-10-10T20:13:56.621880+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB7ACT8F24": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB7ACT8F24.json",
+      "json_sha256": "5021b05ec1af6aa86e0135ff4e0ac922cff70d66378aacc8f36c1396e2f07cf7",
+      "json_mtime": "2026-10-10T20:13:56.622499+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB7ACT5F21": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB7ACT5F21.json",
+      "json_sha256": "319782cff3a2787c986b106b1f22d8594106ca6781f03dca47be04aba8e0346e",
+      "json_mtime": "2026-10-10T20:13:56.596855+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB7ACT6F24": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB7ACT6F24.json",
+      "json_sha256": "8933016f607f242c6a8368594e07e734bf3e12debebdfaefed32c4bd2b9d2eab",
+      "json_mtime": "2026-10-10T20:13:56.597358+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB7ACT7F27": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB7ACT7F27.json",
+      "json_sha256": "12c4e8aeecb7d8504289ceaed5740367fe42b024b2ee00564a77c4e25c97defa",
+      "json_mtime": "2026-10-10T20:13:56.597787+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB7ACT8F24": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB7ACT8F24.json",
+      "json_sha256": "278866514b017122e0b72457f23fe59ef89a7da702463d27bfcdfc8dce1bfc59",
+      "json_mtime": "2026-10-10T20:13:56.598183+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB8ACT5F28": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB8ACT5F28.json",
+      "json_sha256": "8fd6cde6d0abfefcae29e0fcd10e36f37200defc46168587aef23d28c82cc8c9",
+      "json_mtime": "2026-10-10T20:13:56.623075+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB8ACT6F27": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB8ACT6F27.json",
+      "json_sha256": "bf8203da4ba7621dcd0da83f05c8f5cef8ba7b5acdb0b8bfe7100bcda9e94be8",
+      "json_mtime": "2026-10-10T20:13:56.623600+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB8ACT7F25": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB8ACT7F25.json",
+      "json_sha256": "9fb9dc061a3427260178f25bef6d3eabe827041ebc6340f01aac0a1de57a9772",
+      "json_mtime": "2026-10-10T20:13:56.624133+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB8ACT8F36": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB8ACT8F36.json",
+      "json_sha256": "ffb5c07c48c252cad2c75845db7ca5db3a7822d8df551a16c0905494a7651a20",
+      "json_mtime": "2026-10-10T20:13:56.624713+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB8ACT5F28": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB8ACT5F28.json",
+      "json_sha256": "e7407331a975de78e04d6f7ea401c56d7367c51ca334af517ddc9fc61cd57452",
+      "json_mtime": "2026-10-10T20:13:56.598569+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB8ACT6F27": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB8ACT6F27.json",
+      "json_sha256": "506b3b9200d38558911c0a483f276881ff2a7ec69a7cb60628500e1125a538e2",
+      "json_mtime": "2026-10-10T20:13:56.598979+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB8ACT7F25": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB8ACT7F25.json",
+      "json_sha256": "3a53856dfba710aa319b9d47ebe012f4d185c1113967709670d833fc16deda76",
+      "json_mtime": "2026-10-10T20:13:56.599394+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB8ACT8F36": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB8ACT8F36.json",
+      "json_sha256": "d0c7b71e8ac58484986157e59b9a93de0a51bee6047bee1f640754f51ce4450e",
+      "json_mtime": "2026-10-10T20:13:56.599773+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB9ACT5F26": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB9ACT5F26.json",
+      "json_sha256": "442e1b7fa4b7e9eabd93e87e8b86640037230e2302e77f1642521fa5cbb97f1e",
+      "json_mtime": "2026-10-10T20:13:56.625250+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB9ACT6F24": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB9ACT6F24.json",
+      "json_sha256": "40a590da1fd5eb2c86894b8700cf54d4e128c86a6913c9b0b2d1eb82d9259588",
+      "json_mtime": "2026-10-10T20:13:56.625662+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB9ACT7F34": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB9ACT7F34.json",
+      "json_sha256": "661c8210ddc773a38ffae414a8ea7f408867a8b18e0a8834e3c75bc2956f859e",
+      "json_mtime": "2026-10-10T20:13:56.626093+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB9ACT8F24": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB9ACT8F24.json",
+      "json_sha256": "79655d6edb4cf72e00968e1f5a7584517562713ceef56297d511f6c719ee8abb",
+      "json_mtime": "2026-10-10T20:13:56.626451+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB9ACT5F26": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB9ACT5F26.json",
+      "json_sha256": "29cf4af9c817ea3790c5b076155abe31b140b17132004f53674c1442c89666b2",
+      "json_mtime": "2026-10-10T20:13:56.600121+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB9ACT6F24": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB9ACT6F24.json",
+      "json_sha256": "c4a400411e198e64eeb8d85e156d576147812c9cc6f9896ff0a3177a3c75e8aa",
+      "json_mtime": "2026-10-10T20:13:56.600718+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB9ACT7F34": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB9ACT7F34.json",
+      "json_sha256": "5ce8ea2d0ea9e9defc1687ffb894be32756c382fed7f9fa4b69cdc26f6e4a9d8",
+      "json_mtime": "2026-10-10T20:13:56.601080+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB9ACT8F24": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB9ACT8F24.json",
+      "json_sha256": "e6d467a55c75af251f3b48e0ad3077086632a7b6506b6a1f7a8ab4578b81273d",
+      "json_mtime": "2026-10-10T20:13:56.601629+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB15ACT5F15": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB15ACT5F15.json",
+      "json_sha256": "28681bc53dffcf348d8226bce2d8626402c433aef91efd613e81e2d0a7cb264b",
+      "json_mtime": "2026-10-10T20:13:56.627069+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB15ACT6F18": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB15ACT6F18.json",
+      "json_sha256": "075e57509be53e7da13c905fb67284c4ebbe821bca810a2b0fb74494d51e9e70",
+      "json_mtime": "2026-10-10T20:13:56.627487+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB15ACT7F13": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB15ACT7F13.json",
+      "json_sha256": "577019646da609f1c0aa886c45d2a09ec125eb5d7199c323638609fc00620932",
+      "json_mtime": "2026-10-10T20:13:56.627862+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB15ACT8F25": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB15ACT8F25.json",
+      "json_sha256": "a0e3d2cb09ff6a0f56ee05136adbf9cb80298ddfe9b9b95fc2a311cd523d1ecc",
+      "json_mtime": "2026-10-10T20:13:56.628264+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB15ACT5F15": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB15ACT5F15.json",
+      "json_sha256": "f7f71c02b93d035015177b9bb95348e36a50a918239873462a928039a226bec3",
+      "json_mtime": "2026-10-10T20:13:56.602258+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB15ACT6F18": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB15ACT6F18.json",
+      "json_sha256": "c6ab254e8166e63c5b5c1952cdd655075a4b5f884e4ef33abadf95d16db51201",
+      "json_mtime": "2026-10-10T20:13:56.603001+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB15ACT7F13": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB15ACT7F13.json",
+      "json_sha256": "b1b44cb53bc46566f9a599a6f6140bee86e88eb55bafc9f7422e35647a40448c",
+      "json_mtime": "2026-10-10T20:13:56.603846+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB15ACT8F25": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB15ACT8F25.json",
+      "json_sha256": "23ceb348f62679de80c3f2de6c51b0f4ba4b6d939f571f0373893ea353b38908",
+      "json_mtime": "2026-10-10T20:13:56.604279+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB16ACT5F20": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB16ACT5F20.json",
+      "json_sha256": "1d8be33cb0de2ba66f98cd8d65a4793e9f5811df87823d3b478afd5e75b88721",
+      "json_mtime": "2026-10-10T20:13:56.628650+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB16ACT6F19": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB16ACT6F19.json",
+      "json_sha256": "44840ae7596ab2679963cea9df32c4a2e892d1d12d315ec9340a43fc32ccd2dc",
+      "json_mtime": "2026-10-10T20:13:56.628984+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB16ACT7F21": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB16ACT7F21.json",
+      "json_sha256": "b8cef2f421e63535b236d0bb1bff1c44c632753be9f33fbbe9e762c9bcf020a6",
+      "json_mtime": "2026-10-10T20:13:56.629403+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB16ACT8F21": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB16ACT8F21.json",
+      "json_sha256": "fd33e745f33cf9e9e9ea22afeaf55c07e9b71e81aa67752372a2854739941a01",
+      "json_mtime": "2026-10-10T20:13:56.629784+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB16ACT5F20": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB16ACT5F20.json",
+      "json_sha256": "d4d44d8e6a98c7fafaa2eb0ad2d34ff479344b54e272f33d2ed6a50d3d20e082",
+      "json_mtime": "2026-10-10T20:13:56.604634+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB16ACT6F19": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB16ACT6F19.json",
+      "json_sha256": "1e1e639cd98279178012b0c20cb47c34f6c9ddddb06988c5b407ef23fe457c56",
+      "json_mtime": "2026-10-10T20:13:56.605222+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB16ACT7F21": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB16ACT7F21.json",
+      "json_sha256": "31aea6451864a1b3a4719849f8c4ee79658b09d835e7bb15943a21ca20316435",
+      "json_mtime": "2026-10-10T20:13:56.605643+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB16ACT8F21": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB16ACT8F21.json",
+      "json_sha256": "1909c7883a81dd0804badf749618421e1e50f9283e9b3673ea81b290845a119a",
+      "json_mtime": "2026-10-10T20:13:56.606028+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB18ACT5F26": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB18ACT5F26.json",
+      "json_sha256": "0e98862a05a92c9cc95eee2fb35d6eb7491e19b317e9470763c17f3499f2f876",
+      "json_mtime": "2026-10-10T20:13:56.630277+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB18ACT6F28": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB18ACT6F28.json",
+      "json_sha256": "1a8288ef2068a7b5a06e6e6254397203fb433dfedb67f48026572febd9c5885a",
+      "json_mtime": "2026-10-10T20:13:56.630883+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB18ACT7F32": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB18ACT7F32.json",
+      "json_sha256": "36c583bfbb1b64846f67efc384b95ec0db765eda645bb1f23fce030d392da634",
+      "json_mtime": "2026-10-10T20:13:56.631282+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB18ACT8F36": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB18ACT8F36.json",
+      "json_sha256": "a1e57997a4d5a6101ea716a79715bf197af3a320e2f359b9a9ffed50b52bdcf5",
+      "json_mtime": "2026-10-10T20:13:56.631727+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB18ACT5F26": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB18ACT5F26.json",
+      "json_sha256": "fe8b52f028b2b5952cc8bc8ceb16ce7c61066695a5ea561c18c5cd5e0c660b89",
+      "json_mtime": "2026-10-10T20:13:56.606377+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB18ACT6F28": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB18ACT6F28.json",
+      "json_sha256": "3157fb7933785645e9d2f92ce0cda37b7ac7e3d0c0c57a06da6d3a4e9086788c",
+      "json_mtime": "2026-10-10T20:13:56.606752+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB18ACT7F32": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB18ACT7F32.json",
+      "json_sha256": "86660fbe3762cd754dad0ea405d3663efa5358eba99968f77ee3a6dce9c5d06c",
+      "json_mtime": "2026-10-10T20:13:56.607118+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB18ACT8F36": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB18ACT8F36.json",
+      "json_sha256": "1387ba1a878e54aa1c8b11701dc4f90416f4013166940e0eaec4ab514e5ff109",
+      "json_mtime": "2026-10-10T20:13:56.607481+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB35ACT5F21": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB35ACT5F21.json",
+      "json_sha256": "485c8a3e8211e871d7d5f61f9ef87b19ea93c765e3a31ceef713c299d7acec98",
+      "json_mtime": "2026-10-10T20:13:56.632165+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB35ACT6F28": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB35ACT6F28.json",
+      "json_sha256": "2ae7321ba02a763660124943560e9e5a57832697f68410d52e056758fb3746b5",
+      "json_mtime": "2026-10-10T20:13:56.632708+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB35ACT7F32": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB35ACT7F32.json",
+      "json_sha256": "99464ea26874681659376dad820cd2412333d64066996bd22536daf8dc316d5b",
+      "json_mtime": "2026-10-10T20:13:56.633215+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB35ACT8F18": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB35ACT8F18.json",
+      "json_sha256": "ce0f1dedfb5885ba88d580bb22fc1102df8fd4acc45a39e7f8c37a4cd2badc99",
+      "json_mtime": "2026-10-10T20:13:56.633695+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB35ACT5F21": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB35ACT5F21.json",
+      "json_sha256": "f658d73e43f5a7525fcf6ac6a6bf7c0b097a38bd1d2e3b5a1fbad356997e81e0",
+      "json_mtime": "2026-10-10T20:13:56.607848+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB35ACT6F28": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB35ACT6F28.json",
+      "json_sha256": "c46273bf40587468a1c4932be7a2f31f8f5c6494b96a3da805d38cb8bc298281",
+      "json_mtime": "2026-10-10T20:13:56.608358+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB35ACT7F32": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB35ACT7F32.json",
+      "json_sha256": "6227e5ba4b2a4eb3855207fbe3c3cb61301f043f5f600c8f947a8e61296c84f6",
+      "json_mtime": "2026-10-10T20:13:56.609135+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB35ACT8F18": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB35ACT8F18.json",
+      "json_sha256": "892d92cc7b53fb2822ea2762703486f872a88a936e7692168314bcb0eb41a458",
+      "json_mtime": "2026-10-10T20:13:56.609861+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB41ACT5F23": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB41ACT5F23.json",
+      "json_sha256": "517c26d6cb12885cddf2f5900849db5943a099284390cc136d7096d5a4a10c87",
+      "json_mtime": "2026-10-10T20:13:56.634387+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB41ACT6F26": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB41ACT6F26.json",
+      "json_sha256": "96a7645f6b36112b7249582317419ab218ff5fffa2c24ef870cf074064d25245",
+      "json_mtime": "2026-10-10T20:13:56.634866+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB41ACT7F24": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB41ACT7F24.json",
+      "json_sha256": "d19a3d82f9f2f84f54b15d9e68ecc3f70092ec2a3c7aec4cb2e28761885c5ea0",
+      "json_mtime": "2026-10-10T20:13:56.635301+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB41ACT8F23": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB41ACT8F23.json",
+      "json_sha256": "2698edbbffd3d751148dacc943a88c60e987b7a350bc3e66fde6a318d3574d86",
+      "json_mtime": "2026-10-10T20:13:56.635740+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB41ACT5F23": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB41ACT5F23.json",
+      "json_sha256": "eaf7fed609b43b969d1616cd63038165cc7f39870d9de0e669056fd1466dfcc9",
+      "json_mtime": "2026-10-10T20:13:56.610517+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB41ACT6F26": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB41ACT6F26.json",
+      "json_sha256": "bec56f7574b5cb6de030e85cdad7abace886507cc70b72085f2b7b746d14d499",
+      "json_mtime": "2026-10-10T20:13:56.611287+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB41ACT7F24": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB41ACT7F24.json",
+      "json_sha256": "654fa886100b369a45c163249991cdbeedefdc80d997ad2430c1593aa643704f",
+      "json_mtime": "2026-10-10T20:13:56.612086+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB41ACT8F23": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB41ACT8F23.json",
+      "json_sha256": "cc155d480698ab455178898d782a041dc2e2e8337fc7eb16589c0183759ea5b3",
+      "json_mtime": "2026-10-10T20:13:56.612765+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB2ACT5F97": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT5F97.json",
+      "json_sha256": "b402aa98ffc788e50feb98cca2d05273859ae158ee3548ff6ac4b961056d5389",
+      "json_mtime": "2026-10-10T20:13:56.614251+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB2ACT6F62": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT6F62.json",
+      "json_sha256": "4ff733ddd4900de5e3c7f9c6e9593fda0a846baa791179d43ee13bab1024caf6",
+      "json_mtime": "2026-10-10T20:13:56.614685+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB2ACT7F66": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT7F66.json",
+      "json_sha256": "be7d13809b36a988b645aee372df8cacd0a7cfd94216afb6e97bfba15c325beb",
+      "json_mtime": "2026-10-10T20:13:56.615141+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB2ACT8F65": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT8F65.json",
+      "json_sha256": "f0bb2cbd953ca2f41674f0f9335a297fa9de335fb9b739529be8b9b4686eaa07",
+      "json_mtime": "2026-10-10T20:13:56.615580+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB2ACT5F97": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT5F97.json",
+      "json_sha256": "8c7f6c4ee0b7717bc1ddb3e310c7aa65abf4fcd71e05cf93d553c178874a8684",
+      "json_mtime": "2026-10-10T20:13:56.590277+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB2ACT6F62": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT6F62.json",
+      "json_sha256": "20f1c8584fec2a9776f10aed4522404d8cb17a71aa7be6b30d8c8f368e54c800",
+      "json_mtime": "2026-10-10T20:13:56.590802+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB2ACT7F66": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT7F66.json",
+      "json_sha256": "8d6633efdb20349b28299fae6b5f914543cb805a822d8d496d69d06527b71a86",
+      "json_mtime": "2026-10-10T20:13:56.591238+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB2ACT8F65": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT8F65.json",
+      "json_sha256": "a29024434d80404e67b06bc6dedf14111fb1d3ea80b247e7dd9d4a6857a4278e",
+      "json_mtime": "2026-10-10T20:13:56.591703+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB6ACT5F75": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT5F75.json",
+      "json_sha256": "1e2b27a0ffe493e9bd13c9af0b4b719b77e70d3522ff7f9087e1193fbb24b423",
+      "json_mtime": "2026-10-10T20:13:56.617656+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB6ACT6F82": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT6F82.json",
+      "json_sha256": "283c414309628f96f52823359d11f27552b50e2ff84063aa5713ca248c9b8387",
+      "json_mtime": "2026-10-10T20:13:56.618146+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB6ACT7F73": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT7F73.json",
+      "json_sha256": "074b917f374aff4fafdd74c24183663443617c3c5f0e3d0507da2e8a97fd9a73",
+      "json_mtime": "2026-10-10T20:13:56.618660+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB6ACT8F77": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT8F77.json",
+      "json_sha256": "fc9ee404109b1337c70cd30b7c12db6e84d02e2b896031b89770f932e24a8620",
+      "json_mtime": "2026-10-10T20:13:56.619164+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB6ACT5F75": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT5F75.json",
+      "json_sha256": "3f90924d4bd3b75e3e8cbf7fa1fcb79178640b9ec63d5e29bab1b348d71837ea",
+      "json_mtime": "2026-10-10T20:13:56.593808+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB6ACT6F82": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT6F82.json",
+      "json_sha256": "49cfa927fa0ff2e3f4eb8827a653a7200f70114c2186acef5b6924b8a99078ab",
+      "json_mtime": "2026-10-10T20:13:56.594413+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB6ACT7F73": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT7F73.json",
+      "json_sha256": "f2f3d5fe9138befb8db9a074fd71c3505edf0a716a068688261abed171f37b8a",
+      "json_mtime": "2026-10-10T20:13:56.595046+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB6ACT8F77": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT8F77.json",
+      "json_sha256": "55f4021a129a4bec1194db4f97171dd67d6d621c448a5649709db287a354387b",
+      "json_mtime": "2026-10-10T20:13:56.595765+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB7ACT5F63": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB7ACT5F63.json",
+      "json_sha256": "77b7eb7a4ba53592a38150078d32a6a7c12cb637f4b0c2ad056f21de9ea21721",
+      "json_mtime": "2026-10-10T20:13:56.620825+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB7ACT6F70": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB7ACT6F70.json",
+      "json_sha256": "e919651819e65d7bf907b0285bcd56b25a8dc86f0b4424e1724bed9ea5504593",
+      "json_mtime": "2026-10-10T20:13:56.621343+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB7ACT7F79": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB7ACT7F79.json",
+      "json_sha256": "54a360c1fcdb8f96f64e97eaaef29bc68fea923d3afc1901309c700099f73d81",
+      "json_mtime": "2026-10-10T20:13:56.622095+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB7ACT8F71": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB7ACT8F71.json",
+      "json_sha256": "89589b221445438f2c7d0ebaa0b6e575d522b2287ec2abdde66e32cc9a360e7d",
+      "json_mtime": "2026-10-10T20:13:56.622711+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB7ACT5F63": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB7ACT5F63.json",
+      "json_sha256": "2cdf81a7ff03e42b3b99d143ab85d36e432e85bd26097fb31a7b2a9db79639ca",
+      "json_mtime": "2026-10-10T20:13:56.597090+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB7ACT6F70": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB7ACT6F70.json",
+      "json_sha256": "5165f6aeaf2f84522d0d3931e229e169fb5058394d993c94e842acfd94244bb6",
+      "json_mtime": "2026-10-10T20:13:56.597495+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB7ACT7F79": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB7ACT7F79.json",
+      "json_sha256": "ae63afa27dfe95711e513ec78cf71b1f3b9e21b01b8ee8c024763498ab9bbbf0",
+      "json_mtime": "2026-10-10T20:13:56.597921+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB7ACT8F71": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB7ACT8F71.json",
+      "json_sha256": "ddd68f3a6acc40a5a318c49a6ef6d31f11619931c8aca87d94e2124e29393157",
+      "json_mtime": "2026-10-10T20:13:56.598300+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB8ACT5F82": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB8ACT5F82.json",
+      "json_sha256": "f4ce40b0f60f70e9245848ed8ca72ca547fc2a835fc76a7fb3f26b9c54194bad",
+      "json_mtime": "2026-10-10T20:13:56.623262+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB8ACT6F80": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB8ACT6F80.json",
+      "json_sha256": "35712efb0a214beaacbc7bab91f0b02767092f0c1decec2f9aa113518d74adb7",
+      "json_mtime": "2026-10-10T20:13:56.623787+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB8ACT7F74": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB8ACT7F74.json",
+      "json_sha256": "797d7af8a54bc5813b7453b90f94a3f59c66f6bed6dcc9b2fec11d7b5cb77d5c",
+      "json_mtime": "2026-10-10T20:13:56.624338+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB8ACT8F106": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB8ACT8F106.json",
+      "json_sha256": "7cf569f3a274672896e1fcd87564535e771e833d1c2e3f29558b3a9c8f8a63f9",
+      "json_mtime": "2026-10-10T20:13:56.624901+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB8ACT5F82": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB8ACT5F82.json",
+      "json_sha256": "83344a9934ed97eba455e45578db6abd8030b81ec93712603d2489319239b9d5",
+      "json_mtime": "2026-10-10T20:13:56.598711+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB8ACT6F80": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB8ACT6F80.json",
+      "json_sha256": "3876de101e9eceffae0bb5c6a85d09566170ec648c1e40a1fefcb5c8c3fedf69",
+      "json_mtime": "2026-10-10T20:13:56.599130+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB8ACT7F74": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB8ACT7F74.json",
+      "json_sha256": "800638d9dcb640da98eef528b3c6b6b3a213f91d6ee1319b941d152b28a3c0f0",
+      "json_mtime": "2026-10-10T20:13:56.599527+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB8ACT8F106": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB8ACT8F106.json",
+      "json_sha256": "e41362b1b1516bf33135d11824bdb2d215c845552970055cdc5c7899435b1c48",
+      "json_mtime": "2026-10-10T20:13:56.599883+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB9ACT5F77": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB9ACT5F77.json",
+      "json_sha256": "a2d6acb1fce867884c1c944347a181e1cc30e7ec60826fb961a86bdaf66d7c60",
+      "json_mtime": "2026-10-10T20:13:56.625390+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB9ACT6F71": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB9ACT6F71.json",
+      "json_sha256": "33c5729d7b2b579f5d2264cd7d3e399512ec45b8642534c566a936913f756426",
+      "json_mtime": "2026-10-10T20:13:56.625787+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB9ACT7F100": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB9ACT7F100.json",
+      "json_sha256": "17d7a31e8ee8b70efc7d7db29a7139e373974f09d517cfbb2d00d68cb5c7b897",
+      "json_mtime": "2026-10-10T20:13:56.626209+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB9ACT8F70": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB9ACT8F70.json",
+      "json_sha256": "412c9e59486b843669c827ebaf14d18374ae01e8c31b6cab3688d2fb859dd8d9",
+      "json_mtime": "2026-10-10T20:13:56.626571+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB9ACT5F77": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB9ACT5F77.json",
+      "json_sha256": "cf4dede08c70e50d331a0e7ef145ac1490508a366d3ce41ee302e4431862dadd",
+      "json_mtime": "2026-10-10T20:13:56.600424+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB9ACT6F71": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB9ACT6F71.json",
+      "json_sha256": "0eed6364e24469faca02cf478a6a5ba30206e6cd1a0054093f37affbd1691b97",
+      "json_mtime": "2026-10-10T20:13:56.600836+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB9ACT7F100": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB9ACT7F100.json",
+      "json_sha256": "dc25a5f66afba6be615c5b1525ff5b9aab9125acb22a8fc1e07c7e24bd2cd50f",
+      "json_mtime": "2026-10-10T20:13:56.601201+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB9ACT8F70": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB9ACT8F70.json",
+      "json_sha256": "6cff47a992595f7f54bfa3ae6498a151f612c4bf9274daa16c507f3664c640b8",
+      "json_mtime": "2026-10-10T20:13:56.601821+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB15ACT5F43": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB15ACT5F43.json",
+      "json_sha256": "6988278ad4626e960609d1b2ee3338d11131ea2665760deab2e8da6358a8a8cc",
+      "json_mtime": "2026-10-10T20:13:56.627224+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB15ACT6F54": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB15ACT6F54.json",
+      "json_sha256": "443d0bd694b773c2a96aaa29c58f12440e29f5b485409b690f260c3c29e70f05",
+      "json_mtime": "2026-10-10T20:13:56.627603+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB15ACT7F37": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB15ACT7F37.json",
+      "json_sha256": "bc5e5a00bc2e5446abd70b43e0db5b89d491f2721a97607288e5a6e0f18e0a64",
+      "json_mtime": "2026-10-10T20:13:56.628005+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB15ACT8F73": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB15ACT8F73.json",
+      "json_sha256": "d0cd1c06b7c6d0aa1acd78cd62b3e119c37a978bdb92bc084b9c75649101ef60",
+      "json_mtime": "2026-10-10T20:13:56.628397+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB15ACT5F43": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB15ACT5F43.json",
+      "json_sha256": "727ed04dd76532457002016c3fb8dff42869ceb4c43575af5214c991eb56f964",
+      "json_mtime": "2026-10-10T20:13:56.602502+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB15ACT6F54": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB15ACT6F54.json",
+      "json_sha256": "e23c8ccbb5eb9b55c9abde34b7108905f07c117ad065c4c52c025368f95dfdb0",
+      "json_mtime": "2026-10-10T20:13:56.603464+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB15ACT7F37": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB15ACT7F37.json",
+      "json_sha256": "4c239f515b708e9701015dc6a4a85aca21b2f464d1ad4f02af83b2f094aec210",
+      "json_mtime": "2026-10-10T20:13:56.604008+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB15ACT8F73": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB15ACT8F73.json",
+      "json_sha256": "449fcec0b2b91a057e6261cfd9264712aaa7b6690b5666cf9770898422470d75",
+      "json_mtime": "2026-10-10T20:13:56.604402+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB16ACT5F58": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB16ACT5F58.json",
+      "json_sha256": "4921325c783770b9770f19562dcb19319b6b28448520fec2baabe7af83ccc088",
+      "json_mtime": "2026-10-10T20:13:56.628763+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB16ACT6F56": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB16ACT6F56.json",
+      "json_sha256": "1883a7c8537bf7b521d0ab2e87e5e868b51cb9ef1e54173d3e5d3456884eb511",
+      "json_mtime": "2026-10-10T20:13:56.629101+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB16ACT7F63": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB16ACT7F63.json",
+      "json_sha256": "49545ed84f9be1612f16f22c397500c0375a2145db7cdac8a1aacc4d36c5b215",
+      "json_mtime": "2026-10-10T20:13:56.629544+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB16ACT8F63": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB16ACT8F63.json",
+      "json_sha256": "c051114abba4e3ac51b82caabfbbe6406c4e3585561fbee8f3dec575ebabf717",
+      "json_mtime": "2026-10-10T20:13:56.629955+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB16ACT5F58": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB16ACT5F58.json",
+      "json_sha256": "080d932e51e12d2125b09e37a94b128e14e47b51cee1675b3bb3a4f158c53bd3",
+      "json_mtime": "2026-10-10T20:13:56.604955+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB16ACT6F56": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB16ACT6F56.json",
+      "json_sha256": "26b003b6bec26a01dbddc15da266a6798b0ce5104c2ed0fe71d6b1e6f7438eaa",
+      "json_mtime": "2026-10-10T20:13:56.605355+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB16ACT7F63": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB16ACT7F63.json",
+      "json_sha256": "92d789221915321a61d58ca21e8ac310f7e81a9452f3f2f2dc2564b2a6eb55e3",
+      "json_mtime": "2026-10-10T20:13:56.605785+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB16ACT8F63": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB16ACT8F63.json",
+      "json_sha256": "41bd41bc66985f037b7ec9aed92624a67f5c93c4e824fd79add8f537ed1bba7f",
+      "json_mtime": "2026-10-10T20:13:56.606131+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB18ACT5F76": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB18ACT5F76.json",
+      "json_sha256": "eec842cb97985b68ee07892cb5a8d6fcbdd0ad595c4f4bdcdc779932505c9491",
+      "json_mtime": "2026-10-10T20:13:56.630535+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB18ACT6F82": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB18ACT6F82.json",
+      "json_sha256": "b85e30967a3e1c8c2a023f522bc349f735a79b40cd5c3c861a85acc25f256151",
+      "json_mtime": "2026-10-10T20:13:56.631025+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB18ACT7F95": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB18ACT7F95.json",
+      "json_sha256": "1f79dc1b0a7c50d0be68289ecd1e4b8bbfe44b9e6e7a4e213de37442cea4dc9c",
+      "json_mtime": "2026-10-10T20:13:56.631416+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB18ACT8F107": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB18ACT8F107.json",
+      "json_sha256": "e4d32a1e26658ff34e4a5a0c08975ce15fb839b7734c0aa33eb112822b81584f",
+      "json_mtime": "2026-10-10T20:13:56.631880+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB18ACT5F76": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB18ACT5F76.json",
+      "json_sha256": "93610805923c8a2b4c105ec0266b4cc2d9df4d0736eecde7cb726c96927f58ae",
+      "json_mtime": "2026-10-10T20:13:56.606505+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB18ACT6F82": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB18ACT6F82.json",
+      "json_sha256": "3b06a84e80bb4a25b967ba1a587935b1b7916fbb931c7b1718b15bba82bba0ab",
+      "json_mtime": "2026-10-10T20:13:56.606869+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB18ACT7F95": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB18ACT7F95.json",
+      "json_sha256": "ad474433881ffaab36621ffa83f492eed7cc5bdfe36589509781ee91f002ced7",
+      "json_mtime": "2026-10-10T20:13:56.607242+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB18ACT8F107": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB18ACT8F107.json",
+      "json_sha256": "34899521e445b7e1d703e715124950d8332c6047dc6b2ee0666325c040cd22a3",
+      "json_mtime": "2026-10-10T20:13:56.607609+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB35ACT5F61": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB35ACT5F61.json",
+      "json_sha256": "d7b42f43cc8fe6b8573f7b93ed1eabffb570823d3f1498ea91289e165d973e60",
+      "json_mtime": "2026-10-10T20:13:56.632402+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB35ACT6F84": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB35ACT6F84.json",
+      "json_sha256": "0e2c082afdbe459e0a956d293597d490f0b36747b17c9eebc39a7b58e75dee84",
+      "json_mtime": "2026-10-10T20:13:56.632834+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB35ACT7F94": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB35ACT7F94.json",
+      "json_sha256": "e4f96839acaefdb5daa8e1ea718d3d1240c006664b609823721081531e69ea8d",
+      "json_mtime": "2026-10-10T20:13:56.633374+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB35ACT8F54": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB35ACT8F54.json",
+      "json_sha256": "cdd98a8848f4a73745b806a7ad8254e1a475e00ad172cc01d65698799416188e",
+      "json_mtime": "2026-10-10T20:13:56.634018+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB35ACT5F61": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB35ACT5F61.json",
+      "json_sha256": "ebb8d23f68703fe0043e72167053d9916fd3a2efcb167ab76c62c88b298178ef",
+      "json_mtime": "2026-10-10T20:13:56.608036+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB35ACT6F84": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB35ACT6F84.json",
+      "json_sha256": "c2c36073ded5d4f73a37004204c9628a78e12087d1b44cc88e53a3aa84ee361c",
+      "json_mtime": "2026-10-10T20:13:56.608668+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB35ACT7F94": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB35ACT7F94.json",
+      "json_sha256": "048193433e8928c0ae777e8406fb5121e23541ec607ca6a197ff790a77db17df",
+      "json_mtime": "2026-10-10T20:13:56.609398+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB35ACT8F54": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB35ACT8F54.json",
+      "json_sha256": "0111f39689d0a550f70c951ab2720413c40231cfaf54c18860a621b9a9b186f2",
+      "json_mtime": "2026-10-10T20:13:56.610054+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB41ACT5F68": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB41ACT5F68.json",
+      "json_sha256": "aa7149b524baf9f2493d749b567aafbdbe1170177d39b350536a5343426a0e4e",
+      "json_mtime": "2026-10-10T20:13:56.634549+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB41ACT6F78": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB41ACT6F78.json",
+      "json_sha256": "ecc48af0647cc2e341329992a7a1808d6be8297d25daac1b82bfa3aa408807f1",
+      "json_mtime": "2026-10-10T20:13:56.634998+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB41ACT7F71": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB41ACT7F71.json",
+      "json_sha256": "fbf11775c382ee025467a8d917d407209a6455f115a8000b593b5034c9c8f315",
+      "json_mtime": "2026-10-10T20:13:56.635450+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB41ACT8F67": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB41ACT8F67.json",
+      "json_sha256": "6b902b77c0fba3f7a0d5b777ad9062ea0bc001fcd9e1d68532b9fd85b5e9ab5c",
+      "json_mtime": "2026-10-10T20:13:56.635888+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB41ACT5F68": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB41ACT5F68.json",
+      "json_sha256": "4b8a9b3e930c16bc8a4e2f4f8e3c0932628554a436d7bf34cb61734dac1624b3",
+      "json_mtime": "2026-10-10T20:13:56.610763+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB41ACT6F78": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB41ACT6F78.json",
+      "json_sha256": "ba943b02d380c4da98599dc76b2a5616ebd39813afe0330f536286063b825582",
+      "json_mtime": "2026-10-10T20:13:56.611552+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB41ACT7F71": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB41ACT7F71.json",
+      "json_sha256": "13f4ee9c8b663b0052b53225c78282b1891be078d87faaf3323f18344af5b0da",
+      "json_mtime": "2026-10-10T20:13:56.612317+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB41ACT8F67": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB41ACT8F67.json",
+      "json_sha256": "77376e097f9cd7d4a57dcf001e7172096ead2e99f3e415f4b41e5a94406e3911",
+      "json_mtime": "2026-10-10T20:13:56.612959+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB2ACT5F161": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT5F161.json",
+      "json_sha256": "d95223efedd11e3da4767cbfa4a0b426c0812656828ba46438b755bfc69aea4d",
+      "json_mtime": "2026-10-10T20:13:56.614414+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB2ACT6F102": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT6F102.json",
+      "json_sha256": "a7feeb31751a5f3b671ac0a93e7a74321d29a8c8931c5b9b221489441bec2360",
+      "json_mtime": "2026-10-10T20:13:56.614828+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB2ACT7F110": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT7F110.json",
+      "json_sha256": "c79875285b6f3838b8e85cd9cba71360b77ae933a9c33df8547d1b978cf52e15",
+      "json_mtime": "2026-10-10T20:13:56.615296+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB2ACT8F107": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT8F107.json",
+      "json_sha256": "d522bdfd1893660e7e79e0faeaee351b7f0792ea45b53910c995f3f4b3b8c33c",
+      "json_mtime": "2026-10-10T20:13:56.615734+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB2ACT5F161": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT5F161.json",
+      "json_sha256": "b084f1a799eec7a93a11fb034bd786c849c6bdac59994cc4173e8e51c4f331cf",
+      "json_mtime": "2026-10-10T20:13:56.590430+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB2ACT6F102": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT6F102.json",
+      "json_sha256": "7192f962122771173718f3a74bf674b2ef5ab74add70676f73c8a34002929972",
+      "json_mtime": "2026-10-10T20:13:56.590961+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB2ACT7F110": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT7F110.json",
+      "json_sha256": "af0364e3dedf0c148f256fa5185a972b2eaea0f43a74a30d50e85dbd1b3fd295",
+      "json_mtime": "2026-10-10T20:13:56.591382+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB2ACT8F107": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT8F107.json",
+      "json_sha256": "41164ade3527808b7b270223cdd2cb8de50c333455a8860144e3ed7175b98ddc",
+      "json_mtime": "2026-10-10T20:13:56.591827+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB6ACT5F124": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT5F124.json",
+      "json_sha256": "9b19643ec529db24c3692c80e4cbb41612cca012797b2d9a8f828825008a713b",
+      "json_mtime": "2026-10-10T20:13:56.617847+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB6ACT6F136": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT6F136.json",
+      "json_sha256": "4b1b6ae8345f0c766a2ae362a778178cbbd2630b22f309a0d3fbc98de747033d",
+      "json_mtime": "2026-10-10T20:13:56.618303+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB6ACT7F121": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT7F121.json",
+      "json_sha256": "705a42b5eaf5465ad81492c8ad95ebca36e1ade977bd797b1865914dcc8af722",
+      "json_mtime": "2026-10-10T20:13:56.618840+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB6ACT8F128": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT8F128.json",
+      "json_sha256": "eb6eadb510f159746ca80c895bc5696d92effa7ac1d5a5bf61c4b5900109a85a",
+      "json_mtime": "2026-10-10T20:13:56.619356+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB6ACT5F124": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT5F124.json",
+      "json_sha256": "3cb28f2e7a7157c017d226dfb46176a8c3db23b6716c32e8acb510933643841e",
+      "json_mtime": "2026-10-10T20:13:56.594017+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB6ACT6F136": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT6F136.json",
+      "json_sha256": "33ec2ef33cf970ff9746de1298f167500244d784fc617f5567b5313fcf594df9",
+      "json_mtime": "2026-10-10T20:13:56.594623+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB6ACT7F121": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT7F121.json",
+      "json_sha256": "1de30b3be614bb71fe4f02dca5eeff6208c06e720174576131e8a178cc35adab",
+      "json_mtime": "2026-10-10T20:13:56.595246+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB6ACT8F128": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT8F128.json",
+      "json_sha256": "3953edd60c9313c53e5bf4e2db0746a64a402b48cc8e1658c4f18cd829d10d6c",
+      "json_mtime": "2026-10-10T20:13:56.595901+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB7ACT5F104": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB7ACT5F104.json",
+      "json_sha256": "1f1c94a5d979a1817f70cf147bda7938c3960bd0c2467414a2feb09b88785524",
+      "json_mtime": "2026-10-10T20:13:56.621012+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB7ACT6F116": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB7ACT6F116.json",
+      "json_sha256": "af3d917f537d4b14975c1f792d0a8e60417e02ee201312917ec2cfed1f9a3715",
+      "json_mtime": "2026-10-10T20:13:56.621641+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB7ACT7F131": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB7ACT7F131.json",
+      "json_sha256": "86b0a168e36ac582ffc1f08538e25345c54f44042f1d614d02c96be2fabe151b",
+      "json_mtime": "2026-10-10T20:13:56.622295+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB7ACT8F118": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB7ACT8F118.json",
+      "json_sha256": "4992f984811b2efb476ecf78063b31d778ccd2f13b75b46cb8c5ac3e99de7ae8",
+      "json_mtime": "2026-10-10T20:13:56.622894+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB7ACT5F104": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB7ACT5F104.json",
+      "json_sha256": "53bae09a32de6cb812b4a80138f384e7b9c71ac4e8351b7648eeaba64f51529e",
+      "json_mtime": "2026-10-10T20:13:56.597234+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB7ACT6F116": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB7ACT6F116.json",
+      "json_sha256": "6cb80dff986a1c1e59a3e048d9a1e823c4ecd5aa9bc349457e31dd73100936a2",
+      "json_mtime": "2026-10-10T20:13:56.597627+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB7ACT7F131": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB7ACT7F131.json",
+      "json_sha256": "2757fe41ded3185ed2fcee8100045c14a3119c8e1fda0b13916da91cf8594395",
+      "json_mtime": "2026-10-10T20:13:56.598061+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB7ACT8F118": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB7ACT8F118.json",
+      "json_sha256": "8a2e3ebaf7674d3ee1388dad8cd2a4470a4566b5e22aad0ec78467434a2d09a6",
+      "json_mtime": "2026-10-10T20:13:56.598429+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB8ACT5F136": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB8ACT5F136.json",
+      "json_sha256": "8ab92e604c728f0f35dc75a512196b0e41c1a23b8b92600c5bcfba3aa71f9906",
+      "json_mtime": "2026-10-10T20:13:56.623443+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB8ACT6F132": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB8ACT6F132.json",
+      "json_sha256": "a596bce179df20928a3ada04a4bf3d7382c2869fa0ecb6eb199150c7a3eb55b6",
+      "json_mtime": "2026-10-10T20:13:56.623946+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB8ACT7F123": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB8ACT7F123.json",
+      "json_sha256": "ee243a69a3db82a87d50ee3f778cbf761d8844f4ec5a1a798d6ce91a69108f57",
+      "json_mtime": "2026-10-10T20:13:56.624530+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB8ACT8F176": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB8ACT8F176.json",
+      "json_sha256": "f2826c4ad5262d5acd943968ca6b860e7261def7730f24f57bfce421ec13d45b",
+      "json_mtime": "2026-10-10T20:13:56.625090+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB8ACT5F136": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB8ACT5F136.json",
+      "json_sha256": "7fdbb505253047ca906f308161a3b94424547db17c66f2cdf9a0ad98a9e2ba3b",
+      "json_mtime": "2026-10-10T20:13:56.598850+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB8ACT6F132": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB8ACT6F132.json",
+      "json_sha256": "1d21f824d561f73c23e3d711153bc4eaffeada659e8813e37bbdfe669c876c22",
+      "json_mtime": "2026-10-10T20:13:56.599266+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB8ACT7F123": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB8ACT7F123.json",
+      "json_sha256": "583db60db97cfe0b425c617500a78284c671f19dc9bcd307a2eecd064bf152fc",
+      "json_mtime": "2026-10-10T20:13:56.599663+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB8ACT8F176": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB8ACT8F176.json",
+      "json_sha256": "6bc1680623132a12af952168b71abe72b19a962b5cbca251354fd8b9539dc4bb",
+      "json_mtime": "2026-10-10T20:13:56.599990+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB9ACT5F127": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB9ACT5F127.json",
+      "json_sha256": "006574a2890830f7e90341d56c38b0c90baef3fa2312d7012511e66344239488",
+      "json_mtime": "2026-10-10T20:13:56.625530+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB9ACT6F118": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB9ACT6F118.json",
+      "json_sha256": "acc3087d881ec3856e980ad43dd75e2848ac895c679da038d7c81123e12c491f",
+      "json_mtime": "2026-10-10T20:13:56.625959+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB9ACT7F166": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB9ACT7F166.json",
+      "json_sha256": "a1e8d3de7424d014dec41492ad9854dde1066687ed214df330cff8322edc3467",
+      "json_mtime": "2026-10-10T20:13:56.626326+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB9ACT8F116": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB9ACT8F116.json",
+      "json_sha256": "ca0dc39d22297806aa84f233d3cd44c9a01fe71417063844f55aed7c030a7487",
+      "json_mtime": "2026-10-10T20:13:56.626775+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB9ACT5F127": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB9ACT5F127.json",
+      "json_sha256": "446cc99961f2a015b987b1f2c510bccdd51e1803cdbb980344527fb58a79ef0a",
+      "json_mtime": "2026-10-10T20:13:56.600571+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB9ACT6F118": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB9ACT6F118.json",
+      "json_sha256": "b587aeb5bbdf299ed74e051645587563c4135346f2f44d21f5d9e4e8e77a0ffc",
+      "json_mtime": "2026-10-10T20:13:56.600960+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB9ACT7F166": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB9ACT7F166.json",
+      "json_sha256": "0b07113e85359ffdc68523d0b0665c86e73ca38f793ed5753750bb6e4ff9d8f5",
+      "json_mtime": "2026-10-10T20:13:56.601425+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB9ACT8F116": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB9ACT8F116.json",
+      "json_sha256": "77d3f5dff1538ec3b802982391dbe614ff59349d0d46355d60b5eabb63ad5568",
+      "json_mtime": "2026-10-10T20:13:56.602015+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB15ACT5F71": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB15ACT5F71.json",
+      "json_sha256": "592d5d6632dfc4d1f9e5c8ea9658eab7cae623be54568f643569db4f669491ef",
+      "json_mtime": "2026-10-10T20:13:56.627363+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB15ACT6F90": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB15ACT6F90.json",
+      "json_sha256": "1d0ea29fcca7b26d0f1093e453288bbc6b6dce95ba63c67dc26b34f0d6d1e4cc",
+      "json_mtime": "2026-10-10T20:13:56.627718+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB15ACT7F61": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB15ACT7F61.json",
+      "json_sha256": "cddfbd44fec5d40f10b3335e57f67e84035e21c470896242d8a557b487a0e0e7",
+      "json_mtime": "2026-10-10T20:13:56.628130+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB15ACT8F121": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB15ACT8F121.json",
+      "json_sha256": "9bca871a3c78a6e7a45ce5df7c84ff16feb7ca4719f209aee2fe42748309f20f",
+      "json_mtime": "2026-10-10T20:13:56.628524+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB15ACT5F71": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB15ACT5F71.json",
+      "json_sha256": "6fec5f7035de769d0ea1b589cfe6ef34372ea5582d411546aa175d21a6704374",
+      "json_mtime": "2026-10-10T20:13:56.602761+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB15ACT6F90": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB15ACT6F90.json",
+      "json_sha256": "59c331790322b3a8fe91fbebd470ea822d7c6072e9ff7a2630c628d02310e0b6",
+      "json_mtime": "2026-10-10T20:13:56.603656+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB15ACT7F61": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB15ACT7F61.json",
+      "json_sha256": "e24f9b97701c011f195b8250262d42adc76b27a2f6eaad4986839bb5d1a8277e",
+      "json_mtime": "2026-10-10T20:13:56.604146+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB15ACT8F121": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB15ACT8F121.json",
+      "json_sha256": "f2f26aa4b014819686f63087f49a389bab192b63efd6199ca8690caf6907375f",
+      "json_mtime": "2026-10-10T20:13:56.604502+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB16ACT5F96": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB16ACT5F96.json",
+      "json_sha256": "db7e9c1998360f085b531ea1ce8ebb60602f5e1b180cfc771a9c10071269da81",
+      "json_mtime": "2026-10-10T20:13:56.628882+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB16ACT6F93": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB16ACT6F93.json",
+      "json_sha256": "9202f4ac471aa5b3ec50bae0dd5ac548529ba9278d219359f7339deefcaa62ab",
+      "json_mtime": "2026-10-10T20:13:56.629260+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB16ACT7F105": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB16ACT7F105.json",
+      "json_sha256": "cba6f1174d4cf3b60fc4865e5e5f79ab228d4d462754a2ccab8ca2952bb043a8",
+      "json_mtime": "2026-10-10T20:13:56.629672+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB16ACT8F105": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB16ACT8F105.json",
+      "json_sha256": "f5f8822398984efc9da116b84cb8fb26bc72b56593151b8891140819d29a32ef",
+      "json_mtime": "2026-10-10T20:13:56.630093+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB16ACT5F96": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB16ACT5F96.json",
+      "json_sha256": "8f8c8b25e832134a773d06ddea0fd36588aa1b2ffec26d357092e310e0b6c614",
+      "json_mtime": "2026-10-10T20:13:56.605094+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB16ACT6F93": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB16ACT6F93.json",
+      "json_sha256": "60cedbe68e7263805fda9c1763b94152630c8da69db88323a608f0e852bc04db",
+      "json_mtime": "2026-10-10T20:13:56.605486+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB16ACT7F105": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB16ACT7F105.json",
+      "json_sha256": "8bb19b721050933cc65ceae2cbe61eb8b433b595019cae1005c6cf1a8440a8fd",
+      "json_mtime": "2026-10-10T20:13:56.605915+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB16ACT8F105": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB16ACT8F105.json",
+      "json_sha256": "efaf1f1de3bb7353a0a0c24550eeccbb0bdd211a5c396dd821bd6e3290824141",
+      "json_mtime": "2026-10-10T20:13:56.606257+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB18ACT5F126": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB18ACT5F126.json",
+      "json_sha256": "8ade2cd36d96fb83df880f4564b89b23951acacdb71fc923e45f559fcd456bec",
+      "json_mtime": "2026-10-10T20:13:56.630736+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB18ACT6F136": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB18ACT6F136.json",
+      "json_sha256": "693552436cee2e62d9059f741ded672db6c515e6526ddec9d0bec211bb896762",
+      "json_mtime": "2026-10-10T20:13:56.631139+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB18ACT7F158": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB18ACT7F158.json",
+      "json_sha256": "7102be764cf0cdcda86b3f566e8358500777555b9c85479bda03c4623e8f7fc1",
+      "json_mtime": "2026-10-10T20:13:56.631553+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB18ACT8F178": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB18ACT8F178.json",
+      "json_sha256": "96e2f0e3e5218429010767d319153c70bcc9063a3f0238f97c0de844e9c51845",
+      "json_mtime": "2026-10-10T20:13:56.632012+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB18ACT5F126": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB18ACT5F126.json",
+      "json_sha256": "c8fae49290524f55f5bb4cd76dce4636755acfd8265cbca0ce1da85bc80f001d",
+      "json_mtime": "2026-10-10T20:13:56.606631+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB18ACT6F136": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB18ACT6F136.json",
+      "json_sha256": "d354579bbb62d2b2bc6c259ac2e4f14e0bb9b2da2b7e5a5ffb8b6b945c26397f",
+      "json_mtime": "2026-10-10T20:13:56.606993+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB18ACT7F158": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB18ACT7F158.json",
+      "json_sha256": "8208272404b0c29cb08e9c4e8415e9c00e097e990e822629aea7357413cadb52",
+      "json_mtime": "2026-10-10T20:13:56.607363+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB18ACT8F178": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB18ACT8F178.json",
+      "json_sha256": "6c4f804fd32d5e4bb498a703e8d935a39e204e57c5b5387a715df5c91a1f51d0",
+      "json_mtime": "2026-10-10T20:13:56.607725+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB35ACT5F101": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB35ACT5F101.json",
+      "json_sha256": "cef86a664cf61ef1cc38d8b6516933b2ebac9e377ca6c04681f0c19cc70d8870",
+      "json_mtime": "2026-10-10T20:13:56.632587+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB35ACT6F139": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB35ACT6F139.json",
+      "json_sha256": "0b33202dac38e99d18251cf7cb53c25e4be6f1ff3d3c8cb5a358a90fb37661e5",
+      "json_mtime": "2026-10-10T20:13:56.633057+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB35ACT7F156": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB35ACT7F156.json",
+      "json_sha256": "9ddbf3188e16ea644c51350669531007206b480ca4ebb8ee6d0ab9e61c857038",
+      "json_mtime": "2026-10-10T20:13:56.633538+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB35ACT8F90": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB35ACT8F90.json",
+      "json_sha256": "87b789687faf396f1fcf16b1b5f446d8742e09a94fd10e1ec7322c7a981e9ae3",
+      "json_mtime": "2026-10-10T20:13:56.634224+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB35ACT5F101": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB35ACT5F101.json",
+      "json_sha256": "b95a5a4a4a3269f1e64f2cac1708bdbf889d1dda14def12961a6c48749d19ef2",
+      "json_mtime": "2026-10-10T20:13:56.608199+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB35ACT6F139": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB35ACT6F139.json",
+      "json_sha256": "11d21ce7fe4686249ee73e28ea55badd697c0ef1a96f2f12f55ca79ca2ba2cd5",
+      "json_mtime": "2026-10-10T20:13:56.608888+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB35ACT7F156": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB35ACT7F156.json",
+      "json_sha256": "6f49f5487938d9042095594438c47e0fb92b512400716e240bca3670e2d1a8c9",
+      "json_mtime": "2026-10-10T20:13:56.609661+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB35ACT8F90": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB35ACT8F90.json",
+      "json_sha256": "4a70d00596992dfbc52719ea14053324b141c00df634682605f5867e9243304d",
+      "json_mtime": "2026-10-10T20:13:56.610266+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB41ACT5F113": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB41ACT5F113.json",
+      "json_sha256": "b3449d1df005c64e03ea5b0e90e23449181c31d9a803cc309e49290178f0ed90",
+      "json_mtime": "2026-10-10T20:13:56.634708+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB41ACT6F129": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB41ACT6F129.json",
+      "json_sha256": "8ed01e0f126fc5e6d11411c33526e4b3f043b3a9c01867c6587ecc0c4a80075b",
+      "json_mtime": "2026-10-10T20:13:56.635153+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "texting"
+    },
+    "md_RGB2_SUB41ACT7F118": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB41ACT7F118.json",
+      "json_sha256": "5a70d6c20c41951b323890fb4f01566b7c96f5030d2500a093697c71785cb217",
+      "json_mtime": "2026-10-10T20:13:56.635611+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB41ACT8F111": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB41ACT8F111.json",
+      "json_sha256": "a080eaaf8b4bd48fc4e4d58a0f90b70877686a59b033b8b8efe5784b66d62123",
+      "json_mtime": "2026-10-10T20:13:56.636049+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB41ACT5F113": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB41ACT5F113.json",
+      "json_sha256": "74940b0b5fbe45dd07437af9a76af084c9cccc1ec46ed00f71f3acac610cc701",
+      "json_mtime": "2026-10-10T20:13:56.611021+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB41ACT6F129": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB41ACT6F129.json",
+      "json_sha256": "463d4f1080334adda898d17d54f4d643f2c48e905753dc355554d653de14a470",
+      "json_mtime": "2026-10-10T20:13:56.611818+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "texting"
+    },
+    "md_RGB1_SUB41ACT7F118": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB41ACT7F118.json",
+      "json_sha256": "2b304c22d9c498a6ffbc93623b6413c6dfc94e638665ea8e1eee6167114c8ff2",
+      "json_mtime": "2026-10-10T20:13:56.612548+08:00",
+      "checked": false,
+      "prefill_boxes": 1,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB1_SUB41ACT8F111": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB41ACT8F111.json",
+      "json_sha256": "844f2fb719f81c2eb588e34a21757b53f123641294922f66908033dabb2bb939",
+      "json_mtime": "2026-10-10T20:13:56.613165+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "calling"
+    },
+    "md_RGB2_SUB2ACT1F68": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT1F68.json",
+      "json_sha256": "7dc2d2d5442b4e6cb7e2b8d79e4388163e8df6b34b1a9740590bbeee272cb8d5",
+      "json_mtime": "2026-10-10T20:13:56.613465+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB2ACT10F41": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT10F41.json",
+      "json_sha256": "8df7369a4678b39b1cc19a5a3e2116d0e877bc7b21b64de70614f80c232a08c0",
+      "json_mtime": "2026-10-10T20:13:56.615857+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB2ACT11F47": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT11F47.json",
+      "json_sha256": "ab299ae85bddc5f4761573004861040ea3f4ca7532da83827d4fff49e2ad4c61",
+      "json_mtime": "2026-10-10T20:13:56.615958+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB2ACT12F60": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT12F60.json",
+      "json_sha256": "52ff3bc21e8f15903bd410bc13b15c70b80c66a59d3d35d1c2940b2c32fb8b8c",
+      "json_mtime": "2026-10-10T20:13:56.616073+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB2ACT13F62": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT13F62.json",
+      "json_sha256": "65bb8709df2fd44fea43f5e701cfedbd7149ac5bae42aa78590882284d291604",
+      "json_mtime": "2026-10-10T20:13:56.616175+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB2ACT14F43": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT14F43.json",
+      "json_sha256": "016f32966771c304b49c07c9e2234b542bcc80a6bd50332a401b33a82e1430f9",
+      "json_mtime": "2026-10-10T20:13:56.616278+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB2ACT15F17": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT15F17.json",
+      "json_sha256": "4d88b08f455322cb3a9876f886675b29b507ee176d0c793947e86a095d2442f0",
+      "json_mtime": "2026-10-10T20:13:56.616381+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB2ACT16F53": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT16F53.json",
+      "json_sha256": "702d5141d3d0ec8dd81cbe602e4a1643325958ad6b8095c64c01ad271f207d87",
+      "json_mtime": "2026-10-10T20:13:56.616479+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB2ACT2F40": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT2F40.json",
+      "json_sha256": "cd9ae3370da2bba0356935175e15d361251014bfdce7b23d775e6b7a26560772",
+      "json_mtime": "2026-10-10T20:13:56.613778+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB2ACT3F42": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB2ACT3F42.json",
+      "json_sha256": "7658a19016f5dc923f1f66d62be948c20e0861d1a6922381df55db2794251f65",
+      "json_mtime": "2026-10-10T20:13:56.613934+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB2ACT1F68": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT1F68.json",
+      "json_sha256": "9f3ac644b82ae11ab7a51ac7ac356fe2cc790503b8f0c341c940169939a84f86",
+      "json_mtime": "2026-10-10T20:13:56.588834+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB2ACT10F41": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT10F41.json",
+      "json_sha256": "02d948744d3f32b8bc8acd12d4a682c54f340ad8d62371940601166a7340bb8b",
+      "json_mtime": "2026-10-10T20:13:56.592199+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB2ACT11F47": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT11F47.json",
+      "json_sha256": "b5959ca868b33bda25a58155cd1b24f657db844867d90a72b25d33c34e9f3660",
+      "json_mtime": "2026-10-10T20:13:56.592343+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB2ACT12F60": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT12F60.json",
+      "json_sha256": "1068ea7c952daf2b7e46c27db70d6a6718b75eff5f4a8850bb1cf2fd7388a92a",
+      "json_mtime": "2026-10-10T20:13:56.592468+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB2ACT13F62": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT13F62.json",
+      "json_sha256": "ceb6efaa62985d99c4b93ae03ca94ebe521eba6017307ce3ffb380296cab4acf",
+      "json_mtime": "2026-10-10T20:13:56.592577+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB2ACT14F43": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT14F43.json",
+      "json_sha256": "ccd8b95656ac3625ac26d71da3763e137db5f6b3712ba5ecff5430326f6b0949",
+      "json_mtime": "2026-10-10T20:13:56.592682+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB2ACT15F17": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT15F17.json",
+      "json_sha256": "2b29e20832a292914f6e0ab003c4b6884aaafb39a30d29f4bd532ef536e84ac9",
+      "json_mtime": "2026-10-10T20:13:56.592790+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB2ACT16F53": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT16F53.json",
+      "json_sha256": "a5a4f173ec46da9f61c7bd1d67d94a9cdb751a5c30abc4ec0e699ef571798690",
+      "json_mtime": "2026-10-10T20:13:56.592992+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB2ACT2F40": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT2F40.json",
+      "json_sha256": "924fdc138cd3e9566d616c376f5d6830fd594cda685988adf5b747a429248516",
+      "json_mtime": "2026-10-10T20:13:56.589339+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB2ACT3F42": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB2ACT3F42.json",
+      "json_sha256": "15a709f092f634cfd67b8268f201d64faeefe9413875e45491f7a88a53d3ac53",
+      "json_mtime": "2026-10-10T20:13:56.589784+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB6ACT1F69": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT1F69.json",
+      "json_sha256": "1ef39fce285b9f70f45f2b5ada05d0e5afd75dbafd1008ba484d1bac854dea73",
+      "json_mtime": "2026-10-10T20:13:56.616867+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB6ACT10F79": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT10F79.json",
+      "json_sha256": "aeb6b20dcd33faf5026bad0c756b80dcc1f055c26e22011532244300562c97ac",
+      "json_mtime": "2026-10-10T20:13:56.619510+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB6ACT11F68": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT11F68.json",
+      "json_sha256": "2d9cfa24a8364825053e7b5da38f2174cde2c8b59b9897b89d1b687d55bf8cdc",
+      "json_mtime": "2026-10-10T20:13:56.619669+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB6ACT12F43": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT12F43.json",
+      "json_sha256": "7358bdf54cf4e0159195e79403d9f42d3a00c212577242435448336fef74a12e",
+      "json_mtime": "2026-10-10T20:13:56.619820+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB6ACT13F64": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT13F64.json",
+      "json_sha256": "c0d78f3ec66285ff7a9aea5eb73c7aa2615775852d622cfc7f09f60d067d8acc",
+      "json_mtime": "2026-10-10T20:13:56.619978+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB6ACT14F54": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT14F54.json",
+      "json_sha256": "456beca3d6a20dd97c2df981e08a7a85176756b3eb9a6694bf97c324da1178d3",
+      "json_mtime": "2026-10-10T20:13:56.620131+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB6ACT15F54": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT15F54.json",
+      "json_sha256": "1f6ccad30df0330cf3d7af9cba0a8830fc33996d63b4edeba29349cddfabaed3",
+      "json_mtime": "2026-10-10T20:13:56.620283+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB6ACT16F73": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT16F73.json",
+      "json_sha256": "bbd3e8115db2ea44d0244efdd80f3f09347f7a458fc3e4f8402a365d8f0c16be",
+      "json_mtime": "2026-10-10T20:13:56.620448+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB6ACT2F64": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT2F64.json",
+      "json_sha256": "e9ec0762be3efc2dd83d76e741899d239dccca02ca7e750c11ac486eca305159",
+      "json_mtime": "2026-10-10T20:13:56.617045+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB6ACT3F63": {
+      "annotation_json": "review/test/test_01/md_RGB2_SUB6ACT3F63.json",
+      "json_sha256": "13866da35c403178ffbb3d477ea1bf0225467e842dd25800a5d5ccd625e69da4",
+      "json_mtime": "2026-10-10T20:13:56.617191+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB6ACT1F69": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT1F69.json",
+      "json_sha256": "39d1742926b2ecc0e032d47ed1e83537009c5de65f1fa91536a4c9d42d42f3e6",
+      "json_mtime": "2026-10-10T20:13:56.593096+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB6ACT10F79": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT10F79.json",
+      "json_sha256": "282c6f61c4e4952390b0f2fc7729a3d9a0670ce26261476ae90d21a5983c2307",
+      "json_mtime": "2026-10-10T20:13:56.596026+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB6ACT11F68": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT11F68.json",
+      "json_sha256": "739a1c00aee6036031c72c189416ee9c30608b7b7d83ba86f4db27967d4cde70",
+      "json_mtime": "2026-10-10T20:13:56.596153+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB6ACT12F43": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT12F43.json",
+      "json_sha256": "4a38015a6865a08215f71066b8b99858c462b16ed6b41f6e18dd61061a04aab5",
+      "json_mtime": "2026-10-10T20:13:56.596268+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB6ACT13F64": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT13F64.json",
+      "json_sha256": "badc9ba1408aef3c82480c385528427cec534e4a7d69e76ac1b005a806f20a07",
+      "json_mtime": "2026-10-10T20:13:56.596378+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB6ACT14F54": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT14F54.json",
+      "json_sha256": "598ff18bf6875fa704f479834c9704efbe459388b3b7ea36a5400a2836bd059e",
+      "json_mtime": "2026-10-10T20:13:56.596483+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB6ACT15F54": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT15F54.json",
+      "json_sha256": "e51857cf3f52b8bab9fde638243c6d3990df343c4ce5d88dc750aa33d768d8e1",
+      "json_mtime": "2026-10-10T20:13:56.596597+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB6ACT16F73": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT16F73.json",
+      "json_sha256": "b56e087044280786a1d725d7fb0b0fbd2f938b6213cbec39851eba2e17a56ed4",
+      "json_mtime": "2026-10-10T20:13:56.596712+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB6ACT2F64": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT2F64.json",
+      "json_sha256": "caf2973a765f7f3f4610b3e34777f4705624e967c3c4ca3d8cd30e182a177be5",
+      "json_mtime": "2026-10-10T20:13:56.593214+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB6ACT3F63": {
+      "annotation_json": "review/test/test_01/md_RGB1_SUB6ACT3F63.json",
+      "json_sha256": "a0b4f94cf99c0a30069e478103fb74ae3f6c315df0871a6c97ab89b6ed526eb0",
+      "json_mtime": "2026-10-10T20:13:56.593346+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_01",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB7ACT1F63": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB7ACT1F63.json",
+      "json_sha256": "b104f26659bbe0247b34a11056ec51ba19acce8bf46b72162f63e2d159ecef46",
+      "json_mtime": "2026-10-10T20:13:56.646977+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB7ACT10F69": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB7ACT10F69.json",
+      "json_sha256": "455740c2a862edafa98d219c85ba80a818d0c08a61c679ab4b27a53d747d9bd2",
+      "json_mtime": "2026-10-10T20:13:56.647723+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB7ACT11F71": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB7ACT11F71.json",
+      "json_sha256": "479472dffe0c742ba146937d03f4f18c3662f086f9abad81f93eef4f7dfbac3a",
+      "json_mtime": "2026-10-10T20:13:56.647889+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB7ACT12F68": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB7ACT12F68.json",
+      "json_sha256": "bdaa8687081c0eea5a386cda80199774f79017f3335a60867ba924cef155d2ef",
+      "json_mtime": "2026-10-10T20:13:56.648020+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB7ACT13F65": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB7ACT13F65.json",
+      "json_sha256": "4ab2e1d101eefb4061d9ffce7bd24a958e1c84d07515cb93892f3330e779cefb",
+      "json_mtime": "2026-10-10T20:13:56.648130+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB7ACT14F75": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB7ACT14F75.json",
+      "json_sha256": "4841ac492b8890ebfb304d3827cafa2bf9f9d7f4c6abfd35127c54dd9bbd162c",
+      "json_mtime": "2026-10-10T20:13:56.648233+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB7ACT15F63": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB7ACT15F63.json",
+      "json_sha256": "0e44be262860a28566202094f66a46fe0fd427990059bdbcd470b180e082377a",
+      "json_mtime": "2026-10-10T20:13:56.648353+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB7ACT16F92": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB7ACT16F92.json",
+      "json_sha256": "d0f494217ee5da5894eb6c1c890db48a91af48c32a477e86e4f02db33d8e6b45",
+      "json_mtime": "2026-10-10T20:13:56.648472+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB7ACT2F77": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB7ACT2F77.json",
+      "json_sha256": "ce10a4dbec6f89cafe3fd6c18ab8cf397f4951bc972c12b91e3145d1f5dc944e",
+      "json_mtime": "2026-10-10T20:13:56.647087+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB7ACT3F69": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB7ACT3F69.json",
+      "json_sha256": "90389390d1eb55071ec0a49cae77e334275fee185a615567fde8d44510ff1142",
+      "json_mtime": "2026-10-10T20:13:56.647197+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB7ACT1F63": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB7ACT1F63.json",
+      "json_sha256": "dfb8002de869e79da58738eaf88571d7d1e2dab3d369fa9dad96af0eb7abe1ad",
+      "json_mtime": "2026-10-10T20:13:56.636181+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB7ACT10F69": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB7ACT10F69.json",
+      "json_sha256": "2f80c62323a6de04491b4704e312db562e851bae7e00092eac26b6fcde4cac30",
+      "json_mtime": "2026-10-10T20:13:56.636892+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB7ACT11F71": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB7ACT11F71.json",
+      "json_sha256": "5bba30972542549e3037e41d628814ed1c9d4e6abfe6152b094b25390a505cf9",
+      "json_mtime": "2026-10-10T20:13:56.637001+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB7ACT12F68": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB7ACT12F68.json",
+      "json_sha256": "235eb0671097a8f0f4bfefbf97cbd252b01af6e165e91c7b199cbdb48e9d95fb",
+      "json_mtime": "2026-10-10T20:13:56.637178+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB7ACT13F65": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB7ACT13F65.json",
+      "json_sha256": "0d99155804c303fbacb9a10311fe851e4399639074cbfcd6db40044433c43c14",
+      "json_mtime": "2026-10-10T20:13:56.637280+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB7ACT14F75": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB7ACT14F75.json",
+      "json_sha256": "c1d329ec357a699340b28c84e609b890369df6d89e0a2005d4de89c01b65be4b",
+      "json_mtime": "2026-10-10T20:13:56.637386+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB7ACT15F63": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB7ACT15F63.json",
+      "json_sha256": "8e58a2729fed63793eeaeacf0e189ce14949a15a58ccb5e1b187c1e57fdc3ab6",
+      "json_mtime": "2026-10-10T20:13:56.637494+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB7ACT16F92": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB7ACT16F92.json",
+      "json_sha256": "4c14d6f535191681622dcd57311a5e0d0744b256d09cab0fa30bc95a4a39cfe1",
+      "json_mtime": "2026-10-10T20:13:56.637603+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB7ACT2F77": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB7ACT2F77.json",
+      "json_sha256": "b1bb3d93f093c0ed1da1001f689f7aaf1ab37a09f3b078a2061e222d0aa52f4a",
+      "json_mtime": "2026-10-10T20:13:56.636643+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB7ACT3F69": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB7ACT3F69.json",
+      "json_sha256": "5df629d6aeb8ebae589a541faf5d2cf867d2c5685a915e53c73ddd1694f4a8f6",
+      "json_mtime": "2026-10-10T20:13:56.636780+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB8ACT1F111": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB8ACT1F111.json",
+      "json_sha256": "c932537d70efc3855942a55a9ea9e995ffff990cb93cc9dbc8f0c21a2b2905b0",
+      "json_mtime": "2026-10-10T20:13:56.648582+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB8ACT10F73": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB8ACT10F73.json",
+      "json_sha256": "a59050f8991543930558dfbc67b7672deb15b992e097afc0bc760829cbb91b0e",
+      "json_mtime": "2026-10-10T20:13:56.648909+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB8ACT11F106": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB8ACT11F106.json",
+      "json_sha256": "3d1d9a5fe94266588eea8f1e9574f1b2515adb9e05b9ff0a457f9b72ef0cbe6b",
+      "json_mtime": "2026-10-10T20:13:56.649017+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB8ACT12F63": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB8ACT12F63.json",
+      "json_sha256": "38d2a53f518659dc1acca89f732e06e4fe35c18bd910e8bac527534a1e57ae75",
+      "json_mtime": "2026-10-10T20:13:56.649159+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB8ACT13F77": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB8ACT13F77.json",
+      "json_sha256": "d853dca1dd85fca44a6d2bcf83b45f29b768423193fb3184e920c062f38e6574",
+      "json_mtime": "2026-10-10T20:13:56.649269+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB8ACT14F67": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB8ACT14F67.json",
+      "json_sha256": "f6b496c48aa25cc89a4201574bbf027a8843969d46a40726913fe5ad44c3b6d7",
+      "json_mtime": "2026-10-10T20:13:56.649381+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB8ACT15F68": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB8ACT15F68.json",
+      "json_sha256": "6e2ce8edd62f66f923e769736830079ed57394050d640e3424928900810fa170",
+      "json_mtime": "2026-10-10T20:13:56.649487+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB8ACT16F65": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB8ACT16F65.json",
+      "json_sha256": "0088073347dbc93788c8d10bfc11700ebaf10fc16ccf2336cae409cd481e86d6",
+      "json_mtime": "2026-10-10T20:13:56.649589+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB8ACT2F70": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB8ACT2F70.json",
+      "json_sha256": "338b4107d7ae475bd9328afe469e1298f04d60fdaa0d6eef96cb294a90deb8da",
+      "json_mtime": "2026-10-10T20:13:56.648690+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB8ACT3F64": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB8ACT3F64.json",
+      "json_sha256": "d623db1b1392283db2ffef9c4e55715f1e8697ef6f21b74829bbedf9a2dfaecd",
+      "json_mtime": "2026-10-10T20:13:56.648805+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB8ACT1F111": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB8ACT1F111.json",
+      "json_sha256": "d8cad1c27612485cb6925a4b495716beef0a77939c8df433b8b8e9c2e573af66",
+      "json_mtime": "2026-10-10T20:13:56.637709+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB8ACT10F73": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB8ACT10F73.json",
+      "json_sha256": "e1496db90d503ed7392bb59f7bc6adfbda2602cfc96511def246f3dacccb794f",
+      "json_mtime": "2026-10-10T20:13:56.638257+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB8ACT11F106": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB8ACT11F106.json",
+      "json_sha256": "d8649addee2b77114f57ad19e3186234ecba865b09f98fcbb976d216c792cce6",
+      "json_mtime": "2026-10-10T20:13:56.638360+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB8ACT12F63": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB8ACT12F63.json",
+      "json_sha256": "3c709251b9d3a339eabcacef120897331e703a3a9bcd0545c444404ca7b74a7b",
+      "json_mtime": "2026-10-10T20:13:56.638476+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB8ACT13F77": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB8ACT13F77.json",
+      "json_sha256": "f251db5d1987b057f25e7b9e44528c40eec68fbe6159664d1f6309879d7c3a01",
+      "json_mtime": "2026-10-10T20:13:56.638574+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB8ACT14F67": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB8ACT14F67.json",
+      "json_sha256": "2e11d6bd81c6b93d5db58d344dcdc03ee229267245086ae5a5ce480aa7ba7673",
+      "json_mtime": "2026-10-10T20:13:56.638670+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB8ACT15F68": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB8ACT15F68.json",
+      "json_sha256": "e21fae2061efeb25b52462fe26dba4f5032a81a66a45b6c3eda4dff79b042479",
+      "json_mtime": "2026-10-10T20:13:56.638863+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB8ACT16F65": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB8ACT16F65.json",
+      "json_sha256": "9353ffa3d6a43edfa7ede543d685a4a27c1faff5fa617bc235b5fa49aef77b93",
+      "json_mtime": "2026-10-10T20:13:56.639038+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB8ACT2F70": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB8ACT2F70.json",
+      "json_sha256": "3a54a43d098748fbe2cfe3e13baccae3d2ce3f966e9e362e5714f27fc993d415",
+      "json_mtime": "2026-10-10T20:13:56.637815+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB8ACT3F64": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB8ACT3F64.json",
+      "json_sha256": "f10f05828611a392888fc6f92c9f2b2c26db0083622170ca43ad40b7d608aaf9",
+      "json_mtime": "2026-10-10T20:13:56.638148+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB9ACT1F78": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB9ACT1F78.json",
+      "json_sha256": "37b09a40ebd560300209c819739993a2e1a67c3281aa7466ad8c8c9d166d7c22",
+      "json_mtime": "2026-10-10T20:13:56.649697+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB9ACT10F79": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB9ACT10F79.json",
+      "json_sha256": "606ccb9ddf4ce7080078e46358cef109e34c550070278dc0571e90f3d7c49308",
+      "json_mtime": "2026-10-10T20:13:56.650151+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB9ACT11F76": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB9ACT11F76.json",
+      "json_sha256": "b6939d2d7ee76b28116064926dba736eddcffc9a59c51137f46a2ef9a1a7e6ed",
+      "json_mtime": "2026-10-10T20:13:56.650261+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB9ACT12F90": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB9ACT12F90.json",
+      "json_sha256": "0f8e9c2bf17d7e47d6379841643e7d95f3a3efc2ebcddafddf28f1b08df7d204",
+      "json_mtime": "2026-10-10T20:13:56.650374+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB9ACT13F74": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB9ACT13F74.json",
+      "json_sha256": "1f7a2c826c2e3335d6948933a92945f240977689c5a0fd349f372cc2b6c1e9f8",
+      "json_mtime": "2026-10-10T20:13:56.650480+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB9ACT14F76": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB9ACT14F76.json",
+      "json_sha256": "62c79bf6eaac1dfc33be62b0a5154b2982181624c2f31873179b7d83e0ddae7c",
+      "json_mtime": "2026-10-10T20:13:56.650585+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB9ACT15F85": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB9ACT15F85.json",
+      "json_sha256": "19ea49c870fca9aaa24739f406f5bfa2f5a518d4e6fbf1ce927fbcb95004a703",
+      "json_mtime": "2026-10-10T20:13:56.650681+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB9ACT16F98": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB9ACT16F98.json",
+      "json_sha256": "45c1629102aa325f78277649632f09c9a635d2b2f3cf36622bdc4a11eff93e94",
+      "json_mtime": "2026-10-10T20:13:56.650777+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB9ACT2F71": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB9ACT2F71.json",
+      "json_sha256": "af0c2ca1a71c19a8976e7cb1dedf607b9a55071e0572d85bf7d6cb3b5a515932",
+      "json_mtime": "2026-10-10T20:13:56.649907+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB9ACT3F63": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB9ACT3F63.json",
+      "json_sha256": "7bc622d6860b0a4519016e14c637b01dfe9a31db1936f5ed059dd1d47f1dc560",
+      "json_mtime": "2026-10-10T20:13:56.650017+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB9ACT1F78": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB9ACT1F78.json",
+      "json_sha256": "58d99e8d6cf9d81c3950188fb976b428ca240a44e07c25a2da5042510b8c262c",
+      "json_mtime": "2026-10-10T20:13:56.639181+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB9ACT10F79": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB9ACT10F79.json",
+      "json_sha256": "a29e580d7da2ae334183fb7b03870939f68cd665654ab57f1596cc78d17393cb",
+      "json_mtime": "2026-10-10T20:13:56.639570+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB9ACT11F76": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB9ACT11F76.json",
+      "json_sha256": "02952ca03d0304b17a151ed3774ed85247c138335128cf6f34fbf80e93b1c273",
+      "json_mtime": "2026-10-10T20:13:56.639691+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB9ACT12F90": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB9ACT12F90.json",
+      "json_sha256": "06a593c8d219ab86b1b579f3d2fcd84a36853dfb22fd99cbda9c2ead99d0e3fa",
+      "json_mtime": "2026-10-10T20:13:56.639812+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB9ACT13F74": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB9ACT13F74.json",
+      "json_sha256": "2661c5b9c329dd632091db51dcd2b7a45fce8580d6c9463f257b67aa4c0b8c66",
+      "json_mtime": "2026-10-10T20:13:56.639931+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB9ACT14F76": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB9ACT14F76.json",
+      "json_sha256": "8fc2b05b593331655c9ca1bc96953033b8884a17992aa01e86972a0630226d8e",
+      "json_mtime": "2026-10-10T20:13:56.640053+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB9ACT15F85": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB9ACT15F85.json",
+      "json_sha256": "8a82db73de733a5755adf052d194eadab2155e61e6bb74623e591a9887580bb3",
+      "json_mtime": "2026-10-10T20:13:56.640174+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB9ACT16F98": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB9ACT16F98.json",
+      "json_sha256": "e4343f9095f94105719797df43a41d2f6c11ca021acb4c37e5ff45d311da69f7",
+      "json_mtime": "2026-10-10T20:13:56.640375+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB9ACT2F71": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB9ACT2F71.json",
+      "json_sha256": "0994be05e32fdc75740bba314fe0cef135677a5e34f5ac8bde2a732379ddd584",
+      "json_mtime": "2026-10-10T20:13:56.639320+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB9ACT3F63": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB9ACT3F63.json",
+      "json_sha256": "40e4d326065bb3f86b752ef480a61b53c9a3d5889d59749368d7883d058c53df",
+      "json_mtime": "2026-10-10T20:13:56.639448+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB15ACT1F58": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB15ACT1F58.json",
+      "json_sha256": "5622ccc8a2917db85d0d8e06dcd412a64f576c85a886bb4bf5f336c25e670b7d",
+      "json_mtime": "2026-10-10T20:13:56.650926+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB15ACT10F77": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB15ACT10F77.json",
+      "json_sha256": "8ccebf241b66a2fe241891e1890fac5dc03711c1a4c6aab237fb9ec0266858ae",
+      "json_mtime": "2026-10-10T20:13:56.651260+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB15ACT11F53": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB15ACT11F53.json",
+      "json_sha256": "6ed437f328a5685dc572b93f238403e3910a4a2a6ca9edaa5818923b026cdc0d",
+      "json_mtime": "2026-10-10T20:13:56.651362+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB15ACT12F64": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB15ACT12F64.json",
+      "json_sha256": "527b644b92eabf3b7414603fe1ca94d04349edffc04be2101b8120e41a7df88f",
+      "json_mtime": "2026-10-10T20:13:56.651457+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB15ACT13F62": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB15ACT13F62.json",
+      "json_sha256": "5d734f1457bc7685fc048c5e6982fe39fe1c302e5de40527488d4f055834b47d",
+      "json_mtime": "2026-10-10T20:13:56.651556+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB15ACT14F57": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB15ACT14F57.json",
+      "json_sha256": "db01b901ab73d27233171c5056f13f690d45fe336a3c023671c9c08cc81ced43",
+      "json_mtime": "2026-10-10T20:13:56.651656+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB15ACT15F68": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB15ACT15F68.json",
+      "json_sha256": "5d05584dc4670a94644c464f6da6f829c734a96a9199e8797ea17a46a93a6ff3",
+      "json_mtime": "2026-10-10T20:13:56.651776+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB15ACT16F55": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB15ACT16F55.json",
+      "json_sha256": "0b2d10a8970127d4bbf16f87d3a577cf1ac2f851431249abe3ebd9c1506b3b68",
+      "json_mtime": "2026-10-10T20:13:56.651892+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB15ACT2F46": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB15ACT2F46.json",
+      "json_sha256": "69b1578679c2d6ccd637366e893012dd7f7cb6452239689347bc7bd29eb9926d",
+      "json_mtime": "2026-10-10T20:13:56.651055+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB15ACT3F50": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB15ACT3F50.json",
+      "json_sha256": "4448ae5ad23193eeea33b3cfefd491b1f57571c17902f04838b5a9081d1b4649",
+      "json_mtime": "2026-10-10T20:13:56.651147+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB15ACT1F58": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB15ACT1F58.json",
+      "json_sha256": "8479bbcf4a0f8b545e10cd15056ae45f9f8ee8cd7f312e6c19180c11bb320c44",
+      "json_mtime": "2026-10-10T20:13:56.640502+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB15ACT10F77": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB15ACT10F77.json",
+      "json_sha256": "a4b800566cb25deaff27b6c34474f662f3ef21167f9bf7435faebb01d4c5946e",
+      "json_mtime": "2026-10-10T20:13:56.640898+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB15ACT11F53": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB15ACT11F53.json",
+      "json_sha256": "28360c8d292066dd90a5a063406ce62e099a6c0e5de1bb6aba7d4c60854c5922",
+      "json_mtime": "2026-10-10T20:13:56.641034+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB15ACT12F64": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB15ACT12F64.json",
+      "json_sha256": "118cc13a88dbdce3de2a0d0f352ef38413f60f569846104c75516729219e60c1",
+      "json_mtime": "2026-10-10T20:13:56.641160+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB15ACT13F62": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB15ACT13F62.json",
+      "json_sha256": "c5727398aae02ce31a5c8f28665b4299458fb7fcc270d4f3fee409946df18286",
+      "json_mtime": "2026-10-10T20:13:56.641289+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB15ACT14F57": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB15ACT14F57.json",
+      "json_sha256": "3b0b8dc41c731abf4a434ae680198ffef64f684d110498c71d6505a291796cd4",
+      "json_mtime": "2026-10-10T20:13:56.641423+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB15ACT15F68": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB15ACT15F68.json",
+      "json_sha256": "187d949ad595478f84013c8e671ad753d761df29790ab53f30a136fb976be89d",
+      "json_mtime": "2026-10-10T20:13:56.641551+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB15ACT16F55": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB15ACT16F55.json",
+      "json_sha256": "2445a2d9c5e199b90d142f2b4867fcff47afa8dcaedbc08de83e81ed52d269b5",
+      "json_mtime": "2026-10-10T20:13:56.641671+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB15ACT2F46": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB15ACT2F46.json",
+      "json_sha256": "8de76c734edca2e122af3e9bc6575874543cbf5de2972d43e9b0204577d3eb47",
+      "json_mtime": "2026-10-10T20:13:56.640624+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB15ACT3F50": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB15ACT3F50.json",
+      "json_sha256": "262d3c4e06f833fd831f66faf32573e75e113996ea35a3a84361302a14f7659b",
+      "json_mtime": "2026-10-10T20:13:56.640763+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB16ACT1F67": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB16ACT1F67.json",
+      "json_sha256": "fefcd7e9ffafd3129912cfb390a152bbd4cd8d379877fca4f27ffcd99f7651de",
+      "json_mtime": "2026-10-10T20:13:56.652014+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB16ACT10F78": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB16ACT10F78.json",
+      "json_sha256": "d4ceaf2b5deaa1d0250d0bca921538e0eab6b547c456e4d2af7e0902cdda17d9",
+      "json_mtime": "2026-10-10T20:13:56.652358+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB16ACT11F85": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB16ACT11F85.json",
+      "json_sha256": "ebae1bd08769a032da8c572639f24bf6d4de104d1abfa70d76aa7ca70248d83a",
+      "json_mtime": "2026-10-10T20:13:56.652801+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB16ACT12F64": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB16ACT12F64.json",
+      "json_sha256": "cf5bc25d382808fc3c18640a03708a81b1c2c3b8f6e6f3bf02d05cacd0f5bb92",
+      "json_mtime": "2026-10-10T20:13:56.653039+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB16ACT13F64": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB16ACT13F64.json",
+      "json_sha256": "cdc18678c1027bc9c58ae27e2373e43d03e6bda9d594d36f96660de24022909d",
+      "json_mtime": "2026-10-10T20:13:56.653190+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB16ACT14F64": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB16ACT14F64.json",
+      "json_sha256": "129a1fd03db6ee674360c4488ac58c3b9da5db9e75e6eb18f9dc51011461282c",
+      "json_mtime": "2026-10-10T20:13:56.653332+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB16ACT15F56": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB16ACT15F56.json",
+      "json_sha256": "6417f0db410f5ed1a21fc68e1a0a5f52604d37c512dc4eafbdc21d38d97de755",
+      "json_mtime": "2026-10-10T20:13:56.653471+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB16ACT16F62": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB16ACT16F62.json",
+      "json_sha256": "41ea81d6263ce626e636b7c0b8240f3646a524acc4848bb2f44ede457b2ce8bc",
+      "json_mtime": "2026-10-10T20:13:56.653609+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB16ACT2F67": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB16ACT2F67.json",
+      "json_sha256": "fae598b3541b4049439579a45bd6c889da5106889f91a40cfc737cd60c95e7b0",
+      "json_mtime": "2026-10-10T20:13:56.652119+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB16ACT3F65": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB16ACT3F65.json",
+      "json_sha256": "411d02a2ce60fee19993e23ae03f73642c91dd8fce593d80dee075e6d8c96ea8",
+      "json_mtime": "2026-10-10T20:13:56.652248+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB16ACT1F67": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB16ACT1F67.json",
+      "json_sha256": "783e7cb2ba80db8b9a3b773afddc9b51c4b82f71ecb10d076054da07ea069faa",
+      "json_mtime": "2026-10-10T20:13:56.641795+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB16ACT10F78": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB16ACT10F78.json",
+      "json_sha256": "b5cf70d12e6cee0714af2d13590f0aec0ded7c12824c25dd3f2b2955d4b20df8",
+      "json_mtime": "2026-10-10T20:13:56.642191+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB16ACT11F85": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB16ACT11F85.json",
+      "json_sha256": "2d710034a87ebd8b7f03f60be712aae06a4242c0c5e26c16c8333e226240e2b6",
+      "json_mtime": "2026-10-10T20:13:56.642330+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB16ACT12F64": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB16ACT12F64.json",
+      "json_sha256": "c9743c277925dc0cf695e09a9a5e2aa0896e9a37c2aa18227976803aceb6c3c2",
+      "json_mtime": "2026-10-10T20:13:56.642455+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB16ACT13F64": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB16ACT13F64.json",
+      "json_sha256": "c22c81142a67c9745a5ee1899199e8551ab7fe5651a120c0584212541c9897d8",
+      "json_mtime": "2026-10-10T20:13:56.642584+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB16ACT14F64": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB16ACT14F64.json",
+      "json_sha256": "8520ce8eed5baafdb3822077a2be461b7b9b8e0695d0ce3dd9e3c6cecf66ee98",
+      "json_mtime": "2026-10-10T20:13:56.642699+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB16ACT15F56": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB16ACT15F56.json",
+      "json_sha256": "d70640e719416cbb5b12b9902a21e0e9f37997c5728250569ffefd00c0d3001e",
+      "json_mtime": "2026-10-10T20:13:56.642815+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB16ACT16F62": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB16ACT16F62.json",
+      "json_sha256": "e44072e76fcf4b32cc88de9d2bf53b7214cc06dca0447db83a687cf94e8f4245",
+      "json_mtime": "2026-10-10T20:13:56.642941+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB16ACT2F67": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB16ACT2F67.json",
+      "json_sha256": "383ab89eee670b10511fa015aab6d741098c7002b25c753cbbac6d886594c6aa",
+      "json_mtime": "2026-10-10T20:13:56.641924+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB16ACT3F65": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB16ACT3F65.json",
+      "json_sha256": "6e2c7cc7cdcf1fec383d3a91ebee3b90645cee947172f3e22393fd6c0ce7a9d0",
+      "json_mtime": "2026-10-10T20:13:56.642056+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB18ACT1F74": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB18ACT1F74.json",
+      "json_sha256": "3250ce0b9e8d34ee832045b8298a2890780087c262df7cc3a5ed18001bddfa91",
+      "json_mtime": "2026-10-10T20:13:56.653738+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB18ACT10F112": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB18ACT10F112.json",
+      "json_sha256": "9e0ffdfea2568d57fcebea166717108d65c182e77704f289b69d5cba653ad0e3",
+      "json_mtime": "2026-10-10T20:13:56.654156+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB18ACT11F73": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB18ACT11F73.json",
+      "json_sha256": "3e6810eb86c154b7967791d1f39ca3e036668412afd3fadda4c593bffd285298",
+      "json_mtime": "2026-10-10T20:13:56.654309+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB18ACT12F55": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB18ACT12F55.json",
+      "json_sha256": "e7c989d18b3299e16d55a8c8bee4e8c6baee9cbd98d139bfddce7e203ef89203",
+      "json_mtime": "2026-10-10T20:13:56.654446+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB18ACT13F77": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB18ACT13F77.json",
+      "json_sha256": "387b1dc00881ca289761ec64d60e4e23d1ffb85893ef5db9d654eb29d3299e44",
+      "json_mtime": "2026-10-10T20:13:56.654601+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB18ACT14F52": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB18ACT14F52.json",
+      "json_sha256": "b7eae03507c3f0710e61258768c363a15f452c4bfca8866d7c032a4af5b5064a",
+      "json_mtime": "2026-10-10T20:13:56.654734+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB18ACT15F58": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB18ACT15F58.json",
+      "json_sha256": "b8f3d45e02397be19e0aa2b50847e4655a9ffb4710d517949ca4dc513eaa4e7c",
+      "json_mtime": "2026-10-10T20:13:56.654860+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB18ACT16F73": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB18ACT16F73.json",
+      "json_sha256": "ee404c9470e6583b18e28ccc10ce8e52ded0a41757cb6f7cf63a24e04093e174",
+      "json_mtime": "2026-10-10T20:13:56.654988+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB18ACT2F72": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB18ACT2F72.json",
+      "json_sha256": "ce5fe2069b995cc3b72f1b07ffa620a797232f4675b97e89d85b801fcc954ae6",
+      "json_mtime": "2026-10-10T20:13:56.653877+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB18ACT3F85": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB18ACT3F85.json",
+      "json_sha256": "59605131109f4d24e2934ba8301bccdc8249748329f8dac26d20b85a97af6906",
+      "json_mtime": "2026-10-10T20:13:56.654011+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB18ACT1F74": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB18ACT1F74.json",
+      "json_sha256": "a34dfce1c8e5976a80ac8f5803c09646ed548a9dc9c40f3db277e475e4d66246",
+      "json_mtime": "2026-10-10T20:13:56.643063+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB18ACT10F112": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB18ACT10F112.json",
+      "json_sha256": "577a5cbcc6710373e0f6b80bc99ec2bb9a4fa387b0f3b2ecba9ce6742e400072",
+      "json_mtime": "2026-10-10T20:13:56.643501+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB18ACT11F73": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB18ACT11F73.json",
+      "json_sha256": "b595443045d22391846c580fc77af15de1f9cbeae0c65f2a9618eaacf98231a5",
+      "json_mtime": "2026-10-10T20:13:56.643625+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB18ACT12F55": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB18ACT12F55.json",
+      "json_sha256": "7b3feab3a5135348ca64c2607962d453248c1fbd4b88a912672c1ef83f24a93e",
+      "json_mtime": "2026-10-10T20:13:56.643733+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB18ACT13F77": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB18ACT13F77.json",
+      "json_sha256": "c5299c524fa5bb57f652e4bbef9a174193584b6f847ed4f660ab2406bd6214de",
+      "json_mtime": "2026-10-10T20:13:56.643844+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB18ACT14F52": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB18ACT14F52.json",
+      "json_sha256": "9f4b2a4e56c4d916c8179d3605f9ba87790ee6a13573b82a3f39a6f908f5e3d6",
+      "json_mtime": "2026-10-10T20:13:56.643962+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB18ACT15F58": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB18ACT15F58.json",
+      "json_sha256": "f4c882e16de1535429033acc8606bd74e6b9044e6fd76f18e84d08491ab4b4d6",
+      "json_mtime": "2026-10-10T20:13:56.644079+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB18ACT16F73": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB18ACT16F73.json",
+      "json_sha256": "22659718ab90bbebfd65fca7960439bfcc8d941fcc1d4399bed392b267463ec9",
+      "json_mtime": "2026-10-10T20:13:56.644196+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB18ACT2F72": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB18ACT2F72.json",
+      "json_sha256": "f63b668ee30941f0a125ef3bb69ae4b533df87781341144d8f7f29b32a174399",
+      "json_mtime": "2026-10-10T20:13:56.643182+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB18ACT3F85": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB18ACT3F85.json",
+      "json_sha256": "b8f27bad73c95b6ac19297de370405852c4bb08d37af8e300a0036bdfaab5d94",
+      "json_mtime": "2026-10-10T20:13:56.643315+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB35ACT1F65": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB35ACT1F65.json",
+      "json_sha256": "56a9106ec2796dcc6de96b7cf8ef2dd67b71e314e8a8da846f66bf4de7958ac8",
+      "json_mtime": "2026-10-10T20:13:56.655134+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB35ACT10F87": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB35ACT10F87.json",
+      "json_sha256": "235bc7096f6646b8caab8e4e7e67207fa587fd1fe391ed3b17e60ba24879fc70",
+      "json_mtime": "2026-10-10T20:13:56.655604+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB35ACT11F59": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB35ACT11F59.json",
+      "json_sha256": "0620a4829c256c517cf964d317518c68ce5ae85cf31603b10c8c3571878fbcdb",
+      "json_mtime": "2026-10-10T20:13:56.655756+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB35ACT12F64": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB35ACT12F64.json",
+      "json_sha256": "d68466cb5da165a0970bc0dbcdf54bc5e5ccc2a63df8626b270bc7362fa55d1a",
+      "json_mtime": "2026-10-10T20:13:56.655894+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB35ACT13F60": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB35ACT13F60.json",
+      "json_sha256": "574405989e19c3d9c444e17af8eda796b628ebb8087033e82538cdc87a2c0475",
+      "json_mtime": "2026-10-10T20:13:56.656010+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB35ACT14F58": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB35ACT14F58.json",
+      "json_sha256": "4451178b495a38d005ae800faaab144912f9e8aeb6fde9ecf2b6c986d647f44a",
+      "json_mtime": "2026-10-10T20:13:56.656107+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB35ACT15F61": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB35ACT15F61.json",
+      "json_sha256": "1bd94e4c46218e15dd3c18d8b7a56ab50b0db1c4d9a1154202663fad619e5d27",
+      "json_mtime": "2026-10-10T20:13:56.656211+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB35ACT16F58": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB35ACT16F58.json",
+      "json_sha256": "84a282fbe53ad30133cf5de6fd918bb8b447894f988e82456bb0686dd57e283f",
+      "json_mtime": "2026-10-10T20:13:56.656383+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB35ACT2F50": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB35ACT2F50.json",
+      "json_sha256": "2ad8665bc38cb9ebaafa2c8089a474558e37335a0f8bb07174748a566b71cdfe",
+      "json_mtime": "2026-10-10T20:13:56.655272+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB35ACT3F61": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB35ACT3F61.json",
+      "json_sha256": "4298aa6ff720a71fbf5d7a468dfb4b34ed73f7359e5a1cae627ed41ed963e59d",
+      "json_mtime": "2026-10-10T20:13:56.655442+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB35ACT1F65": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB35ACT1F65.json",
+      "json_sha256": "6765986ac5421217fb0cdb22f6e2a1982157d637e923ffc17565201ac7fc448f",
+      "json_mtime": "2026-10-10T20:13:56.644320+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB35ACT10F87": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB35ACT10F87.json",
+      "json_sha256": "376475b7f91d5f4587c594bc183cd31ba9dfff3e078deb889169b631603da832",
+      "json_mtime": "2026-10-10T20:13:56.644678+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB35ACT11F59": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB35ACT11F59.json",
+      "json_sha256": "81d0c888e1e6f7dc2167386ad5c009118197ef9b8e09cc9f165e036ddcb3ac1c",
+      "json_mtime": "2026-10-10T20:13:56.644792+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB35ACT12F64": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB35ACT12F64.json",
+      "json_sha256": "1153b4d617f1cccd5120e6fdd090401c0871965e21898681715a2a7bad264ea1",
+      "json_mtime": "2026-10-10T20:13:56.644905+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB35ACT13F60": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB35ACT13F60.json",
+      "json_sha256": "1112a2dc5fb37909ddc448b2aeff7329d6b8c34910c8f0b4dad6e512186910bd",
+      "json_mtime": "2026-10-10T20:13:56.645020+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB35ACT14F58": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB35ACT14F58.json",
+      "json_sha256": "6e6b8d6476e477f8c061d6fa5c96fd9dc193876a482670fc3421c3bea2f0da67",
+      "json_mtime": "2026-10-10T20:13:56.645154+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB35ACT15F61": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB35ACT15F61.json",
+      "json_sha256": "df5ecafaa79fab62b5ecd99115959ca420d9e1718ddd91e13e82d21e0d846302",
+      "json_mtime": "2026-10-10T20:13:56.645280+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB35ACT16F58": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB35ACT16F58.json",
+      "json_sha256": "9aa317e30fb05019edab0eeed2ac001cbfbf293ea23c0b8fc05bda0254774011",
+      "json_mtime": "2026-10-10T20:13:56.645404+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB35ACT2F50": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB35ACT2F50.json",
+      "json_sha256": "7bd0a8c781689fd29622c82cd7d900d3f7c5ed62f09385efa99bea3f84ff9c16",
+      "json_mtime": "2026-10-10T20:13:56.644437+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB35ACT3F61": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB35ACT3F61.json",
+      "json_sha256": "efa2b4050f1a176c22ce05370d9fbf8ca13462e3994f2b07eca39605051e7cda",
+      "json_mtime": "2026-10-10T20:13:56.644558+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB41ACT1F65": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB41ACT1F65.json",
+      "json_sha256": "a6483f8d694ab5a232f4bba8d19162c4b41a7fc6bc038cee0f0adcceeb8c89fe",
+      "json_mtime": "2026-10-10T20:13:56.656510+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB41ACT10F78": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB41ACT10F78.json",
+      "json_sha256": "08e7d66db52d99e1a114316acb183251077385934589fafab12053ef11a6e73d",
+      "json_mtime": "2026-10-10T20:13:56.656924+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB41ACT11F82": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB41ACT11F82.json",
+      "json_sha256": "a674b4550217ee036c230749bc19248577ac39fa886fa7036549c0c25cc35518",
+      "json_mtime": "2026-10-10T20:13:56.657063+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB41ACT12F90": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB41ACT12F90.json",
+      "json_sha256": "84ad3dacde7ec8984e9ab93721835316dba052301ce93b75e96096708abaedc2",
+      "json_mtime": "2026-10-10T20:13:56.657189+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB41ACT13F95": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB41ACT13F95.json",
+      "json_sha256": "e481107055d568f176ac47c716f9a1278170584b900b8695f48d9b17a0c7a30d",
+      "json_mtime": "2026-10-10T20:13:56.657323+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB41ACT14F93": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB41ACT14F93.json",
+      "json_sha256": "c3cec75dc1ad3d42df63b45ded2d0fa15406bbfa30c23569fc301feab31f28e7",
+      "json_mtime": "2026-10-10T20:13:56.657452+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB41ACT15F52": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB41ACT15F52.json",
+      "json_sha256": "62b928fdd3176e2f5763a76478b1c0a9e42069af0ac2edb49e851391e70b0606",
+      "json_mtime": "2026-10-10T20:13:56.657586+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB41ACT16F105": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB41ACT16F105.json",
+      "json_sha256": "2a0ec6f17b57dd7bb0577333d3712be4add6cfd00e326ac7b94ac74fa0ba1cd7",
+      "json_mtime": "2026-10-10T20:13:56.657743+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB41ACT2F68": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB41ACT2F68.json",
+      "json_sha256": "0185b95f561a60219a734c57e4127d64f7074a5c04d017e40ceeb3bbe22aab4f",
+      "json_mtime": "2026-10-10T20:13:56.656644+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB2_SUB41ACT3F61": {
+      "annotation_json": "review/test/test_02/md_RGB2_SUB41ACT3F61.json",
+      "json_sha256": "9658e8347e79fd4e39bde74a36a91050c3f85cf013ab5af0e13b23d140804aca",
+      "json_mtime": "2026-10-10T20:13:56.656782+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "front",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB41ACT1F65": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB41ACT1F65.json",
+      "json_sha256": "cc35e0f189186d9aec9da14f833cc7e874612c0a30ef55ab33c87aa7634610fe",
+      "json_mtime": "2026-10-10T20:13:56.645534+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB41ACT10F78": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB41ACT10F78.json",
+      "json_sha256": "bc0992d0289dd1d1757db29f8f997d250f42ff4e0481b7a77a90c8b599b1aa90",
+      "json_mtime": "2026-10-10T20:13:56.645909+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB41ACT11F82": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB41ACT11F82.json",
+      "json_sha256": "1da0884fe9a80d3eb265d9c21138cf75d1ca8bcab40aa210caf64e81e71d9027",
+      "json_mtime": "2026-10-10T20:13:56.646064+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB41ACT12F90": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB41ACT12F90.json",
+      "json_sha256": "033db9f0a41906a6fa71a19ed22614bacf9312b481f2ac712cabb556a4eca304",
+      "json_mtime": "2026-10-10T20:13:56.646226+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB41ACT13F95": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB41ACT13F95.json",
+      "json_sha256": "36912a63cbdf47039cd353acf4cceedaa6aaa6d65000f7dc8a859a59d746bc0a",
+      "json_mtime": "2026-10-10T20:13:56.646371+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB41ACT14F93": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB41ACT14F93.json",
+      "json_sha256": "b83dd0e58af06480b839fac8b7126d5876becb558243c85a0b149565b33fced7",
+      "json_mtime": "2026-10-10T20:13:56.646569+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB41ACT15F52": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB41ACT15F52.json",
+      "json_sha256": "fe1d76adeaf4a9421a97b3dc9cd87fc80ae3007cad40df05565dce6e2271fdb0",
+      "json_mtime": "2026-10-10T20:13:56.646714+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB41ACT16F105": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB41ACT16F105.json",
+      "json_sha256": "d8febe9a76038499eae8c5d1615259781312f43208e5b863a1793311f1e00366",
+      "json_mtime": "2026-10-10T20:13:56.646855+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB41ACT2F68": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB41ACT2F68.json",
+      "json_sha256": "9d1f26fd759138e1f6e168f1158aab862a9ec922074a279d5b04e2de0dceca74",
+      "json_mtime": "2026-10-10T20:13:56.645681+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    },
+    "md_RGB1_SUB41ACT3F61": {
+      "annotation_json": "review/test/test_02/md_RGB1_SUB41ACT3F61.json",
+      "json_sha256": "e2496b38503689d64f2caf39104892fbe27aa1e7b861a0eecfb33a2510cae1fd",
+      "json_mtime": "2026-10-10T20:13:56.645794+08:00",
+      "checked": false,
+      "prefill_boxes": 0,
+      "review_batch": "test_02",
+      "view": "side",
+      "source_behavior": "background_candidate"
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          233.95039999999997,
+          117.03960000000001
+        ],
+        [
+          323.1401599999999,
+          117.03960000000001
+        ],
+        [
+          323.1401599999999,
+          173.98728
+        ],
+        [
+          233.95039999999997,
+          173.98728
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          285.54336,
+          120.24936
+        ],
+        [
+          321.49408,
+          120.24936
+        ],
+        [
+          321.49408,
+          146.41368000000003
+        ],
+        [
+          285.54336,
+          146.41368000000003
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          234.60032,
+          123.03288
+        ],
+        [
+          265.2896,
+          123.03288
+        ],
+        [
+          265.2896,
+          168.03047999999998
+        ],
+        [
+          234.60032,
+          168.03047999999998
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "calling",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          237.73792,
+          113.5956
+        ],
+        [
+          302.55008,
+          113.5956
+        ],
+        [
+          302.55008,
+          145.92696
+        ],
+        [
+          237.73792,
+          145.92696
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p012_c2_img_89956.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

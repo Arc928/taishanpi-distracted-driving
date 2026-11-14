@@ -1,0 +1,92 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          355.50816000000003,
+          191.11536
+        ],
+        [
+          429.92544000000004,
+          191.11536
+        ],
+        [
+          429.92544000000004,
+          352.2552
+        ],
+        [
+          355.50816000000003,
+          352.2552
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          392.68,
+          191.1072
+        ],
+        [
+          427.99328,
+          191.1072
+        ],
+        [
+          427.99328,
+          262.04448
+        ],
+        [
+          392.68,
+          262.04448
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    },
+    {
+      "label": "texting",
+      "shape_type": "rectangle",
+      "flags": {},
+      "points": [
+        [
+          367.8832,
+          190.97015999999996
+        ],
+        [
+          428.70176000000004,
+          190.97015999999996
+        ],
+        [
+          428.70176000000004,
+          289.51751999999993
+        ],
+        [
+          367.8832,
+          289.51751999999993
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "attributes": {}
+    }
+  ],
+  "imagePath": "p045_c1_img_16204.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "flags": {},
+  "checked": false,
+  "shapes": [
+    {
+      "label": "calling",
+      "score": null,
+      "points": [
+        [
+          363.2546422101449,
+          74.6269248188406
+        ],
+        [
+          504.7005208333333,
+          74.6269248188406
+        ],
+        [
+          504.7005208333333,
+          270.70652173913044
+        ],
+        [
+          363.2546422101449,
+          270.70652173913044
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "md_RGB2_SUB31ACT8F63.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": "The visible person is seated in the passenger seat (steering wheel is on the left) and is merely touching his face with no phone present."
+}

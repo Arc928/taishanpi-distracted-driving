@@ -1,0 +1,22 @@
+{
+  "id": "md_RGB1_SUB38ACT16F80",
+  "status": "success",
+  "requested_model": "gemini-3.8-flash-high",
+  "returned_model": "gemini-3.8-flash-n",
+  "prompt_sha256": "3304a778cd16cb78b1a17fd1071409d9513c8ca02d8f4159314178d7f77b3faa",
+  "result": {
+    "objects": [],
+    "uncertain": true,
+    "note": "The driver is holding a small black device near his mouth that resembles an e-cigarette or vape rather than a mobile phone, and he is looking ahead at the road; uncertain if a phone exists."
+  },
+  "usage": {
+    "completion_tokens": 5482,
+    "total_tokens": 6951,
+    "prompt_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 5426
+    }
+  },
+  "seconds": 38.67,
+  "attempt": 1
+}

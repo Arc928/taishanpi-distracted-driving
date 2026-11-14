@@ -1,0 +1,101 @@
+image,class_name,boxes,max_conf,prompt,status
+images/train/p052_c1_img_24644.jpg,texting,2,0.08864381909370422,person holding a cell phone,proposal
+images/train/p014_c3_img_13211.jpg,texting,3,0.02020212635397911,cell phone,proposal
+images/train/p002_c3_img_19344.jpg,texting,3,0.20241263508796692,person holding a cell phone,proposal
+images/train/p061_c3_img_74558.jpg,texting,2,0.014981449581682682,cell phone,proposal
+images/train/p024_c1_img_84847.jpg,texting,1,0.0252690352499485,cell phone,proposal
+images/train/p022_c3_img_74323.jpg,texting,1,0.4916713833808899,cell phone,proposal
+images/train/p022_c3_img_32433.jpg,texting,1,0.013807598501443863,cell phone,proposal
+images/train/p015_c1_img_18674.jpg,texting,4,0.033775683492422104,cell phone,proposal
+images/train/p061_c3_img_45294.jpg,texting,1,0.14441949129104614,person holding a cell phone,proposal
+images/train/p014_c1_img_57881.jpg,texting,3,0.07618068158626556,cell phone,proposal
+images/train/p056_c1_img_30452.jpg,texting,1,0.05709408223628998,person holding a cell phone,proposal
+images/train/p075_c1_img_7266.jpg,texting,2,0.0454573854804039,cell phone,proposal
+images/train/p049_c3_img_6265.jpg,texting,1,0.014844522811472416,cell phone,proposal
+images/train/p014_c1_img_11053.jpg,texting,1,0.12325344979763031,cell phone,proposal
+images/train/p050_c3_img_9480.jpg,texting,1,0.06704253703355789,person holding a cell phone,proposal
+images/train/p045_c1_img_16204.jpg,texting,3,0.021196521818637848,cell phone,proposal
+images/train/p002_c3_img_57637.jpg,texting,1,0.023113874718546867,cell phone,proposal
+images/train/p002_c3_img_57513.jpg,texting,1,0.014003119431436062,cell phone,proposal
+images/train/p014_c1_img_35598.jpg,texting,5,0.11080775409936905,cell phone,proposal
+images/train/p022_c3_img_15274.jpg,texting,2,0.10583559423685074,person holding a cell phone,proposal
+images/train/p022_c3_img_51112.jpg,texting,1,0.014324091374874115,cell phone,proposal
+images/train/p047_c3_img_72566.jpg,texting,3,0.024835364893078804,cell phone,proposal
+images/train/p051_c1_img_7264.jpg,texting,1,0.09716691821813583,person holding a cell phone,proposal
+images/train/p002_c3_img_22374.jpg,texting,1,0.011486785486340523,cell phone,proposal
+images/train/p050_c1_img_60251.jpg,texting,3,0.018803758546710014,cell phone,proposal
+images/train/p022_c1_img_66341.jpg,texting,2,0.07994579523801804,cell phone,proposal
+images/train/p061_c1_img_2388.jpg,texting,1,0.03372781723737717,cell phone,proposal
+images/train/p052_c1_img_93050.jpg,texting,2,0.1381995528936386,person holding a cell phone,proposal
+images/train/p056_c3_img_60352.jpg,texting,1,0.10746432095766068,person holding a cell phone,proposal
+images/train/p042_c3_img_8919.jpg,texting,3,0.04646523296833038,cell phone,proposal
+images/train/p022_c3_img_29731.jpg,texting,2,0.3562943935394287,cell phone,proposal
+images/train/p045_c3_img_40945.jpg,texting,3,0.09822587668895721,cell phone,proposal
+images/train/p050_c3_img_91933.jpg,texting,1,0.010293089784681797,cell phone,proposal
+images/train/p024_c1_img_942.jpg,texting,1,0.33699876070022583,cell phone,proposal
+images/train/p066_c1_img_49173.jpg,texting,1,0.06856529414653778,person holding a cell phone,proposal
+images/train/p072_c3_img_73807.jpg,texting,2,0.08876769989728928,person holding a cell phone,proposal
+images/train/p002_c1_img_51195.jpg,texting,2,0.06773009896278381,cell phone,proposal
+images/train/p064_c1_img_46015.jpg,texting,1,0.20684374868869781,person holding a cell phone,proposal
+images/train/p066_c1_img_43312.jpg,texting,1,0.08629068732261658,person holding a cell phone,proposal
+images/train/p015_c3_img_1317.jpg,texting,2,0.135354146361351,cell phone,proposal
+images/train/p056_c3_img_47198.jpg,texting,2,0.029055370017886162,cell phone,proposal
+images/train/p035_c3_img_25100.jpg,texting,1,0.1379227489233017,cell phone,proposal
+images/train/p015_c1_img_88381.jpg,texting,3,0.014464027248322964,cell phone,proposal
+images/train/p022_c3_img_101486.jpg,texting,1,0.1474108248949051,person holding a cell phone,proposal
+images/train/p064_c1_img_52415.jpg,texting,1,0.01571953296661377,cell phone,proposal
+images/train/p035_c3_img_16651.jpg,texting,2,0.06595665216445923,cell phone,proposal
+images/train/p041_c3_img_22555.jpg,texting,1,0.12732842564582825,person holding a cell phone,proposal
+images/train/p014_c1_img_53609.jpg,texting,2,0.09611886739730835,person holding a cell phone,proposal
+images/train/p035_c3_img_97427.jpg,texting,2,0.014231479726731777,cell phone,proposal
+images/train/p066_c3_img_83487.jpg,texting,0,0.0,person holding a cell phone,no_detection
+images/train/p035_c4_img_22165.jpg,calling,4,0.038095906376838684,cell phone,proposal
+images/train/p051_c2_img_27776.jpg,calling,2,0.03831670060753822,cell phone,proposal
+images/train/p024_c2_img_37871.jpg,calling,3,0.03853093460202217,cell phone,proposal
+images/train/p066_c2_img_101679.jpg,calling,4,0.20610769093036652,cell phone,proposal
+images/train/p012_c2_img_100784.jpg,calling,9,0.17248116433620453,cell phone,proposal
+images/train/p061_c2_img_33841.jpg,calling,1,0.034908637404441833,cell phone,proposal
+images/train/p045_c4_img_73233.jpg,calling,1,0.5251137018203735,cell phone,proposal
+images/train/p049_c2_img_86343.jpg,calling,1,0.03188847750425339,cell phone,proposal
+images/train/p014_c4_img_18203.jpg,calling,3,0.1311614215373993,person holding a cell phone,proposal
+images/train/p075_c4_img_95573.jpg,calling,1,0.03718848153948784,cell phone,proposal
+images/train/p041_c2_img_79093.jpg,calling,2,0.13696444034576416,cell phone,proposal
+images/train/p012_c4_img_5031.jpg,calling,3,0.01562919095158577,cell phone,proposal
+images/train/p049_c4_img_55845.jpg,calling,2,0.5149403810501099,cell phone,proposal
+images/train/p024_c4_img_53231.jpg,calling,2,0.06312508136034012,cell phone,proposal
+images/train/p066_c2_img_65572.jpg,calling,0,0.0,person holding a cell phone,no_detection
+images/train/p051_c4_img_27381.jpg,calling,1,0.10268035531044006,cell phone,proposal
+images/train/p051_c2_img_82650.jpg,calling,6,0.1685144454240799,cell phone,proposal
+images/train/p075_c2_img_46111.jpg,calling,3,0.056497227400541306,cell phone,proposal
+images/train/p072_c2_img_22214.jpg,calling,1,0.18901468813419342,person holding a cell phone,proposal
+images/train/p035_c4_img_98317.jpg,calling,6,0.18525944650173187,cell phone,proposal
+images/train/p050_c2_img_81139.jpg,calling,1,0.020150497555732727,cell phone,proposal
+images/train/p022_c2_img_43732.jpg,calling,4,0.030185453593730927,cell phone,proposal
+images/train/p056_c4_img_16554.jpg,calling,2,0.08945126086473465,cell phone,proposal
+images/train/p012_c4_img_24482.jpg,calling,3,0.07959254831075668,cell phone,proposal
+images/train/p012_c2_img_19848.jpg,calling,6,0.10291273146867752,cell phone,proposal
+images/train/p052_c2_img_92283.jpg,calling,1,0.010586434043943882,cell phone,proposal
+images/train/p022_c4_img_20156.jpg,calling,1,0.035402148962020874,cell phone,proposal
+images/train/p064_c2_img_20514.jpg,calling,1,0.02740447409451008,cell phone,proposal
+images/train/p024_c4_img_31067.jpg,calling,3,0.17200171947479248,cell phone,proposal
+images/train/p066_c4_img_97069.jpg,calling,1,0.012630566954612732,cell phone,proposal
+images/train/p022_c4_img_27597.jpg,calling,1,0.01035290863364935,cell phone,proposal
+images/train/p072_c2_img_8863.jpg,calling,4,0.02698409929871559,cell phone,proposal
+images/train/p014_c2_img_37310.jpg,calling,6,0.0794394388794899,cell phone,proposal
+images/train/p041_c4_img_28996.jpg,calling,1,0.1965886950492859,cell phone,proposal
+images/train/p024_c2_img_89012.jpg,calling,3,0.24474072456359863,cell phone,proposal
+images/train/p045_c4_img_52883.jpg,calling,2,0.5852805376052856,cell phone,proposal
+images/train/p051_c4_img_58244.jpg,calling,2,0.11873481422662735,cell phone,proposal
+images/train/p066_c4_img_23384.jpg,calling,2,0.0716647282242775,cell phone,proposal
+images/train/p041_c2_img_21198.jpg,calling,4,0.04948467016220093,cell phone,proposal
+images/train/p015_c2_img_97132.jpg,calling,3,0.04432627558708191,cell phone,proposal
+images/train/p041_c2_img_2962.jpg,calling,2,0.15786704421043396,cell phone,proposal
+images/train/p035_c4_img_64670.jpg,calling,4,0.02359623834490776,cell phone,proposal
+images/train/p022_c2_img_67501.jpg,calling,2,0.30520930886268616,cell phone,proposal
+images/train/p052_c4_img_55001.jpg,calling,1,0.15477532148361206,cell phone,proposal
+images/train/p024_c2_img_49746.jpg,calling,5,0.41528692841529846,cell phone,proposal
+images/train/p056_c4_img_102060.jpg,calling,3,0.04000219702720642,cell phone,proposal
+images/train/p056_c2_img_19581.jpg,calling,3,0.047443192452192307,cell phone,proposal
+images/train/p052_c2_img_52360.jpg,calling,2,0.07342145591974258,person holding a cell phone,proposal
+images/train/p012_c4_img_24607.jpg,calling,3,0.18695227801799774,cell phone,proposal
+images/train/p051_c2_img_3692.jpg,calling,4,0.22757141292095184,cell phone,proposal
