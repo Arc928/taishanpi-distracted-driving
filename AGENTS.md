@@ -73,11 +73,14 @@ State Farm 阶段的 seed/selftrain/review/remaining/validation 目录已在 `ar
 人工 JSON、标签、预测 JSON、统计和保留模型均按哈希核验为未改变。
 历史配置中的路径已适配归档位置，原配置及两份当前 manifest 原版在 `archive/config-originals/`。
 
-当前脚本（顶层）：`prepare_dataset.py`、`train_seed.py`、`check_validation.py`、
-`prepare_multiview.py`、`export_multiview.py`、`prepare_targeted_round.py`、`export_targeted_round.py`、
-`prepare_test_review.py`、`evaluate_reviewed_holdout.py`、单测 `test_multiview_dataset.py`、`test_current_config.py`。
-公用逻辑在 `core/` 包（2026-11-14 起，见第 17 节）：`paths`、`io`、`labels`、`splits`、`metrics`、`config`。
-`continue_split.py`（State Farm 阶段 CLI）和 `annotation_io.py` 保留为兼容转发，供 experiments 中的历史脚本导入。
+当前脚本（2026-11-14 整理后，见第 17 节）：
+- 顶层：`train.py`、`evaluate_reviewed_holdout.py`、`check_validation.py`、`prepare_targeted_round.py`、
+  `export_targeted_round.py`、`relink_sources.py`。
+- `builders/`：已执行完毕的一次性构建脚本 `prepare_dataset.py`、`prepare_multiview.py`、`export_multiview.py`、
+  `prepare_test_review.py`。
+- `tests/`：全部单测，在项目根运行 `./.venv/bin/python -m unittest discover -s yolo_phone/tests -t yolo_phone`。
+- 公用逻辑在 `core/`：`paths`、`io`、`labels`、`splits`、`metrics`、`config`、`registry`、`sources`。
+- `continue_split.py`、`annotation_io.py`、`train_seed.py` 已删除，可从 git 历史找回。
 归档旧脚本已于 2026-11-02 删除（移入废纸篓，见第 16 节）。
 
 ## 4. 数据与验证约定
@@ -142,7 +145,7 @@ p081 背景误报 1/62→4/62。它们与训练重叠，不能作为独立泛化
 
 ```bash
 # 当前划分的抽样方式；现有目录已存在，重跑须换输出名
-./.venv/bin/python yolo_phone/prepare_dataset.py --sample-every 8 --seed 42 \
+./.venv/bin/python yolo_phone/builders/prepare_dataset.py --sample-every 8 --seed 42 \
   --val-subjects p016 p021 p026 --output yolo_phone/dataset_23train_3eval_1of8
 
 # 训练（2026-11-14 起）：超参只写在 experiments/<实验>/plan.yaml，模板 experiments/plan_template.yaml
@@ -515,3 +518,15 @@ experiments 中的 run/train 记录脚本。项目（不含 .venv）约 544M。
   指向项目内部的绝对链接改为相对链接（其中 65 个是 git 跟踪的 JSON 链接），记录在 `archive/relink-20261114-163359.json`。
   核验：全部 63907 个链接改写前后解析到同一文件、无失效；项目内已无绝对内部链接；32 个单测通过。
   其余链接指向 `~/Downloads` 原始数据，仍为绝对路径，由 `config/sources.yaml` 与 `--source` 模式处理。
+
+2026-11-14 用户要求“这些脚本现在如果有没用的就删掉，或者说整理的干净一点”：
+- 删除（`git rm`，可从历史找回）：
+  - `annotation_io.py`、`continue_split.py`：兼容转发；
+  - `train_seed.py`：已被 `train.py --plan` 取代。
+  - experiments 中 `threshold_select.py`、`val_compare.py`、`official_resume150/run.py` 改从 core 导入，
+    原版在 `archive/config-originals/2026-11-14b/`。
+  - `archive/experiments/official_low_lr150_20261012/run.py` 仍导入已删模块，属归档记录，不再运行。
+- 移入 `builders/`（附 README 对照登记表 id）：`prepare_dataset`、`prepare_multiview`、`export_multiview`、`prepare_test_review`。
+  脚本开头加入 yolo_phone 到导入路径；`prepare_dataset` 默认输出改为 `data/dataset`。
+- 移入 `tests/`：5 个单测文件；运行命令改为 `discover -s yolo_phone/tests -t yolo_phone`。
+- 顶层只留 6 个现行入口。核验：32 个单测通过；10 个脚本 `--help` 均可启动；3 个实验脚本可导入；无残留导入。

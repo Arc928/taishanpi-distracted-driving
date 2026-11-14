@@ -17,6 +17,9 @@ import random
 import shutil
 from pathlib import Path
 
+import sys  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # builders/ 下的脚本需能导入 yolo_phone/core
+
 from core.labels import NAMES
 from core.sources import root as source_root
 
@@ -58,7 +61,7 @@ def main() -> None:
         default=source_root("statefarm"),
         help="State Farm 数据集根目录（包含 driver_imgs_list.csv 和 imgs/train），默认取 config/sources.yaml",
     )
-    parser.add_argument("--output", type=Path, default=Path(__file__).resolve().parent / "dataset")
+    parser.add_argument("--output", type=Path, default=Path(__file__).resolve().parents[1] / "data" / "dataset")
     parser.add_argument(
         "--sample-every", "--stride", dest="sample_every",
         type=int,

@@ -8,7 +8,7 @@ import yaml
 from core.io import digest
 from train import load_plan
 
-TEMPLATE = Path(__file__).resolve().parent / 'experiments' / 'plan_template.yaml'
+TEMPLATE = Path(__file__).resolve().parents[1] / 'experiments' / 'plan_template.yaml'
 
 
 class TrainPlanTests(unittest.TestCase):

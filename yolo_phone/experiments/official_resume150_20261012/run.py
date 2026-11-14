@@ -39,8 +39,7 @@ def rows(path):
 def worker(plan):
     import torch
     from ultralytics import YOLO
-    from continue_split import check_snapshot
-    from prepare_multiview import check_disjoint
+    from core.splits import check_disjoint, check_snapshot
 
     run = Path(plan['run_dir'])
     checkpoint = Path(plan['resume_checkpoint'])

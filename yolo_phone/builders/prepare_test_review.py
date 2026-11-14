@@ -10,6 +10,9 @@ from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
+import sys  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # builders/ 下的脚本需能导入 yolo_phone/core
+
 from core.io import csv_rows, digest, write_json
 from core.registry import path as dataset
 

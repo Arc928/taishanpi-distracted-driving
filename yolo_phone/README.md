@@ -69,7 +69,7 @@ data.yaml 的 `path:` 保持绝对路径（Ultralytics 会把相对路径接到�
 ## 当前配置（唯一来源）
 
 `config/current.yaml` 记录当前训练集、网站权重及其 SHA-256、默认阈值、imgsz 与 NMS IoU。
-网站服务、`train_seed.py` 和 `check_validation.py` 的默认值都从这里读取（`train.py` 只认训练计划）。
+网站服务和 `check_validation.py` 的默认值都从这里读取（`train.py` 只认训练计划）。
 - 切换网站模型：改 `weights.path` 与 `weights.sha256`；阈值只能按 val 选定后改 `confidence`。改完重启服务并提交 git。
 - 哈希不一致时服务拒绝启动；`server.py --weights <路径>` 可临时覆盖，不做哈希比对。
 - 类别 id 顺序固定在 `core/labels.py` 的 `NAMES`，不在配置中。
@@ -77,7 +77,19 @@ data.yaml 的 `path:` 保持绝对路径（Ultralytics 会把相对路径接到�
 
 ## 代码结构
 
-顶层 `*.py` 是命令行入口；可复用的逻辑放在 `core/`：
+| 位置 | 内容 |
+|---|---|
+| `train.py` | 按训练计划训练（`experiments/<实验>/plan.yaml`） |
+| `evaluate_reviewed_holdout.py` | 人工框评估 3MDAD test/val（mAP 与图像级命中） |
+| `check_validation.py` | State Farm 3 位独立司机的图像级评估 |
+| `prepare_targeted_round.py` | 为下一轮挑选待审核的补充候选（选样计划仍是第 2 轮的） |
+| `export_targeted_round.py` | 审核完成后把补充数据合并进训练集 |
+| `relink_sources.py` | 原始数据或项目搬家后改写软链接 |
+| `builders/` | 已执行完毕的一次性数据集构建脚本，保留以说明来源（见其 README） |
+| `tests/` | 单测：数据安全、配置、登记表、原始数据位置、训练计划 |
+| `core/` | 公用逻辑，脚本只从这里导入 |
+
+`core/` 各模块：
 
 | 模块 | 内容 |
 |---|---|
@@ -91,9 +103,7 @@ data.yaml 的 `path:` 保持绝对路径（Ultralytics 会把相对路径接到�
 
 训练统一用 `train.py --plan`：超参只写在计划文件里，结果（`resolved_plan.json` 含 git 提交、`status.json`、`result.json`）
 写在计划旁边，最佳轮次按 Ultralytics 实际保存 best.pt 的规则（val mAP50-95 最大）记录。
-`train_seed.py` 只留作快速继续训练；`experiments/` 里各实验自带的 `run.py`/`train.py` 是历史记录，续训类实验仍需专门脚本。
-
-`continue_split.py`、`annotation_io.py` 仅为兼容 experiments 中历史脚本的旧导入，新代码直接从 `core` 导入。
+`experiments/` 里各实验自带的 `run.py`/`train.py` 是历史记录，续训类实验仍需专门脚本。
 
 ## 常用命令
 
@@ -103,11 +113,6 @@ data.yaml 的 `path:` 保持绝对路径（Ultralytics 会把相对路径接到�
 # 人工框评估：test 或 val；--labels-only 只检查标注、不跑模型
 ./.venv/bin/python yolo_phone/evaluate_reviewed_holdout.py --split test \
   --weights <标签>=<权重.pt> --confirmation '<审核完成说明>' --output yolo_phone/<新目录>
-
-# 3MDAD 审核目录首次导出为训练集（v1 用法）
-./.venv/bin/python yolo_phone/export_multiview.py \
-  --dataset yolo_phone/gemini38flash_3mdad_v1/review_dataset \
-  --output yolo_phone/<新训练目录> --confirmation '<复核完成说明>'
 
 # 在已有训练集上合并一轮审核过的补充数据（第 2 轮起的用法）
 ./.venv/bin/python yolo_phone/export_targeted_round.py \
@@ -120,7 +125,7 @@ nohup ./.venv/bin/python -u yolo_phone/train.py --plan yolo_phone/experiments/<�
   > yolo_phone/experiments/<新实验>/training.log 2>&1 &
 
 # 数据安全与配置单测（项目根目录运行）
-./.venv/bin/python -m unittest discover -s yolo_phone -p 'test_*.py'
+./.venv/bin/python -m unittest discover -s yolo_phone/tests -t yolo_phone
 
 # 本机测试网页
 ./.venv/bin/python yolo_phone/local_demo/start.py

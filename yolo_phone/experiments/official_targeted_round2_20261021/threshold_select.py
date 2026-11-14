@@ -13,10 +13,10 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0,str(HERE.parents[1]))
 from ultralytics import YOLO
 
-from continue_split import csv_rows, digest
+from core.io import csv_rows, digest, write_json
 from evaluate_reviewed_holdout import ground_truth, image_level, image_status, load_reviewed, summarize
-from annotation_io import NAMES
-from prepare_multiview import BASE, write_json
+from core.labels import NAMES
+from core.paths import BASE
 from core.registry import path as dataset  # noqa: E402  数据集目录按 config/datasets.yaml 定位
 
 DATA = dataset('train_targeted_round2')
