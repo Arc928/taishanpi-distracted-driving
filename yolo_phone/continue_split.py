@@ -11,10 +11,11 @@ from pathlib import Path
 from core.io import csv_rows, digest  # noqa: F401
 from core.labels import json_to_yolo, validate_label
 from core.paths import artifact
+from core.registry import path as dataset
 from core.splits import check_snapshot, snapshot  # noqa: F401
 
 BASE = Path(__file__).resolve().parent
-DEFAULT_DATASET = BASE / 'dataset_23train_3eval_1of8'
+DEFAULT_DATASET = dataset('statefarm_base_1of8')
 
 
 def materialize(root, out, records, seed_dir=None):

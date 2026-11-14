@@ -14,11 +14,12 @@ from pathlib import Path
 from core.io import csv_rows, digest, write_csv, write_json
 from core.labels import BACKGROUND, NAMES
 from core.paths import BASE
+from core.registry import path as dataset
 from core.splits import check_disjoint, select_frames
 
-INVENTORY = BASE/'multiview_statefarm_3mdad_v1/source_inventory_3mdad.csv'
-REVIEW = BASE/'gemini38flash_3mdad_v1/review_dataset'
-TRAIN = BASE/'selftrain_multiview_gemini_reviewed_20261010'
+INVENTORY = dataset('mdad_selection_v1')/'source_inventory_3mdad.csv'
+REVIEW = dataset('mdad_review_v1')
+TRAIN = dataset('train_mixed_v1')
 WEIGHTS = BASE/'runs/multiview_official_resume100_20261011_yolo11n/weights/best.pt'
 POSITIVE_PLAN = [('train','front','AC6',8), ('train','side','AC8',3), ('val','front','AC6',8)]
 BATCH = 280

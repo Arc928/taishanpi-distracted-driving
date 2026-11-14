@@ -456,3 +456,21 @@ experiments 中的 run/train 记录脚本。项目（不含 .venv）约 544M。
   - 权重文件及所有评估都基于实际文件，结论不变，只是标签差一轮。
   - 第 15 节等历史记录中的“e51”保留原文，README 与 config 已注明。
   - 其他 run 两种规则选出的轮次相同，混合 e27 一致。
+
+2026-11-14 用户第四次说“接着做”，完成架构建议第 5 项的登记表部分：新增数据集登记表 `yolo_phone/config/datasets.yaml`。
+- 共 32 条：8 个现行/历史数据集、多视角集内的 State Farm eval 副本 `eval_statefarm`、23 个 `archive/data/` 目录。
+  每条记录路径、类型、状态（active/protected/historical/archived）、上游来源（parents）和 manifest SHA-256。
+- 新增 `core/registry.py`。
+  - `config/current.yaml` 的 `dataset` 改为登记表 id `train_targeted_round2`；
+  - 各脚本写死的数据集目录改为按 id 查找；
+  - `artifact()` 改为只查登记表，未登记即报错，不再静默回退到归档目录。
+- 新增 `test_dataset_registry.py`，检查以下几项，共 26 个单测通过：
+  - 登记路径存在、manifest 哈希与磁盘一致；
+  - 磁盘上所有含 manifest 的目录和归档目录都已登记；
+  - 来源关系无循环；当前训练集为 active。
+  - 首次运行即发现未登记的 `multiview_statefarm_3mdad_v1/eval_statefarm`，已补登记为 protected。
+- 核验：
+  - 全部脚本及 experiments 中的 val_compare、threshold_select 均能导入；
+  - labels-only 重跑 test 的审核决策与 10-21 结果逐字节一致；
+  - 训练计划试跑解析出同一 data.yaml。
+- 未做：把数据集目录实际移入 `data/`。登记表建好后，移动只需改 path 和 data.yaml，留待用户决定。

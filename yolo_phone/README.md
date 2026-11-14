@@ -24,6 +24,15 @@ YOLO11n 检测驾驶员用手机，两类固定为 0 `texting`、1 `calling`，�
   - test：mAP50 0.937；texting 85/98、calling 85/94、背景误报 5/200。
   - 与 e79 的对比见 `experiments/official_targeted_round2_20261021/` 和 `evals/test_reviewed_eval_targeted_round2_20261021/`。
 
+## 数据集登记表
+
+`config/datasets.yaml` 登记全部数据集（含 `archive/data/` 下的历史目录）的 id、路径、类型、状态
+（active / protected / historical / archived）、上游来源和 manifest 哈希。脚本按 id 定位数据集，
+`artifact(目录名)` 也只查登记表，未登记就报错，不再自动回退到归档目录。
+- 新建数据集：在登记表加一条（含 parents 和 manifest_sha256），否则 `test_dataset_registry.py` 会失败。
+- 移动目录：改对应的 `path:` 一行即可；data.yaml 中的绝对 `path:` 需同步更新。
+- manifest 哈希与磁盘不符时单测失败，须先查明数据被谁改动。
+
 ## 目录
 
 | 目录 | 用途 |
@@ -61,6 +70,7 @@ YOLO11n 检测驾驶员用手机，两类固定为 0 `texting`、1 `calling`，�
 | `core/splits.py` | 司机划分、选帧、跨划分泄漏检查、State Farm eval 快照 |
 | `core/metrics.py` | 人工框评估的 IoU、逐图状态与汇总 |
 | `core/config.py` | 读取并校验 `config/current.yaml` |
+| `core/registry.py` | 按 id 查 `config/datasets.yaml` 中登记的数据集 |
 
 训练统一用 `train.py --plan`：超参只写在计划文件里，结果（`resolved_plan.json` 含 git 提交、`status.json`、`result.json`）
 写在计划旁边，最佳轮次按 Ultralytics 实际保存 best.pt 的规则（val mAP50-95 最大）记录。

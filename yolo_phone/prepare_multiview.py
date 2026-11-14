@@ -10,6 +10,7 @@ from pathlib import Path
 from core.io import csv_rows, digest, write_csv, write_json
 from core.labels import BACKGROUND, NAMES, POSITIVE, validate_label
 from core.paths import BASE, artifact
+from core.registry import path as dataset
 from core.splits import EVAL_DRIVERS, check_disjoint, check_snapshot, select_frames, split_subjects
 
 
@@ -77,7 +78,7 @@ def prefill(out, rows, weights):
 
 def build(args):
     out, source = args.output.resolve(), args.source.resolve()
-    sf = BASE/'dataset_23train_3eval_1of8'
+    sf = dataset('statefarm_base_1of8')
     old = artifact('selftrain_23train_round2')
     if out.exists():
         raise ValueError(f'Refusing to overwrite {out}')

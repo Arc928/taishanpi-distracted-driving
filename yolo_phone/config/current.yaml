@@ -6,7 +6,7 @@
 imgsz: 640            # 训练与推理尺寸固定
 nms_iou: 0.5
 
-dataset: selftrain_multiview_targeted_round2_20261021/data.yaml
+dataset: train_targeted_round2   # config/datasets.yaml 中的 id
 
 weights:
   path: runs/multiview_targeted_round2_20261021_yolo11n/weights/best.pt

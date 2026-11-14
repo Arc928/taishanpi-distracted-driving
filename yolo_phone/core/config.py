@@ -38,7 +38,12 @@ def load(path=CONFIG):
 
 
 def dataset_path():
-    return BASE / load()['dataset']
+    """data.yaml of the current training set, located through config/datasets.yaml."""
+    from . import registry
+    dataset_id = load()['dataset']
+    if registry.entry(dataset_id)['kind'] != 'training_set':
+        raise ValueError(f'当前数据集 {dataset_id} 不是 training_set')
+    return registry.path(dataset_id) / 'data.yaml'
 
 
 def weights_path(verify=True):

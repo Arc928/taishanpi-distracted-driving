@@ -18,10 +18,11 @@ from ultralytics import YOLO
 from core import config as current_config
 from core.io import csv_rows
 from core.labels import NAMES as CLASS_NAMES
+from core.registry import path as dataset
 from core.splits import snapshot as val_snapshot
 
 BASE=Path(__file__).resolve().parent
-ROOT=BASE/'dataset_23train_3eval_1of8'
+ROOT=dataset('statefarm_base_1of8')
 NAMES=(*CLASS_NAMES.values(),'background')
 
 

@@ -11,9 +11,9 @@ from datetime import datetime
 from pathlib import Path
 
 from core.io import csv_rows, digest, write_json
-from core.paths import BASE
+from core.registry import path as dataset
 
-REVIEW = BASE/'gemini38flash_3mdad_v1/review_dataset'
+REVIEW = dataset('mdad_review_v1')
 
 
 def main():

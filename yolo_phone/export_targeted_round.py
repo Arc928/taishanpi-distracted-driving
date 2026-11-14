@@ -17,10 +17,10 @@ from pathlib import Path
 
 from core.io import csv_rows, digest, write_csv, write_json
 from core.labels import NAMES, json_to_yolo
-from core.paths import BASE
+from core.registry import path as dataset
 from core.splits import check_disjoint, check_snapshot
 
-TEST_MANIFEST = BASE/'gemini38flash_3mdad_v1/review_dataset/manifest.csv'
+TEST_MANIFEST = dataset('mdad_review_v1')/'manifest.csv'
 
 
 def decide(row, text, excluded):
@@ -119,7 +119,7 @@ def main():
                'totals':dict(Counter(r['split'] for r in rows)),
                'rule':'box->positive; empty source phone action->excluded; empty hard negative->background',
                'test_included':False,'leakage_checks':'subject and SHA-256 disjoint incl. 3MDAD test'})
-    check_snapshot(BASE/'dataset_23train_3eval_1of8')
+    check_snapshot(dataset('statefarm_base_1of8'))
     names = ''.join(f'  {k}: {v}\n' for k,v in NAMES.items())
     (out/'data.yaml').write_text(f'path: {out}\ntrain: images/train\nval: images/val\nnames:\n{names}')
     print(json.dumps(json.loads((out/'summary.json').read_text()),ensure_ascii=False,indent=2))

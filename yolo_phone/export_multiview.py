@@ -8,7 +8,7 @@ from pathlib import Path
 
 from core.io import csv_rows, digest, write_csv, write_json
 from core.labels import json_to_yolo, validate_label
-from core.paths import BASE
+from core.registry import path as dataset
 from core.splits import check_disjoint, check_snapshot
 
 
@@ -40,7 +40,7 @@ def export(dataset, out, confirmation):
     for path, sha in frozen.items():
         if digest(dataset/path) != sha:
             raise ValueError(f'Frozen selection changed: {path}')
-    check_snapshot(BASE/'dataset_23train_3eval_1of8')
+    check_snapshot(dataset('statefarm_base_1of8'))
     rows = csv_rows(dataset/'manifest.csv')
     decisions = csv_rows(dataset/'review_status.csv')
     by_id = {r['id']:r for r in decisions}
@@ -107,7 +107,7 @@ def export(dataset, out, confirmation):
                'selection_hashes':frozen,'review_status_sha256':digest(dataset/'review_status.csv'),
                'counts':dict(Counter(r['split'] for r in exported)), 'test_included':test_ready,
                'omitted':excluded,'eval_files_unchanged':True})
-    check_snapshot(BASE/'dataset_23train_3eval_1of8')
+    check_snapshot(dataset('statefarm_base_1of8'))
     # Write usable training entry point last, after every verification succeeds.
     (out/'data.yaml').write_text(f'path: {out}\ntrain: images/train\nval: images/val\n'+
                               ('test: images/test\n' if test_ready else '')+

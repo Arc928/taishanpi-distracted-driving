@@ -19,10 +19,11 @@ from core.io import csv_rows, digest, write_csv, write_json
 from core.labels import NAMES, json_to_yolo
 from core.metrics import VIEWS, categorize, ground_truth, image_status, iou, summarize  # noqa: F401
 from core.paths import BASE
+from core.registry import path as dataset
 from core.splits import check_disjoint
 
-REVIEW = BASE/'gemini38flash_3mdad_v1/review_dataset'
-TRAIN = BASE/'selftrain_multiview_gemini_reviewed_20261010'
+REVIEW = dataset('mdad_review_v1')
+TRAIN = dataset('train_mixed_v1')
 DEFAULT_WEIGHTS = [
     'official_resume100_e79='+str(BASE/'runs/multiview_official_resume100_20261011_yolo11n/weights/best.pt'),
     'mixed_round27='+str(BASE/'runs/multiview_gemini_reviewed_20261010_yolo11n/weights/best.pt')]
@@ -114,7 +115,7 @@ def image_level(model, rows):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--split',choices=('test','val'),default='test')
-    parser.add_argument('--baseline',type=Path,default=BASE/'test_review_3mdad_20261021')
+    parser.add_argument('--baseline',type=Path,default=dataset('mdad_test_review_baseline'))
     parser.add_argument('--weights',nargs='+',default=DEFAULT_WEIGHTS,help='tag=path; fixed before looking at results')
     parser.add_argument('--confirmation',default='',help='Human statement that review of this split is complete')
     parser.add_argument('--labels-only',action='store_true',help='Audit review decisions without running any model')
