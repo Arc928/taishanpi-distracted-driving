@@ -1,0 +1,17 @@
+# 原始数据位置（不要移动或删除原始数据；见 AGENTS.md 第 2、8 节）。
+# recorded：清单 source_image 列与软链接里写下的绝对路径前缀，属于历史记录，不要修改。
+# root：本机当前位置；可用环境变量覆盖（env 字段）。原始数据换位置后：
+#   1. 改 root（或设环境变量）；脚本读文件时会把 recorded 前缀换算成 root；
+#   2. 运行 relink_sources.py 预览并改写项目内指向旧位置的软链接。
+
+sources:
+  statefarm:
+    recorded: /Users/arc928/Downloads/state-farm-distracted-driver-detection
+    root: ~/Downloads/state-farm-distracted-driver-detection
+    env: STATEFARM_ROOT
+    note: State Farm Distracted Driver，imgs/train/c0..c9 共 22424 张、26 位司机；含 driver_imgs_list.csv
+  mdad:
+    recorded: /Users/arc928/Downloads/3MDAD
+    root: ~/Downloads/3MDAD
+    env: MDAD_ROOT
+    note: 3MDAD 白天侧面/正面 RGB 各 111017 张、50 位参与者；CC BY-NC-ND 4.0，仅教育/研究、非商业

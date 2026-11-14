@@ -18,6 +18,7 @@ from pathlib import Path
 from core.io import csv_rows, digest, write_csv, write_json
 from core.labels import NAMES, json_to_yolo
 from core.registry import path as dataset
+from core.sources import localize
 from core.splits import check_disjoint, check_snapshot
 
 TEST_MANIFEST = dataset('mdad_review_v1')/'manifest.csv'
@@ -94,7 +95,7 @@ def main():
         image, label = f'images/{r["split"]}/{r["id"]}.jpg', f'labels/{r["split"]}/{r["id"]}.txt'
         if (out/image).exists():
             raise ValueError(f'Duplicate id: {r["id"]}')
-        (out/image).symlink_to(r['source_image'])
+        (out/image).symlink_to(localize(r['source_image']))
         (out/label).write_text(r['text'])
         snapshot = out/'reviewed_json'/f'{r["id"]}.json'
         snapshot.parent.mkdir(exist_ok=True)

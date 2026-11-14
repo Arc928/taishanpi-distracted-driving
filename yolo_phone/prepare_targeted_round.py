@@ -14,6 +14,7 @@ from pathlib import Path
 from core.io import csv_rows, digest, write_csv, write_json
 from core.labels import BACKGROUND, NAMES
 from core.paths import BASE
+from core.sources import localize
 from core.registry import path as dataset
 from core.splits import check_disjoint, select_frames
 
@@ -44,7 +45,7 @@ def proposals(model, rows, conf):
     out = {}
     for start in range(0,len(rows),32):
         batch = rows[start:start+32]
-        for r,res in zip(batch,model.predict([r['source_image'] for r in batch],imgsz=640,conf=conf,iou=.5,device='mps',verbose=False)):
+        for r,res in zip(batch,model.predict([localize(r['source_image']) for r in batch],imgsz=640,conf=conf,iou=.5,device='mps',verbose=False)):
             if tuple(res.orig_shape)!=(480,640):
                 raise ValueError(f'Unexpected source dimensions: {r["source_image"]}')
             out[r['source_image']] = [{'class_id':int(c),'confidence':float(s),'xyxy':b} for b,s,c in
@@ -102,7 +103,7 @@ def main():
             stem = f"md_{Path(r['source_image']).stem}"
             folder = out/'review'/split/batch
             folder.mkdir(parents=True,exist_ok=True)
-            (folder/f'{stem}.jpg').symlink_to(r['source_image'])
+            (folder/f'{stem}.jpg').symlink_to(localize(r['source_image']))
             if digest(folder/f'{stem}.jpg')!=r['image_sha256']:
                 raise ValueError(f'Source checksum mismatch: {stem}')
             shapes = []

@@ -1,5 +1,6 @@
 """config/datasets.yaml must match what is on disk."""
 import unittest
+from pathlib import Path
 
 from core import config as current_config
 from core import registry
@@ -26,6 +27,14 @@ class DatasetRegistryTests(unittest.TestCase):
         # a manifest nested inside a registered dataset (e.g. its eval_statefarm copy) belongs to it
         unregistered = [c for c in candidates if not ({c, *c.parents} & registered)]
         self.assertEqual(sorted(map(str, unregistered)), [])
+
+    def test_data_yaml_path_points_at_its_own_directory(self):
+        # Ultralytics resolves a relative path against its own datasets dir, so path stays absolute
+        import yaml
+        for yaml_file in BASE.glob('data/*/data.yaml'):
+            with self.subTest(data=yaml_file.parent.name):
+                path = yaml.safe_load(yaml_file.read_text(encoding='utf-8'))['path']
+                self.assertEqual(Path(path).resolve(), yaml_file.parent.resolve())
 
     def test_lineage_has_no_cycles(self):
         data = registry.load()

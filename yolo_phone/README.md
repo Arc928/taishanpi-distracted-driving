@@ -33,6 +33,20 @@ YOLO11n 检测驾驶员用手机，两类固定为 0 `texting`、1 `calling`，�
 - 移动目录：改对应的 `path:` 一行即可；data.yaml 中的绝对 `path:` 需同步更新。
 - manifest 哈希与磁盘不符时单测失败，须先查明数据被谁改动。
 
+## 原始数据位置
+
+`config/sources.yaml` 记录 State Farm 与 3MDAD 原始数据的位置（`root`，可用环境变量 `STATEFARM_ROOT`、`MDAD_ROOT` 覆盖），
+以及清单 `source_image` 列和软链接里写下的原前缀（`recorded`，历史记录，不改）。脚本读取原图时自动把 `recorded` 换算到当前位置。
+原始数据换位置后：改 `root` 或设环境变量，然后预览并改写项目内的软链接：
+
+```bash
+./.venv/bin/python yolo_phone/relink_sources.py --source mdad          # 预览
+./.venv/bin/python yolo_phone/relink_sources.py --source mdad --apply  # 执行，记录写入 archive/relink-*.json
+```
+
+新目标有任何一个不存在就整体拒绝。`--internal-relative` 可把 `archive/data` 里 665 个指向项目内部的绝对链接改成相对链接（项目整体搬家前用）。
+data.yaml 的 `path:` 保持绝对路径（Ultralytics 会把相对路径接到它自己的数据目录下），由单测检查它与所在目录一致。
+
 ## 目录
 
 现行数据集都在 `data/` 下（2026-11-14 移入），历史数据在 `archive/data/`；位置以 `config/datasets.yaml` 为准。

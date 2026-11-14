@@ -10,6 +10,7 @@ from pathlib import Path
 from core.io import csv_rows, digest, write_csv, write_json
 from core.labels import BACKGROUND, NAMES, POSITIVE, validate_label
 from core.paths import BASE, artifact
+from core.sources import localize, root as source_root
 from core.registry import path as dataset
 from core.splits import EVAL_DRIVERS, check_disjoint, check_snapshot, select_frames, split_subjects
 
@@ -46,7 +47,7 @@ def prefill(out, rows, weights):
     proposals, snapshots = [], {}
     for start in range(0, len(train), 16):
         batch = train[start:start+16]
-        results = model.predict([r['source_image'] for r in batch], imgsz=640,
+        results = model.predict([localize(r['source_image']) for r in batch], imgsz=640,
                                 conf=.1, iou=.5, device='mps', verbose=False)
         for row, result in zip(batch, results):
             path = out/row['annotation_json']
@@ -99,7 +100,7 @@ def build(args):
             sampled.append({**row, 'sample_rank': rank if positive else 3})
     # Verify source bytes for every selected image, not just downloaded metadata.
     for row in sampled:
-        if digest(Path(row['source_image'])) != row['image_sha256']:
+        if digest(Path(localize(row['source_image']))) != row['image_sha256']:
             raise ValueError('Selected image differs from download checksum')
     sf_base = {r['image']:r for r in csv_rows(sf/'manifest.csv')}
     old_rows = csv_rows(old/'manifest.csv')
@@ -143,7 +144,7 @@ def build(args):
             folder.mkdir(parents=True,exist_ok=True)
             image = str((folder/f'{stem}.jpg').relative_to(out))
             jpath = str((folder/f'{stem}.json').relative_to(out))
-            (out/image).symlink_to(r['source_image'])
+            (out/image).symlink_to(localize(r['source_image']))
             write_json(out/jpath, {'version':'4.1.0','flags':{},'checked':False,'shapes':[],
                        'imagePath':f'{stem}.jpg','imageData':None,'imageHeight':480,'imageWidth':640,
                        'description':'Pending human review. Empty shapes are NOT a background label.'})
@@ -186,7 +187,7 @@ def build(args):
                'original_statefarm_eval_count':len(statefarm_eval),'eval_files_unchanged':True,
                'subject_and_exact_hash_leakage_checks':'passed', 'prefill_train_only':args.prefill,
                'new_auto_accepted':0,'original_annotations':str(source/'Annotations 3MDAD')}
-    (out/'README.md').write_text(README.format(out=out),encoding='utf-8')
+    (out/'README.md').write_text(README.format(out=out, source=args.source),encoding='utf-8')
     write_json(out/'summary.json',summary)
     (out/'BUILDING.json').unlink()
     print(json.dumps(summary,ensure_ascii=False,indent=2),flush=True)
@@ -238,14 +239,14 @@ val 用于新训练的模型选择；test 是最终独立测试，不能用于�
 - train_proposals.json、model_provenance.json：训练区模型预测与权重哈希（若启用预填）。
 - selection_hashes.json：划分与选样冻结校验；review_initial_hashes.json：初始 JSON 校验。
 
-3MDAD 原始数据位于 /Users/arc928/Downloads/3MDAD；许可 CC BY-NC-ND 4.0，教育/研究、非商业用途。
+3MDAD 原始数据位于 {source}；许可 CC BY-NC-ND 4.0，教育/研究、非商业用途。
 本次构建没有修改原数据、现有训练集、独立评估文件，也没有启动训练。
 '''
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--source',type=Path,default=Path('/Users/arc928/Downloads/3MDAD'))
+    parser.add_argument('--source',type=Path,default=source_root('mdad'),help='3MDAD 根目录，默认取 config/sources.yaml')
     parser.add_argument('--output',type=Path,required=True)
     parser.add_argument('--seed',type=int,default=42)
     parser.add_argument('--prefill',action='store_true')

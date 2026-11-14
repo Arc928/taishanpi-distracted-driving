@@ -496,3 +496,18 @@ experiments 中的 run/train 记录脚本。项目（不含 .venv）约 544M。
   - 26 个单测通过，State Farm eval 快照通过；
   - labels-only 重跑 test 审核决策逐字节一致；按第 2 轮输入重跑导出，与现训练集一致；
   - 当前权重在新路径 val 上 mAP50 0.9133 / mAP50-95 0.5732，与 10-21 结果一致。
+
+2026-11-14 用户第六次说“接着做”，完成架构建议第 6 项：原始数据路径改为可配置。
+- 新增 `config/sources.yaml` 与 `core/sources.py`：
+  - 每个原始数据源记录 `recorded`（清单与软链接中的原绝对前缀，不改）和 `root`（本机位置，可用 `STATEFARM_ROOT`、`MDAD_ROOT` 覆盖）。
+  - `localize()` 读取原图时把 recorded 前缀换算到 root；数据未移动时结果不变。
+- 改读配置：
+  - `prepare_dataset.py`、`prepare_multiview.py` 的 `--source` 默认值改读配置，原先写死 `/Users/.../Downloads`；
+  - `prepare_multiview`、`prepare_targeted_round`、`export_targeted_round` 读原图、预测、建链接前先 `localize`；
+  - 清单里记录的值不变。
+- 新增 `relink_sources.py`，默认只预览；`--apply` 才改写，并写记录到 `archive/relink-*.json`；新目标缺一个就整体拒绝。
+  - 当前预览：两个原始数据源都无需改写；`--internal-relative` 可改写 `archive/data` 里 665 个项目内绝对链接，未执行。
+  - 把 MDAD_ROOT 设为不存在的位置时正确拒绝，未改动文件。
+- data.yaml 的 `path:` 保持绝对：Ultralytics 8.4 把相对 path 接到自己的数据目录下。改为单测检查 path 与所在目录一致。
+- 新增 `test_sources.py`，`test_dataset_registry.py` 加 data.yaml 检查，共 32 个单测通过。
+  按第 2 轮输入重跑导出，manifest 与 3661 个链接目标和现训练集一致。

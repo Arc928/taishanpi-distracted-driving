@@ -18,6 +18,7 @@ import shutil
 from pathlib import Path
 
 from core.labels import NAMES
+from core.sources import root as source_root
 
 
 CLASS_MAP = {
@@ -54,8 +55,8 @@ def main() -> None:
     parser.add_argument(
         "--source",
         type=Path,
-        default=Path("/Users/arc928/Downloads/state-farm-distracted-driver-detection"),
-        help="State Farm 数据集根目录（包含 driver_imgs_list.csv 和 imgs/train）",
+        default=source_root("statefarm"),
+        help="State Farm 数据集根目录（包含 driver_imgs_list.csv 和 imgs/train），默认取 config/sources.yaml",
     )
     parser.add_argument("--output", type=Path, default=Path(__file__).resolve().parent / "dataset")
     parser.add_argument(
